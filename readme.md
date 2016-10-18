@@ -1,3 +1,21 @@
+lavin edits (in progress)
+======
+- added structure for flask-sqlalchemy ORM, including application/models.py 
+- added and am periodically updating requirements.txt for python dependencies
+- added db ingestion scripts to transfer metadata, counts, and genres to a mysql database as quickly as possible
+
+# To replicate ingestion:
+1. Set up an empty mysql target database (utf8) and a usr will priveleges
+2. In root folder of local version of this repo, make a file called config.py (see sample_config.py for what needs to be in it)
+3. Assuming you have python and pip all set up, run "pip install -r requirements.txt" (works best inside a virtualenv)
+4. Run "db_create.py"
+5. Run "underwood_metadata.py"
+6. Run "underwood_counts.py"
+7. Run "genres_to_db.py"
+
+- added a folder for "additional_texts" and a script to read that folder and add text to the database (will eventually add texts)
+- to add texts of your own, place txt files in the "additional_texts" folder and run "other_txt_to_db.py"
+
 fiction
 =======
 
