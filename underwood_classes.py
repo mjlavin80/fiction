@@ -4,7 +4,6 @@ import sys
 import io
 from itertools import repeat
 import urllib
-from config import MYDB, PWD
 from application import db
 from application.models import *
 import glob
@@ -56,8 +55,6 @@ class TsvHandler(object):
                                    ins = Metadata()
                                    ins.id = None
                                    for i, j in enumerate(m_data):
-                                       #print(m_data)
-                                       #print(i, k[i], j)
                                        setattr(ins, k[i], j)
                                        db.session.add(ins)
                                        db.session.commit()
@@ -81,19 +78,25 @@ class TsvHandler(object):
                  except:
                      work_id = None
                  f = open(i)
-                 for row in csv.reader(f, dialect="excel-tab"):
-                 #every tuple becomes a dictionary with k for keys
+                 pairs = []
+                 myfile = f.read()
+                 rows = myfile.split("\n")
+                 columns = [c.split("\t") for c in rows]
+                 for row in columns:                 
                      try:
-                         ins = Counts()
-                         ins.counts_id = None
-                         ins.work_id = work_id.id
-                         ins.doc_id = work_id.docid
-                         ins.type = row[0]
-                         ins.type_count = row[1]
-                         db.session.add(ins)
-                         db.session.commit()
+                         t = row[0]
+                         tc = row[1]
+                         data = (work_id.id, work_id.docid, t, int(tc))
+                         titles = ("work_id", "doc_id", "type", "type_count")
+                         mydict = dict(zip(titles, data))
+                         pairs.append(mydict)
                      except:
                          pass
+                 try:
+                     db.session.bulk_insert_mappings(Counts, pairs)
+                     db.session.commit()
+                 except:
+                     print("error with %s" % str(i))
                  if count % 100 == 0:
                     print ("Finished processing ", count, " out of ", len(files), " files")
                  count +=1

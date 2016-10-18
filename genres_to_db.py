@@ -1,6 +1,5 @@
 import csv, pandas as pd
 import pymysql
-from config import MYDB, PWD
 from application import db
 from application.models import *
 import urllib

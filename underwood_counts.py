@@ -4,7 +4,6 @@ import sys
 import io
 from itertools import repeat
 import urllib
-from config import MYDB, PWD
 from application import db
 from underwood_classes import *
 

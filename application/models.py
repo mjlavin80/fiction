@@ -3,19 +3,22 @@ from application import db
 class Metadata(db.Model):
     __tablename__ = 'metadata'
     id = db.Column(db.Integer, primary_key=True)
-    doc_id = db.Column(db.String(64), index=True, unique=False)
-    filename = db.Column(db.String(64), index=True, unique=False)
-    author_last = db.Column(db.String(512), index=False, unique=False)
-    author_first = db.Column(db.String(512), index=False, unique=False)
-    author_dates = db.Column(db.String(512), index=False, unique=False)
-    pub_year = db.Column(db.Integer)
-    genre = db.Column(db.String(32), index=True, unique=False)
-    subgenre = db.Column(db.String(32), index=True, unique=False)
-    collection = db.Column(db.String(32), index=True, unique=False)
-    total_wordcount = db.Column(db.Integer)
-    dictionary_wordcount = db.Column(db.Integer)
-    title = db.Column(db.String(2048), index=False, unique=False)
-
+    docid = db.Column(db.String(64), index=True, unique=False)
+    recordid = db.Column(db.String(512), index=False, unique=False)
+    oclc = db.Column(db.String(512), index=False, unique=False)
+    locnum = db.Column(db.String(512), index=False, unique=False)
+    author = db.Column(db.String(512), index=False, unique=False)
+    imprint = db.Column(db.String(512), index=False, unique=False)
+    date = db.Column(db.String(512), index=False, unique=False)
+    birthdate = db.Column(db.String(512), index=False, unique=False)
+    firstpub = db.Column(db.String(512), index=False, unique=False)
+    enumcron = db.Column(db.String(512), index=False, unique=False)
+    subjects = db.Column(db.String(512), index=False, unique=False)
+    title = db.Column(db.String(512), index=False, unique=False)
+    nationality = db.Column(db.String(512), index=False, unique=False)
+    gender = db.Column(db.String(512), index=False, unique=False)
+    genretags = db.Column(db.String(512), index=False, unique=False)
+    
 
 class Tokens(db.Model):
     __tablename__ = 'tokens'
@@ -44,7 +47,6 @@ class Counts(db.Model):
     work_id = db.Column(db.Integer, db.ForeignKey("metadata.id"))
     type = db.Column(db.String(64), index=True, unique=False)
     type_count = db.Column(db.Integer)
-    segment = db.Column(db.Integer)
 
 class Genres(db.Model):
     __tablename__ = 'genre'
