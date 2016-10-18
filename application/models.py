@@ -46,16 +46,7 @@ class Counts(db.Model):
     type_count = db.Column(db.Integer)
     segment = db.Column(db.Integer)
 
-class Dictionary(db.Model):
-    __tablename__ = 'dictionary'
-    term_id = db.Column(db.Integer, primary_key=True)
-    term = db.Column(db.String(64), index=True, unique=True)
-    year = db.Column(db.Integer)
-
-class Oed(db.Model):
-    __tablename__ = 'oed'
-    term_id = db.Column(db.Integer, primary_key=True)
-    term = db.Column(db.String(64), index=True, unique=True)
-    oed_first = db.Column(db.String(128), index=True, unique=False)
-    oed_last = db.Column(db.String(128), index=True, unique=False)
-    oed_list = db.Column(db.String(128), index=True, unique=False)
+class Genres(db.Model):
+    __tablename__ = 'genre'
+    id = db.Column(db.Integer, primary_key=True)
+    genre = db.Column(db.String(128), index=True, unique=True)
