@@ -49,6 +49,7 @@ class Counts(db.Model):
     type_count = db.Column(db.Integer)
 
 class Genres(db.Model):
-    __tablename__ = 'genre'
+    __tablename__ = 'genres'
     id = db.Column(db.Integer, primary_key=True)
-    genre = db.Column(db.String(128), index=True, unique=True)
+    work_id = db.Column(db.Integer, db.ForeignKey("metadata.id"))
+    genre = db.Column(db.String(128), index=True)
