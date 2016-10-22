@@ -3,3 +3,7 @@ SQLAlchemy
 flask-sqlalchemy
 pymysql
 pandas
+nltk
+scipy 
+numpy
+sklearn
