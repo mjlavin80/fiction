@@ -13,7 +13,7 @@ conn = pymysql.connect(host='localhost', port=3306, user=USER, passwd=PWD, db='h
 
 cur = conn.cursor()
 
-for _id in _ids[:5]:
+for _id in _ids:
     print(_id)
     query = "".join(["SELECT type FROM counts WHERE work_id=", str(_id), " AND type REGEXP '^[A-Za-z]+$';"])
     #loop terms matching certain criteria (regex query)
