@@ -64,7 +64,7 @@ data = adjusted.toarray()
 # the following bandwidth can be automatically detected using
 #bandwidth = estimate_bandwidth(data, quantile=0.2, n_samples=900)
 bandwidth = .800652837213
-print(bandwidth)
+#print(bandwidth)
 
 ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
 ms.fit(data)
@@ -77,13 +77,25 @@ n_clusters_ = len(labels_unique)
 #print(labels)
 print("number of estimated clusters : %d" % n_clusters_)
 
+#join with genres and years
+genres =[]
+years = []
 
+for _id in _ids:
+    #get genres and years
+    year = db.session.query(Metadata).filter(Metadata.id==_id).one().firstpub
+    genre_rows  = [i.genre for i in db.session.query(Genres).filter(Genres.work_id==_id).all()]
+    #mush genres to string
+    g = " | ".join(genre_rows)
+    #append
+    genres.append(g)
+    years.append(year)
 #Store results for graphing
 #At end of loop, order by count, stop at 10k
-groupings = zip(_ids, labels)
+groupings = zip(_ids, labels, genres, years)
 
 #convert to pandas df (terms and counts)
-df = pd.DataFrame(groupings, columns=["docid", "group_label"])
+df = pd.DataFrame(groupings, columns=["docid", "group_label", "genres", "year"])
 
 #Save as csv in lavin_lexicon folder
 df.to_csv("lavin_results/meanshift_all_bin_w_seeding.csv")
