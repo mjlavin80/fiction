@@ -14,9 +14,13 @@ cur = conn.cursor()
 
 for _id in _ids[:5]:
     print(_id)
+    query = "".join(["SELECT type FROM counts WHERE work_id=", str(_id), " AND type REGEXP '^[A-Za-z]+$';"])
     #loop terms matching certain criteria (regex query)
     a = cur.execute(query)
-    print(a)
+    for row in cur:
+        print(row[0])
+cur.close()
+conn.close()
     #Try to add to count in dictionary
     #Except add term to dictionary with count of one
     #At end of loop, convert to pandas df (terms and counts)
