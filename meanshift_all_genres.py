@@ -1,4 +1,3 @@
-
 from nltk import corpus
 import numpy as np
 from sklearn.cluster import MeanShift, estimate_bandwidth
@@ -20,28 +19,36 @@ from collections import Counter
 from config import USER, PWD
 import pymysql
 
-# loop ids, store order here
-_ids  = [i.id for i in db.session.query(Metadata).all()]
 
-feature_dicts = []
+try:
+    feature_dicts = pickle.load( open( "pickled_data/feature_dicts.p", "rb" ) )
+    print("Loaded pickle data successfully.")
 
-conn = pymysql.connect(host='localhost', port=3306, user=USER, passwd=PWD, db='horror')
-cur = conn.cursor()
+except:
+    print("Did not find feature data in pickle form. Creating pickle for future use.")
+    feature_dicts = []
 
-for _id in _ids:
-    feature_dict = {}
-    # get types and counts
-    query = "".join(["SELECT type, type_count FROM counts WHERE work_id=", str(_id), " AND type REGEXP '^[A-Za-z]+$';"])
-    #loop terms matching certain criteria (regex query)
-    a = cur.execute(query)
-    for row in cur:
-        #add to dict if ok to use
-        if row[0] in features:
-            feature_dict[row[0]] = row[1]
-    feature_dicts.append(feature_dict)
+    conn = pymysql.connect(host='localhost', port=3306, user=USER, passwd=PWD, db='horror')
+    cur = conn.cursor()
+    # loop ids, store order here
+    _ids  = [i.id for i in db.session.query(Metadata).all()]
 
-print("Finished making dictionaries")
-pickle.dump( feature_dicts, open( "feature_dicts.p", "wb" ) )
+    for _id in _ids:
+        feature_dict = {}
+        # get types and counts
+        query = "".join(["SELECT type, type_count FROM counts WHERE work_id=", str(_id), " AND type REGEXP '^[A-Za-z]+$';"])
+        #loop terms matching certain criteria (regex query)
+        a = cur.execute(query)
+        for row in cur:
+            #add to dict if ok to use
+            if row[0] in features:
+                feature_dict[row[0]] = row[1]
+        feature_dicts.append(feature_dict)
+
+    print("Finished making dictionaries")
+    pickle.dump( feature_dicts, open( "pickled_data/feature_dicts.p", "wb" ) )
+    cur.close()
+    conn.close()
 
 # create vectors using N top features not in stops
 tfidf = TfidfTransformer()
@@ -51,8 +58,8 @@ adjusted = tfidf.fit_transform(vect)
 data = adjusted.toarray()
 
 # the following bandwidth can be automatically detected using
-bandwidth = estimate_bandwidth(data, quantile=0.2, n_samples=900)
-
+#bandwidth = estimate_bandwidth(data, quantile=0.2, n_samples=900)
+bandwidth = .800652837213
 print(bandwidth)
 
 ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
@@ -63,11 +70,10 @@ cluster_centers = ms.cluster_centers_
 labels_unique = np.unique(labels)
 n_clusters_ = len(labels_unique)
 
-print(labels)
+#print(labels)
 print("number of estimated clusters : %d" % n_clusters_)
 
-cur.close()
-conn.close()
+
 #Store results for graphing
 #At end of loop, order by count, stop at 10k
 groupings = zip(_ids, labels)
@@ -76,4 +82,4 @@ groupings = zip(_ids, labels)
 df = pd.DataFrame(groupings, columns=["docid", "group_label"])
 
 #Save as csv in lavin_lexicon folder
-df.to_csv("lavin_results/meanshift_all.csv")
+df.to_csv("lavin_results/meanshift_all_bin_w_seeding.csv")
