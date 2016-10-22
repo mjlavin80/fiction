@@ -5,12 +5,13 @@ from sklearn.cluster import MeanShift, estimate_bandwidth
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import pandas as pd
+import pickle
 
 stops = corpus.stopwords.words('english')
 # load features
 feature_df = pd.read_csv("lavin_lexicon/features_all.csv")
 features_all = [i for i in list(feature_df["term"]) if i not in stops]
-features = features_all[:5000]
+features = features_all[:9000]
 
 from application import db
 from application.models import *
@@ -40,6 +41,8 @@ for _id in _ids:
     feature_dicts.append(feature_dict)
 
 print("Finished making dictionaries")
+pickle.dump( feature_dicts, open( "feature_dicts.p", "wb" ) )
+
 # create vectors using N top features not in stops
 tfidf = TfidfTransformer()
 vec = DictVectorizer()
@@ -48,7 +51,9 @@ adjusted = tfidf.fit_transform(vect)
 data = adjusted.toarray()
 
 # the following bandwidth can be automatically detected using
-bandwidth = estimate_bandwidth(data, quantile=0.2, n_samples=500)
+bandwidth = estimate_bandwidth(data, quantile=0.2, n_samples=900)
+
+print(bandwidth)
 
 ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
 ms.fit(data)
@@ -68,7 +73,7 @@ conn.close()
 groupings = zip(_ids, labels)
 
 #convert to pandas df (terms and counts)
-df = pd.DataFrame(term_pairs, columns=["docid", "group_label"])
+df = pd.DataFrame(groupings, columns=["docid", "group_label"])
 
 #Save as csv in lavin_lexicon folder
 df.to_csv("lavin_results/meanshift_all.csv")
