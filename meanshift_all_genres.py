@@ -66,7 +66,8 @@ data = adjusted.toarray()
 bandwidth = .800652837213
 #print(bandwidth)
 
-ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
+#ms = MeanShift(bandwidth=bandwidth, bin_seeding=True)
+ms = MeanShift(bandwidth=bandwidth, bin_seeding=False)
 ms.fit(data)
 labels = ms.labels_
 cluster_centers = ms.cluster_centers_
@@ -98,4 +99,5 @@ groupings = zip(_ids, labels, genres, years)
 df = pd.DataFrame(groupings, columns=["docid", "group_label", "genres", "year"])
 
 #Save as csv in lavin_lexicon folder
-df.to_csv("lavin_results/meanshift_all_bin_w_seeding.csv")
+#df.to_csv("lavin_results/meanshift_all_bin_w_seeding.csv")
+df.to_csv("lavin_results/meanshift_all_no_seeding.csv")

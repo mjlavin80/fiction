@@ -1,522 +1,522 @@
 ,docid,group_label,genres,year
-0,1,1,teamred | random,1760
-1,2,1,teamred | random,1761
-2,3,1,teamblack | random,1764
-3,4,3,teamred | pbgothic | stew | lavin_ghost,1764
-4,5,1,teamblack | anatscifi,1771
-5,6,1,teamblack | random,1777
-6,7,1,teamblack | pbgothic | lavin_ghost,1777
-7,8,1,teamblack | random,1780
-8,9,1,teamblack | random,1780
-9,10,1,teamred | random,1785
-10,11,1,teamblack | pbgothic | stew | lavin_deranged,1785
-11,12,1,teamred | random,1786
-12,13,3,teamblack | pbgothic | stew | lavin_magic,1786
-13,14,1,teamred | random,1788
-14,15,1,teamblack | pbgothic | stew | lavin_deranged,1788
-15,16,1,teamred | pbgothic | stew | lavin_deranged,1788
-16,17,1,teamblack | random,1790
-17,18,1,teamred | pbgothic | stew | lavin_deranged,1790
-18,19,1,teamblack | random,1790
-19,20,1,teamred | pbgothic | stew | lavin_deranged,1790
-20,21,1,teamblack | random,1791
-21,22,1,teamblack | stangothic,1791
+0,1,49,teamred | random,1760
+1,2,33,teamred | random,1761
+2,3,2,teamblack | random,1764
+3,4,19,teamred | pbgothic | stew | lavin_ghost,1764
+4,5,40,teamblack | anatscifi,1771
+5,6,47,teamblack | random,1777
+6,7,56,teamblack | pbgothic | lavin_ghost,1777
+7,8,47,teamblack | random,1780
+8,9,32,teamblack | random,1780
+9,10,47,teamred | random,1785
+10,11,16,teamblack | pbgothic | stew | lavin_deranged,1785
+11,12,32,teamred | random,1786
+12,13,19,teamblack | pbgothic | stew | lavin_magic,1786
+13,14,37,teamred | random,1788
+14,15,56,teamblack | pbgothic | stew | lavin_deranged,1788
+15,16,56,teamred | pbgothic | stew | lavin_deranged,1788
+16,17,19,teamblack | random,1790
+17,18,16,teamred | pbgothic | stew | lavin_deranged,1790
+18,19,32,teamblack | random,1790
+19,20,19,teamred | pbgothic | stew | lavin_deranged,1790
+20,21,40,teamblack | random,1791
+21,22,56,teamblack | stangothic,1791
 22,23,1,teamblack | pbgothic | stew | lavin_deranged,1791
-23,24,1,teamred | pbgothic | stew | lavin_deranged,1794
-24,25,1,teamred | random,1794
-25,26,1,teamred | random,1794
-26,27,1,teamblack | pbgothic | stew,1794
-27,28,1,teamred | pbgothic,1794
-28,29,1,teamblack | random,1794
-29,30,1,teamred | random,1795
-30,31,1,teamblack | pbgothic | lavin_magic,1796
-31,32,1,teamblack | pbgothic | lavin_ghost,1796
-32,33,1,teamblack | random,1796
-33,34,1,teamblack | pbgothic | stew | lavin_magic,1796
-34,35,1,teamred | pbgothic,1798
-35,36,1,teamred | pbgothic | lavin_magic | lavin_deranged,1799
-36,37,1,teamred | random,1799
-37,38,1,teamred | random,1800
-38,39,1,teamred | random,1800
+23,24,32,teamred | pbgothic | stew | lavin_deranged,1794
+24,25,30,teamred | random,1794
+25,26,56,teamred | random,1794
+26,27,20,teamblack | pbgothic | stew,1794
+27,28,20,teamred | pbgothic,1794
+28,29,42,teamblack | random,1794
+29,30,32,teamred | random,1795
+30,31,16,teamblack | pbgothic | lavin_magic,1796
+31,32,56,teamblack | pbgothic | lavin_ghost,1796
+32,33,56,teamblack | random,1796
+33,34,16,teamblack | pbgothic | stew | lavin_magic,1796
+34,35,19,teamred | pbgothic,1798
+35,36,40,teamred | pbgothic | lavin_magic | lavin_deranged,1799
+36,37,56,teamred | random,1799
+37,38,32,teamred | random,1800
+38,39,16,teamred | random,1800
 39,40,0,lockandkey | teamblack,1800
-40,41,1,teamred | lockandkey | stew,1800
-41,42,1,teamred | random,1801
-42,43,1,teamred | random,1801
-43,44,1,teamblack | stangothic,1801
-44,45,1,teamblack | stangothic,1802
-45,46,1,teamred | random,1802
-46,47,1,teamblack | random,1803
-47,48,1,teamred | stangothic,1803
-48,49,1,teamblack | stangothic,1803
-49,50,1,teamblack | random,1803
-50,51,1,teamblack | stangothic,1803
-51,52,1,teamred | random,1803
-52,53,1,teamblack | stangothic | stew,1803
-53,54,1,teamblack | stangothic,1803
-54,55,1,teamred | stangothic | stew,1803
-55,56,4,teamred | random,1806
-56,57,1,teamblack | stangothic | stew,1806
-57,58,1,teamred | random,1807
-58,59,1,teamred | stangothic,1807
-59,60,1,teamblack | pbgothic,1807
-60,61,1,teamred | stangothic,1807
-61,62,1,teamblack | random,1807
-62,63,1,teamred | random,1807
-63,64,1,teamred | random,1809
-64,65,1,teamred | stangothic,1809
-65,66,1,teamblack | random,1810
-66,67,1,teamblack | stangothic,1810
-67,68,1,teamred | stangothic | stew,1812
-68,69,1,teamblack | random,1812
-69,70,1,teamblack | random,1813
-70,71,1,teamred | stangothic,1813
+40,41,54,teamred | lockandkey | stew,1800
+41,42,32,teamred | random,1801
+42,43,2,teamred | random,1801
+43,44,47,teamblack | stangothic,1801
+44,45,16,teamblack | stangothic,1802
+45,46,56,teamred | random,1802
+46,47,56,teamblack | random,1803
+47,48,17,teamred | stangothic,1803
+48,49,16,teamblack | stangothic,1803
+49,50,6,teamblack | random,1803
+50,51,16,teamblack | stangothic,1803
+51,52,16,teamred | random,1803
+52,53,16,teamblack | stangothic | stew,1803
+53,54,16,teamblack | stangothic,1803
+54,55,47,teamred | stangothic | stew,1803
+55,56,18,teamred | random,1806
+56,57,47,teamblack | stangothic | stew,1806
+57,58,53,teamred | random,1807
+58,59,47,teamred | stangothic,1807
+59,60,16,teamblack | pbgothic,1807
+60,61,20,teamred | stangothic,1807
+61,62,32,teamblack | random,1807
+62,63,56,teamred | random,1807
+63,64,56,teamred | random,1809
+64,65,47,teamred | stangothic,1809
+65,66,56,teamblack | random,1810
+66,67,47,teamblack | stangothic,1810
+67,68,16,teamred | stangothic | stew,1812
+68,69,56,teamblack | random,1812
+69,70,32,teamblack | random,1813
+70,71,56,teamred | stangothic,1813
 71,72,1,teamblack | pbgothic | lavin_deranged,1816
-72,73,1,teamblack | random,1816
-73,74,1,teamred | random,1816
-74,75,1,teamblack | pbgothic,1818
-75,76,1,teamblack | lochorror | stew,1818
-76,77,1,teamblack | random,1818
-77,78,1,teamred | random,1818
-78,79,1,stangothic | femscifi | teamred | stew,1818
-79,80,1,teamred | lochorror | stew,1818
-80,81,1,teamblack | stangothic,1818
-81,82,1,teamred | lochorror,1818
-82,83,1,teamblack | lochorror,1818
-83,84,1,teamblack | pbgothic | lavin_magic | lavin_deranged,1820
-84,85,1,teamblack | random,1820
-85,86,1,teamblack | random,1820
-86,87,1,teamblack | pbgothic | lavin_ghost | lavin_magic,1820
-87,88,1,teamblack | pbgothic | stew | lavin_magic | lavin_deranged,1820
-88,89,1,teamred | pbgothic | stew | lavin_magic | lavin_deranged,1821
-89,90,5,teamred | random,1821
-90,91,3,teamred | random,1821
-91,92,1,teamblack | random,1823
-92,93,1,teamblack | stangothic,1823
-93,94,1,teamred | stangothic,1823
-94,95,1,teamblack | random,1824
-95,96,1,teamblack | random,1826
-96,97,1,teamblack | femscifi | stew,1826
-97,98,3,teamred | locghost | stew | lavin_ghost,1826
-98,99,1,teamred | femscifi,1826
-99,100,1,teamblack | pbgothic,1826
-100,101,1,teamred | pbgothic | stew,1826
-101,102,1,teamred | random,1826
-102,103,1,teamblack | pbgothic | stew,1827
-103,104,1,teamblack | random,1827
-104,105,1,teamred | femscifi | stew,1827
-105,106,1,newgate | teamblack,1828
-106,107,1,newgate | teamblack,1828
-107,108,0,teamred | det100,1829
-108,109,1,teamred | random,1829
-109,110,0,teamred | newgate | stew,1830
-110,111,1,teamred | locdetmyst | stew,1832
-111,112,1,teamblack | random,1832
-112,113,1,teamred | random,1832
-113,114,1,teamblack | random,1832
-114,115,1,teamred | random,1832
-115,116,1,teamblack | pbgothic | lavin_magic,1832
-116,117,0,teamred | newgate,1832
-117,118,1,teamred | locdetmyst | stew,1832
-118,119,1,teamred | random,1832
-119,120,1,teamred | locdetmyst | stew,1832
-120,121,1,teamblack | pbgothic,1833
-121,122,1,teamred | random,1833
+72,73,56,teamblack | random,1816
+73,74,32,teamred | random,1816
+74,75,32,teamblack | pbgothic,1818
+75,76,2,teamblack | lochorror | stew,1818
+76,77,2,teamblack | random,1818
+77,78,2,teamred | random,1818
+78,79,16,stangothic | femscifi | teamred | stew,1818
+79,80,15,teamred | lochorror | stew,1818
+80,81,16,teamblack | stangothic,1818
+81,82,32,teamred | lochorror,1818
+82,83,2,teamblack | lochorror,1818
+83,84,16,teamblack | pbgothic | lavin_magic | lavin_deranged,1820
+84,85,40,teamblack | random,1820
+85,86,3,teamblack | random,1820
+86,87,40,teamblack | pbgothic | lavin_ghost | lavin_magic,1820
+87,88,16,teamblack | pbgothic | stew | lavin_magic | lavin_deranged,1820
+88,89,16,teamred | pbgothic | stew | lavin_magic | lavin_deranged,1821
+89,90,43,teamred | random,1821
+90,91,19,teamred | random,1821
+91,92,32,teamblack | random,1823
+92,93,6,teamblack | stangothic,1823
+93,94,20,teamred | stangothic,1823
+94,95,15,teamblack | random,1824
+95,96,33,teamblack | random,1826
+96,97,40,teamblack | femscifi | stew,1826
+97,98,19,teamred | locghost | stew | lavin_ghost,1826
+98,99,40,teamred | femscifi,1826
+99,100,36,teamblack | pbgothic,1826
+100,101,36,teamred | pbgothic | stew,1826
+101,102,2,teamred | random,1826
+102,103,16,teamblack | pbgothic | stew,1827
+103,104,56,teamblack | random,1827
+104,105,42,teamred | femscifi | stew,1827
+105,106,32,newgate | teamblack,1828
+106,107,32,newgate | teamblack,1828
+107,108,40,teamred | det100,1829
+108,109,19,teamred | random,1829
+109,110,40,teamred | newgate | stew,1830
+110,111,19,teamred | locdetmyst | stew,1832
+111,112,42,teamblack | random,1832
+112,113,2,teamred | random,1832
+113,114,30,teamblack | random,1832
+114,115,40,teamred | random,1832
+115,116,30,teamblack | pbgothic | lavin_magic,1832
+116,117,44,teamred | newgate,1832
+117,118,19,teamred | locdetmyst | stew,1832
+118,119,42,teamred | random,1832
+119,120,40,teamred | locdetmyst | stew,1832
+120,121,19,teamblack | pbgothic,1833
+121,122,40,teamred | random,1833
 122,123,0,lockandkey | teamblack,1834
-123,124,1,teamblack | random,1834
-124,125,1,teamred | newgate | stangothic | lavin_ghost | lavin_magic,1834
-125,126,0,teamblack | locscifi,1836
-126,127,5,newgate | teamblack | stew,1837
-127,128,1,teamblack | pbgothic | lavin_ghost,1837
-128,129,0,teamblack | random,1837
-129,130,5,teamred | pbgothic | stew,1838
-130,131,1,teamblack | random,1838
-131,132,1,teamblack | anatscifi | drop,1838
-132,133,1,teamred | random,1838
-133,134,0,teamred | random,1840
-134,135,1,teamred | pbgothic | stew,1840
-135,136,1,newgate | teamblack,1840
-136,137,0,teamblack | pbgothic | stew,1841
-137,138,0,det100 | teamblack,1841
-138,139,1,teamblack | random,1841
-139,140,0,teamred | det100 | stew,1842
-140,141,1,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1843
-141,142,1,teamblack | random,1843
-142,143,0,teamblack | random,1843
-143,144,1,teamred | pbgothic | stew,1844
-144,145,5,teamblack | random,1844
-145,146,1,teamred | det100,1845
-146,147,1,det100 | teamblack | drop,1845
-147,148,0,teamred | random,1846
-148,149,1,teamred | pbgothic | stew,1846
-149,150,1,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1846
-150,151,0,teamred | pbgothic | lavin_deranged,1847
-151,152,0,teamred | pbgothic | stew | lavin_deranged,1847
-152,153,3,teamred | random,1847
-153,154,1,teamred | random,1847
-154,155,0,teamblack | random,1847
-155,156,1,teamred | pbgothic | stew | lavin_deranged,1847
-156,157,1,teamred | locghost | stew | lavin_ghost,1848
-157,158,1,teamblack | random,1848
-158,159,0,teamblack | random,1849
-159,160,1,teamblack | pbgothic | lavin_magic,1849
-160,161,1,teamblack | pbgothic,1850
-161,162,1,teamred | pbgothic | stew,1850
-162,163,0,teamblack | random,1850
-163,164,1,teamblack | random,1850
-164,165,1,teamred | random,1851
-165,166,1,teamblack | pbgothic,1851
-166,167,1,teamred | random,1853
-167,168,0,teamblack | pbgothic,1853
-168,169,0,teamblack | random,1853
-169,170,5,teamred | det100,1853
-170,171,0,teamred | random,1858
-171,172,1,teamblack | pbgothic,1858
-172,173,1,teamblack | random,1858
-173,174,1,teamblack | pbgothic | stew | lavin_magic,1858
+123,124,32,teamblack | random,1834
+124,125,42,teamred | newgate | stangothic | lavin_ghost | lavin_magic,1834
+125,126,2,teamblack | locscifi,1836
+126,127,50,newgate | teamblack | stew,1837
+127,128,40,teamblack | pbgothic | lavin_ghost,1837
+128,129,20,teamblack | random,1837
+129,130,50,teamred | pbgothic | stew,1838
+130,131,2,teamblack | random,1838
+131,132,40,teamblack | anatscifi | drop,1838
+132,133,42,teamred | random,1838
+133,134,56,teamred | random,1840
+134,135,42,teamred | pbgothic | stew,1840
+135,136,17,newgate | teamblack,1840
+136,137,50,teamblack | pbgothic | stew,1841
+137,138,46,det100 | teamblack,1841
+138,139,15,teamblack | random,1841
+139,140,46,teamred | det100 | stew,1842
+140,141,10,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1843
+141,142,30,teamblack | random,1843
+142,143,43,teamblack | random,1843
+143,144,2,teamred | pbgothic | stew,1844
+144,145,50,teamblack | random,1844
+145,146,10,teamred | det100,1845
+146,147,17,det100 | teamblack | drop,1845
+147,148,2,teamred | random,1846
+148,149,21,teamred | pbgothic | stew,1846
+149,150,40,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1846
+150,151,2,teamred | pbgothic | lavin_deranged,1847
+151,152,32,teamred | pbgothic | stew | lavin_deranged,1847
+152,153,8,teamred | random,1847
+153,154,2,teamred | random,1847
+154,155,33,teamblack | random,1847
+155,156,2,teamred | pbgothic | stew | lavin_deranged,1847
+156,157,19,teamred | locghost | stew | lavin_ghost,1848
+157,158,44,teamblack | random,1848
+158,159,32,teamblack | random,1849
+159,160,42,teamblack | pbgothic | lavin_magic,1849
+160,161,2,teamblack | pbgothic,1850
+161,162,40,teamred | pbgothic | stew,1850
+162,163,2,teamblack | random,1850
+163,164,45,teamblack | random,1850
+164,165,36,teamred | random,1851
+165,166,40,teamblack | pbgothic,1851
+166,167,47,teamred | random,1853
+167,168,44,teamblack | pbgothic,1853
+168,169,26,teamblack | random,1853
+169,170,32,teamred | det100,1853
+170,171,43,teamred | random,1858
+171,172,40,teamblack | pbgothic,1858
+172,173,53,teamblack | random,1858
+173,174,40,teamblack | pbgothic | stew | lavin_magic,1858
 174,175,0,det100 | teamblack,1859
-175,176,1,teamblack | locdetmyst,1859
-176,177,1,teamred | random,1859
-177,178,0,teamred | random,1859
-178,179,0,teamred | sensation | pbgothic | stew | lavin_deranged,1860
-179,180,0,teamred | random,1860
-180,181,1,sensation | teamblack | stew,1861
-181,182,1,teamred | sensation | stew,1862
-182,183,1,teamred | random,1863
-183,184,0,teamred | sensation | stew,1863
+175,176,32,teamblack | locdetmyst,1859
+176,177,32,teamred | random,1859
+177,178,2,teamred | random,1859
+178,179,27,teamred | sensation | pbgothic | stew | lavin_deranged,1860
+179,180,6,teamred | random,1860
+180,181,27,sensation | teamblack | stew,1861
+181,182,56,teamred | sensation | stew,1862
+182,183,53,teamred | random,1863
+183,184,14,teamred | sensation | stew,1863
 184,185,0,teamred | blcrime,1863
-185,186,0,sensation | teamblack | stew,1863
-186,187,1,sensation | teamblack | stew,1863
-187,188,1,sensation | pbgothic | teamblack | stew,1864
-188,189,1,teamred | sensation | pbgothic | stew,1864
-189,190,1,teamred | sensation | pbgothic | stew,1864
-190,191,0,teamred | locdetective | stew,1865
-191,192,1,teamred | anatscifi | stew,1865
-192,193,5,teamblack | pbgothic,1865
-193,194,1,teamred | sensation | stew,1865
-194,195,0,teamred | random,1865
-195,196,1,teamred | det100,1866
-196,197,0,teamred | sensation | pbgothic | stew,1866
-197,198,1,teamblack | random,1866
+185,186,29,sensation | teamblack | stew,1863
+186,187,50,sensation | teamblack | stew,1863
+187,188,50,sensation | pbgothic | teamblack | stew,1864
+188,189,48,teamred | sensation | pbgothic | stew,1864
+189,190,2,teamred | sensation | pbgothic | stew,1864
+190,191,2,teamred | locdetective | stew,1865
+191,192,45,teamred | anatscifi | stew,1865
+192,193,50,teamblack | pbgothic,1865
+193,194,44,teamred | sensation | stew,1865
+194,195,43,teamred | random,1865
+195,196,48,teamred | det100,1866
+196,197,26,teamred | sensation | pbgothic | stew,1866
+197,198,14,teamblack | random,1866
 198,199,0,teamred | lockandkey,1866
-199,200,0,teamblack | random,1867
-200,201,1,det100 | teamblack,1867
-201,202,0,teamred | sensation | stew,1867
-202,203,1,teamblack | random,1867
-203,204,0,det100 | teamblack,1867
-204,205,1,teamblack | random,1868
-205,206,1,teamred | random,1868
-206,207,1,teamred | det100 | pbgothic | lavin_deranged,1868
-207,208,0,teamblack | random,1868
+199,200,2,teamblack | random,1867
+200,201,48,det100 | teamblack,1867
+201,202,43,teamred | sensation | stew,1867
+202,203,48,teamblack | random,1867
+203,204,43,det100 | teamblack,1867
+204,205,17,teamblack | random,1868
+205,206,26,teamred | random,1868
+206,207,26,teamred | det100 | pbgothic | lavin_deranged,1868
+207,208,2,teamblack | random,1868
 208,209,0,teamblack | anatscifi | stew,1868
-209,210,1,det100 | teamblack | stew,1868
-210,211,1,teamred | anatscifi,1870
-211,212,1,teamblack | random,1871
+209,210,43,det100 | teamblack | stew,1868
+210,211,15,teamred | anatscifi,1870
+211,212,56,teamblack | random,1871
 212,213,0,teamred | lockandkey | stew,1871
-213,214,0,teamred | locdetective,1871
-214,215,0,teamred | det100,1871
-215,216,1,teamblack | random,1871
-216,217,0,sensation | teamblack | stew,1871
-217,218,1,teamblack | anatscifi,1871
-218,219,0,teamblack | pbgothic | stew | lavin_ghost | lavin_magic | lavin_deranged,1872
+213,214,2,teamred | locdetective,1871
+214,215,50,teamred | det100,1871
+215,216,9,teamblack | random,1871
+216,217,14,sensation | teamblack | stew,1871
+217,218,40,teamblack | anatscifi,1871
+218,219,43,teamblack | pbgothic | stew | lavin_ghost | lavin_magic | lavin_deranged,1872
 219,220,1,teamblack | anatscifi | stew,1872
-220,221,0,teamred | random,1874
-221,222,1,teamred | locdetective,1874
-222,223,1,teamred | locdetective,1874
-223,224,1,teamblack | random,1874
+220,221,2,teamred | random,1874
+221,222,2,teamred | locdetective,1874
+222,223,2,teamred | locdetective,1874
+223,224,50,teamblack | random,1874
 224,225,1,teamred | locdetective | drop,1875
-225,226,1,teamred | det100,1875
-226,227,1,teamred | random,1875
-227,228,1,teamblack | random,1875
-228,229,1,teamblack | locdetmyst,1875
-229,230,1,teamblack | random,1875
-230,231,1,teamblack | locdetmyst | stew,1875
-231,232,1,det100 | teamblack | stew,1876
-232,233,1,locdetective | teamblack,1876
-233,234,0,teamred | random,1876
-234,235,1,teamred | random,1876
+225,226,15,teamred | det100,1875
+226,227,29,teamred | random,1875
+227,228,2,teamblack | random,1875
+228,229,2,teamblack | locdetmyst,1875
+229,230,9,teamblack | random,1875
+230,231,2,teamblack | locdetmyst | stew,1875
+231,232,2,det100 | teamblack | stew,1876
+232,233,2,locdetective | teamblack,1876
+233,234,7,teamred | random,1876
+234,235,48,teamred | random,1876
 235,236,0,lockandkey | teamblack,1877
-236,237,0,teamred | femscifi | stew,1877
+236,237,34,teamred | femscifi | stew,1877
 237,238,1,teamblack | locdetective | drop,1878
-238,239,0,teamred | random,1878
+238,239,29,teamred | random,1878
 239,240,1,teamred | pbgothic | stew | lavin_ghost,1878
-240,241,1,teamred | det100,1878
-241,242,1,teamblack | random,1879
-242,243,1,teamred | locdetective,1879
+240,241,2,teamred | det100,1878
+241,242,9,teamblack | random,1879
+242,243,2,teamred | locdetective,1879
 243,244,1,teamred | locdetective | drop,1880
-244,245,0,sensation | teamblack | stew,1880
-245,246,0,teamblack | random,1880
-246,247,1,teamblack | anatscifi | locscifi,1880
-247,248,1,teamblack | anatscifi | locscifi,1880
+244,245,2,sensation | teamblack | stew,1880
+245,246,50,teamblack | random,1880
+246,247,6,teamblack | anatscifi | locscifi,1880
+247,248,45,teamblack | anatscifi | locscifi,1880
 248,249,0,lockandkey | teamblack,1880
-249,250,1,teamred | anatscifi,1880
-250,251,1,teamblack | locscifi,1880
-251,252,5,teamred | det100,1880
-252,253,1,teamred | locdetective | stew,1881
+249,250,6,teamred | anatscifi,1880
+250,251,40,teamblack | locscifi,1880
+251,252,32,teamred | det100,1880
+252,253,21,teamred | locdetective | stew,1881
 253,254,1,teamblack | locdetective | drop,1881
-254,255,1,teamblack | random,1881
-255,256,1,teamred | pbgothic | stew,1882
+254,255,53,teamblack | random,1881
+255,256,12,teamred | pbgothic | stew,1882
 256,257,1,det100 | teamblack,1883
-257,258,0,teamred | random,1883
+257,258,2,teamred | random,1883
 258,259,0,teamred | lockandkey | stew,1884
-259,260,1,teamred | pbgothic | lavin_magic,1885
-260,261,1,teamred | random,1885
-261,262,1,det100 | teamblack,1885
-262,263,1,teamred | random,1886
-263,264,0,teamred | det100,1886
+259,260,17,teamred | pbgothic | lavin_magic,1885
+260,261,40,teamred | random,1885
+261,262,21,det100 | teamblack,1885
+262,263,48,teamred | random,1886
+263,264,26,teamred | det100,1886
 264,265,1,teamblack | locdetective | drop,1886
-265,266,1,teamred | femscifi | locscifi,1886
-266,267,1,teamred | anatscifi | locscifi,1886
-267,268,1,teamred | pbgothic | anatscifi | stew,1886
-268,269,0,teamred | random,1887
-269,270,0,teamblack | locghost | lavin_ghost,1887
-270,271,0,teamred | anatscifi,1887
-271,272,0,det100 | teamblack,1887
-272,273,5,teamblack | random,1887
-273,274,0,teamblack | locdetmyst,1888
-274,275,0,teamblack | anatscifi | locscifi,1888
-275,276,0,teamred | locghost | lavin_ghost,1888
-276,277,0,teamred | pbgothic | lavin_ghost,1888
-277,278,1,teamblack | anatscifi | stew,1888
-278,279,0,teamred | det100,1888
-279,280,0,teamblack | locghost | stew | lavin_ghost,1888
-280,281,1,teamred | locghost | stew | lavin_ghost,1888
-281,282,0,teamblack | random,1888
-282,283,1,teamred | det100 | stew,1888
-283,284,0,teamblack | pbgothic | stew,1888
-284,285,0,teamred | locdetmyst,1888
-285,286,1,teamred | anatscifi | locscifi | stew,1888
-286,287,0,teamblack | random,1888
-287,288,0,teamblack | locdetmyst | stew,1888
-288,289,0,teamred | supernatural | random,1888
-289,290,0,teamblack | locghost | stew | lavin_ghost,1888
-290,291,1,teamblack | locghost | lavin_ghost,1888
-291,292,1,teamred | anatscifi,1889
-292,293,0,teamblack | anatscifi | stew,1889
-293,294,1,teamred | pbgothic | stew | lavin_ghost,1890
-294,295,0,teamblack | locghost | lavin_ghost,1890
-295,296,0,teamred | random,1890
-296,297,0,teamblack | locghost | stew | lavin_ghost,1890
-297,298,0,teamred | anatscifi,1890
-298,299,1,teamblack | pbgothic | lavin_magic | lavin_deranged,1891
-299,300,1,teamblack | locscifi | stew,1891
-300,301,1,teamblack | pbgothic | stew,1891
-301,302,0,teamblack | locdetmyst | stew,1891
-302,303,1,teamblack | random,1892
-303,304,1,teamred | det100,1892
-304,305,1,teamblack | locscifi,1892
-305,306,0,teamred | det100 | stew,1892
-306,307,1,teamred | random,1892
-307,308,1,teamblack | pbgothic | stew,1892
-308,309,1,teamblack | anatscifi,1893
-309,310,1,teamblack | anatscifi,1893
-310,311,0,teamblack | anatscifi,1893
-311,312,0,teamblack | pbgothic | lavin_ghost,1893
-312,313,0,det100 | teamblack,1894
-313,314,0,teamblack | random,1894
-314,315,0,det100 | teamblack,1894
-315,316,1,teamblack | anatscifi | stew,1894
-316,317,1,teamblack | random,1894
-317,318,1,teamblack | random,1894
-318,319,0,teamblack | locdetmyst,1894
-319,320,0,teamred | pbgothic | lavin_magic,1895
-320,321,0,teamred | locscifi | stew,1895
-321,322,1,teamred | anatscifi | locscifi | stew,1895
-322,323,1,teamred | det100,1896
-323,324,0,teamred | random,1896
+265,266,44,teamred | femscifi | locscifi,1886
+266,267,25,teamred | anatscifi | locscifi,1886
+267,268,50,teamred | pbgothic | anatscifi | stew,1886
+268,269,2,teamred | random,1887
+269,270,43,teamblack | locghost | lavin_ghost,1887
+270,271,44,teamred | anatscifi,1887
+271,272,43,det100 | teamblack,1887
+272,273,26,teamblack | random,1887
+273,274,14,teamblack | locdetmyst,1888
+274,275,17,teamblack | anatscifi | locscifi,1888
+275,276,17,teamred | locghost | lavin_ghost,1888
+276,277,14,teamred | pbgothic | lavin_ghost,1888
+277,278,40,teamblack | anatscifi | stew,1888
+278,279,56,teamred | det100,1888
+279,280,14,teamblack | locghost | stew | lavin_ghost,1888
+280,281,2,teamred | locghost | stew | lavin_ghost,1888
+281,282,43,teamblack | random,1888
+282,283,27,teamred | det100 | stew,1888
+283,284,14,teamblack | pbgothic | stew,1888
+284,285,2,teamred | locdetmyst,1888
+285,286,35,teamred | anatscifi | locscifi | stew,1888
+286,287,2,teamblack | random,1888
+287,288,43,teamblack | locdetmyst | stew,1888
+288,289,2,teamred | supernatural | random,1888
+289,290,17,teamblack | locghost | stew | lavin_ghost,1888
+290,291,17,teamblack | locghost | lavin_ghost,1888
+291,292,23,teamred | anatscifi,1889
+292,293,14,teamblack | anatscifi | stew,1889
+293,294,40,teamred | pbgothic | stew | lavin_ghost,1890
+294,295,43,teamblack | locghost | lavin_ghost,1890
+295,296,43,teamred | random,1890
+296,297,43,teamblack | locghost | stew | lavin_ghost,1890
+297,298,40,teamred | anatscifi,1890
+298,299,12,teamblack | pbgothic | lavin_magic | lavin_deranged,1891
+299,300,14,teamblack | locscifi | stew,1891
+300,301,28,teamblack | pbgothic | stew,1891
+301,302,43,teamblack | locdetmyst | stew,1891
+302,303,16,teamblack | random,1892
+303,304,27,teamred | det100,1892
+304,305,39,teamblack | locscifi,1892
+305,306,2,teamred | det100 | stew,1892
+306,307,30,teamred | random,1892
+307,308,28,teamblack | pbgothic | stew,1892
+308,309,45,teamblack | anatscifi,1893
+309,310,15,teamblack | anatscifi,1893
+310,311,40,teamblack | anatscifi,1893
+311,312,40,teamblack | pbgothic | lavin_ghost,1893
+312,313,43,det100 | teamblack,1894
+313,314,15,teamblack | random,1894
+314,315,43,det100 | teamblack,1894
+315,316,45,teamblack | anatscifi | stew,1894
+316,317,43,teamblack | random,1894
+317,318,17,teamblack | random,1894
+318,319,43,teamblack | locdetmyst,1894
+319,320,44,teamred | pbgothic | lavin_magic,1895
+320,321,50,teamred | locscifi | stew,1895
+321,322,43,teamred | anatscifi | locscifi | stew,1895
+322,323,7,teamred | det100,1896
+323,324,43,teamred | random,1896
 324,325,0,teamred | lockandkey,1896
-325,326,0,teamblack | random,1897
+325,326,43,teamblack | random,1897
 326,327,0,teamblack | pbgothic | stew | lavin_magic,1897
-327,328,0,teamred | det100 | stew,1897
-328,329,3,teamred | femscifi,1897
-329,330,1,teamred | locdetmyst,1898
-330,331,0,teamred | locghost | stew | lavin_ghost,1898
-331,332,1,teamblack | locghost | lavin_ghost,1898
-332,333,1,teamblack | random,1898
+327,328,43,teamred | det100 | stew,1897
+328,329,8,teamred | femscifi,1897
+329,330,21,teamred | locdetmyst,1898
+330,331,43,teamred | locghost | stew | lavin_ghost,1898
+331,332,30,teamblack | locghost | lavin_ghost,1898
+332,333,50,teamblack | random,1898
 333,334,0,teamred | pbgothic | lavin_ghost | lavin_magic,1898
-334,335,1,teamblack | anatscifi,1898
-335,336,0,teamred | random,1898
-336,337,1,teamred | random,1899
-337,338,0,det100 | teamblack,1899
-338,339,0,teamred | det100,1899
-339,340,1,teamred | locscifi,1899
-340,341,0,teamblack | random,1900
+334,335,13,teamblack | anatscifi,1898
+335,336,14,teamred | random,1898
+336,337,32,teamred | random,1899
+337,338,27,det100 | teamblack,1899
+338,339,43,teamred | det100,1899
+339,340,43,teamred | locscifi,1899
+340,341,2,teamblack | random,1900
 341,342,1,teamblack | locdetective | drop,1900
-342,343,1,teamblack | locdetmyst | stew,1900
+342,343,50,teamblack | locdetmyst | stew,1900
 343,344,1,teamblack | locdetective | drop,1900
 344,345,1,teamblack | locdetective | drop,1900
-345,346,1,teamred | locscifi | stew,1900
+345,346,43,teamred | locscifi | stew,1900
 346,347,0,teamblack | anatscifi | locscifi,1901
 347,348,1,teamred | femscifi,1901
 348,349,0,chifantasy | teamblack | chiscifi,1901
-349,350,1,teamred | locscifi,1902
-350,351,0,teamblack | locdetmyst,1903
+349,350,14,teamred | locscifi,1902
+350,351,27,teamblack | locdetmyst,1903
 351,352,0,teamred | random,1903
-352,353,1,teamblack | pbgothic | lavin_ghost,1903
-353,354,1,teamred | lockandkey | stew,1903
-354,355,1,teamblack | random,1903
-355,356,1,teamred | locscifi,1904
-356,357,0,det100 | teamblack,1904
-357,358,0,teamblack | anatscifi | locscifi,1904
-358,359,0,teamred | locdetmyst | juvenile | drop,1904
-359,360,0,teamred | locghost | stew | lavin_ghost,1904
-360,361,1,teamred | random,1904
-361,362,1,teamblack | anatscifi | stew,1905
-362,363,0,teamblack | random,1905
-363,364,1,teamred | locghost | lavin_ghost,1905
-364,365,1,det100 | teamblack | stew,1905
+352,353,43,teamblack | pbgothic | lavin_ghost,1903
+353,354,41,teamred | lockandkey | stew,1903
+354,355,38,teamblack | random,1903
+355,356,15,teamred | locscifi,1904
+356,357,2,det100 | teamblack,1904
+357,358,50,teamblack | anatscifi | locscifi,1904
+358,359,29,teamred | locdetmyst | juvenile | drop,1904
+359,360,43,teamred | locghost | stew | lavin_ghost,1904
+360,361,48,teamred | random,1904
+361,362,40,teamblack | anatscifi | stew,1905
+362,363,7,teamblack | random,1905
+363,364,43,teamred | locghost | lavin_ghost,1905
+364,365,7,det100 | teamblack | stew,1905
 365,366,0,teamblack | pbgothic | stew,1905
-366,367,1,teamblack | locscifi | stew,1906
-367,368,0,teamblack | pbgothic | stew | lavin_ghost,1906
-368,369,1,teamred | det100 | stew,1906
-369,370,1,teamred | locghost | stew | lavin_ghost,1906
-370,371,0,teamblack | random,1906
-371,372,1,teamred | det100 | stew,1907
+366,367,50,teamblack | locscifi | stew,1906
+367,368,43,teamblack | pbgothic | stew | lavin_ghost,1906
+368,369,50,teamred | det100 | stew,1906
+369,370,30,teamred | locghost | stew | lavin_ghost,1906
+370,371,43,teamblack | random,1906
+371,372,26,teamred | det100 | stew,1907
 372,373,0,det100 | teamblack,1907
-373,374,1,teamred | locdetmyst | juvenile | drop,1907
-374,375,0,teamred | random,1907
-375,376,1,teamred | random,1907
-376,377,0,teamred | random,1908
-377,378,5,det100 | teamblack | stew,1908
-378,379,1,teamblack | locscifi,1908
-379,380,0,teamred | det100 | locdetmyst,1908
-380,381,0,teamred | random,1908
-381,382,1,teamblack | random,1909
-382,383,1,teamred | det100 | stew,1909
-383,384,0,det100 | teamblack | stew,1909
-384,385,1,teamblack | anatscifi | locscifi,1909
+373,374,29,teamred | locdetmyst | juvenile | drop,1907
+374,375,43,teamred | random,1907
+375,376,2,teamred | random,1907
+376,377,2,teamred | random,1908
+377,378,27,det100 | teamblack | stew,1908
+378,379,40,teamblack | locscifi,1908
+379,380,26,teamred | det100 | locdetmyst,1908
+380,381,26,teamred | random,1908
+381,382,2,teamblack | random,1909
+382,383,27,teamred | det100 | stew,1909
+383,384,43,det100 | teamblack | stew,1909
+384,385,17,teamblack | anatscifi | locscifi,1909
 385,386,0,det100 | teamblack,1909
-386,387,0,teamblack | random,1909
-387,388,0,det100 | teamblack,1909
-388,389,1,teamblack | random,1909
-389,390,1,teamblack | random,1910
-390,391,0,teamred | pbgothic | lavin_ghost,1910
-391,392,0,teamred | det100,1910
-392,393,1,teamblack | random,1910
-393,394,1,det100 | teamblack,1910
-394,395,1,teamred | det100,1910
-395,396,1,teamred | random,1910
-396,397,1,teamblack | random,1911
-397,398,1,teamred | det100 | stew,1911
-398,399,0,det100 | teamblack,1911
-399,400,1,teamblack | random,1911
-400,401,1,teamred | random,1911
-401,402,0,teamred | det100 | locdetmyst,1911
-402,403,1,teamred | random,1911
-403,404,0,teamred | pbgothic | stew | lavin_ghost,1911
-404,405,1,teamblack | locdetmyst | juvenile | drop,1911
-405,406,1,teamred | anatscifi,1912
-406,407,1,det100 | teamblack,1912
-407,408,1,teamred | locdetective | stew,1912
-408,409,1,teamblack | random,1912
-409,410,1,teamred | anatscifi | stew,1912
-410,411,1,teamblack | anatscifi | stew,1912
-411,412,0,teamblack | locghost | lavin_ghost,1912
-412,413,5,teamblack | random,1913
-413,414,1,teamblack | random,1913
+386,387,2,teamblack | random,1909
+387,388,26,det100 | teamblack,1909
+388,389,50,teamblack | random,1909
+389,390,50,teamblack | random,1910
+390,391,14,teamred | pbgothic | lavin_ghost,1910
+391,392,26,teamred | det100,1910
+392,393,17,teamblack | random,1910
+393,394,2,det100 | teamblack,1910
+394,395,26,teamred | det100,1910
+395,396,29,teamred | random,1910
+396,397,28,teamblack | random,1911
+397,398,27,teamred | det100 | stew,1911
+398,399,43,det100 | teamblack,1911
+399,400,26,teamblack | random,1911
+400,401,43,teamred | random,1911
+401,402,7,teamred | det100 | locdetmyst,1911
+402,403,28,teamred | random,1911
+403,404,14,teamred | pbgothic | stew | lavin_ghost,1911
+404,405,26,teamblack | locdetmyst | juvenile | drop,1911
+405,406,40,teamred | anatscifi,1912
+406,407,43,det100 | teamblack,1912
+407,408,50,teamred | locdetective | stew,1912
+408,409,7,teamblack | random,1912
+409,410,17,teamred | anatscifi | stew,1912
+410,411,5,teamblack | anatscifi | stew,1912
+411,412,2,teamblack | locghost | lavin_ghost,1912
+412,413,55,teamblack | random,1913
+413,414,52,teamblack | random,1913
 414,415,1,teamblack | locdetmyst | stew,1913
-415,416,5,det100 | teamblack,1913
+415,416,26,det100 | teamblack,1913
 416,417,1,teamred | locdetmyst | juvenile | drop,1913
-417,418,0,teamred | anatscifi,1913
-418,419,0,teamred | random,1913
-419,420,1,teamred | locghost | lavin_ghost,1913
-420,421,0,det100 | teamblack,1913
-421,422,1,teamred | random,1913
-422,423,1,teamblack | locdetmyst | juvenile | drop,1913
-423,424,0,teamred | det100,1913
+417,418,40,teamred | anatscifi,1913
+418,419,29,teamred | random,1913
+419,420,57,teamred | locghost | lavin_ghost,1913
+420,421,43,det100 | teamblack,1913
+421,422,30,teamred | random,1913
+422,423,57,teamblack | locdetmyst | juvenile | drop,1913
+423,424,43,teamred | det100,1913
 424,425,1,teamblack | locdetmyst | juvenile | drop,1913
-425,426,0,teamred | det100,1913
-426,427,0,teamblack | random,1913
-427,428,0,teamred | random,1914
-428,429,5,teamblack | random,1914
-429,430,0,teamred | det100,1914
-430,431,0,teamblack | random,1914
-431,432,6,det100 | teamblack,1914
-432,433,1,teamred | locghost | lavin_ghost,1914
-433,434,0,det100 | teamblack,1914
-434,435,1,teamred | det100 | stew,1915
-435,436,0,teamred | random,1915
-436,437,3,teamred | random,1915
-437,438,1,teamred | random,1915
-438,439,1,teamblack | locdetmyst | juvenile | drop,1915
+425,426,43,teamred | det100,1913
+426,427,40,teamblack | random,1913
+427,428,43,teamred | random,1914
+428,429,22,teamblack | random,1914
+429,430,43,teamred | det100,1914
+430,431,7,teamblack | random,1914
+431,432,27,det100 | teamblack,1914
+432,433,29,teamred | locghost | lavin_ghost,1914
+433,434,43,det100 | teamblack,1914
+434,435,27,teamred | det100 | stew,1915
+435,436,40,teamred | random,1915
+436,437,8,teamred | random,1915
+437,438,33,teamred | random,1915
+438,439,43,teamblack | locdetmyst | juvenile | drop,1915
 439,440,1,teamblack | locdetmyst | juvenile | drop,1915
-440,441,1,teamblack | locdetmyst | juvenile | drop,1915
+440,441,26,teamblack | locdetmyst | juvenile | drop,1915
 441,442,1,teamred | locdetmyst | juvenile | drop,1916
-442,443,1,teamred | det100,1916
-443,444,1,teamred | random,1916
-444,445,1,teamblack | random,1916
-445,446,1,det100 | teamblack | stew,1916
-446,447,0,teamred | locdetmyst,1917
-447,448,0,teamred | random,1917
-448,449,7,teamred | random,1917
+442,443,26,teamred | det100,1916
+443,444,29,teamred | random,1916
+444,445,40,teamblack | random,1916
+445,446,15,det100 | teamblack | stew,1916
+446,447,2,teamred | locdetmyst,1917
+447,448,29,teamred | random,1917
+448,449,14,teamred | random,1917
 449,450,1,teamblack | locdetmyst | juvenile | drop,1917
-450,451,0,teamblack | locdetmyst | juvenile | drop,1917
+450,451,57,teamblack | locdetmyst | juvenile | drop,1917
 451,452,1,teamblack | locdetmyst | juvenile | drop,1917
-452,453,1,det100 | teamblack | stew,1918
-453,454,1,teamblack | locdetmyst | juvenile | drop,1918
-454,455,0,teamblack | locghost | stew | lavin_ghost,1918
-455,456,0,teamred | random,1918
-456,457,3,teamred | random,1918
+452,453,7,det100 | teamblack | stew,1918
+453,454,29,teamblack | locdetmyst | juvenile | drop,1918
+454,455,43,teamblack | locghost | stew | lavin_ghost,1918
+455,456,29,teamred | random,1918
+456,457,8,teamred | random,1918
 457,458,1,teamblack | locdetmyst | juvenile | drop,1918
-458,459,5,det100 | teamblack,1918
-459,460,1,teamred | random,1918
-460,461,1,teamred | det100,1919
-461,462,0,teamred | pbgothic | lavin_ghost,1919
+458,459,50,det100 | teamblack,1918
+459,460,14,teamred | random,1918
+460,461,27,teamred | det100,1919
+461,462,2,teamred | pbgothic | lavin_ghost,1919
 462,463,1,teamblack | locdetmyst | juvenile | drop,1919
-463,464,1,teamblack | locghost | stew | lavin_ghost,1919
-464,465,0,teamred | random,1919
+463,464,43,teamblack | locghost | stew | lavin_ghost,1919
+464,465,2,teamred | random,1919
 465,466,1,teamblack | locdetmyst | juvenile | drop,1919
-466,467,0,teamred | pbgothic,1919
-467,468,1,teamblack | locdetmyst | juvenile | drop,1920
-468,469,1,teamblack | random,1920
-469,470,0,teamred | random,1920
+466,467,48,teamred | pbgothic,1919
+467,468,43,teamblack | locdetmyst | juvenile | drop,1920
+468,469,55,teamblack | random,1920
+469,470,53,teamred | random,1920
 470,471,0,teamred | chifantasy | anatscifi | stew,1920
 471,472,0,chirandom | teamred,1920
 472,473,1,teamred | locdetmyst | juvenile | drop,1920
 473,474,0,chirandom | teamred,1920
-474,475,0,teamred | locghost | stew | lavin_ghost,1920
+474,475,43,teamred | locghost | stew | lavin_ghost,1920
 475,476,0,chifantasy | teamblack,1920
 476,477,0,chiutopia | teamblack,1920
 477,478,0,chirandom | teamred,1920
-478,479,0,det100 | teamblack,1920
-479,480,0,teamblack | anatscifi | stew,1920
-480,481,1,det100 | teamblack | cozy,1920
-481,482,0,teamred | random,1920
+478,479,26,det100 | teamblack,1920
+479,480,43,teamblack | anatscifi | stew,1920
+480,481,50,det100 | teamblack | cozy,1920
+481,482,30,teamred | random,1920
 482,483,0,chirandom | teamblack,1920
-483,484,0,teamred | random,1921
+483,484,50,teamred | random,1921
 484,485,0,chirandom | teamred,1921
 485,486,0,chirandom | chifantasy | teamblack,1921
-486,487,1,teamred | locdetmyst | juvenile | drop,1921
+486,487,43,teamred | locdetmyst | juvenile | drop,1921
 487,488,0,teamblack | chiscifi,1921
 488,489,0,chirandom | teamred,1921
-489,490,0,teamred | locghost | stew | lavin_ghost,1921
-490,491,0,teamred | locghost | lavin_ghost,1921
-491,492,0,teamred | random,1921
+489,490,50,teamred | locghost | stew | lavin_ghost,1921
+490,491,40,teamred | locghost | lavin_ghost,1921
+491,492,43,teamred | random,1921
 492,493,0,chirandom | teamred,1921
 493,494,0,teamred | chifantasy,1921
 494,495,0,chirandom | teamred,1921
-495,496,0,teamred | random,1922
-496,497,1,teamred | femscifi | anatscifi,1922
+495,496,14,teamred | random,1922
+496,497,40,teamred | femscifi | anatscifi,1922
 497,498,0,chirandom | teamred,1922
-498,499,1,teamblack | locghost | stew | lavin_ghost,1922
+498,499,30,teamblack | locghost | stew | lavin_ghost,1922
 499,500,0,chirandom | teamred,1922
-500,501,0,teamblack | locdetmyst | locghost | stew | lavin_ghost,1922
-501,502,1,teamred | random,1922
-502,503,1,teamred | random,1922
-503,504,1,teamred | locdetmyst,1922
-504,505,0,teamred | det100,1922
+500,501,43,teamblack | locdetmyst | locghost | stew | lavin_ghost,1922
+501,502,12,teamred | random,1922
+502,503,3,teamred | random,1922
+503,504,2,teamred | locdetmyst,1922
+504,505,27,teamred | det100,1922
 505,506,0,chirandom | teamblack,1922
 506,507,0,chirandom | teamred | juvenile | drop,1922
 507,508,0,teamblack | chiscifi | stew,1922
-508,509,1,teamred | random,1922
+508,509,50,teamred | random,1922
 509,510,0,chirandom | teamred,1922
 510,511,0,chirandom | teamred,1922
-511,512,0,teamblack | random,1922
-512,513,1,teamred | locdetmyst | juvenile | drop,1922
+511,512,43,teamblack | random,1922
+512,513,50,teamred | locdetmyst | juvenile | drop,1922
 513,514,1,teamblack | locdetmyst | juvenile | drop,1922
 514,515,0,chirandom | teamblack,1922
-515,516,0,teamblack | locdetmyst | locghost | lavin_ghost,1922
-516,517,0,teamblack | locdetmyst | locghost | lavin_ghost,1922
-517,518,0,teamblack | locdetmyst | locghost | lavin_ghost,1922
+515,516,26,teamblack | locdetmyst | locghost | lavin_ghost,1922
+516,517,43,teamblack | locdetmyst | locghost | lavin_ghost,1922
+517,518,43,teamblack | locdetmyst | locghost | lavin_ghost,1922
 518,519,0,teamred | chimyst,1923
 519,520,0,det100 | teamblack,1923
 520,521,0,teamred | chimyst,1923
@@ -539,7 +539,7 @@
 537,538,0,chirandom | teamblack,1927
 538,539,0,chirandom | teamblack,1927
 539,540,0,teamred | chimyst,1927
-540,541,0,chirandom | teamred | chimyst,1927
+540,541,53,chirandom | teamred | chimyst,1927
 541,542,0,teamblack | pbgothic | lavin_magic,1927
 542,543,0,teamblack | chimyst,1928
 543,544,0,teamblack | chiscifi,1928
@@ -564,12 +564,12 @@
 562,563,0,chirandom | teamblack,1930
 563,564,0,teamred | chifantasy | chiscifi,1930
 564,565,0,teamred | chiscifi | stew,1930
-565,566,1,teamred | chiscifi | stew,1930
+565,566,33,teamred | chiscifi | stew,1930
 566,567,0,teamred | chimyst | stew,1930
 567,568,0,hardboiled | det100 | teamblack | chimyst,1930
 568,569,0,teamblack | chiscifi,1930
 569,570,0,chirandom | teamblack,1931
-570,571,6,chifantasy | teamblack | chiscifi,1931
+570,571,4,chifantasy | teamblack | chiscifi,1931
 571,572,0,teamblack | chiscifi,1931
 572,573,0,det100 | teamblack,1931
 573,574,0,teamred | det100 | chimyst,1931
@@ -585,7 +585,7 @@
 583,584,0,teamred | chiscifi,1932
 584,585,0,chirandom | teamred,1932
 585,586,0,chirandom | teamred,1932
-586,587,0,chifantasy | teamblack,1932
+586,587,6,chifantasy | teamblack,1932
 587,588,0,chiutopia | teamblack | chiscifi,1932
 588,589,0,chirandom | teamred,1932
 589,590,0,chirandom | teamred,1932
@@ -617,7 +617,7 @@
 615,616,0,chirandom | teamred | chimyst | cozy,1937
 616,617,0,chirandom | teamred,1937
 617,618,0,chiutopia | teamblack,1938
-618,619,0,chirandom | chiutopia | teamblack | chiscifi | stew,1938
+618,619,6,chirandom | chiutopia | teamblack | chiscifi | stew,1938
 619,620,0,chirandom | teamred,1938
 620,621,0,teamred | pbgothic | stew,1938
 621,622,0,teamblack | chimyst | stew,1938
@@ -637,7 +637,7 @@
 635,636,0,chirandom | teamblack | chimyst,1941
 636,637,0,teamred | chiscifi | stew,1941
 637,638,0,chirandom | teamred,1941
-638,639,0,chirandom | chifantasy | teamblack,1942
+638,639,33,chirandom | chifantasy | teamblack,1942
 639,640,0,chirandom | teamblack,1942
 640,641,0,teamred | chimyst | chiscifi | stew,1942
 641,642,0,chirandom | teamred | chimyst,1942
@@ -668,7 +668,7 @@
 666,667,0,teamred | chiscifi | stew,1946
 667,668,0,teamblack | chiscifi | stew,1946
 668,669,0,teamred | det100 | chimyst,1946
-669,670,1,teamred | chiscifi,1946
+669,670,24,teamred | chiscifi,1946
 670,671,0,chirandom | teamblack,1946
 671,672,0,teamred | chiscifi,1946
 672,673,0,teamblack | chiscifi | stew,1946
@@ -698,7 +698,7 @@
 696,697,0,teamred | chifantasy,1949
 697,698,0,teamblack | chiscifi,1949
 698,699,0,teamred | det100 | chimyst,1949
-699,700,1,teamred | chiscifi,1949
+699,700,17,teamred | chiscifi,1949
 700,701,0,chirandom | teamred,1949
 701,702,0,chifantasy | teamblack,1950
 702,703,0,teamred | chimyst,1950
@@ -800,7 +800,7 @@
 798,799,0,chirandom | teamblack,1965
 799,800,0,chirandom | teamred,1965
 800,801,0,teamred | chimyst,1965
-801,802,0,teamred | chiscifi | stew,1965
+801,802,31,teamred | chiscifi | stew,1965
 802,803,0,chirandom | teamblack,1965
 803,804,0,chirandom | teamblack,1965
 804,805,0,chirandom | teamblack,1966
@@ -840,7 +840,7 @@
 838,839,0,chifantasy | teamblack | chiscifi,1970
 839,840,0,chirandom | teamred,1970
 840,841,0,chirandom | teamred,1970
-841,842,0,chiutopia | chiscifi | teamred | stew,1971
+841,842,35,chiutopia | chiscifi | teamred | stew,1971
 842,843,0,chifantasy | teamblack,1971
 843,844,0,teamblack | pbgothic | lavin_magic,1971
 844,845,0,teamred | chiscifi,1971
@@ -864,7 +864,7 @@
 862,863,0,chiutopia | chiscifi | teamred,1974
 863,864,0,teamred | chimyst | stew,1974
 864,865,0,teamblack | chimyst,1974
-865,866,2,chirandom | chifantasy | teamblack,1975
+865,866,51,chirandom | chifantasy | teamblack,1975
 866,867,0,teamblack | chiscifi | stew,1975
 867,868,0,teamblack | chihorror | stew | lavin_magic,1976
 868,869,0,teamblack | pbgothic | lavin_magic,1976
@@ -955,7 +955,7 @@
 953,954,0,teamblack | chimyst,1987
 954,955,0,teamred | chimyst,1987
 955,956,0,teamblack | chiscifi | stew,1987
-956,957,7,chirandom | teamblack | chiscifi,1987
+956,957,11,chirandom | teamblack | chiscifi,1987
 957,958,0,chirandom | teamred | chimyst,1987
 958,959,0,chirandom | teamred,1987
 959,960,0,teamred | pbgothic | chihorror | lavin_slasher | lavin_deranged,1987
