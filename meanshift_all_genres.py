@@ -19,6 +19,15 @@ from collections import Counter
 from config import USER, PWD
 import pymysql
 
+conn = pymysql.connect(host='localhost', port=3306, user=USER, passwd=PWD, db='horror')
+cur = conn.cursor()
+
+try:
+    _ids = pickle.load( open( "pickled_data/ids.p", "rb" ) )
+except:
+    # get ids, store order here
+    _ids  = [i.id for i in db.session.query(Metadata).all()]
+    pickle.dump( _ids, open( "pickled_data/ids.p", "wb" ) )
 
 try:
     feature_dicts = pickle.load( open( "pickled_data/feature_dicts.p", "rb" ) )
@@ -27,11 +36,6 @@ try:
 except:
     print("Did not find feature data in pickle form. Creating pickle for future use.")
     feature_dicts = []
-
-    conn = pymysql.connect(host='localhost', port=3306, user=USER, passwd=PWD, db='horror')
-    cur = conn.cursor()
-    # loop ids, store order here
-    _ids  = [i.id for i in db.session.query(Metadata).all()]
 
     for _id in _ids:
         feature_dict = {}

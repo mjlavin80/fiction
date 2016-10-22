@@ -1,4 +1,4 @@
 *.pyc
-*.p
+feature_dicts.p
 .DS_Store
 config.py
