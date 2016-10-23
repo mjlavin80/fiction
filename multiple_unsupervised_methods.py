@@ -19,11 +19,11 @@ def save_labels(sklearn_instance, filename, _ids, genres, years):
     #convert to pandas df (terms and counts)
     df = pd.DataFrame(groupings, columns=["docid", "group_label", "genres", "year"])
     #Save as csv in lavin_results folder
-    df.to_csv("../lavin_results/" + filename)
+    df.to_csv("lavin_results/" + filename)
 
 stops = corpus.stopwords.words('english')
 # load features
-feature_df = pd.read_csv("../lavin_lexicon/features_all.csv")
+feature_df = pd.read_csv("lavin_lexicon/features_all.csv")
 features_all = [i for i in list(feature_df["term"]) if i not in stops]
 features = features_all[:9000]
 
@@ -31,14 +31,14 @@ conn = pymysql.connect(host='localhost', port=3306, user=USER, passwd=PWD, db='h
 cur = conn.cursor()
 
 try:
-    _ids = pickle.load( open( "../pickled_data/ids.p", "rb" ) )
+    _ids = pickle.load( open( "pickled_data/ids.p", "rb" ) )
 except:
     # get ids, store order here
     _ids  = [i.id for i in db.session.query(Metadata).all()]
-    pickle.dump( _ids, open( "../pickled_data/ids.p", "wb" ) )
+    pickle.dump( _ids, open( "pickled_data/ids.p", "wb" ) )
 
 try:
-    feature_dicts = pickle.load( open( "../pickled_data/feature_dicts.p", "rb" ) )
+    feature_dicts = pickle.load( open( "pickled_data/feature_dicts.p", "rb" ) )
     print("Loaded pickle data successfully.")
 
 except:
@@ -58,7 +58,7 @@ except:
         feature_dicts.append(feature_dict)
 
     print("Finished making dictionaries")
-    pickle.dump( feature_dicts, open( "../pickled_data/feature_dicts.p", "wb" ) )
+    pickle.dump( feature_dicts, open( "pickled_data/feature_dicts.p", "wb" ) )
     cur.close()
     conn.close()
 
