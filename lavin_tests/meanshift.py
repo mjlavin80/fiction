@@ -6,9 +6,9 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import pandas as pd
 
-stops = corpus.stopwords.words('english') 
+stops = corpus.stopwords.words('english')
 # load features
-feature_df = pd.read_csv("lavin_lexicon/features_all.csv")
+feature_df = pd.read_csv("../lavin_lexicon/features_all.csv")
 features_all = [i for i in list(feature_df["term"]) if i not in stops]
 features = features_all[:500]
 
@@ -38,7 +38,7 @@ for _id in _ids:
         if row[0] in features:
             feature_dict[row[0]] = row[1]
     feature_dicts.append(feature_dict)
-        
+
 # create vectors using N top features not in stops
 tfidf = TfidfTransformer()
 vec = DictVectorizer()
@@ -63,4 +63,3 @@ print("number of estimated clusters : %d" % n_clusters_)
 cur.close()
 conn.close()
 #Store results for graphing
-
