@@ -1,0 +1,167 @@
+,docid,group_label,genres,year
+0,4,0,teamred | pbgothic | stew | lavin_ghost,1764
+1,7,0,teamblack | pbgothic | lavin_ghost,1777
+2,11,0,teamblack | pbgothic | stew | lavin_deranged,1785
+3,13,0,teamblack | pbgothic | stew | lavin_magic,1786
+4,15,4,teamblack | pbgothic | stew | lavin_deranged,1788
+5,16,4,teamred | pbgothic | stew | lavin_deranged,1788
+6,18,0,teamred | pbgothic | stew | lavin_deranged,1790
+7,20,0,teamred | pbgothic | stew | lavin_deranged,1790
+8,22,4,teamblack | stangothic,1791
+9,23,0,teamblack | pbgothic | stew | lavin_deranged,1791
+10,24,0,teamred | pbgothic | stew | lavin_deranged,1794
+11,27,0,teamblack | pbgothic | stew,1794
+12,28,0,teamred | pbgothic,1794
+13,31,0,teamblack | pbgothic | lavin_magic,1796
+14,32,4,teamblack | pbgothic | lavin_ghost,1796
+15,34,0,teamblack | pbgothic | stew | lavin_magic,1796
+16,35,0,teamred | pbgothic,1798
+17,36,0,teamred | pbgothic | lavin_magic | lavin_deranged,1799
+18,44,0,teamblack | stangothic,1801
+19,45,0,teamblack | stangothic,1802
+20,48,0,teamred | stangothic,1803
+21,49,0,teamblack | stangothic,1803
+22,51,0,teamblack | stangothic,1803
+23,53,0,teamblack | stangothic | stew,1803
+24,54,0,teamblack | stangothic,1803
+25,55,0,teamred | stangothic | stew,1803
+26,57,0,teamblack | stangothic | stew,1806
+27,59,4,teamred | stangothic,1807
+28,60,0,teamblack | pbgothic,1807
+29,61,0,teamred | stangothic,1807
+30,65,0,teamred | stangothic,1809
+31,67,0,teamblack | stangothic,1810
+32,68,0,teamred | stangothic | stew,1812
+33,71,4,teamred | stangothic,1813
+34,72,0,teamblack | pbgothic | lavin_deranged,1816
+35,75,4,teamblack | pbgothic,1818
+36,76,4,teamblack | lochorror | stew,1818
+37,79,0,stangothic | femscifi | teamred | stew,1818
+38,80,4,teamred | lochorror | stew,1818
+39,81,0,teamblack | stangothic,1818
+40,82,4,teamred | lochorror,1818
+41,83,4,teamblack | lochorror,1818
+42,84,0,teamblack | pbgothic | lavin_magic | lavin_deranged,1820
+43,87,0,teamblack | pbgothic | lavin_ghost | lavin_magic,1820
+44,88,0,teamblack | pbgothic | stew | lavin_magic | lavin_deranged,1820
+45,89,0,teamred | pbgothic | stew | lavin_magic | lavin_deranged,1821
+46,93,0,teamblack | stangothic,1823
+47,94,0,teamred | stangothic,1823
+48,98,0,teamred | locghost | stew | lavin_ghost,1826
+49,100,0,teamblack | pbgothic,1826
+50,101,0,teamred | pbgothic | stew,1826
+51,103,0,teamblack | pbgothic | stew,1827
+52,116,0,teamblack | pbgothic | lavin_magic,1832
+53,121,0,teamblack | pbgothic,1833
+54,125,0,teamred | newgate | stangothic | lavin_ghost | lavin_magic,1834
+55,128,0,teamblack | pbgothic | lavin_ghost,1837
+56,130,2,teamred | pbgothic | stew,1838
+57,135,0,teamred | pbgothic | stew,1840
+58,137,2,teamblack | pbgothic | stew,1841
+59,141,0,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1843
+60,144,4,teamred | pbgothic | stew,1844
+61,149,4,teamred | pbgothic | stew,1846
+62,150,0,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1846
+63,151,2,teamred | pbgothic | lavin_deranged,1847
+64,152,2,teamred | pbgothic | stew | lavin_deranged,1847
+65,156,2,teamred | pbgothic | stew | lavin_deranged,1847
+66,157,0,teamred | locghost | stew | lavin_ghost,1848
+67,160,0,teamblack | pbgothic | lavin_magic,1849
+68,161,4,teamblack | pbgothic,1850
+69,162,0,teamred | pbgothic | stew,1850
+70,166,0,teamblack | pbgothic,1851
+71,168,2,teamblack | pbgothic,1853
+72,172,0,teamblack | pbgothic,1858
+73,174,0,teamblack | pbgothic | stew | lavin_magic,1858
+74,179,2,teamred | sensation | pbgothic | stew | lavin_deranged,1860
+75,188,2,sensation | pbgothic | teamblack | stew,1864
+76,189,2,teamred | sensation | pbgothic | stew,1864
+77,190,2,teamred | sensation | pbgothic | stew,1864
+78,193,2,teamblack | pbgothic,1865
+79,197,2,teamred | sensation | pbgothic | stew,1866
+80,207,2,teamred | det100 | pbgothic | lavin_deranged,1868
+81,219,2,teamblack | pbgothic | stew | lavin_ghost | lavin_magic | lavin_deranged,1872
+82,240,2,teamred | pbgothic | stew | lavin_ghost,1878
+83,256,2,teamred | pbgothic | stew,1882
+84,260,2,teamred | pbgothic | lavin_magic,1885
+85,268,2,teamred | pbgothic | anatscifi | stew,1886
+86,270,2,teamblack | locghost | lavin_ghost,1887
+87,276,2,teamred | locghost | lavin_ghost,1888
+88,277,2,teamred | pbgothic | lavin_ghost,1888
+89,280,0,teamblack | locghost | stew | lavin_ghost,1888
+90,281,0,teamred | locghost | stew | lavin_ghost,1888
+91,284,2,teamblack | pbgothic | stew,1888
+92,290,0,teamblack | locghost | stew | lavin_ghost,1888
+93,291,0,teamblack | locghost | lavin_ghost,1888
+94,294,2,teamred | pbgothic | stew | lavin_ghost,1890
+95,295,2,teamblack | locghost | lavin_ghost,1890
+96,297,2,teamblack | locghost | stew | lavin_ghost,1890
+97,299,2,teamblack | pbgothic | lavin_magic | lavin_deranged,1891
+98,301,0,teamblack | pbgothic | stew,1891
+99,308,0,teamblack | pbgothic | stew,1892
+100,312,0,teamblack | pbgothic | lavin_ghost,1893
+101,320,2,teamred | pbgothic | lavin_magic,1895
+102,327,1,teamblack | pbgothic | stew | lavin_magic,1897
+103,331,2,teamred | locghost | stew | lavin_ghost,1898
+104,332,2,teamblack | locghost | lavin_ghost,1898
+105,334,2,teamred | pbgothic | lavin_ghost | lavin_magic,1898
+106,353,2,teamblack | pbgothic | lavin_ghost,1903
+107,360,2,teamred | locghost | stew | lavin_ghost,1904
+108,364,2,teamred | locghost | lavin_ghost,1905
+109,366,3,teamblack | pbgothic | stew,1905
+110,368,2,teamblack | pbgothic | stew | lavin_ghost,1906
+111,370,2,teamred | locghost | stew | lavin_ghost,1906
+112,391,2,teamred | pbgothic | lavin_ghost,1910
+113,404,2,teamred | pbgothic | stew | lavin_ghost,1911
+114,412,2,teamblack | locghost | lavin_ghost,1912
+115,420,2,teamred | locghost | lavin_ghost,1913
+116,433,2,teamred | locghost | lavin_ghost,1914
+117,455,2,teamblack | locghost | stew | lavin_ghost,1918
+118,462,2,teamred | pbgothic | lavin_ghost,1919
+119,464,0,teamblack | locghost | stew | lavin_ghost,1919
+120,467,2,teamred | pbgothic,1919
+121,475,2,teamred | locghost | stew | lavin_ghost,1920
+122,490,2,teamred | locghost | stew | lavin_ghost,1921
+123,491,2,teamred | locghost | lavin_ghost,1921
+124,499,0,teamblack | locghost | stew | lavin_ghost,1922
+125,501,2,teamblack | locdetmyst | locghost | stew | lavin_ghost,1922
+126,516,2,teamblack | locdetmyst | locghost | lavin_ghost,1922
+127,517,2,teamblack | locdetmyst | locghost | lavin_ghost,1922
+128,518,2,teamblack | locdetmyst | locghost | lavin_ghost,1922
+129,542,1,teamblack | pbgothic | lavin_magic,1927
+130,591,1,teamblack | pbgothic,1932
+131,596,3,chifantasy | teamblack | chihorror | stew,1933
+132,601,1,teamblack | pbgothic | stew,1934
+133,621,1,teamred | pbgothic | stew,1938
+134,676,3,teamblack | pbgothic | stew,1946
+135,688,3,chifantasy | teamblack | chihorror | chiscifi,1948
+136,690,1,teamred | pbgothic | chiscifi | lavin_ghost | lavin_magic,1948
+137,744,1,teamred | pbgothic | chihorror | chiscifi | lavin_magic,1954
+138,766,1,teamblack | pbgothic | lavin_slasher,1959
+139,767,1,teamblack | pbgothic | stew | lavin_ghost,1959
+140,780,1,teamblack | chihorror | chiscifi | lavin_magic,1962
+141,821,1,teamblack | pbgothic | chihorror | stew | lavin_magic,1967
+142,823,1,teamred | pbgothic | chihorror | lavin_magic,1968
+143,824,1,teamred | chihorror | lavin_magic,1968
+144,844,1,teamblack | pbgothic | lavin_magic,1971
+145,849,1,teamblack | chihorror | chiscifi,1972
+146,868,1,teamblack | chihorror | stew | lavin_magic,1976
+147,869,3,teamblack | pbgothic | lavin_magic,1976
+148,881,1,teamred | chihorror | lavin_slasher,1977
+149,893,1,teamred | pbgothic,1978
+150,896,1,teamred | chihorror | stew,1978
+151,898,1,teamred | chihorror | stew | lavin_magic,1978
+152,900,1,teamred | chimyst | chihorror | lavin_magic,1978
+153,907,1,teamblack | chihorror | chiscifi | stew | lavin_ghost,1979
+154,912,1,teamred | chihorror,1980
+155,914,1,chimyst | pbgothic | teamred | lavin_slasher,1981
+156,920,1,teamblack | pbgothic | stew | lavin_magic,1981
+157,926,1,teamblack | chihorror | stew | lavin_slasher | lavin_deranged,1982
+158,938,3,teamred | pbgothic | chiscifi | stew,1984
+159,947,3,teamred | chihorror | chiscifi | stew | lavin_magic,1986
+160,960,1,teamred | pbgothic | chihorror | lavin_slasher | lavin_deranged,1987
+161,964,1,teamblack | pbgothic | lavin_ghost,1987
+162,968,1,chifantasy | teamblack | pbgothic | stew | lavin_magic,1988
+163,976,1,teamblack | chihorror | stew,1989
+164,978,1,teamred | chihorror | chiscifi | stew,1989
+165,980,1,chifantasy | teamblack | chimyst | chihorror | lavin_slasher | lavin_magic,1989
