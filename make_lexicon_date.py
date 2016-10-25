@@ -10,7 +10,6 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import pandas as pd
 import pickle
-import urllib
 
 try:
     _ids = pickle.load( open( "pickled_data/ids.p", "rb" ) )
@@ -23,8 +22,19 @@ try:
     _ids = pickle.load( open( "pickled_data/ids_dates_genres.p", "rb" ) )
 except:
     # get ids, store order here
-    _ids_dates_genres  = [i.id, i.firstpub, urllib.unquote_plus(i.genres) for i in db.session.query(Metadata).all()]
-    pickle.dump( _ids, open( "pickled_data/ids_dates_genres.p", "wb" ) )
+    _ids_dates  = [[i.id, i.firstpub] for i in db.session.query(Metadata).all()]
+    genre_list = []
+    _ids = [p[0] for p in _ids_dates]
+    dates = [q[1] for q in _ids_dates]
+    for _id in _ids:
+        #get genres
+        genre_rows  = [i.genre for i in db.session.query(Genres).filter(Genres.work_id==_id).all()]
+        #mush genres to string
+        g = " | ".join(genre_rows)
+        #append
+        genre_list.append(g)
+    _ids_dates_genres = list(zip(_ids, dates, genre_list))
+    pickle.dump( _ids_dates_genres, open( "pickled_data/ids_dates_genres.p", "wb" ) )
 
 #load feature dict from pickle
 try:
@@ -62,8 +72,6 @@ adjusted = tfidf.fit_transform(vect)
 term_indices = list(vec.vocabulary_.items())
 term_indices.sort(key=operator.itemgetter(1))
 term_list = [i[0] for i in term_indices]
-
-#get all dates
 
 
 #get all tfidf scores for word in same order as dates list

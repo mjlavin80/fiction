@@ -1,6 +1,6 @@
 from nltk import corpus
 import numpy as np
-from sklearn.cluster import MeanShift, estimate_bandwidth
+from sklearn.cluster import MeanShift, estimate_bandwidth, AffinityPropagation, MiniBatchKMeans, AgglomerativeClustering
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import pandas as pd
@@ -115,7 +115,7 @@ for position, feature_dict in enumerate(feature_dicts):
     if position+1 in horror_ids:
         feature_dicts_horror.append(feature_dict)
         horror_genres.append(genres[position])
-        horror_yearss.append(years[position])
+        horror_years.append(years[position])
 
 tfidf_horror = TfidfTransformer()
 vec_horror = DictVectorizer()
