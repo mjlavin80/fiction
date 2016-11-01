@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gothic and Horror</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Garamond', 'Times New Roman', 'times', 'serif'; }
+      h1, h2, h3, h4 {
+        font-family: 'Garamond', 'Times New Roman', 'times', 'serif';
+        font-weight: normal;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+      }
+      h4 { font-size: 115%;}
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono';}
+      p {
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Continuity and Discontinuity in Gothic and Horror
+## Notes on Inquiry, Computational Process, and Initial Findings
+
+
+Matthew J. Lavin
+
+Clinical Assistant Professor of English and Director of Digital Media Lab
+
+University of Pittsburgh
+
+4 November, 2016
+
+@mjlavin80 on Twitter
+
+---
+
+# Overview
+
+
+- ### Emergence of Horror as a Genre
+
+- ### Computational Approaches to Genre Classification
+
+- ### Underwood's "The Life Cycles of Genres"
+
+- ### Areas for Follow Up and Expansion
+
+- ### What I've Done So Far
+
+- ### Preliminary Results / Lessons Learned
+
+- ### Emerging Questions
+
+- ### Next Steps
+
+---
+
+# Emergence of Horror as a Genre
+
+- ### Gothic
+- ### Victorian ghost story
+- ### Weird fiction and supernatural horror
+- ### Horror fiction after the rise of Hollywood
+
+---
+
+# Computational Approaches to Genre Classification
+
+- ### Are genres fundamentally historical categories, or are there narrative continuities that define and characterize them?
+- ### To what degree are historical and textual elements intertwined? Computational methods uniquely situated to address (Underwood)
+- ### Are horror and the Gothic a unified genre, cyclical, generational? (Moretti)
+- ### How does literary diction change over time? (Underwood and Sellers)
+- ### Can machine learning approaches aid processes of genre classification?
+
+---
+
+# Underwood's "The Life Cycles of Genres"
+
+- ### Dataset of 950+ works of fiction from 1750 to 1989
+- ### Metadata and term frequency tables
+- ### Genre tags for "detective," "sci-fi," "Gothic," and "random"
+- ### Supervised learning approach
+- ### Series of binary-assigned logistic regression tests (i.e. "crime" vs. "not crime")
+- ### Compared accuracy of various genre predictions
+- ### Found more continuity/predictability in the detective genre than in Gothic or science fiction.
+- ### Full data available on [Github](https://github.com/tedunderwood/fiction)
+
+---
+
+# Areas for Follow Up and Expansion
+
+- ### Thinking about horror as owing a debt to a small subset of the Gothic
+- ### Horror subgenres
+- ### Unsupervised learning (especially clustering)
+- ### Influence of multi-genre classification system
+- ### Controlling for a text's date signal
+- ### Corpus Development: Is there a missing link between 1860 and 1930?
+
+---
+
+# What I've Done So Far
+
+- ### Forked repo in [Github](https://github.com/mjlavin80/fiction) to Document Experiments
+- ### Various unsupervised methods using Python's Scikit Learn
+- ### Hand-tagged gothic subgenres in corpus, including
+<code>
+  ghost-haunting
+
+  monster
+
+  killer-slasher-gore
+
+  demon-occult-witch-magic-psychic
+
+  insanity-deranged
+</code>
+- ### Exploratory analysis of features correlated with date and genre
+- ### Experimented with iterating over flat files, mysql database, and pickled data (.p files)
+
+---
+
+# Preliminary Results
+
+- ### Confusion matrices
+- ### Features correlated with date and genre
+
+---
+
+# Lessons Learned
+
+- ### Numerous steps can be pre-processed and stored
+- ### Cost-benefit analysis of optimization changes at scale
+- ### More Performant Code = More Time to Do Tests and Analyze
+- ### Feature dictionaries are most performant
+- ### Sklearn pipe feature with pickled data (built from db) is fastest and most portable
+- ### Haven't tried going straight from flat file to .p data
+- ### Interested in other key-value store approaches
+
+---
+# Emerging Questions
+- ### If a machine learning model is highly accurate but based on very few terms, have we learned anything?
+- ### Do date signals affect some genres' continuity more than others?
+- ### Can unsupervised clusters be applied as training data to a horror dataset to better classify subgenres?
+- ### To what degree do these approaches tell us about cataloging practices over time?
+- ### How do we grow a horror corpus to best represent the genre's rich history and many subgenres?
+- ### How do we unlock the potential of analogue bibliographies and refrence guides to inform large-scale DH?
+
+---
+
+# Next Steps
+
+- ### Logistic regression using additional feature selection methods
+ - ### By removing top N features most correlated with date
+ - ### BY selecting only top N features correlated with genre
+- ### Multi-label and multi-class machine learning
+- ### Expansion of gothic and horror corpus
+- ### Next Spring: First Experiences in Research program
+ - ### Three undergrads working on "Gothic and Horror Bibliography"
+- ### Better visualizations for unsupervised learning results?
+
+---
+class: center, middle
+# Teaching Ideas
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
