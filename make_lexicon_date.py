@@ -9,59 +9,17 @@ from sklearn.cluster import MeanShift, estimate_bandwidth
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import pandas as pd
+from scipy.stats.stats import pearsonr
 import pickle
+from application.pickles import pickledData
 
-try:
-    _ids = pickle.load( open( "pickled_data/ids.p", "rb" ) )
-except:
-    # get ids, store order here
-    _ids  = [i.id for i in db.session.query(Metadata).all()]
-    pickle.dump( _ids, open( "pickled_data/ids.p", "wb" ) )
+pData = pickledData()
+_ids_dates_genres = pData._ids_dates_genres
+_ids = pData._ids
+dates = pData.dates
+genres = pData.genres
 
-try:
-    _ids = pickle.load( open( "pickled_data/ids_dates_genres.p", "rb" ) )
-except:
-    # get ids, store order here
-    _ids_dates  = [[i.id, i.firstpub] for i in db.session.query(Metadata).all()]
-    genre_list = []
-    _ids = [p[0] for p in _ids_dates]
-    dates = [q[1] for q in _ids_dates]
-    for _id in _ids:
-        #get genres
-        genre_rows  = [i.genre for i in db.session.query(Genres).filter(Genres.work_id==_id).all()]
-        #mush genres to string
-        g = " | ".join(genre_rows)
-        #append
-        genre_list.append(g)
-    _ids_dates_genres = list(zip(_ids, dates, genre_list))
-    pickle.dump( _ids_dates_genres, open( "pickled_data/ids_dates_genres.p", "wb" ) )
-
-#load feature dict from pickle
-try:
-    feature_dicts = pickle.load( open( "pickled_data/feature_dicts.p", "rb" ) )
-    print("Loaded pickle data successfully.")
-
-except:
-    print("Did not find feature data in pickle form. Creating pickle for future use.")
-    feature_dicts = []
-
-    for _id in _ids:
-        feature_dict = {}
-        # get types and counts
-        query = "".join(["SELECT type, type_count FROM counts WHERE work_id=", str(_id), " AND type REGEXP '^[A-Za-z]+$';"])
-        #loop terms matching certain criteria (regex query)
-        a = cur.execute(query)
-        for row in cur:
-            #add to dict if ok to use
-            if row[0] in features:
-                feature_dict[row[0]] = row[1]
-        feature_dicts.append(feature_dict)
-
-    print("Finished making dictionaries")
-    pickle.dump( feature_dicts, open( "pickled_data/feature_dicts.p", "wb" ) )
-    cur.close()
-    conn.close()
-
+feature_dicts = pData.feature_dicts
 
 #convert to tf-idf model
 tfidf = TfidfTransformer()
@@ -70,18 +28,23 @@ vect = vec.fit_transform(feature_dicts)
 adjusted = tfidf.fit_transform(vect)
 
 term_indices = list(vec.vocabulary_.items())
+#alphabetical order
 term_indices.sort(key=operator.itemgetter(1))
+
 term_list = [i[0] for i in term_indices]
+data = adjusted.toarray()
 
+p_tuples = []
 
-#get all tfidf scores for word in same order as dates list
+for column in data.T:
+   p, c = pearsonr(column, dates)
+   f_tuple = (p,c)
+   p_tuples.append(f_tuple)
 
-#p, c = pearsonr(term_freqs,dates)
-#append to final_tuples
-
-
+print(len(term_list), len(p_tuples))
+final_tuples = list(zip(term_list, [i[0] for i in p_tuples], [i[1] for i in p_tuples]))
 #convert to pandas df
-#df = pd.DataFrame(final_tuples, columns=["term", "docs", "pearson", "confidence"])
+df = pd.DataFrame(final_tuples, columns=["term", "pearson", "p_value"])
 
 #Save as csv in lavin_lexicon folder
-#df.to_csv("lavin_lexicon/features_correlated_with_pubdate.csv")
+df.to_csv("lavin_lexicon/features_correlation_with_pubdate.csv")

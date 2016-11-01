@@ -30,37 +30,14 @@ features = features_all[:9000]
 conn = pymysql.connect(host='localhost', port=3306, user=USER, passwd=PWD, db='horror')
 cur = conn.cursor()
 
-try:
-    _ids = pickle.load( open( "pickled_data/ids.p", "rb" ) )
-except:
-    # get ids, store order here
-    _ids  = [i.id for i in db.session.query(Metadata).all()]
-    pickle.dump( _ids, open( "pickled_data/ids.p", "wb" ) )
+from application.pickles import pickledData
 
-try:
-    feature_dicts = pickle.load( open( "pickled_data/feature_dicts.p", "rb" ) )
-    print("Loaded pickle data successfully.")
-
-except:
-    print("Did not find feature data in pickle form. Creating pickle for future use.")
-    feature_dicts = []
-
-    for _id in _ids:
-        feature_dict = {}
-        # get types and counts
-        query = "".join(["SELECT type, type_count FROM counts WHERE work_id=", str(_id), " AND type REGEXP '^[A-Za-z]+$';"])
-        #loop terms matching certain criteria (regex query)
-        a = cur.execute(query)
-        for row in cur:
-            #add to dict if ok to use
-            if row[0] in features:
-                feature_dict[row[0]] = row[1]
-        feature_dicts.append(feature_dict)
-
-    print("Finished making dictionaries")
-    pickle.dump( feature_dicts, open( "pickled_data/feature_dicts.p", "wb" ) )
-    cur.close()
-    conn.close()
+pData = pickledData()
+_ids_dates_genres = pData._ids_dates_genres
+_ids = pData._ids
+dates = pData.dates
+genres = pData.genres
+feature_dicts = pData.feature_dicts
 
 # create vectors using N top features not in stops
 tfidf = TfidfTransformer()
@@ -69,19 +46,16 @@ vect = vec.fit_transform(feature_dicts)
 adjusted = tfidf.fit_transform(vect)
 data = adjusted.toarray()
 
-#join with genres and years
-genres =[]
-years = []
+bandwidth= .89
+ms = MeanShift(bandwidth=bandwidth, bin_seeding=False)
+ms.fit(data)
+save_labels(ms, "meanshift_all_no_bin_seeding.csv", _ids, genres, years)
 
-for _id in _ids:
-    #get genres and years
-    year = db.session.query(Metadata).filter(Metadata.id==_id).one().firstpub
-    genre_rows  = [i.genre for i in db.session.query(Genres).filter(Genres.work_id==_id).all()]
-    #mush genres to string
-    g = " | ".join(genre_rows)
-    #append
-    genres.append(g)
-    years.append(year)
+bandwidth2 = estimate_bandwidth(data, quantile=0.2, n_samples=400)
+ms2 = MeanShift(bandwidth=bandwidth2, bin_seeding=True)
+ms2.fit(data)
+save_labels(ms2, "meanshift_all_w_bin_seeding.csv", _ids, genres, years)
+
 
 # affinity all
 af = AffinityPropagation().fit(data)
