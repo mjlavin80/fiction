@@ -19,40 +19,7 @@ _ids = pData._ids
 dates = pData.dates
 genres = pData.genres
 
-def make_genres_big(piped_genres):
-    big_genres = pd.read_csv("meta/datadictionary.csv")
-    gen_dict = {}
-    for i in big_genres.itertuples():
-        gen_dict[i[1]] = i[2]
-    gen_dict["chimyst"] = "crime"
-    gen_dict["locghost"] = "gothic"
-    gen_dict["lockandkey"] = "crime"
-    big_genres = []
-
-    for i in piped_genres:
-        gen = i.split(" | ")
-        g = []
-        for z in gen:
-            if z != "teamred" and z!= "teamblack" and z!= "stew" and z != "juvenile" and z != "drop" and "random" not in z:
-                #look up and append big genre
-                try:
-                    g.append(gen_dict[z])
-                except:
-                    pass
-
-        #merge duplicates
-        g = list(set(g))
-        #assign as multi if still mutiple genres
-        if len(g) > 1:
-            final_genre = "multi"
-        #assign as non_genre if no genres left
-        if len(g) == 0:
-            final_genre = "non_genre"
-        #keep biggenre if length of list is 1
-        if len(g) == 1:
-            final_genre = g[0]
-        big_genres.append(final_genre)
-    return big_genres
+from application.selective_features import make_genres_big
 
 big_genres = make_genres_big(genres)
 
