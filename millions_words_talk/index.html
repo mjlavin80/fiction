@@ -8,6 +8,11 @@
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
+      th {color: white; background-color: black; padding-top: 7px; padding-bottom: 7px;}
+      td {padding: 3px; }
+      table { width: 100%; border-collapse: collapse;}
+      td, th {border: 1px solid black; font-size: 95%; text-align: center;
+      }
       body { font-family: 'Garamond', 'Times New Roman', 'times', 'serif'; }
       h1, h2, h3, h4 {
         font-family: 'Garamond', 'Times New Roman', 'times', 'serif';
@@ -30,8 +35,6 @@
 class: center, middle
 
 # Continuity and Discontinuity in Gothic and Horror
-## Notes on Inquiry, Computational Process, and Initial Findings
-
 
 Matthew J. Lavin
 
@@ -58,7 +61,9 @@ University of Pittsburgh
 
 - ### What I've Done So Far
 
-- ### Preliminary Results / Lessons Learned
+- ### Preliminary Results
+
+- ### Challenges and Lessons Learned
 
 - ### Emerging Questions
 
@@ -110,9 +115,14 @@ University of Pittsburgh
 
 ---
 
+# My research question
+
+- ### Is our understanding of the discontinuity between Gothic and horror over time
+altered or complicated by digging deeper into subgenre and multigenre constructions?
+
+---
 # What I've Done So Far
 
-- ### Forked repo in [Github](https://github.com/mjlavin80/fiction) to Document Experiments
 - ### Various unsupervised methods using Python's Scikit Learn
 - ### Hand-tagged gothic subgenres in corpus, including
 <code>
@@ -127,22 +137,670 @@ University of Pittsburgh
   insanity-deranged
 </code>
 - ### Exploratory analysis of features correlated with date and genre
-- ### Experimented with iterating over flat files, mysql database, and pickled data (.p files)
+
+---
+# Unsupervised Learning Procedures
+- ### Does not assume "ground truth" genres
+- ###  Tried multiple methods
+ - ### Affinity clusters
+ - ### Mini batch k-means
+ - ### Hierarchical (Ward, Average, Complete)
+- ### Ran results on 9k, 500, and 100 features
+- ### Feature selection uses absolute values of genre correlations
+
+---
+
+# Preliminary Results
+<table class="table">
+<thead><tr><th title="Field #1">inferred</th>
+<th title="Field #2">detective/crime</th>
+<th title="Field #3">gothic/horror/horror</th>
+<th title="Field #4">multi</th>
+<th title="Field #5">non_genre</th>
+<th title="Field #6">scifi</th>
+<th title="Field #7">sensation</th>
+</tr></thead>
+<tbody><tr>
+<td>0</td>
+<td>65</td>
+<td>10</td>
+<td>5</td>
+<td>51</td>
+<td>46</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>48</td>
+<td>32</td>
+<td>6</td>
+<td>74</td>
+<td>4</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2</td>
+<td>20</td>
+<td>1</td>
+<td>0</td>
+<td>5</td>
+<td>6</td>
+<td>0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>24</td>
+<td>4</td>
+<td>4</td>
+<td>12</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>21</td>
+<td>3</td>
+<td>2</td>
+<td>25</td>
+<td>50</td>
+<td>0</td>
+</tr>
+<tr>
+<td>5</td>
+<td>79</td>
+<td>14</td>
+<td>7</td>
+<td>76</td>
+<td>34</td>
+<td>0</td>
+</tr>
+<tr>
+<td>6</td>
+<td>20</td>
+<td>75</td>
+<td>3</td>
+<td>61</td>
+<td>47</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td>11</td>
+<td>2</td>
+<td>0</td>
+<td>22</td>
+<td>3</td>
+<td>1</td>
+</tr>
+</tbody></table>
+
+#### Table 1: Mini batch k-means clustering on 9000 features
+---
+
+# Preliminary Results
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">inferred</th>
+<th title="Field #2">lavin_deranged</th>
+<th title="Field #3">lavin_ghost</th>
+<th title="Field #4">lavin_magic</th>
+<th title="Field #5">lavin_multi</th>
+<th title="Field #6">lavin_slasher</th>
+<th title="Field #7">no_lavin_tag</th>
+</tr></thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>6</td>
+<td>2</td>
+<td>0</td>
+<td>168</td>
+</tr>
+<tr>
+<td>1</td>
+<td>6</td>
+<td>16</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>146</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>31</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>45</td>
+</tr>
+<tr>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>100</td>
+</tr>
+<tr>
+<td>5</td>
+<td>0</td>
+<td>2</td>
+<td>8</td>
+<td>2</td>
+<td>3</td>
+<td>195</td>
+</tr>
+<tr>
+<td>6</td>
+<td>4</td>
+<td>22</td>
+<td>8</td>
+<td>9</td>
+<td>0</td>
+<td>164</td>
+</tr>
+<tr>
+<td>7</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>37</td>
+</tr>
+</tbody></table>
+
+#### Table 2: Same as Table 1, with Lavin flag planting
+---
+# Preliminary Results
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">inferred</th>
+<th title="Field #2">detective/crime</th>
+<th title="Field #3">gothic/horror</th>
+<th title="Field #4">multi</th>
+<th title="Field #5">non_genre</th>
+<th title="Field #6">scifi</th>
+<th title="Field #7">sensation</th>
+</tr></thead>
+<tbody><tr>
+<td>0</td>
+<td>89</td>
+<td>8</td>
+<td>5</td>
+<td>30</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>1</td>
+<td>9</td>
+<td>55</td>
+<td>3</td>
+<td>23</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>7</td>
+<td>21</td>
+<td>1</td>
+<td>80</td>
+<td>64</td>
+<td>0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>12</td>
+<td>62</td>
+<td>0</td>
+</tr>
+<tr>
+<td>4</td>
+<td>2</td>
+<td>10</td>
+<td>2</td>
+<td>46</td>
+<td>36</td>
+<td>2</td>
+</tr>
+<tr>
+<td>5</td>
+<td>100</td>
+<td>16</td>
+<td>11</td>
+<td>45</td>
+<td>11</td>
+<td>0</td>
+</tr>
+<tr>
+<td>6</td>
+<td>9</td>
+<td>9</td>
+<td>0</td>
+<td>28</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>7</td>
+<td>27</td>
+<td>16</td>
+<td>2</td>
+<td>34</td>
+<td>3</td>
+<td>2</td>
+</tr>
+<tr>
+<td>8</td>
+<td>25</td>
+<td>4</td>
+<td>3</td>
+<td>27</td>
+<td>6</td>
+<td>1</td>
+</tr>
+<tr>
+<td>9</td>
+<td>19</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+</tr>
+</tbody></table>
+
+#### Table 3: Ward Hierarchical Clustering on 500 features correlated with genre
 
 ---
 
 # Preliminary Results
 
-- ### Confusion matrices
-- ### Features correlated with date and genre
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">inferred</th>
+<th title="Field #2">detective/crime</th>
+<th title="Field #3">gothic/horror</th>
+<th title="Field #4">multi</th>
+<th title="Field #5">non_genre</th>
+<th title="Field #6">scifi</th>
+<th title="Field #7">sensation</th>
+</tr></thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>8</td>
+<td>52</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>102</td>
+<td>11</td>
+<td>5</td>
+<td>52</td>
+<td>11</td>
+<td>4</td>
+</tr>
+<tr>
+<td>2</td>
+<td>109</td>
+<td>15</td>
+<td>12</td>
+<td>74</td>
+<td>16</td>
+<td>0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>34</td>
+<td>24</td>
+<td>2</td>
+<td>50</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>24</td>
+<td>2</td>
+<td>1</td>
+<td>9</td>
+<td>21</td>
+<td>0</td>
+</tr>
+<tr>
+<td>5</td>
+<td>13</td>
+<td>44</td>
+<td>5</td>
+<td>32</td>
+<td>6</td>
+<td>0</td>
+</tr>
+<tr>
+<td>6</td>
+<td>3</td>
+<td>27</td>
+<td>1</td>
+<td>45</td>
+<td>32</td>
+<td>0</td>
+</tr>
+<tr>
+<td>7</td>
+<td>3</td>
+<td>17</td>
+<td>0</td>
+<td>56</td>
+<td>52</td>
+<td>2</td>
+</tr>
+</tbody></table>
+
+#### Table 4: Mini batch k-means clustering on 500 features
+
+---
+
+# Preliminary Results
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">inferred</th>
+<th title="Field #2">detective/crime</th>
+<th title="Field #3">gothic/horror</th>
+<th title="Field #4">multi</th>
+<th title="Field #5">non_genre</th>
+<th title="Field #6">scifi</th>
+<th title="Field #7">sensation</th>
+</tr></thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>8</td>
+<td>52</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>102</td>
+<td>11</td>
+<td>5</td>
+<td>52</td>
+<td>11</td>
+<td>4</td>
+</tr>
+<tr>
+<td>2</td>
+<td>109</td>
+<td>15</td>
+<td>12</td>
+<td>74</td>
+<td>16</td>
+<td>0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>34</td>
+<td>24</td>
+<td>2</td>
+<td>50</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>24</td>
+<td>2</td>
+<td>1</td>
+<td>9</td>
+<td>21</td>
+<td>0</td>
+</tr>
+<tr>
+<td>5</td>
+<td>13</td>
+<td>44</td>
+<td>5</td>
+<td>32</td>
+<td>6</td>
+<td>0</td>
+</tr>
+<tr>
+<td>6</td>
+<td>3</td>
+<td>27</td>
+<td>1</td>
+<td>45</td>
+<td>32</td>
+<td>0</td>
+</tr>
+<tr>
+<td>7</td>
+<td>3</td>
+<td>17</td>
+<td>0</td>
+<td>56</td>
+<td>52</td>
+<td>2</td>
+</tr>
+</tbody></table>
+
+#### Table 5: Mini batch k-means clustering on 100 features
+---
+
+# Preliminary Results
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">inferred</th>
+<th title="Field #2">lavin_deranged</th>
+<th title="Field #3">lavin_ghost</th>
+<th title="Field #4">lavin_magic</th>
+<th title="Field #5">lavin_multi</th>
+<th title="Field #6">lavin_slasher</th>
+<th title="Field #7">no_lavin_tag</th>
+</tr></thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>61</td>
+</tr>
+<tr>
+<td>1</td>
+<td>4</td>
+<td>3</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>176</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0</td>
+<td>3</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>211</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+<td>7</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>103</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>56</td>
+</tr>
+<tr>
+<td>5</td>
+<td>2</td>
+<td>24</td>
+<td>7</td>
+<td>5</td>
+<td>0</td>
+<td>62</td>
+</tr>
+<tr>
+<td>6</td>
+<td>1</td>
+<td>4</td>
+<td>5</td>
+<td>2</td>
+<td>0</td>
+<td>96</td>
+</tr>
+<tr>
+<td>7</td>
+<td>1</td>
+<td>3</td>
+<td>2</td>
+<td>3</td>
+<td>0</td>
+<td>121</td>
+</tr>
+</tbody></table>
+
+#### Table 6: Same data with flag planting
+
+---
+
+# Preliminary Results
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">inferred</th>
+<th title="Field #2">lavin_deranged</th>
+<th title="Field #3">lavin_ghost</th>
+<th title="Field #4">lavin_magic</th>
+<th title="Field #5">lavin_multi</th>
+<th title="Field #6">lavin_slasher</th>
+<th title="Field #7">no_lavin_tag</th>
+</tr></thead>
+<tbody><tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>1</td>
+<td>4</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td>6</td>
+<td>5</td>
+<td>1</td>
+<td>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0</td>
+<td>22</td>
+<td>5</td>
+<td>2</td>
+<td>1</td>
+<td>6</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>5</td>
+<td>0</td>
+<td>2</td>
+</tr>
+<tr>
+<td>5</td>
+<td>2</td>
+<td>6</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>9</td>
+</tr>
+<tr>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+</tbody></table>
+
+#### Table 7: Flag planting, 100 features, on gothic-horror only
+
+---
+# Challenges Faced
+- ### Current difficulty with clustering appears to be a feature selection problem
+- ### When working at scale, bugs, mistakes and surprises take longer to solve
+- ### More refactoring on the fly has potential to cause even more mistakes
+- ### Clustering methods tend to have either a set number of clusters or bandwidth
+- ### Visualizing results of unsupervised learning
+- ### Assessing results of unsupervised learning
 
 ---
 
 # Lessons Learned
 
-- ### Numerous steps can be pre-processed and stored
+- ### See forked repo in [Github](https://github.com/mjlavin80/fiction)
+- ### Numerous steps can be pre-processed and stored (punctuation scrubbing, reducing to features)
 - ### Cost-benefit analysis of optimization changes at scale
-- ### More Performant Code = More Time to Do Tests and Analyze
+- ### Experimented with iterating over flat files, mysql database, and pickled data (.p files)
 - ### Feature dictionaries are most performant
 - ### Sklearn pipe feature with pickled data (built from db) is fastest and most portable
 - ### Haven't tried going straight from flat file to .p data
@@ -162,18 +820,15 @@ University of Pittsburgh
 # Next Steps
 
 - ### Logistic regression using additional feature selection methods
- - ### By removing top N features most correlated with date
- - ### BY selecting only top N features correlated with genre
+ - #### By removing top N features most correlated with date
+ - #### By selecting only top N features correlated with genre
 - ### Multi-label and multi-class machine learning
 - ### Expansion of gothic and horror corpus
- - ### Tag not just by topic but by medium of first publication (periodical, pulp, etc.)
+ - #### Tag not just by topic but by medium of first publication (periodical, pulp, etc.)
 - ### Next Spring: First Experiences in Research program
- - ### Three undergrads working on "Gothic and Horror Bibliography"
+ - #### Three undergrads working on "Gothic and Horror Bibliography"
 - ### Better visualizations for unsupervised learning results?
 
----
-class: center, middle
-# Teaching Ideas
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
     </script>

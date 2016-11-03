@@ -1,5 +1,3 @@
-
-
 def dictionaries_of_features(list_of_dictionaries, feature_list):
     import pandas as pd
     """Loops through the list of dictionaries supplied, gathers counts for each term in the feature list,
@@ -55,3 +53,15 @@ def make_genres_big(piped_genres):
             final_genre = g[0]
         big_genres.append(final_genre)
     return big_genres
+
+def make_feature_list(csv, col, N):
+    import pandas as pd
+    df = pd.read_csv(csv)
+    #sort by col
+    ## make sure it's descending
+    df[col] = [abs(i) for i in list(df[col])]
+    # Convert correlations to absolute values
+    new_df = df.sort_values(by=col)
+    #convert top N features to list
+    list_of_features = list(new_df["term"])[-N:]
+    return list_of_features

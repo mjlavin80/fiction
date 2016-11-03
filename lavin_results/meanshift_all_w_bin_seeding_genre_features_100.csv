@@ -1,0 +1,985 @@
+,docid,group_label,genres,year,author,title,processed_genre,final_genre,lavin_genre
+0,492,0,teamred | random,1921,"Lesuire, Robert Martin,",The savages of Europe,[],non_genre,no_lavin_tag
+636,648,0,teamred | chiscifi,1942,"Merritt, Abraham,",The metal monster,['scifi'],scifi,no_lavin_tag
+637,649,0,chirandom | teamred | chimyst,1943,"Heyer, Georgette,",Faro's daughter,['crime'],crime,no_lavin_tag
+638,650,0,chirandom | teamred | chimyst,1943,"Lewis, C. S.",The Screwtape letters,['crime'],crime,no_lavin_tag
+639,651,0,chirandom | teamblack,1943,"Knight, Eric,",Sam Small flies again (Th,[],non_genre,no_lavin_tag
+640,652,0,hardboiled | chimyst | teamred,1943,"Merritt, Abraham,",Burn: witch: burn!,['crime'],crime,no_lavin_tag
+641,653,0,teamred | det100 | chimyst | cozy | stew,1943,"Rinehart, Mary Roberts,",The door,['crime'],crime,no_lavin_tag
+642,654,0,teamred | chifantasy | chiscifi,1944,"Eberhart, Mignon Good",Wolf in man's clothing,['scifi'],scifi,no_lavin_tag
+643,655,0,chirandom | teamred | chimyst,1944,"Gardner, Erle Stanley,",The case of the empty tin,['crime'],crime,no_lavin_tag
+644,656,0,chifantasy | teamblack | chimyst,1944,"Rice, Craig,",The big midget murders,['crime'],crime,no_lavin_tag
+645,657,0,chirandom | teamred,1944,"Marsh, Ngaio,",A man lay dead,[],non_genre,no_lavin_tag
+646,673,0,teamblack | chiscifi | stew,1946,"Christie, Agatha,",Five little pigs,['scifi'],scifi,no_lavin_tag
+647,645,0,det100 | teamblack | chimyst,1942,"Stapledon, Olaf,",Darkness and the light,['crime'],crime,no_lavin_tag
+635,647,0,chirandom | teamblack | chimyst | stew,1942,"Christie, Agatha,",N or M?,['crime'],crime,no_lavin_tag
+648,660,0,hardboiled | teamblack | chimyst,1945,"Marsh, Ngaio,",Colour scheme,['crime'],crime,no_lavin_tag
+650,663,0,chirandom | teamred,1945,"Green, Henry,",Caught,[],non_genre,no_lavin_tag
+651,664,0,teamred | chimyst,1945,"Cain, James M.",Double indemnity,['crime'],crime,no_lavin_tag
+652,665,0,chirandom | teamblack,1946,"Queen, Ellery,",There was an old woman,[],non_genre,no_lavin_tag
+653,666,0,chirandom | teamblack,1946,"Burroughs, Edgar Rice,",Land of terror,[],non_genre,no_lavin_tag
+654,667,0,teamred | chiscifi | stew,1946,"Brackett, Leigh,",No good from a corpse,['scifi'],scifi,no_lavin_tag
+655,668,0,teamblack | chiscifi | stew,1946,"Hughes, Dorothy B.",The delicate ape,['scifi'],scifi,no_lavin_tag
+656,669,0,teamred | det100 | chimyst,1946,"Joyce, James,",Stephen hero,['crime'],crime,no_lavin_tag
+657,670,0,teamred | chiscifi,1946,"Walker, Mildred",Winter wheat,['scifi'],scifi,no_lavin_tag
+658,671,0,chirandom | teamblack,1946,"Lewis, C. S.",That hideous strength,[],non_genre,no_lavin_tag
+659,672,0,teamred | chiscifi,1946,"Hughes, Dorothy B. 1904- ",Dread journey,['scifi'],scifi,no_lavin_tag
+660,658,0,chirandom | teamred,1944,"Halliday, Brett,",Murder is my business,[],non_genre,no_lavin_tag
+661,674,0,chirandom | teamblack,1946,"Orwell, George,",Animal farm,[],non_genre,no_lavin_tag
+649,661,0,teamred | chimyst,1945,"Wentworth, Patricia,",Miss Silver deals with de,['crime'],crime,no_lavin_tag
+662,675,0,teamblack | chiscifi,1946,"Stein, Gertrude,",Wars I have seen,['scifi'],scifi,no_lavin_tag
+634,646,0,chirandom | teamblack | chimyst | cozy,1942,"Atkinson, Eleanor,",Greyfriars Bobby,['crime'],crime,no_lavin_tag
+632,644,0,teamred | det100 | chimyst,1942,"Rawson, Clayton,",The headless lady,['crime'],crime,no_lavin_tag
+606,618,0,chiutopia | teamblack,1938,"Burroughs, Edgar Rice,",Tarzan and the leopard me,['scifi'],scifi,no_lavin_tag
+607,619,0,chirandom | chiutopia | teamblack | chiscifi | stew,1938,"Innes, Michael,",Death at the president's ,['scifi'],scifi,no_lavin_tag
+608,620,0,chirandom | teamred,1938,"Gellhorn, Martha,",The trouble I've seen,[],non_genre,no_lavin_tag
+609,621,0,teamred | pbgothic | stew,1938,"Latimer, Jonathan,",Murder in the madhouse,['gothic'],gothic,no_lavin_tag
+610,622,0,teamblack | chimyst | stew,1938,"Bristow, Gwen,",Deep summer,['crime'],crime,no_lavin_tag
+611,623,0,teamred | chiscifi,1938,"Wells, H. G.",Star-begotten,['scifi'],scifi,no_lavin_tag
+612,624,0,det100 | teamblack,1938,"Rhode, John",The harvest murder,['crime'],crime,no_lavin_tag
+613,625,0,teamred | chiscifi,1938,"Steinbeck, John,",Of mice and men,['scifi'],scifi,no_lavin_tag
+614,626,0,teamred | chimyst,1939,"Pseudoman, Akkad,",Zero to eighty,['crime'],crime,no_lavin_tag
+615,627,0,teamblack | chimyst,1939,"Allingham, Margery,",Dancers in mourning,['crime'],crime,no_lavin_tag
+616,642,0,chirandom | teamred | chimyst,1942,"Linklater, Eric,",Juan in China,['crime'],crime,no_lavin_tag
+617,643,0,det100 | teamblack | cozy,1942,"Sarton, May,",The single hound,['crime'],crime,no_lavin_tag
+633,659,0,chifantasy | teamblack | chiscifi,1945,"Shute, Nevil,",Landfall,['scifi'],scifi,no_lavin_tag
+618,630,0,hardboiled | det100 | teamblack | chimyst,1939,"Wright, S. Fowler,",The adventure of Wyndham ,['crime'],crime,no_lavin_tag
+620,632,0,teamred | chimyst | stew,1940,"Du Maurier, Daphne,",Rebecca,['crime'],crime,no_lavin_tag
+621,633,0,teamred | chimyst | stew,1940,"Connington, J. J.",Murder will speak,['crime'],crime,no_lavin_tag
+622,634,0,chirandom | teamblack,1940,"Priestley, J. B.",The doomsday men,[],non_genre,no_lavin_tag
+623,635,0,chirandom | teamred,1940,"Carr, John Dickson",To wake the dead,[],non_genre,no_lavin_tag
+624,636,0,chirandom | teamblack | chimyst,1941,"Burroughs, Edgar Rice,",The lad and the lion,['crime'],crime,no_lavin_tag
+625,637,0,teamred | chiscifi | stew,1941,"Freeman, R. Austin,",The stoneware monkey,['scifi'],scifi,no_lavin_tag
+626,638,0,chirandom | teamred,1941,"Berkeley, Anthony,",Death in the house,[],non_genre,no_lavin_tag
+627,639,0,chirandom | chifantasy | teamblack,1942,"Allan, Ted,",This time a better earth,[],non_genre,no_lavin_tag
+628,640,0,chirandom | teamblack,1942,"Stout, Rex,",Mountain cat Murders,[],non_genre,no_lavin_tag
+629,641,0,teamred | chimyst | chiscifi | stew,1942,"Chandler, Raymond,",The big sleep,"['scifi', 'crime']",multi,no_lavin_tag
+630,628,0,chirandom | teamred,1939,"Chandler, Raymond,",Farewell My Lovely,[],non_genre,no_lavin_tag
+631,629,0,teamred | det100 | chimyst,1939,"Reilly, Helen,",The dead can tell,['crime'],crime,no_lavin_tag
+619,631,0,det100 | teamblack | hardboiled | stew,1940,"Hyde, Robin,",The godwits fly,['crime'],crime,no_lavin_tag
+605,617,0,chirandom | teamred,1937,"Lewis, Sinclair,",It can't happen here,[],non_genre,no_lavin_tag
+663,676,0,teamblack | pbgothic | stew,1946,"Armstrong, Charlotte,",The innocent flower,['gothic'],gothic,no_lavin_tag
+665,679,0,chirandom | teamblack,1947,"Forester, C. S.",Lord Hornblower,[],non_genre,no_lavin_tag
+696,710,0,chifantasy | teamblack,1950,"Myers, John Myers,",Silverlock,[],non_genre,no_lavin_tag
+697,711,0,teamblack | chimyst,1950,"Zagat, Arthur Leo,",Seven out of time,['crime'],crime,no_lavin_tag
+698,712,0,chifantasy | teamblack,1950,"Stout, Rex,",The second confession,[],non_genre,no_lavin_tag
+699,713,0,chirandom | teamred,1950,"Wright, S. Fowler,",The Amphibians,[],non_genre,no_lavin_tag
+700,714,0,teamblack | chiscifi | stew,1950,"Wentworth, Patricia,",The Catherine-wheel,['scifi'],scifi,no_lavin_tag
+701,715,0,chirandom | teamblack,1950,"Howard, Robert E.",Conan the conqueror,[],non_genre,no_lavin_tag
+702,716,0,teamred | chimyst,1950,"Symons, Julian,",The 31st of February,['crime'],crime,no_lavin_tag
+703,717,0,chirandom | teamblack | chiscifi,1950,"Pragnell, Festus,",The green man of Graypec,['scifi'],scifi,no_lavin_tag
+704,718,0,teamred | chiscifi | stew,1951,"Stapledon, Olaf,",A man divided,['scifi'],scifi,no_lavin_tag
+705,719,0,hardboiled | chimyst | teamred,1951,"Wentworth, Patricia,",Through the wall,['crime'],crime,no_lavin_tag
+706,707,0,teamred | chifantasy | chiscifi | stew,1950,"Phillips, Rog,",Worlds within,['scifi'],scifi,no_lavin_tag
+707,720,0,teamblack | chimyst,1951,"Seton, Anya,",Foxfire,['crime'],crime,no_lavin_tag
+695,709,0,chirandom | teamred | chimyst | stew,1950,"Palmer, Stuart,",Four lost ladies,['crime'],crime,no_lavin_tag
+708,722,0,chirandom | teamred | chiscifi,1951,"Lessing, Doris,",The grass is singing,['scifi'],scifi,no_lavin_tag
+710,724,0,teamred | chimyst | cozy,1952,"Crispin, Edmund,",Frequent hearses,['crime'],crime,no_lavin_tag
+711,725,0,chirandom | teamblack | chiscifi | stew,1952,"Bentley, E. C.",Elephant's work,['scifi'],scifi,no_lavin_tag
+712,726,0,teamred | chimyst | stew,1952,"Castor, Henry,",The year of the Spaniard,['crime'],crime,no_lavin_tag
+713,727,0,teamblack | chiscifi,1952,"Asimov, Isaac,",I: robot,['scifi'],scifi,no_lavin_tag
+714,728,0,chirandom | hardboiled | teamblack | chimyst | stew,1952,"Fast, Howard,",The proud and the free,['crime'],crime,no_lavin_tag
+715,729,0,chirandom | teamblack | chiscifi | stew,1952,"Coxe, George Harmon,",The frightened fiancï¿½e,['scifi'],scifi,no_lavin_tag
+716,730,0,chirandom | teamblack | chimyst,1952,"Van Vogt, A. E. 1912-2000",The house that stood stil,['crime'],crime,no_lavin_tag
+717,731,0,chirandom | teamblack,1952,"Wylie, Philip,",The disappearance,[],non_genre,no_lavin_tag
+718,732,0,teamred | chiscifi,1953,"Spillane, Mickey,",The big kill,['scifi'],scifi,no_lavin_tag
+719,733,0,chirandom | teamblack | chiscifi | stew,1953,"Davis, Dorothy Salisbury,",A gentle murderer,['scifi'],scifi,no_lavin_tag
+720,721,0,teamred | chiscifi,1951,"Asimov, Isaac,",Foundation,['scifi'],scifi,no_lavin_tag
+721,614,0,chirandom | teamred,1937,"Merwin, Sam,",The house of many worlds,[],non_genre,no_lavin_tag
+709,723,0,teamblack | chiscifi | stew,1951,"Lewis, C. S.",The lion: the witch and t,['scifi'],scifi,no_lavin_tag
+664,678,0,chirandom | teamred | chiscifi,1947,"Koestler, Arthur,",Thieves in the night,['scifi'],scifi,no_lavin_tag
+694,708,0,chirandom | teamblack,1950,"Orwell, George,",Nineteen eighty-four,[],non_genre,no_lavin_tag
+692,705,0,teamred | chiscifi,1950,"Christie, Agatha,",Crooked house,['scifi'],scifi,no_lavin_tag
+666,680,0,chirandom | teamblack,1947,"Taine, John,",The time stream,[],non_genre,no_lavin_tag
+667,681,0,chirandom | teamred,1947,"Sherman, Harold M.",The green man,[],non_genre,no_lavin_tag
+668,682,0,chirandom | teamred,1947,"Stout, Rex,",The silent speaker,[],non_genre,no_lavin_tag
+669,683,0,teamred | chifantasy,1947,"Rand, Ayn,",Anthem,[],non_genre,no_lavin_tag
+670,684,0,teamred | chiscifi,1947,"Welty, Eudora,",Delta Wedding,['scifi'],scifi,no_lavin_tag
+671,685,0,chirandom | det100 | teamblack | chimyst | cozy | stew,1948,"Wellman, Manly Wade,",The solar invasion,['crime'],crime,no_lavin_tag
+672,686,0,chirandom | chiutopia | teamblack,1948,"Van Vogt, A. E. 1912-  (A",Slan,['scifi'],scifi,no_lavin_tag
+673,687,0,chirandom | teamred,1948,"Busch, Niven,",Day of the conquerors,[],non_genre,no_lavin_tag
+674,688,0,chifantasy | teamblack | chihorror | chiscifi,1948,"Cummings, Ray,",The shadow girl,"['scifi', 'gothic']",multi,no_lavin_tag
+675,689,0,teamred | chimyst,1948,"Peake, Mervyn,",Titus Groan,['crime'],crime,no_lavin_tag
+676,677,0,teamred | det100 | chimyst,1946,"Fair, A. A.",Crows can't count,['crime'],crime,no_lavin_tag
+677,690,0,teamred | pbgothic | chiscifi | lavin_ghost | lavin_magic,1948,"Heinlein, Robert A.",Rocket ship Galileo,"['scifi', 'gothic']",multi,lavin_multi
+693,706,0,chirandom | teamblack | chimyst,1950,"Ferrars, E. X,",The March Hare murders,['crime'],crime,no_lavin_tag
+678,692,0,teamblack | chimyst,1948,"Hartley, L. P.",Eustace and Hilda,['crime'],crime,no_lavin_tag
+680,694,0,chirandom | teamred | chimyst,1949,"Robins, Denise,",More than love,['crime'],crime,no_lavin_tag
+681,695,0,teamblack | chiscifi,1949,"Myers, John Myers,",The wild Yazoo,['scifi'],scifi,no_lavin_tag
+682,696,0,chirandom | teamblack | chimyst,1949,"Van Vogt, A. E. 1912-2000",The book of Ptath,['crime'],crime,no_lavin_tag
+683,697,0,teamred | chifantasy,1949,"Taine, John,",The forbidden garden,[],non_genre,no_lavin_tag
+684,698,0,teamblack | chiscifi,1949,"Queen, Ellery,",Ten days' wonder,['scifi'],scifi,no_lavin_tag
+685,699,0,teamred | det100 | chimyst,1949,"Skinner, B. F.",Walden Two,['crime'],crime,no_lavin_tag
+686,700,0,teamred | chiscifi,1949,"Wilder, Thornton,",The ides of March,['scifi'],scifi,no_lavin_tag
+687,701,0,chirandom | teamred,1949,"Williamson, Jack,",Darker than you think,[],non_genre,no_lavin_tag
+688,702,0,chifantasy | teamblack,1950,"Brown, Fredric,",The dead ringer,[],non_genre,no_lavin_tag
+689,703,0,teamred | chimyst,1950,"Derleth, August,",Two stories by Derleth,['crime'],crime,no_lavin_tag
+690,691,0,teamred | chiscifi,1948,"Smith, E. E.",Skylark three,['scifi'],scifi,no_lavin_tag
+691,704,0,teamred | chifantasy,1950,"Mitchell, Gladys,",The Dancing Druids,[],non_genre,no_lavin_tag
+679,693,0,chirandom | teamred | chimyst,1949,"Blunden, Godfrey",A Room on the Route,['crime'],crime,no_lavin_tag
+604,616,0,chirandom | teamred | chimyst | cozy,1937,"Heyer, Georgette,",Regency buck,['crime'],crime,no_lavin_tag
+603,615,0,chirandom | teamblack | chiscifi,1937,"Marsh, Ngaio,",The nursing home murder,['scifi'],scifi,no_lavin_tag
+602,613,0,teamred | det100 | stew,1937,"McKinney, J. P,",Crucible,['crime'],crime,no_lavin_tag
+515,524,0,chirandom | teamblack,1924,"French, Joseph Lewis,",Masterpieces of mystery,[],non_genre,no_lavin_tag
+516,525,0,teamblack | chimyst,1924,"French, Joseph Lewis,",Masterpieces of mystery,['crime'],crime,no_lavin_tag
+517,526,0,teamblack | chimyst,1924,"French, Joseph Lewis,",Masterpieces of mystery,['crime'],crime,no_lavin_tag
+518,527,0,teamblack | chiscifi | stew,1925,"Oppenheim, E. Phillips,",Michael's evil deeds,['scifi'],scifi,no_lavin_tag
+519,528,0,chirandom | teamred,1925,"Phillpotts, Eden,",The red Redmaynes,[],non_genre,no_lavin_tag
+520,529,0,chirandom | det100 | teamblack | stew,1925,"Le Queux, William,",The voice from the void,['crime'],crime,no_lavin_tag
+521,530,0,teamred | chimyst,1925,"Burroughs, Edgar Rice,",Pellucidar,['crime'],crime,no_lavin_tag
+522,531,0,chirandom | det100 | teamblack,1925,"Wells, H. G.",Men like gods,['crime'],crime,no_lavin_tag
+523,532,0,teamred | chifantasy,1926,"Bromfield, Louis,",The green bay tree,[],non_genre,no_lavin_tag
+524,533,0,chirandom | teamblack | chimyst,1926,"Freeman, R. Austin,",The red thumb mark,['crime'],crime,no_lavin_tag
+525,519,0,teamred | chimyst,1923,"Fletcher, J. S.",The safety pin,['crime'],crime,no_lavin_tag
+526,520,0,det100 | teamblack,1923,"Burroughs, Edgar Rice,",The moon men,['crime'],crime,no_lavin_tag
+514,522,0,teamred | chiscifi | stew,1923,"Traprock, Walter E.",My northern exposure,['scifi'],scifi,no_lavin_tag
+527,536,0,chifantasy | teamblack,1927,"Ford, Ford Madox,",No more parades,[],non_genre,no_lavin_tag
+529,538,0,chirandom | teamblack,1927,"Knox, Ronald Arbuthnott,",The viaduct murder,[],non_genre,no_lavin_tag
+530,539,0,chirandom | teamblack,1927,"Christie, Agatha,",Poirot investigates,[],non_genre,no_lavin_tag
+531,540,0,teamred | chimyst,1927,"Fraser, Ronald,",Flower phantoms,['crime'],crime,no_lavin_tag
+532,541,0,chirandom | teamred | chimyst,1927,"Gask, Arthur,",Cloud: the smiter,['crime'],crime,no_lavin_tag
+533,542,0,teamblack | pbgothic | lavin_magic,1927,"Van Dine, S. S",The Benson murder case,['gothic'],gothic,lavin_magic
+534,543,0,teamblack | chimyst,1928,"Biggers, Earl Derr,",Fifty candles,['crime'],crime,no_lavin_tag
+535,544,0,teamblack | chiscifi,1928,"Mirrlees, Hope,",Lud-in-the-Mist,['scifi'],scifi,no_lavin_tag
+536,545,0,teamblack | chiscifi,1928,"Buchan, John,",Witch wood,['scifi'],scifi,no_lavin_tag
+537,546,0,teamred | chimyst,1928,"Woolf, Virginia,",To the lighthouse,['crime'],crime,no_lavin_tag
+538,547,0,chirandom | teamred | det100,1928,"Hill, Grace Livingston,",Job's niece,['crime'],crime,no_lavin_tag
+539,534,0,teamred | det100,1926,"Keeler, Harry Stephen,",Find the clock,['crime'],crime,no_lavin_tag
+540,548,0,teamred | chifantasy | chiscifi,1928,"Glaspell, Susan,",A jury of her peers,['scifi'],scifi,no_lavin_tag
+528,537,0,chirandom | chifantasy | teamblack,1927,"Phillpotts, Eden,",A voice from the dark,[],non_genre,no_lavin_tag
+541,734,0,chirandom | teamred | chiscifi | stew,1953,"Lovecraft, H. P.",The Case of Charles Dexter Ward,['scifi'],scifi,no_lavin_tag
+513,521,0,teamred | chimyst,1923,"Hope, Laura Lee.",The Bobbsey Twins at the ,['crime'],crime,no_lavin_tag
+511,518,0,teamblack | locdetmyst | locghost | lavin_ghost,1922,"Jewell, Edward Alden,",The moth decides,"['gothic', 'crime']",multi,lavin_ghost
+484,491,0,teamred | locghost | lavin_ghost,1921,"Traprock, Walter E.",The cruise of the Kawa : ,['gothic'],gothic,lavin_ghost
+485,983,0,chirandom | teamblack,1989,"Byrne, Donn,",Messer Marco Polo,[],non_genre,no_lavin_tag
+486,493,0,chirandom | teamred,1921,"Seaman, Augusta Huiell,",The dragon's secret,[],non_genre,no_lavin_tag
+487,494,0,teamred | chifantasy,1921,"Burroughs, Edgar Rice,",The mucker,[],non_genre,no_lavin_tag
+488,495,0,chirandom | teamred,1921,"Nathan, Robert,",Autumn,[],non_genre,no_lavin_tag
+489,496,0,teamred | random,1922,AnonymousGhost3,Humorous ghost stories,[],non_genre,no_lavin_tag
+490,497,0,teamred | femscifi | anatscifi,1922,"Rhys, Ernest,",The haunters & the haunte,['scifi'],scifi,no_lavin_tag
+492,499,0,teamblack | locghost | stew | lavin_ghost,1922,"Putnam, Nina Wilcox,",West Broadway,['gothic'],gothic,lavin_ghost
+493,500,0,chirandom | teamred,1922,"Bennett, John,",Madame Margot,[],non_genre,no_lavin_tag
+494,501,0,teamblack | locdetmyst | locghost | stew | lavin_ghost,1922,"Sawyer, Ruth,",The silver sixpence,"['gothic', 'crime']",multi,lavin_ghost
+495,517,0,teamblack | locdetmyst | locghost | lavin_ghost,1922,"Lewis, Sinclair,",Babbitt,"['gothic', 'crime']",multi,lavin_ghost
+496,502,0,teamred | random,1922,"Hamilton, Cicely,",Theodore savage,[],non_genre,no_lavin_tag
+512,535,0,teamred | det100 | chimyst,1926,"Emerson, Alice B.",Ruth Fielding on the St. ,['crime'],crime,no_lavin_tag
+497,504,0,teamred | locdetmyst,1922,"Marquand, John P.",The unspeakable gentleman,['crime'],crime,no_lavin_tag
+499,506,0,chirandom | teamblack,1922,"Masters, Edgar Lee,",Children of the market pl,[],non_genre,no_lavin_tag
+500,507,0,chirandom | teamred | juvenile | drop,1922,"French, Joseph Lewis,",Masterpieces of mystery,[],non_genre,no_lavin_tag
+501,508,0,teamblack | chiscifi | stew,1922,"Squier, Emma-Lindsay,",The wild heart,['scifi'],scifi,no_lavin_tag
+502,509,0,teamred | random,1922,"Forrest, Michael D",Father Justin,[],non_genre,no_lavin_tag
+503,510,0,chirandom | teamred,1922,"Dougherty, Harry V.",Well-- who killed him?,[],non_genre,no_lavin_tag
+504,511,0,chirandom | teamred,1922,"Wells, Carolyn,",The vanishing of Betty Va,[],non_genre,no_lavin_tag
+505,512,0,teamblack | random,1922,"Sampson, Emma Speed,",The shorn lamb,[],non_genre,no_lavin_tag
+506,513,0,teamred | locdetmyst | juvenile | drop,1922,"Paine, Ralph Delahaye,",Blackbeard: buccaneer,['crime'],crime,no_lavin_tag
+507,514,0,teamblack | locdetmyst | juvenile | drop,1922,"Burroughs, Edgar Rice,",The chessmen of Mars,['crime'],crime,no_lavin_tag
+508,515,0,chirandom | teamblack,1922,"Marquand, John P.",The unspeakable gentleman,[],non_genre,no_lavin_tag
+509,503,0,teamred | random,1922,"Kyne, Peter B.",Cappy Ricks retires,[],non_genre,no_lavin_tag
+510,516,0,teamblack | locdetmyst | locghost | lavin_ghost,1922,"Hough, Emerson,",The young Alaskans on the,"['gothic', 'crime']",multi,lavin_ghost
+498,505,0,teamred | det100,1922,"Munford, George Frederick",Ghosts and legends of Sou,['crime'],crime,no_lavin_tag
+542,549,0,teamblack | chimyst | stew,1928,"Esteven, John,",The door of death,['crime'],crime,no_lavin_tag
+543,552,0,teamblack | chiscifi | stew,1929,"Cox, Erle,",Out of the silence,['scifi'],scifi,no_lavin_tag
+544,553,0,hardboiled | det100 | teamblack | chimyst,1929,"Burroughs, Edgar Rice,",The master mind of Mars,['crime'],crime,no_lavin_tag
+576,587,0,chifantasy | teamblack,1932,"Leinster, Murray,",Murder madness,[],non_genre,no_lavin_tag
+577,588,0,chiutopia | teamblack | chiscifi,1932,"Merritt, Abraham,",Face in the abyss,['scifi'],scifi,no_lavin_tag
+578,589,0,chirandom | teamred,1932,"Connington, J. J.",The boathouse riddle,[],non_genre,no_lavin_tag
+579,590,0,chirandom | teamred,1932,"Cummings, Ray,",Brigands of the moon,[],non_genre,no_lavin_tag
+580,591,0,teamblack | pbgothic,1932,"Rohmer, Sax,",Daughter of Fu Manchu,['gothic'],gothic,no_lavin_tag
+581,592,0,chirandom | teamred | chimyst,1933,"Armstrong, Martin,",The romantic adventures o,['crime'],crime,no_lavin_tag
+582,593,0,chiutopia | chifantasy | teamblack,1933,"Snow, C. P.",Death under sail,['scifi'],scifi,no_lavin_tag
+583,594,0,chiutopia | teamblack,1933,"Stapledon, Olaf,",Last men in London,['scifi'],scifi,no_lavin_tag
+584,595,0,teamred | chimyst,1933,"Shute, Nevil,",Lonely road,['crime'],crime,no_lavin_tag
+585,596,0,chifantasy | teamblack | chihorror | stew,1933,"Evans, Margiad,",Country dance,['gothic'],gothic,no_lavin_tag
+586,583,0,teamblack | chimyst | stew,1932,"Bramah, Ernest,",The moon of much gladness,['crime'],crime,no_lavin_tag
+587,597,0,chirandom | teamred | chimyst,1933,"Huxley, Aldous,",Brave new world,['crime'],crime,no_lavin_tag
+575,586,0,chirandom | teamred,1932,"Merritt, Abraham,",The face in the abyss,[],non_genre,no_lavin_tag
+588,599,0,chirandom | teamred,1934,"Morgan, Charles,",The fountain,[],non_genre,no_lavin_tag
+590,601,0,teamblack | pbgothic | stew,1934,"Faulkner, William",Light in August,['gothic'],gothic,no_lavin_tag
+591,602,0,chirandom | teamblack,1935,"White, Ethel Lina,",Put out the light,[],non_genre,no_lavin_tag
+592,603,0,chirandom | teamred,1935,"Hilton, James,",Lost horizon,[],non_genre,no_lavin_tag
+593,604,0,chirandom | teamblack | chimyst | cozy,1935,"Herrick, Robert,",Sometime,['crime'],crime,no_lavin_tag
+594,605,0,chirandom | teamblack,1935,"Oppenheim, E. Phillips,",Murder at Monte Carlo,[],non_genre,no_lavin_tag
+595,606,0,teamred | chiscifi,1935,"Endore, S. Guy,",The werewolf of Paris,['scifi'],scifi,no_lavin_tag
+596,607,0,chifantasy | teamblack,1935,"Franklin, Miles,",Bring the monkey,[],non_genre,no_lavin_tag
+597,608,0,chirandom | teamred | chimyst | stew,1936,"Dickson, Carter,",The Plague court murders,['crime'],crime,no_lavin_tag
+598,609,0,chirandom | teamred,1936,"Linklater, Eric,",Magnus Merriman,[],non_genre,no_lavin_tag
+599,610,0,teamblack | chimyst,1936,"Teilhet, Darwin L.",The talking sparrow murde,['crime'],crime,no_lavin_tag
+600,611,0,chirandom | teamblack,1937,"Dinesen, Isak,",Seven Gothic Tales,[],non_genre,no_lavin_tag
+601,579,0,chirandom | teamblack | chimyst,1931,"Montgomery, L. M.",Mistress Pat,['crime'],crime,no_lavin_tag
+589,600,0,teamblack | chimyst,1934,"Dos Passos, John,",1919,['crime'],crime,no_lavin_tag
+574,585,0,chirandom | teamred,1932,"Hill, Grace Livingston,",The chance of a lifetime,[],non_genre,no_lavin_tag
+573,551,0,chirandom | teamblack,1929,"Queen, Ellery,",The Dutch shoe mystery,[],non_genre,no_lavin_tag
+572,598,0,chirandom | teamred | chimyst,1934,"Taylor, Phoebe Atwood",The Cape Cod mystery,['crime'],crime,no_lavin_tag
+545,554,0,teamred | chimyst | cozy,1929,"Keeler, Harry Stephen,",Sing Sing nights,['crime'],crime,no_lavin_tag
+546,555,0,teamblack | chimyst,1929,"Knox, Ronald Arbuthnott,",The footsteps at the lock,['crime'],crime,no_lavin_tag
+547,556,0,teamred | chiscifi | stew,1929,"Wright, S. Fowler,",The island of Captain Spa,['scifi'],scifi,no_lavin_tag
+548,557,0,teamred | chimyst,1929,"Wells, Carolyn,",Deep-Lake mystery,['crime'],crime,no_lavin_tag
+549,559,0,teamblack | chimyst,1930,"Burroughs, Edgar Rice,",The monster men,['crime'],crime,no_lavin_tag
+550,560,0,chirandom | teamblack,1930,"Lewis, Sinclair,",Dodsworth,[],non_genre,no_lavin_tag
+551,561,0,teamblack | chimyst | cozy,1930,"Kline, Otis Adelbert,",The planet of peril,['crime'],crime,no_lavin_tag
+552,562,0,chifantasy | teamblack,1930,"Hammett, Dashiell,",Red Harvest,[],non_genre,no_lavin_tag
+553,563,0,chirandom | teamblack,1930,"Christie, Agatha,",The Seven dials mystery,[],non_genre,no_lavin_tag
+554,564,0,teamred | chifantasy | chiscifi,1930,"Berkeley, Anthony,",The poisoned chocolates c,['scifi'],scifi,no_lavin_tag
+555,580,0,teamblack | chiscifi,1931,"Burroughs, Edgar Rice,",Tanar of Pellucidar,['scifi'],scifi,no_lavin_tag
+556,565,0,teamred | chiscifi | stew,1930,"Burnett, W. R.",Little Caesar,['scifi'],scifi,no_lavin_tag
+557,567,0,teamred | chimyst | stew,1930,"Wallace, Edgar,",The lone house mystery,['crime'],crime,no_lavin_tag
+558,568,0,hardboiled | det100 | teamblack | chimyst,1930,"Berkeley, Anthony,",The Piccadilly murder,['crime'],crime,no_lavin_tag
+559,569,0,teamblack | chiscifi,1930,"Manning, Frederic,",Her privates: we,['scifi'],scifi,no_lavin_tag
+560,570,0,chirandom | teamblack,1931,"Sayers, Dorothy L.",Strong poison,[],non_genre,no_lavin_tag
+561,825,0,chirandom | teamblack,1968,"Williams, Charles,",War in heaven,[],non_genre,no_lavin_tag
+562,572,0,teamblack | chiscifi,1931,"Stratemeyer, Edward,",With Taylor on the Rio Gr,['scifi'],scifi,no_lavin_tag
+563,573,0,det100 | teamblack,1931,"Burroughs, Edgar Rice,",Tarzan at the earth's cor,['crime'],crime,no_lavin_tag
+564,574,0,teamred | det100 | chimyst,1931,"Kline, Otis Adelbert,",Maza of the moon,['crime'],crime,no_lavin_tag
+565,575,0,chirandom | teamred,1931,"Stapledon, Olaf,",Last and first men,[],non_genre,no_lavin_tag
+566,576,0,chifantasy | teamblack | chiscifi,1931,"Oppenheim, E. Phillips,",The million pound deposit,['scifi'],scifi,no_lavin_tag
+567,577,0,teamblack | chiscifi,1931,"Hammett, Dashiell,",The Maltese falcon,['scifi'],scifi,no_lavin_tag
+568,578,0,teamred | chiscifi,1931,"Kline, Otis Adelbert,",The prince of peril,['scifi'],scifi,no_lavin_tag
+569,566,0,teamred | chiscifi | stew,1930,"Williams, Charles,",Many dimensions,['scifi'],scifi,no_lavin_tag
+570,581,0,teamblack | chimyst | stew,1931,"Smith, Thorne,",The night life of the god,['crime'],crime,no_lavin_tag
+571,582,0,chirandom | teamblack,1931,"Schuyler, George S.",Black no more,[],non_genre,no_lavin_tag
+722,550,0,teamred | chiscifi | stew,1929,"MacDonald, John D.",Wine of the dreamers,['scifi'],scifi,no_lavin_tag
+483,490,0,teamred | locghost | stew | lavin_ghost,1921,"Rice, Alice Caldwell Hega",Quin,['gothic'],gothic,lavin_ghost
+723,571,0,chifantasy | teamblack | chiscifi,1931,"Allingham, Margery,",The tiger in the smoke,['scifi'],scifi,no_lavin_tag
+725,766,0,teamblack | pbgothic | lavin_slasher,1959,"Brown, Fredric,",Deep end,['gothic'],gothic,lavin_slasher
+877,895,0,chirandom | teamred,1978,"Michaels, Fern,",Captive passions,[],non_genre,no_lavin_tag
+878,896,0,teamred | chihorror | stew,1978,"Segal, Erich,",Oliver's story,['gothic'],gothic,no_lavin_tag
+879,897,0,teamred | chimyst | stew,1978,"Leiber, Fritz,",Our lady of darkness,['crime'],crime,no_lavin_tag
+880,898,0,teamred | chihorror | stew | lavin_magic,1978,"Saul, John,",Suffer the children,['gothic'],gothic,lavin_magic
+881,899,0,teamred | chiscifi,1978,"Dick, Philip K,",A scanner darkly,['scifi'],scifi,no_lavin_tag
+882,900,0,teamred | chimyst | chihorror | lavin_magic,1978,"Sanders, Lawrence,",The second deadly sin,"['gothic', 'crime']",multi,lavin_magic
+883,901,0,chirandom | teamblack,1978,"Donaldson, Stephen R,",The power that preserves,[],non_genre,no_lavin_tag
+884,902,0,teamblack | chiscifi,1979,"Foster, Alan Dean,",The end of the matter,['scifi'],scifi,no_lavin_tag
+885,903,0,chirandom | teamred,1979,"Anthony, Piers,",A spell for Chameleon,[],non_genre,no_lavin_tag
+886,905,0,teamblack | chiscifi | stew,1979,"Donaldson, Stephen R,",The Illearth war,['scifi'],scifi,no_lavin_tag
+887,908,0,teamred | chifantasy | chiscifi,1979,"Sanchez, Thomas,",Zoot-suit murders,['scifi'],scifi,no_lavin_tag
+888,906,0,chirandom | teamblack,1979,"Peters, Elizabeth,",Street of the five moons,[],non_genre,no_lavin_tag
+876,894,0,chirandom | teamred,1978,"Jenkins, Dan,",Limo,[],non_genre,no_lavin_tag
+889,907,0,teamblack | chihorror | chiscifi | stew | lavin_ghost,1979,"Mcdonald, Gregory,",Fletch's fortune,"['scifi', 'gothic']",multi,lavin_ghost
+891,910,0,chirandom | teamblack,1980,"Bayer, William,",Tangier,[],non_genre,no_lavin_tag
+892,911,0,teamred | chiscifi,1980,"Strieber, Whitley",The wolfen,['scifi'],scifi,no_lavin_tag
+893,912,0,teamred | chihorror,1980,"Swift, Edward,",Splendora,['gothic'],gothic,no_lavin_tag
+894,913,0,chirandom | teamred,1980,"Brown, Wesley,",Tragic magic,[],non_genre,no_lavin_tag
+895,914,0,chimyst | pbgothic | teamred | lavin_slasher,1981,"Daniels, Les,",The black castle,"['gothic', 'crime']",multi,lavin_slasher
+896,915,0,chirandom | teamred,1981,"Wilcox, Collin,",The watcher,[],non_genre,no_lavin_tag
+897,916,0,teamblack | chimyst | stew,1981,"King, Stephen,",The stand,['crime'],crime,no_lavin_tag
+898,917,0,teamred | chiscifi | stew,1981,"Lustbader, Eric,",Shallows of night,['scifi'],scifi,no_lavin_tag
+899,918,0,teamblack | chiscifi,1981,"Estleman, Loren D,",Sherlock Holmes vs. Dracu,['scifi'],scifi,no_lavin_tag
+900,919,0,chirandom | teamred | chiscifi | stew,1981,"Adler, Warren,",The Casanova embrace,['scifi'],scifi,no_lavin_tag
+901,893,0,teamred | pbgothic,1978,"Schulman, J. Neil 1953-  ",Alongside night,['gothic'],gothic,no_lavin_tag
+902,889,0,teamred | chimyst,1978,"Gordon, Noah,",The Jerusalem diamond,['crime'],crime,no_lavin_tag
+890,909,0,chirandom | teamblack,1979,"Bova, Ben,",Colony,[],non_genre,no_lavin_tag
+903,880,0,teamred | chifantasy | chiscifi,1977,"Zebrowski, George,",Macrolife,['scifi'],scifi,no_lavin_tag
+875,737,0,chirandom | teamred,1953,"Lutz, John,",Buyer beware,[],non_genre,no_lavin_tag
+873,892,0,chirandom | teamblack,1978,"Vonnegut, Kurt,",Slapstick,[],non_genre,no_lavin_tag
+847,864,0,teamred | chimyst | stew,1974,"Pronzini, Bill,",The stalker,['crime'],crime,no_lavin_tag
+848,865,0,teamblack | chimyst,1974,"Levin, Ira,",The Stepford wives,['crime'],crime,no_lavin_tag
+849,866,0,chirandom | chifantasy | teamblack,1975,"Highsmith, Patricia,",A dog's ransom,[],non_genre,no_lavin_tag
+850,867,0,teamblack | chiscifi | stew,1975,"Millhauser, Steven,",Edwin Mullhouse,['scifi'],scifi,no_lavin_tag
+851,868,0,teamblack | chihorror | stew | lavin_magic,1976,"Malzberg, Barry N,",Herovit's world,['gothic'],gothic,lavin_magic
+852,869,0,teamblack | pbgothic | lavin_magic,1976,"Stout, Rex,",Please pass the guilt,['gothic'],gothic,lavin_magic
+853,870,0,teamblack | chiscifi,1976,"Spencer, Scott,",Last night at the brain t,['scifi'],scifi,no_lavin_tag
+854,871,0,teamblack | chimyst,1976,"Davis, Dorothy Salisbury,",The little brothers,['crime'],crime,no_lavin_tag
+855,872,0,chiutopia | chiscifi | teamred,1976,"Vonnegut, Kurt,",Breakfast of Champions,['scifi'],scifi,no_lavin_tag
+856,873,0,chirandom | teamblack,1976,"Gardner, John,",Jason and Medeia,[],non_genre,no_lavin_tag
+857,891,0,teamred | chiscifi | stew,1978,"MacDonald, John D.",The scarlet ruse,['scifi'],scifi,no_lavin_tag
+858,874,0,chifantasy | teamblack,1976,"Berryman, John,",Recovery,[],non_genre,no_lavin_tag
+874,920,0,teamblack | pbgothic | stew | lavin_magic,1981,"Butler, Octavia E,",Patternmaster,['gothic'],gothic,lavin_magic
+859,876,0,teamred | chimyst,1976,"Platt, Kin,",The Princess Stakes murde,['crime'],crime,no_lavin_tag
+861,878,0,chirandom | teamblack,1977,"Stark, Richard,",Butcher's moon,[],non_genre,no_lavin_tag
+862,879,0,chirandom | teamred,1977,"Le Guin, Ursula K.",The Dispossessed,[],non_genre,no_lavin_tag
+863,952,0,chirandom | teamred,1987,"Platt, Kin,",The giant kill,[],non_genre,no_lavin_tag
+864,881,0,teamred | chihorror | lavin_slasher,1977,"Harrison, Harry,",Queen Victoria's revenge,['gothic'],gothic,lavin_slasher
+865,882,0,teamblack | chiscifi,1977,"Stasheff, Christopher,",The warlock in spite of h,['scifi'],scifi,no_lavin_tag
+866,883,0,teamred | chimyst,1977,"Silverberg, Robert,",The stochastic man,['crime'],crime,no_lavin_tag
+867,884,0,chirandom | chifantasy | teamblack | chiscifi | stew,1977,"Farris, John,",The fury,['scifi'],scifi,no_lavin_tag
+868,885,0,chirandom | teamred | chiscifi,1977,"Rice, Anne",Interview with the vampir,['scifi'],scifi,no_lavin_tag
+869,886,0,chifantasy | teamblack,1977,"Niven, Larry,",A world out of time,[],non_genre,no_lavin_tag
+870,887,0,chifantasy | teamblack,1977,"Platt, Kin,",The body beautiful murder,[],non_genre,no_lavin_tag
+871,875,0,teamred | chifantasy | chiscifi,1976,"Piercy, Marge,",Woman on the edge of time,['scifi'],scifi,no_lavin_tag
+872,888,0,teamblack | chimyst,1978,"L'Amour, Louis,",To the Far Blue Mountains,['crime'],crime,no_lavin_tag
+860,877,0,chirandom | teamred,1976,"Piercy, Marge,",Small changes,[],non_genre,no_lavin_tag
+846,863,0,chiutopia | chiscifi | teamred,1974,"Thomas, Ross,",The fools in town are on ,['scifi'],scifi,no_lavin_tag
+904,862,0,chirandom | teamblack | crime,1974,"Dickson, Gordon R,",Masters of Everon,['crime'],crime,no_lavin_tag
+906,925,0,teamblack | chiscifi,1982,"King, Stephen,",The dead zone,['scifi'],scifi,no_lavin_tag
+937,957,0,chirandom | teamblack | chiscifi,1987,"Gibson, William",Neuromancer,['scifi'],scifi,no_lavin_tag
+938,958,0,chirandom | teamred | chimyst,1987,"Benford, Gregory,",Artifact,['crime'],crime,no_lavin_tag
+939,970,0,teamblack | chimyst | stew,1988,"Effinger, George Alec,",The nick of time,['crime'],crime,no_lavin_tag
+940,960,0,teamred | pbgothic | chihorror | lavin_slasher | lavin_deranged,1987,"Collins, Max Allan,",A shroud for Aquarius,['gothic'],gothic,lavin_multi
+941,961,0,chirandom | teamred,1987,"Dick, Philip K,",Puttering about in a smal,[],non_genre,no_lavin_tag
+942,962,0,teamblack | chimyst,1987,"MacLeod, Charlotte,",The plain old man,['crime'],crime,no_lavin_tag
+943,963,0,chifantasy | teamblack,1987,"Dickson, Gordon R,",The forever man,[],non_genre,no_lavin_tag
+944,964,0,teamblack | pbgothic | lavin_ghost,1987,"Friedman, Kinky,",Greenwich killing time,['gothic'],gothic,lavin_ghost
+945,965,0,chirandom | teamred,1987,"Dunlap, Susan,",The last annual slugfest,[],non_genre,no_lavin_tag
+946,966,0,chirandom | teamred,1987,"Foster, Alan Dean,",Into the out of,[],non_genre,no_lavin_tag
+947,967,0,teamred | chiscifi,1988,"Kerr, Katharine,",Daggerspell,['scifi'],scifi,no_lavin_tag
+948,959,0,chirandom | teamred,1987,"Logue, John,",Boats against the current,[],non_genre,no_lavin_tag
+936,924,0,teamblack | chimyst | stew,1982,"Muller, Marcia,",Games to keep the dark aw,['crime'],crime,no_lavin_tag
+949,956,0,teamblack | chiscifi | stew,1987,"Guild, Nicholas,",The Assyrian,['scifi'],scifi,no_lavin_tag
+951,980,0,chifantasy | teamblack | chimyst | chihorror | lavin_slasher | lavin_magic,1989,"Spencer, LaVyrle,",The gamble,"['gothic', 'crime']",multi,lavin_multi
+952,979,0,teamred | chifantasy | chiscifi,1989,"Hiaasen, Carl,",Double whammy,['scifi'],scifi,no_lavin_tag
+953,978,0,teamred | chihorror | chiscifi | stew,1989,"Parker, Robert B.",Pale kings and princes,"['scifi', 'gothic']",multi,no_lavin_tag
+954,977,0,chirandom | teamblack | chiscifi | stew,1989,"Braun, Lilian Jackson,",The cat who played Brahms,['scifi'],scifi,no_lavin_tag
+955,975,0,teamred | chimyst,1989,"Bonanno, Margaret Wander,",Strangers from the sky,['crime'],crime,no_lavin_tag
+956,976,0,teamblack | chihorror | stew,1989,"Williams, Walter Jon,",Voice of the whirlwind,['gothic'],gothic,no_lavin_tag
+957,973,0,teamred | chimyst,1989,"Friedman, Kinky,",A case of Lone Star,['crime'],crime,no_lavin_tag
+958,972,0,chirandom | teamblack | chimyst | stew,1988,"Flynn, Robert,",Wanderer Springs,['crime'],crime,no_lavin_tag
+959,971,0,teamred | chifantasy | chiscifi,1988,"King, Stephen,",Misery,['scifi'],scifi,no_lavin_tag
+960,969,0,chifantasy | teamblack,1988,"Gregory, Philippa,",Wideacre,[],non_genre,no_lavin_tag
+961,974,0,chirandom | teamblack | chimyst,1989,"Collins, Max Allan,",Spree,['crime'],crime,no_lavin_tag
+962,968,0,chifantasy | teamblack | pbgothic | stew | lavin_magic,1988,"Anthony, Piers,",Being a green mother,['gothic'],gothic,lavin_magic
+950,981,0,chirandom | teamred | chimyst | stew,1989,"Ray, Robert J. 1935-  (Ro",Murdock for hire,['crime'],crime,no_lavin_tag
+905,953,0,chirandom | teamred | chimyst,1987,"Cline, C. Terry,",Cross current,['crime'],crime,no_lavin_tag
+935,922,0,teamred | chiscifi,1981,"MacLeod, Charlotte,",The Convivial Codfish,['scifi'],scifi,no_lavin_tag
+933,932,0,chirandom | teamred | chiscifi | stew,1983,"May, Julian,",The nonborn king,['scifi'],scifi,no_lavin_tag
+907,926,0,teamblack | chihorror | stew | lavin_slasher | lavin_deranged,1982,"Stasheff, Christopher,",A wizard in Bedlam,['gothic'],gothic,lavin_multi
+908,927,0,teamblack | chimyst | stew,1982,"Braverman, Kate,",Lithium for Medea,['crime'],crime,no_lavin_tag
+909,929,0,chirandom | teamred,1983,"Jakes, John,",The Americans,[],non_genre,no_lavin_tag
+910,930,0,chirandom | teamblack,1983,"Kurland, Michael,",The last President,[],non_genre,no_lavin_tag
+911,931,0,chirandom | teamred | chimyst | stew,1983,"Andrews, V. C.  (Virginia",Petals on the wind,['crime'],crime,no_lavin_tag
+912,921,0,teamred | chiscifi | stew,1981,"Herzog, Arthur,",Aries rising,['scifi'],scifi,no_lavin_tag
+913,933,0,chirandom | teamblack,1983,"Harris, Thomas",Red dragon,[],non_genre,no_lavin_tag
+914,934,0,teamblack | chiscifi,1983,"Jones, Robert F.",Slade's glacier,['scifi'],scifi,no_lavin_tag
+915,935,0,teamred | chifantasy | chiscifi,1984,"Valin, Jonathan,",Dead Letter,['scifi'],scifi,no_lavin_tag
+916,936,0,teamred | chimyst,1984,"Niven, Larry,",Oath of fealty,['crime'],crime,no_lavin_tag
+917,954,0,teamblack | chimyst,1987,"Niven, Larry,",Dream Park,['crime'],crime,no_lavin_tag
+918,937,0,teamred | chimyst | stew,1984,"Vardeman, Robert E,",The Klingon gambit,['crime'],crime,no_lavin_tag
+934,982,0,teamred | chimyst | chiscifi,1989,"Cherryh, C. J,",Chanur's venture,"['scifi', 'crime']",multi,no_lavin_tag
+919,939,0,teamblack | chiscifi,1985,"Strieber, Whitley",The hunger,['scifi'],scifi,no_lavin_tag
+921,941,0,chirandom | teamred | chimyst,1985,"McIntyre, Vonda N,",The entropy effect,['crime'],crime,no_lavin_tag
+922,942,0,chirandom | teamblack,1985,"Hubbard, L. Ron,",Battlefield earth,[],non_genre,no_lavin_tag
+923,943,0,teamred | chimyst,1985,"Montalbano, William D,",Trap line,['crime'],crime,no_lavin_tag
+924,944,0,teamred | chiscifi,1986,"Bishop, Michael,",No enemy but time,['scifi'],scifi,no_lavin_tag
+925,945,0,teamblack | chimyst,1986,"Andrews, V. C.  (Virginia",My sweet Audrina,['crime'],crime,no_lavin_tag
+926,946,0,teamblack | chimyst | stew,1986,"Wilcox, Collin,",Stalking horse,['crime'],crime,no_lavin_tag
+927,947,0,teamred | chihorror | chiscifi | stew | lavin_magic,1986,"Lorrah, Jean,",Channel's destiny,"['scifi', 'gothic']",multi,lavin_magic
+928,948,0,teamred | chifantasy,1986,"Spellman, Cathy Cash,",So many partings,[],non_genre,no_lavin_tag
+929,949,0,chirandom | teamblack,1987,"Coldsmith, Don,",Follow the wind,[],non_genre,no_lavin_tag
+930,950,0,chirandom | teamblack,1987,"MacLeod, Charlotte,",Something the cat dragged,[],non_genre,no_lavin_tag
+931,938,0,teamred | pbgothic | chiscifi | stew,1984,"Foster, Alan Dean,",For love of mother-not,"['scifi', 'gothic']",multi,no_lavin_tag
+932,955,0,teamred | chimyst,1987,"Meade, Marion,",Sybille,['crime'],crime,no_lavin_tag
+920,940,0,chirandom | teamblack | chiscifi | stew,1985,"May, Julian,",The many-colored land,['scifi'],scifi,no_lavin_tag
+845,890,0,teamred | chimyst,1978,"Pentecost, Hugh,",The deadly joke,['crime'],crime,no_lavin_tag
+844,951,0,teamblack | chimyst | stew,1987,"Hjortsberg, William,",Gray matters,['crime'],crime,no_lavin_tag
+843,774,0,teamred | chimyst,1960,"Blatty, William Peter",The exorcist,['crime'],crime,no_lavin_tag
+756,859,0,chirandom | teamred,1973,"Dick, Philip K,",Eye in the sky,[],non_genre,no_lavin_tag
+757,769,0,teamred | chimyst,1959,"Taylor, Robert Lewis,",The travels of Jaimie McP,['crime'],crime,no_lavin_tag
+758,770,0,teamblack | chiscifi,1960,"Updike, John,",The poorhouse fair,['scifi'],scifi,no_lavin_tag
+759,771,0,chirandom | teamblack,1960,"MacInnes, Helen,",North from Rome,[],non_genre,no_lavin_tag
+760,772,0,chirandom | teamblack,1960,"Kirkland, Elithe Hamilton",Love is a wild assault,[],non_genre,no_lavin_tag
+761,773,0,teamblack | chimyst | stew,1960,"Gardner, Erle Stanley,",The case of the deadly to,['crime'],crime,no_lavin_tag
+762,735,0,chirandom | teamred | chiscifi | stew,1953,"Gantz, Kenneth Franklin,",Not in solitude,['scifi'],scifi,no_lavin_tag
+763,775,0,chirandom | teamred,1961,"Heinlein, Robert A.",Starship troopers,[],non_genre,no_lavin_tag
+764,776,0,chirandom | teamblack | chimyst,1961,"Himes, Chester B.",The crazy kill,['crime'],crime,no_lavin_tag
+765,778,0,teamred | chiscifi | stew,1962,"Bloch, Robert,",Psycho,['scifi'],scifi,no_lavin_tag
+766,779,0,chirandom | teamblack,1962,"Jackson, Shirley,",The Haunting of Hill House,[],non_genre,no_lavin_tag
+767,795,0,teamred | chimyst,1965,"Nin, Anais,",Children of the albatross,['crime'],crime,no_lavin_tag
+755,861,0,chirandom | teamred,1973,"Moore, C. L.",Doomsday morning,[],non_genre,no_lavin_tag
+768,780,0,teamblack | chihorror | chiscifi | lavin_magic,1962,"Stout, Rex,",Plot it yourself,"['scifi', 'gothic']",multi,lavin_magic
+770,782,0,chifantasy | teamblack | chiscifi,1962,"Sigal, Clancy,",Weekend in Dinlock,['scifi'],scifi,no_lavin_tag
+771,784,0,chirandom | teamblack | chimyst,1962,"MacInnes, Helen,",Decision at Delphi,['crime'],crime,no_lavin_tag
+772,785,0,teamblack | chimyst,1962,"McBain, Ed,",Give the boys a great big,['crime'],crime,no_lavin_tag
+773,786,0,chirandom | teamblack,1963,"Vance, Jack,",The man in the cage,[],non_genre,no_lavin_tag
+774,787,0,teamblack | chiscifi,1963,"Robbins, Harold,",The carpetbaggers,['scifi'],scifi,no_lavin_tag
+775,788,0,chirandom | teamblack,1963,"Stout, Rex,",The final deduction,[],non_genre,no_lavin_tag
+776,789,0,chirandom | teamblack,1964,"Galouye, Daniel F,",Dark universe,[],non_genre,no_lavin_tag
+777,790,0,chirandom | teamblack,1964,"Garrett, Randall,",Unwise child,[],non_genre,no_lavin_tag
+778,791,0,teamblack | chiscifi,1964,"Burroughs, William S.",The ticket that exploded,['scifi'],scifi,no_lavin_tag
+779,792,0,teamblack | chiscifi,1964,"Bradbury, Ray,",Something wicked this way,['scifi'],scifi,no_lavin_tag
+780,793,0,chirandom | teamred,1964,"Clifton, Mark,",When they come from space,[],non_genre,no_lavin_tag
+781,781,0,teamblack | chiscifi,1962,"L'Engle, Madeleine,",A wrinkle in time,['scifi'],scifi,no_lavin_tag
+769,768,0,chirandom | teamred,1959,"Sheckley, Robert,",Store of infinity,[],non_genre,no_lavin_tag
+782,489,0,chirandom | teamred,1921,"Huxley, Aldous,",Island,[],non_genre,no_lavin_tag
+754,794,0,chirandom | teamblack,1965,"Malvern, Gladys,",My lady: my love,[],non_genre,no_lavin_tag
+752,762,0,teamred | det100 | chimyst,1959,"Crane, Frances,",Horror on the Ruby X,['crime'],crime,no_lavin_tag
+726,765,0,chirandom | hardboiled | chimyst | teamred,1959,"Jones, Raymond F.",Son of the stars,['crime'],crime,no_lavin_tag
+727,738,0,chirandom | teamred,1953,"Spillane, Mickey,",Kiss me: deadly,[],non_genre,no_lavin_tag
+728,739,0,chirandom | teamred,1954,"Vonnegut, Kurt,",Player piano,[],non_genre,no_lavin_tag
+729,740,0,teamblack | chiscifi | stew,1954,"Powell, Richard,",A shot in the dark,['scifi'],scifi,no_lavin_tag
+730,741,0,teamblack | chimyst,1954,"Malamud, Bernard",The natural,['crime'],crime,no_lavin_tag
+731,742,0,chirandom | teamblack,1954,"Lowndes, Robert W,",Mystery of the third mine,[],non_genre,no_lavin_tag
+732,743,0,teamblack | chiscifi,1954,"Pangborn, Edgar,",West of the sun,['scifi'],scifi,no_lavin_tag
+733,744,0,teamred | pbgothic | chihorror | chiscifi | lavin_magic,1954,"Asimov, Isaac,",Second foundation,"['scifi', 'gothic']",multi,lavin_magic
+734,745,0,chirandom | teamred,1954,"Brown, Fredric,",The lights in the sky are,[],non_genre,no_lavin_tag
+735,746,0,teamred | chimyst,1955,"Bradbury, Ray,",Fahrenheit 451,['crime'],crime,no_lavin_tag
+736,747,0,chirandom | teamred,1955,"Goudge, Elizabeth,",The heart of the family,[],non_genre,no_lavin_tag
+737,767,0,teamblack | pbgothic | stew | lavin_ghost,1959,"Lasswell, Mary,",Tooner Schooner,['gothic'],gothic,lavin_ghost
+753,783,0,chiutopia | chiscifi | teamred,1962,"Hoyle, Fred,",The black cloud,['scifi'],scifi,no_lavin_tag
+738,748,0,teamred | chimyst,1955,"Foote, Shelby,",Jordan County,['crime'],crime,no_lavin_tag
+740,751,0,chirandom | teamred | chiscifi,1956,"Reilly, Helen,",Tell her it's murder,['scifi'],scifi,no_lavin_tag
+741,752,0,teamblack | chimyst,1956,"Robbins, Harold,",Never leave me,['crime'],crime,no_lavin_tag
+742,753,0,teamblack | chimyst,1956,"Del Rey, Lester,",Step to the stars,['crime'],crime,no_lavin_tag
+743,754,0,teamblack | chiscifi,1957,"Matheson, Richard,",I am legend,['scifi'],scifi,no_lavin_tag
+744,755,0,chirandom | teamblack,1957,"Manfred, Frederick Feikem",Lord Grizzly,[],non_genre,no_lavin_tag
+745,756,0,teamred | chiscifi,1957,"Crane, Frances,",Death in lilac time,['scifi'],scifi,no_lavin_tag
+746,757,0,chirandom | teamblack | chiscifi,1957,"McCarthy, Mary",A charmed life,['scifi'],scifi,no_lavin_tag
+747,758,0,chirandom | teamred,1958,"Stout, Rex,",Before midnight,[],non_genre,no_lavin_tag
+748,759,0,chirandom | teamblack,1958,"MacDonald, John D.",You live once,[],non_genre,no_lavin_tag
+749,760,0,chirandom | teamblack,1958,"Del Rey, Lester,",Mission to the moon,[],non_genre,no_lavin_tag
+750,761,0,chirandom | teamblack,1959,"Heinlein, Robert A.",Double star,[],non_genre,no_lavin_tag
+751,749,0,chirandom | teamblack,1956,"Coxe, George Harmon,",Man on a rope,[],non_genre,no_lavin_tag
+739,750,0,teamblack | chiscifi,1956,"Heinlein, Robert A.",The star beast,['scifi'],scifi,no_lavin_tag
+783,763,0,teamred | chiscifi,1959,"Stout, Rex,",Gambit,['scifi'],scifi,no_lavin_tag
+784,796,0,chirandom | teamblack,1965,"Shannon, Dell,",Extra kill,[],non_genre,no_lavin_tag
+785,830,0,teamred | chimyst | stew,1969,"Kerouac, Jack,",Visions of Gerard,['crime'],crime,no_lavin_tag
+817,799,0,chirandom | teamblack,1965,"Braun, Lilian Jackson,",The cat who ate Danish mo,[],non_genre,no_lavin_tag
+818,832,0,chirandom | teamblack | chimyst | stew,1969,"Reed, Ishmael,",The free-lance pallbearer,['crime'],crime,no_lavin_tag
+819,833,0,teamblack | chiscifi,1969,"McNichols, Charles Longstreth,",Crazy weather,['scifi'],scifi,no_lavin_tag
+820,834,0,teamred | chimyst,1969,"Levin, Ira,",Rosemary's baby,['crime'],crime,no_lavin_tag
+821,835,0,chirandom | teamblack | chiscifi,1970,"Ellin, Stanley,",House of cards,['scifi'],scifi,no_lavin_tag
+822,836,0,hardboiled | teamblack | chimyst | stew,1970,"Oates, Joyce Carol,",Expensive people,['crime'],crime,no_lavin_tag
+823,837,0,teamblack | chiscifi,1970,"Chappell, Fred,",Dagon,['scifi'],scifi,no_lavin_tag
+824,838,0,chiutopia | teamblack,1970,"Peters, Elizabeth,",The jackal's head,['scifi'],scifi,no_lavin_tag
+825,839,0,chifantasy | teamblack | chiscifi,1970,"Davis, Gwen,",The pretenders,['scifi'],scifi,no_lavin_tag
+826,840,0,chirandom | teamred,1970,"Macdonald, Ross,",The goodbye look,[],non_genre,no_lavin_tag
+827,857,0,chirandom | teamred | chifantasy,1973,"Nabokov, Vladimir Vladimi",Ada,[],non_genre,no_lavin_tag
+828,841,0,chirandom | teamred,1970,"Dick, Philip K,",Galactic pot-healer,[],non_genre,no_lavin_tag
+816,797,0,teamblack | chimyst | stew,1965,"Fox, Paula,",Poor George,['crime'],crime,no_lavin_tag
+829,843,0,chifantasy | teamblack,1971,"Nielsen, Helen,",Darkest hour,[],non_genre,no_lavin_tag
+831,844,0,teamblack | pbgothic | lavin_magic,1971,"Pentecost, Hugh,",Girl watcher's funeral,['gothic'],gothic,lavin_magic
+832,847,0,teamblack | chimyst,1971,"Davidson, Avram,",The phoenix and the mirro,['crime'],crime,no_lavin_tag
+833,848,0,teamred | chimyst,1971,"Stout, Rex,",Death of a dude,['crime'],crime,no_lavin_tag
+834,849,0,teamblack | chihorror | chiscifi,1972,"Anderson, Poul,",Tau zero,"['scifi', 'gothic']",multi,no_lavin_tag
+835,850,0,chirandom | teamred | crime,1972,"Spillane, Mickey,",Survival Zero,['crime'],crime,no_lavin_tag
+836,851,0,chirandom | teamred,1972,"Silverberg, Robert,",Downward to the earth,[],non_genre,no_lavin_tag
+837,852,0,chirandom | teamblack | chiscifi,1973,"Brown, James Cooke,",The Troika incident,['scifi'],scifi,no_lavin_tag
+838,853,0,teamred | chimyst,1973,"Kurtz, Katherine,",Deryni rising,['crime'],crime,no_lavin_tag
+839,854,0,chirandom | teamblack,1973,"L'Amour, Louis,",Galloway,[],non_genre,no_lavin_tag
+840,855,0,chirandom | teamblack | chimyst,1973,"White, Patrick,",The vivisector,['crime'],crime,no_lavin_tag
+841,842,0,chiutopia | chiscifi | teamred | stew,1971,"Geissler, Ludwig A,",Looking beyond,['scifi'],scifi,no_lavin_tag
+842,923,0,chirandom | teamred | chiscifi,1982,"Corman, Avery,",Oh: God!,['scifi'],scifi,no_lavin_tag
+830,831,0,chifantasy | teamblack,1969,"Du Maurier, Daphne,",The house on the strand,[],non_genre,no_lavin_tag
+815,860,0,teamblack | chimyst,1973,"Vance, Jack,",The Pleasant Grove murder,['crime'],crime,no_lavin_tag
+814,856,0,teamred | chiscifi,1973,"Schmitz, James H.",The witches of Karres,['scifi'],scifi,no_lavin_tag
+813,858,0,chirandom | teamred | chimyst,1973,"Alexander, Lloyd,",The castle of Llyr,['crime'],crime,no_lavin_tag
+786,829,0,teamred | chiscifi,1969,"Vonnegut, Kurt,",Cat's Cradle,['scifi'],scifi,no_lavin_tag
+787,828,0,chirandom | teamblack,1969,"Caldwell, Taylor,",Grandmother and the pries,[],non_genre,no_lavin_tag
+788,800,0,chirandom | teamred,1965,"Fast, Howard,",Agrippa's daughter,[],non_genre,no_lavin_tag
+789,801,0,teamred | chimyst,1965,"Snow, C. P.",Corridors of power,['crime'],crime,no_lavin_tag
+790,803,0,chirandom | teamblack,1965,"Clement, Hal,",Close to critical,[],non_genre,no_lavin_tag
+791,804,0,chirandom | teamblack,1965,"Burroughs, William S.",Nova Express,[],non_genre,no_lavin_tag
+792,805,0,chirandom | teamblack,1966,"Kim, Richard E.",The martyred,[],non_genre,no_lavin_tag
+793,806,0,chirandom | teamblack | chiscifi,1966,"Traver, Robert,",Laughing whitefish,['scifi'],scifi,no_lavin_tag
+794,807,0,teamred | chiscifi,1966,"Ball, John Dudley,",In the heat of the night,['scifi'],scifi,no_lavin_tag
+795,808,0,teamred | chimyst,1966,"Spencer, Elizabeth,",The voice at the back doo,['crime'],crime,no_lavin_tag
+796,809,0,teamred | chiscifi,1966,"Allingham, Margery,",The mind readers,['scifi'],scifi,no_lavin_tag
+797,846,0,teamblack | chimyst | stew,1971,"MacDonald, John D.",A deadly shade of gold,['crime'],crime,no_lavin_tag
+798,810,0,teamred | chimyst | stew,1966,"Moore, Robin,",The green berets,['crime'],crime,no_lavin_tag
+799,812,0,chirandom | teamred,1966,"Nabokov, Vladimir Vladimi",The eye,[],non_genre,no_lavin_tag
+800,813,0,teamred | chiscifi | stew,1966,"Prather, Richard S,",The meandering corpse,['scifi'],scifi,no_lavin_tag
+801,814,0,teamred | chifantasy,1966,"Raphael, Rick,",Code three,[],non_genre,no_lavin_tag
+802,815,0,teamred | chiscifi,1966,"Braithwaite, E. R.  (Edwa",Choice of straws,['scifi'],scifi,no_lavin_tag
+803,816,0,teamblack | chimyst,1967,"Friedman, Sanford,",Totempole,['crime'],crime,no_lavin_tag
+804,817,0,chirandom | teamblack,1967,"Pynchon, Thomas,",The crying of lot 49,[],non_genre,no_lavin_tag
+805,818,0,chirandom | teamblack | chimyst,1967,"Dick, Philip K,",Now wait for last year,['crime'],crime,no_lavin_tag
+806,819,0,chifantasy | teamblack,1967,"Herbert, Frank,",The eyes of Heisenberg,[],non_genre,no_lavin_tag
+807,820,0,chirandom | teamred,1967,"MacDonald, John D.",Darker than amber,[],non_genre,no_lavin_tag
+808,821,0,teamblack | pbgothic | chihorror | stew | lavin_magic,1967,"Delany, Samuel R,",Babel-17,['gothic'],gothic,lavin_magic
+809,822,0,teamblack | chimyst,1967,"Westlake, Donald E,",The busy body,['crime'],crime,no_lavin_tag
+810,823,0,teamred | pbgothic | chihorror | lavin_magic,1968,"Zelazny, Roger,",This immortal,['gothic'],gothic,lavin_magic
+811,811,0,chifantasy | teamblack | chiscifi,1966,"Capps, Benjamin,",A woman of the people,['scifi'],scifi,no_lavin_tag
+812,764,0,teamblack | chiscifi | stew,1959,"Asimov, Isaac,",Fantastic voyage,['scifi'],scifi,no_lavin_tag
+724,736,0,teamblack | chiscifi | stew,1953,"Asimov, Isaac,",Foundation and empire,['scifi'],scifi,no_lavin_tag
+482,824,0,teamred | chihorror | lavin_magic,1968,"James, Henry,",Master Eustace,['gothic'],gothic,lavin_magic
+491,498,0,chirandom | teamred,1922,"Sackville-West, V.",The dragon in shallow wat,[],non_genre,no_lavin_tag
+480,826,0,chirandom | teamred,1969,"Christie, Agatha,",The mysterious affair at ,[],non_genre,no_lavin_tag
+152,488,0,teamblack | chiscifi,1921,"Cobbold, Richard,",Zenon,['scifi'],scifi,no_lavin_tag
+153,984,0,teamred | chiscifi,1989,"Arthur, T. S.",Lovers and husbands,['scifi'],scifi,no_lavin_tag
+154,486,0,chirandom | chifantasy | teamblack,1921,"Froude, James Anthony,",Shadows of the clouds,[],non_genre,no_lavin_tag
+155,158,0,teamblack | random,1848,"Brontë, Charlotte,",Jane Eyre,[],non_genre,no_lavin_tag
+156,159,0,teamblack | random,1849,"St. Clair, Henry.","Tales of terror; or, The ",[],non_genre,no_lavin_tag
+157,160,0,teamblack | pbgothic | lavin_magic,1849,"Kavanagh, Julia,",Madeleine,['gothic'],gothic,lavin_magic
+158,162,0,teamred | pbgothic | stew,1850,"Harris, Alexander,",The emigrant family ;,['gothic'],gothic,no_lavin_tag
+159,163,0,teamblack | random,1850,"Ainsworth, William Harris",The Lancashire witches,[],non_genre,no_lavin_tag
+160,164,0,teamblack | random,1850,"Reynolds, George W. M.",The mysteries of the cour,[],non_genre,no_lavin_tag
+161,165,0,teamred | random,1851,"Hawthorne, Nathaniel,",The scarlet letter,[],non_genre,no_lavin_tag
+162,166,0,teamblack | pbgothic,1851,"Arthur, T. S.",Tales of domestic life,['gothic'],gothic,no_lavin_tag
+163,182,0,teamred | sensation | stew,1862,"Myers, P. Hamilton",The King of the Hurons,['sensation'],sensation,no_lavin_tag
+151,798,0,chirandom | teamred | chimyst,1965,"Brontë, Emily,",Wuthering Heights,['crime'],crime,no_lavin_tag
+164,167,0,teamred | random,1853,"MacCabe, William Bernard,",Bertha,[],non_genre,no_lavin_tag
+166,157,0,teamred | locghost | stew | lavin_ghost,1848,"Lytton, Edward Bulwer Lyt","""My novel,""",['gothic'],gothic,lavin_ghost
+167,170,0,teamred | det100,1853,"Brontë, Charlotte,",Villette,['crime'],crime,no_lavin_tag
+168,172,0,teamblack | pbgothic,1858,"Irving, John Treat,",The attorney,['gothic'],gothic,no_lavin_tag
+169,173,0,teamblack | random,1858,"Dickens, Charles,",Bleak house,[],non_genre,no_lavin_tag
+170,174,0,teamblack | pbgothic | stew | lavin_magic,1858,"Austin, Alfred,",Five years of it,['gothic'],gothic,lavin_magic
+171,175,0,det100 | teamblack,1859,"MacDonald, George,",Phantastes,['crime'],crime,no_lavin_tag
+172,176,0,teamblack | locdetmyst,1859,"Manning, Anne,",The ladies of Bever Hollo,['crime'],crime,no_lavin_tag
+173,177,0,teamred | random,1859,"MacDonald, George,",Phantastes,[],non_genre,no_lavin_tag
+174,178,0,teamred | random,1859,"Russell, William,",Recollections of a Detect,[],non_genre,no_lavin_tag
+175,179,0,teamred | sensation | pbgothic | stew | lavin_deranged,1860,"Hamel, Felix John.","Harry Roughton, or, Remin","['sensation', 'gothic']",multi,lavin_deranged
+176,180,0,teamred | random,1860,"Chorley, Henry Fothergill",Roccabella,[],non_genre,no_lavin_tag
+177,168,0,teamblack | pbgothic,1853,"De Forest, John William,",Seacliff;,['gothic'],gothic,no_lavin_tag
+165,169,0,teamblack | random,1853,"Hawthorne, Nathaniel,",The house of the seven ga,[],non_genre,no_lavin_tag
+178,151,0,teamred | pbgothic | lavin_deranged,1847,"Collins, Wilkie,",The woman in white,['gothic'],gothic,lavin_deranged
+150,181,0,sensation | teamblack | stew,1861,"Brontë, Charlotte,",Jane Eyre,['sensation'],sensation,no_lavin_tag
+148,150,0,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1846,"Reynolds, George W. M.",The mysteries of London,['gothic'],gothic,lavin_multi
+122,155,0,teamblack | random,1847,"Pushkin, Alexander Sergeievich,",The Queen of Spades,[],non_genre,no_lavin_tag
+123,154,0,teamred | random,1847,"White, James,",Some passages in the life of Sir Frizzle Pumpkin,[],non_genre,no_lavin_tag
+124,127,0,newgate | teamblack | stew,1837,"Ainsworth, William Harris",Rookwood,['crime'],crime,no_lavin_tag
+125,128,0,teamblack | pbgothic | lavin_ghost,1837,"Griffith, Mary,","Camperdown, or, News from",['gothic'],gothic,lavin_ghost
+126,129,0,teamblack | random,1837,"Dickens, Charles,",Oliver Twist,[],non_genre,no_lavin_tag
+127,130,0,teamred | pbgothic | stew,1838,"Hawthorne, Nathaniel,",Twice-told tales,['gothic'],gothic,no_lavin_tag
+128,131,0,teamblack | random,1838,"Lover, Samuel,",Rory O'More,[],non_genre,no_lavin_tag
+129,132,0,teamblack | anatscifi | drop,1838,"Dickens, Charles,",Oliver Twist,['scifi'],scifi,no_lavin_tag
+130,133,0,teamred | random,1838,"Trollope, Frances Milton,",A romance of Vienna,[],non_genre,no_lavin_tag
+131,134,0,teamred | random,1840,"Poe, Edgar Allan,",The narrative of Arthur G,[],non_genre,no_lavin_tag
+132,135,0,teamred | pbgothic | stew,1840,"James, G. P. R.",The robber,['gothic'],gothic,no_lavin_tag
+133,171,0,teamred | random,1858,"Hook, Theodore Edward,","Cousin Geoffrey, the old ",[],non_genre,no_lavin_tag
+149,183,0,teamred | random,1863,"Hawthorne, Nathaniel,",Mosses from an old manse,[],non_genre,no_lavin_tag
+134,136,0,newgate | teamblack,1840,"Ainsworth, William Harris",The Tower of London,['crime'],crime,no_lavin_tag
+136,139,0,teamblack | random,1841,"Dickens, Charles,",The old curiosity shop,[],non_genre,no_lavin_tag
+137,140,0,teamred | det100 | stew,1842,"Poe, Edgar Allan,",The Murder in the Rue Morgue (short story),['crime'],crime,no_lavin_tag
+138,141,0,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1843,"Sinclair, Catherine,",Modern flirtations,['gothic'],gothic,lavin_multi
+139,142,0,teamblack | random,1843,"Poe, Edgar Allan,",The Mystery of Marie Roget (short story),[],non_genre,no_lavin_tag
+140,143,0,teamblack | random,1843,"Poe, Edgar Allan,",Tales by Edgar Allan Poe,[],non_genre,no_lavin_tag
+141,144,0,teamred | pbgothic | stew,1844,"James, G. P. R.",Forest days;,['gothic'],gothic,no_lavin_tag
+142,145,0,teamblack | random,1844,"Eastlake, Elizabeth,",Livonian tales,[],non_genre,no_lavin_tag
+143,146,0,teamred | det100,1845,"Reynolds, George W. M.",The mysteries of London,['crime'],crime,no_lavin_tag
+144,147,0,det100 | teamblack | drop,1845,"Dickens, Charles,",Martin Chuzzlewit,['crime'],crime,no_lavin_tag
+145,148,0,teamred | random,1846,"Poe, Edgar Allan,",The Purloined Letter (short story),[],non_genre,no_lavin_tag
+146,149,0,teamred | pbgothic | stew,1846,"Poe, Edgar Allan,",Selected tales of mystery,['gothic'],gothic,no_lavin_tag
+147,137,0,teamblack | pbgothic | stew,1841,"Sewell, Elizabeth Missing",Gertrude,['gothic'],gothic,no_lavin_tag
+135,138,0,det100 | teamblack,1841,"Ainsworth, William Harris",Jack Sheppard ;,['crime'],crime,no_lavin_tag
+179,152,0,teamred | pbgothic | stew | lavin_deranged,1847,"Lawrence, George A.",Sword and gown,['gothic'],gothic,lavin_deranged
+180,153,0,teamred | random,1847,"Wood, Ellen,",East Lynne,[],non_genre,no_lavin_tag
+181,218,0,teamblack | anatscifi,1871,"Braddon, M. E.",Lady Audley's Secret,['scifi'],scifi,no_lavin_tag
+213,185,0,teamred | blcrime,1863,"McWatters, George S",Knots untied,[],non_genre,no_lavin_tag
+214,187,0,sensation | teamblack | stew,1863,"Le Fanu, Joseph Sheridan,",Checkmate,['sensation'],sensation,no_lavin_tag
+215,220,0,teamblack | anatscifi | stew,1872,"Farjeon, B. L.",Joshua Marvel,['scifi'],scifi,no_lavin_tag
+216,221,0,teamred | random,1874,"Hardy, Thomas,",Desperate Remedies,[],non_genre,no_lavin_tag
+217,222,0,teamred | locdetective,1874,"Lytton, Edward Bulwer Lyt",The coming race,['crime'],crime,no_lavin_tag
+218,223,0,teamred | locdetective,1874,"Le Fanu, Joseph Sheridan,",In a glass darkly,['crime'],crime,no_lavin_tag
+219,224,0,teamblack | random,1874,"Flammarion, Camille,",Lumen,[],non_genre,no_lavin_tag
+220,225,0,teamred | locdetective | drop,1875,"Benedict, Frank Lee,",John Worthington's name,['crime'],crime,no_lavin_tag
+221,226,0,teamred | det100,1875,"Pinkerton, Allan,",The expressman and the de,['crime'],crime,no_lavin_tag
+222,227,0,teamred | random,1875,"Pinkerton, Allan,",The expressman and the de,[],non_genre,no_lavin_tag
+223,228,0,teamblack | random,1875,"Stockton, Frank Richard,",What might have been expe,[],non_genre,no_lavin_tag
+224,229,0,teamblack | locdetmyst,1875,"Pinkerton, Allan,",The somnambulist and the ,['crime'],crime,no_lavin_tag
+212,126,0,teamblack | locscifi,1836,"Spielhagen, Friedrich,",The Skeleton in the House,['scifi'],scifi,no_lavin_tag
+225,230,0,teamblack | random,1875,"Du Boisgobey, Fortuné,",The golden tress,[],non_genre,no_lavin_tag
+227,219,0,teamblack | pbgothic | stew | lavin_ghost | lavin_magic | lavin_deranged,1872,"Optic, Oliver,","Getting an indorser, and ",['gothic'],gothic,lavin_multi
+228,232,0,det100 | teamblack | stew,1876,"Pinkerton, Allan,",Claude Melnotte as a dete,['crime'],crime,no_lavin_tag
+229,234,0,teamred | random,1876,"Mason, Charles Welsh.","The rape of the gamp; or,",[],non_genre,no_lavin_tag
+230,235,0,teamred | random,1876,"Pinkerton, Allan,",Claude Melnotte as a dete,[],non_genre,no_lavin_tag
+481,161,0,teamblack | pbgothic,1850,"Hewlett, Maurice,",The light heart,['gothic'],gothic,no_lavin_tag
+232,237,0,teamred | femscifi | stew,1877,"Pinkerton, Allan,",The spiritualists and the,['scifi'],scifi,no_lavin_tag
+233,238,0,teamblack | locdetective | drop,1878,"Robinson, Frederick Willi",As long as she lived,['crime'],crime,no_lavin_tag
+234,239,0,teamred | random,1878,"Gréville, Henry,",Marrying off a daughter,[],non_genre,no_lavin_tag
+235,240,0,teamred | pbgothic | stew | lavin_ghost,1878,"Verga, Giovanni,",The Castle of Trezza,['gothic'],gothic,lavin_ghost
+236,241,0,teamred | det100,1878,"Cobbe, Frances Power,",The age of science,['crime'],crime,no_lavin_tag
+237,242,0,teamblack | random,1879,"Pinkerton, Allan,",Criminal reminiscences an,[],non_genre,no_lavin_tag
+238,85,0,teamblack | random,1820,"Auerbach, Berthold,",Landolin,[],non_genre,no_lavin_tag
+226,231,0,teamblack | locdetmyst | stew,1875,"Walraven, E. G.","The two orphans, or, The ",['crime'],crime,no_lavin_tag
+211,184,0,teamred | sensation | stew,1863,"Marryat, Florence,",Her lord and master,['sensation'],sensation,no_lavin_tag
+210,487,0,teamred | locdetmyst | juvenile | drop,1921,"Verne, Jules,",Twenty thousand leagues u,['crime'],crime,no_lavin_tag
+209,244,0,teamred | locdetective | drop,1880,"Speight, T. W.",Under lock and key; a sto,['crime'],crime,no_lavin_tag
+182,217,0,sensation | teamblack | stew,1871,"Trollope, Anthony,",Rachel Ray,['sensation'],sensation,no_lavin_tag
+183,216,0,teamblack | random,1871,"Reade, Charles,",Hard Cash,[],non_genre,no_lavin_tag
+184,188,0,sensation | pbgothic | teamblack | stew,1864,"Felix, Charles, pseud.",Notting Hill Mystery,"['sensation', 'gothic']",multi,no_lavin_tag
+185,189,0,teamred | sensation | pbgothic | stew,1864,"Reade, Charles,",Hard Cash,"['sensation', 'gothic']",multi,no_lavin_tag
+186,190,0,teamred | sensation | pbgothic | stew,1864,"Braddon, M. E.",Aurora Floyd,"['sensation', 'gothic']",multi,no_lavin_tag
+187,191,0,teamred | locdetective | stew,1865,"Le Fanu, Joseph Sheridan,",Uncle Silas,['crime'],crime,no_lavin_tag
+188,193,0,teamblack | pbgothic,1865,"Le Fanu, Joseph Sheridan,",Uncle Silas,['gothic'],gothic,no_lavin_tag
+189,194,0,teamred | sensation | stew,1865,"Le Fanu, Joseph Sheridan,",Uncle Silas,['sensation'],sensation,no_lavin_tag
+190,195,0,teamred | random,1865,"Williams, John Babbington",Leaves from the note-book,[],non_genre,no_lavin_tag
+191,196,0,teamred | det100,1866,"Verne, Jules,",From the Earth to the Moo,['crime'],crime,no_lavin_tag
+192,197,0,teamred | sensation | pbgothic | stew,1866,"Dickens, Charles,",Our mutual friend,"['sensation', 'gothic']",multi,no_lavin_tag
+193,233,0,locdetective | teamblack,1876,"Ouida,",Strathmore,['crime'],crime,no_lavin_tag
+194,198,0,teamblack | random,1866,"Murdoch, David.",The Royalist's daughter a,[],non_genre,no_lavin_tag
+195,200,0,teamblack | random,1867,"Gaboriau, Emile,",The widow Lerouge,[],non_genre,no_lavin_tag
+196,201,0,det100 | teamblack,1867,"Collins, Wilkie,",Armadale,['crime'],crime,no_lavin_tag
+197,202,0,teamred | sensation | stew,1867,"Kingsley, Charles,",Hereward,['sensation'],sensation,no_lavin_tag
+198,203,0,teamblack | random,1867,"Dostoevsky, Fyodor,",Crime and Punishment,[],non_genre,no_lavin_tag
+199,204,0,det100 | teamblack,1867,"Kirkus, William,",Only to be married,['crime'],crime,no_lavin_tag
+200,205,0,teamblack | random,1868,"Gaboriau, Emile,",File no. 113,[],non_genre,no_lavin_tag
+201,206,0,teamred | random,1868,"Broughton, Rhoda,",Not Wisely But Too Well,[],non_genre,no_lavin_tag
+202,207,0,teamred | det100 | pbgothic | lavin_deranged,1868,"Mühlbach, L.",Marie Antoinette and her ,"['gothic', 'crime']",multi,lavin_deranged
+203,208,0,teamblack | random,1868,"Gaboriau, Emile,",The mystery of Orcival,[],non_genre,no_lavin_tag
+204,209,0,teamblack | anatscifi | stew,1868,"Alcott, Louisa May,",Kitty's class day ;,['scifi'],scifi,no_lavin_tag
+205,210,0,det100 | teamblack | stew,1868,"Knight, Legh.",Tonic bitters,['crime'],crime,no_lavin_tag
+206,211,0,teamred | anatscifi,1870,"Collins, Wilkie,",The moonstone,['scifi'],scifi,no_lavin_tag
+207,199,0,teamred | lockandkey,1866,"Capes, J. M.",The mosaic-worker's daugh,['crime'],crime,no_lavin_tag
+208,245,0,sensation | teamblack | stew,1880,"Ellis, Edward S.",The Steam Man of the Prairies,['sensation'],sensation,no_lavin_tag
+121,156,0,teamred | pbgothic | stew | lavin_deranged,1847,"Hall, James,",The soldier's bride and o,['gothic'],gothic,lavin_deranged
+239,827,0,teamred | chimyst,1969,"Collins, Wilkie,",The haunted hotel,['crime'],crime,no_lavin_tag
+120,212,0,teamblack | random,1871,"Lytton, Edward Bulwer Lyt",Godolphin,[],non_genre,no_lavin_tag
+118,214,0,teamred | locdetective,1871,"James, G. P. R.",Henry Masterton;,['crime'],crime,no_lavin_tag
+31,186,0,sensation | teamblack | stew,1863,"Roche, Regina Maria,",The children of the abbey,['sensation'],sensation,no_lavin_tag
+32,125,0,teamred | newgate | stangothic | lavin_ghost | lavin_magic,1834,"Burney, Fanny,","Camilla: or, A picture of","['gothic', 'crime']",multi,lavin_multi
+33,124,0,teamblack | random,1834,"Lewis, M. G.",The monk,[],non_genre,no_lavin_tag
+34,123,0,lockandkey | teamblack,1834,"Brown, Charles Brockden,","Wieland; or, The transfor",['crime'],crime,no_lavin_tag
+35,34,0,teamblack | pbgothic | stew | lavin_magic,1796,"Godwin, William,",St. Leon: a tale of the s,['gothic'],gothic,lavin_magic
+36,35,0,teamred | pbgothic,1798,"Robinson, Mary Darby,",The false friend,['gothic'],gothic,no_lavin_tag
+37,36,0,teamred | pbgothic | lavin_magic | lavin_deranged,1799,"Hamilton, Elizabeth,",Memoirs of modern philosophers,['gothic'],gothic,lavin_multi
+38,37,0,teamred | random,1799,"Karamzin, Nikolaĭ Mikhaĭlovich,",Russian tales,[],non_genre,no_lavin_tag
+39,38,0,teamred | random,1800,Anonymous5,Devasmita,[],non_genre,no_lavin_tag
+40,39,0,teamred | random,1800,Anonymous8,The Three Sharpers,[],non_genre,no_lavin_tag
+41,40,0,lockandkey | teamblack,1800,"Du Bois, Edward,",Old Nick;,['crime'],crime,no_lavin_tag
+42,42,0,teamred | random,1801,"Du Bois, Edward,",Old Nick;,[],non_genre,no_lavin_tag
+30,57,0,teamblack | stangothic | stew,1806,"Lewis, M. G.",The monk,['gothic'],gothic,no_lavin_tag
+43,58,0,teamred | random,1807,"Moore, George,",Grasville Abbey,[],non_genre,no_lavin_tag
+45,45,0,teamblack | stangothic,1802,"Cullen, Margaret.",Home,['gothic'],gothic,no_lavin_tag
+46,46,0,teamred | random,1802,Anonymous0,Letters of Miss Riversdale,[],non_genre,no_lavin_tag
+47,33,0,teamblack | random,1796,"Walker, George,",Don Raphael,[],non_genre,no_lavin_tag
+48,47,0,teamblack | random,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,[],non_genre,no_lavin_tag
+49,49,0,teamblack | stangothic,1803,Anonymous7,"Barbara Markham; or, The profligate requited;",['gothic'],gothic,no_lavin_tag
+50,50,0,teamblack | random,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,[],non_genre,no_lavin_tag
+51,51,0,teamblack | stangothic,1803,"Lee, Harriet,",Canterbury tales,['gothic'],gothic,no_lavin_tag
+52,52,0,teamred | random,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,[],non_genre,no_lavin_tag
+53,53,0,teamblack | stangothic | stew,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,['gothic'],gothic,no_lavin_tag
+54,54,0,teamblack | stangothic,1803,"Young, Mary Julia.","Right and wrong; or, The kinsmen of Naples",['gothic'],gothic,no_lavin_tag
+55,55,0,teamred | stangothic | stew,1803,"Genlis, Stéphanie Félicité,",Madame de Maintenon,['gothic'],gothic,no_lavin_tag
+56,56,0,teamred | random,1806,"Frances, Sophia L.","Vivonio, or, The hour of retribution",[],non_genre,no_lavin_tag
+44,43,0,teamred | random,1801,"Melville, Theodore.","The white knight, or, The monastery of Morne",[],non_genre,no_lavin_tag
+57,44,0,teamblack | stangothic,1801,"Bayfield, E. G.,",A winter in Bath,['gothic'],gothic,no_lavin_tag
+29,59,0,teamred | stangothic,1807,"Cumberland, Richard,",Henry,['gothic'],gothic,no_lavin_tag
+27,12,0,teamred | random,1786,"Radcliffe, Ann Ward,",The mysteries of Udolpho,[],non_genre,no_lavin_tag
+1,48,0,teamred | stangothic,1803,"Rousseau, Jean-Jacques,",Eloisa: or A series of or,['gothic'],gothic,no_lavin_tag
+2,32,0,teamblack | pbgothic | lavin_ghost,1796,Anonymous4,The memoirs of Miss D'Arv,['gothic'],gothic,lavin_ghost
+3,31,0,teamblack | pbgothic | lavin_magic,1796,"Walpole, Horace,",The castle of Otranto;,['gothic'],gothic,lavin_magic
+4,30,0,teamred | random,1795,"Mercier, Louis-Sébastien,",Memoirs of the year two t,[],non_genre,no_lavin_tag
+5,2,0,teamred | random,1761,Henrietta.,Letters from Henrietta to,[],non_genre,no_lavin_tag
+6,3,0,teamblack | random,1764,"Reeve, Clara,",The old English baron,[],non_genre,no_lavin_tag
+7,4,0,teamred | pbgothic | stew | lavin_ghost,1764,"Leprince de Beaumont,",Letters of Madame Du Montier,['gothic'],gothic,lavin_ghost
+8,6,0,teamblack | random,1777,"Campe, Joachim Heinrich,",The new Robinson Crusoe;,[],non_genre,no_lavin_tag
+9,7,0,teamblack | pbgothic | lavin_ghost,1777,"Genlis, Stéphanie Félicité",Tales of the castle;,['gothic'],gothic,lavin_ghost
+10,8,0,teamblack | random,1780,"Lee, Sophia,",The recess;,[],non_genre,no_lavin_tag
+11,9,0,teamblack | random,1780,"Bennett, Anna Maria,","Anna; or, Memoirs of a Welch Heiress",[],non_genre,no_lavin_tag
+12,10,0,teamred | random,1785,"Beckford, William,",Vathek,[],non_genre,no_lavin_tag
+28,25,0,teamred | random,1794,"Gunning,",Memoirs of Mary,[],non_genre,no_lavin_tag
+13,60,0,teamblack | pbgothic,1807,"Berkeley, George Monck,",Heloise: or The siege of ,['gothic'],gothic,no_lavin_tag
+15,13,0,teamblack | pbgothic | stew | lavin_magic,1786,"Smith, Charlotte,",Emmeline,['gothic'],gothic,lavin_magic
+16,14,0,teamred | random,1788,"White, James,",The adventures of John of,[],non_genre,no_lavin_tag
+17,15,0,teamblack | pbgothic | stew | lavin_deranged,1788,"Radcliffe, Ann Ward,",A Sicilian romance,['gothic'],gothic,lavin_deranged
+18,16,0,teamred | pbgothic | stew | lavin_deranged,1788,"Lavallée, Joseph,",The negro equalled by few,['gothic'],gothic,lavin_deranged
+19,17,0,teamblack | random,1790,"Radcliffe, Ann Ward,",A Sicilian romance,[],non_genre,no_lavin_tag
+20,18,0,teamred | pbgothic | stew | lavin_deranged,1790,"Combe, William,",The devil upon two sticks,['gothic'],gothic,lavin_deranged
+21,19,0,teamblack | random,1790,"Reeve, Clara,",The school for widows,[],non_genre,no_lavin_tag
+22,20,0,teamred | pbgothic | stew | lavin_deranged,1790,"Radcliffe, Ann Ward,",The romance of the forest,['gothic'],gothic,lavin_deranged
+23,21,0,teamblack | random,1791,"Godwin, William,",The adventures of Caleb W,[],non_genre,no_lavin_tag
+24,22,0,teamblack | stangothic,1791,"Moser, Joseph,",Turkish tales,['gothic'],gothic,no_lavin_tag
+25,23,0,teamblack | pbgothic | stew | lavin_deranged,1791,"Bennett, Anna Maria,","Ellen, Countess of Castle Howel",['gothic'],gothic,lavin_deranged
+26,24,0,teamred | pbgothic | stew | lavin_deranged,1794,"Radcliffe, Ann Ward,",The mysteries of Udolpho,['gothic'],gothic,lavin_deranged
+14,11,0,teamblack | pbgothic | stew | lavin_deranged,1785,"Smith, Charlotte,",Emmeline,['gothic'],gothic,lavin_deranged
+58,215,0,teamred | det100,1871,"Roche, Regina Maria,","The discarded son; or, Haunt of the banditti",['crime'],crime,no_lavin_tag
+59,26,0,teamred | random,1794,"Dacre, Charlotte,",The libertine;,[],non_genre,no_lavin_tag
+60,28,0,teamred | pbgothic,1794,"Mortimer, Edward,",The friar Hildargo,['gothic'],gothic,no_lavin_tag
+92,61,0,teamred | stangothic,1807,"Gaspey, Thomas,","Other times; or, the monks of Leadenhall",['gothic'],gothic,no_lavin_tag
+93,62,0,teamblack | random,1807,"Sullivan, Mary Ann.","Owen Castle, or, Which is the heroine?",[],non_genre,no_lavin_tag
+94,63,0,teamred | random,1807,"Cooper, James Fenimore,",The pilot;,[],non_genre,no_lavin_tag
+95,64,0,teamred | random,1809,"Wilkins, George,",The convert,[],non_genre,no_lavin_tag
+96,96,0,teamblack | random,1826,"Shelley, Mary Wollstonecr",The last man,[],non_genre,no_lavin_tag
+97,97,0,teamblack | femscifi | stew,1826,Anonymous2,Legends of terror!,['scifi'],scifi,no_lavin_tag
+98,98,0,teamred | locghost | stew | lavin_ghost,1826,"Shelley, Mary Wollstonecr",The last man,['gothic'],gothic,lavin_ghost
+99,99,0,teamred | femscifi,1826,"Radcliffe, Ann Ward,",Gaston de Blondeville,['scifi'],scifi,no_lavin_tag
+100,100,0,teamblack | pbgothic,1826,"Radcliffe, Ann Ward,",Gaston de Blondeville,['gothic'],gothic,no_lavin_tag
+101,101,0,teamred | pbgothic | stew,1826,"Banim, John,",Tales,['gothic'],gothic,no_lavin_tag
+102,102,0,teamred | random,1826,"Lytton, Edward Bulwer Lyt",Falkland,[],non_genre,no_lavin_tag
+103,118,0,teamred | locdetmyst | stew,1832,"Ward, R. Plumer",De Vere,['crime'],crime,no_lavin_tag
+91,29,0,teamblack | random,1794,"Lockhart, J. G.",Reginald Dalton,[],non_genre,no_lavin_tag
+104,103,0,teamblack | pbgothic | stew,1827,"Loudon, Jane",The mummy!,['gothic'],gothic,no_lavin_tag
+106,106,0,newgate | teamblack,1828,"Gaspey, Thomas,",History of George Godfrey,['crime'],crime,no_lavin_tag
+107,107,0,newgate | teamblack,1828,"Vidocq, Eugène François,",Memoirs of Vidocq,['crime'],crime,no_lavin_tag
+108,108,0,teamred | det100,1829,"Lytton, Edward Bulwer Lyt",Devereux,['crime'],crime,no_lavin_tag
+109,109,0,teamred | random,1829,"Lytton, Edward Bulwer Lyt",Paul Clifford,[],non_genre,no_lavin_tag
+110,110,0,teamred | newgate | stew,1830,"Hall, Anna Maria",The buccaneer,['crime'],crime,no_lavin_tag
+111,111,0,teamred | locdetmyst | stew,1832,"Spindler, Carl,",The Jew,['crime'],crime,no_lavin_tag
+112,112,0,teamblack | random,1832,"Galt, John,",Stanley Buxton;,[],non_genre,no_lavin_tag
+113,113,0,teamred | random,1832,"Disraeli, Benjamin,",Contarini Fleming;,[],non_genre,no_lavin_tag
+114,114,0,teamblack | random,1832,"Disraeli, Benjamin,",Contarini Fleming;,[],non_genre,no_lavin_tag
+115,115,0,teamred | random,1832,"Irving, Washington,",Tales of the Alhambra,[],non_genre,no_lavin_tag
+116,116,0,teamblack | pbgothic | lavin_magic,1832,"Lytton, Edward Bulwer Lyt",Eugene Aram,['gothic'],gothic,lavin_magic
+117,104,0,teamblack | random,1827,"Hall, Anna Maria",The buccaneer,[],non_genre,no_lavin_tag
+105,105,0,teamred | femscifi | stew,1827,"Gaspey, Thomas,",History of George Godfrey,['scifi'],scifi,no_lavin_tag
+90,117,0,teamred | newgate,1832,"Scott, Walter,",Kenilworth,['crime'],crime,no_lavin_tag
+89,119,0,teamred | random,1832,"Varty-Smith, Augusta A.",Matthew Tindale,[],non_genre,no_lavin_tag
+88,27,0,teamblack | pbgothic | stew,1794,"Maturin, Charles Robert,",Melmoth the wanderer,['gothic'],gothic,no_lavin_tag
+61,121,0,teamblack | pbgothic,1833,"Grant, Anne MacVicar,",Letters from the mountain,['gothic'],gothic,no_lavin_tag
+62,122,0,teamred | random,1833,"Bayfield, E. G.,",A winter in Bath,[],non_genre,no_lavin_tag
+63,95,0,teamblack | random,1824,"More, Hannah,",Cœlebs in search of a wife,[],non_genre,no_lavin_tag
+64,246,0,teamblack | random,1880,"Frances, Sophia L.","Angelo Guicciardini, or, The bandit of the Alps",[],non_genre,no_lavin_tag
+65,94,0,teamred | stangothic,1823,Anonymous6,"The adulteress ; or, anecdotes of two noble families",['gothic'],gothic,no_lavin_tag
+66,92,0,teamblack | random,1823,"Cuthbertson, Catherine.",Forest of Montalbano,[],non_genre,no_lavin_tag
+67,65,0,teamred | stangothic,1809,"Stanhope, Louisa Sidney.",The confessional of Valombre,['gothic'],gothic,no_lavin_tag
+68,66,0,teamblack | random,1810,"Byron, Medora Gordon.",The Englishman,[],non_genre,no_lavin_tag
+69,67,0,teamblack | stangothic,1810,"Parker, Emma.",Aretas,['gothic'],gothic,no_lavin_tag
+70,68,0,teamred | stangothic | stew,1812,"Roche, Regina Maria,",The monastery of St. Columb;,['gothic'],gothic,no_lavin_tag
+71,69,0,teamblack | random,1812,"Maturin, Charles Robert,","Bertram, or, The castle o",[],non_genre,no_lavin_tag
+72,70,0,teamblack | random,1813,"Lewis, Alethea,",Rhoda,[],non_genre,no_lavin_tag
+73,120,0,teamred | locdetmyst | stew,1832,"Burney, Sarah Harriet,",Tales of fancy,['crime'],crime,no_lavin_tag
+74,71,0,teamred | stangothic,1813,"Austen, Jane,",Northanger abbey,['gothic'],gothic,no_lavin_tag
+75,73,0,teamblack | random,1816,"Austen, Jane,",Northanger Abbey,[],non_genre,no_lavin_tag
+76,74,0,teamred | random,1816,"Opie, Amelia Alderson,",New tales,[],non_genre,no_lavin_tag
+77,75,0,teamblack | pbgothic,1818,"Opie, Amelia Alderson,",New tales,['gothic'],gothic,no_lavin_tag
+78,76,0,teamblack | lochorror | stew,1818,"Shelley, Mary Wollstonecr",Frankenstein,['gothic'],gothic,no_lavin_tag
+79,77,0,teamblack | random,1818,"Austen, Jane,",Northanger Abbey,[],non_genre,no_lavin_tag
+80,78,0,teamred | random,1818,"Porter, Anna Maria,",The fast of St. Magdalen,[],non_genre,no_lavin_tag
+81,79,0,stangothic | femscifi | teamred | stew,1818,"Austen, Jane,",Northanger Abbey,"['scifi', 'gothic']",multi,no_lavin_tag
+82,80,0,teamred | lochorror | stew,1818,"Austen, Jane,",Northanger Abbey,['gothic'],gothic,no_lavin_tag
+83,81,0,teamblack | stangothic,1818,"Maturin, Charles Robert,",Melmoth the wanderer,['gothic'],gothic,no_lavin_tag
+84,82,0,teamred | lochorror,1818,"Galt, John,",The earthquake;,['gothic'],gothic,no_lavin_tag
+85,83,0,teamblack | lochorror,1818,"Opie, Amelia Alderson,",Tales of the heart,['gothic'],gothic,no_lavin_tag
+86,84,0,teamblack | pbgothic | lavin_magic | lavin_deranged,1820,"Irving, Washington,",The sketch-book of Geoffr,['gothic'],gothic,lavin_multi
+87,72,0,teamblack | pbgothic | lavin_deranged,1816,"Maturin, Charles Robert,",Melmoth the wanderer,['gothic'],gothic,lavin_deranged
+119,213,0,teamred | lockandkey | stew,1871,"Hall, Anna Maria",The buccaneer,['crime'],crime,no_lavin_tag
+240,86,0,teamblack | random,1820,"Green, Anna Katharine,",The Leavenworth case,[],non_genre,no_lavin_tag
+231,236,0,lockandkey | teamblack,1877,"Russell, William Clark,",Is he the man?,['crime'],crime,no_lavin_tag
+242,364,0,teamred | locghost | lavin_ghost,1905,"Pinkerton, Allan,",Mississippi outlaws and t,['gothic'],gothic,lavin_ghost
+394,91,0,teamred | random,1821,"Leroux, Gaston,",The mystery of the yellow,[],non_genre,no_lavin_tag
+395,93,0,teamblack | stangothic,1823,"Roe, Clifford Griffith,",Panders and their white s,['gothic'],gothic,no_lavin_tag
+396,247,0,teamblack | anatscifi | locscifi,1880,"Johnston, Mary,",The long roll,['scifi'],scifi,no_lavin_tag
+397,243,0,teamred | locdetective,1879,"Wells, Carolyn,",The gold bag,['crime'],crime,no_lavin_tag
+398,249,0,lockandkey | teamblack,1880,"Reeve, Arthur B.",The poisoned pen,['crime'],crime,no_lavin_tag
+399,398,0,teamred | det100 | stew,1911,"Pearson, Edmund Lester,",The librarian at play,['crime'],crime,no_lavin_tag
+400,399,0,det100 | teamblack,1911,"Lummis, Charles Fletcher,",The gold fish of Gran Chi,['crime'],crime,no_lavin_tag
+401,400,0,teamblack | random,1911,"Chesterton, G. K.",The innocence of Father B,[],non_genre,no_lavin_tag
+402,401,0,teamred | random,1911,"Cowan, James,",The adventures of Kimble ,[],non_genre,no_lavin_tag
+403,402,0,teamred | det100 | locdetmyst,1911,"Crawford, F. Marion",Wandering ghosts,['crime'],crime,no_lavin_tag
+404,419,0,teamred | random,1913,"Appleton, Victor.",Tom Swift and his sky rac,[],non_genre,no_lavin_tag
+405,403,0,teamred | random,1911,"Burroughs, Edgar Rice,",A princess of Mars,[],non_genre,no_lavin_tag
+393,90,0,teamred | random,1821,"Orczy, Emmuska Orczy,",Lady Molly of Scotland Ya,[],non_genre,no_lavin_tag
+406,405,0,teamblack | locdetmyst | juvenile | drop,1911,"Pidgin, Charles Felton,",The chronicles of Quincy ,['crime'],crime,no_lavin_tag
+408,407,0,det100 | teamblack,1912,"Rose, William Ganson,",Putting Marshville on the,['crime'],crime,no_lavin_tag
+409,408,0,teamred | locdetective | stew,1912,"Doyle, Arthur Conan,",The lost world,['crime'],crime,no_lavin_tag
+410,410,0,teamred | anatscifi | stew,1912,"London, Jack,",The scarlet plague,['scifi'],scifi,no_lavin_tag
+411,397,0,teamblack | random,1911,"Gowans, Adam L.",Famous ghost-stories by E,[],non_genre,no_lavin_tag
+412,411,0,teamblack | anatscifi | stew,1912,"Ford, Ford Madox,",Mr. Fleight,['scifi'],scifi,no_lavin_tag
+413,413,0,teamblack | random,1913,"Abbott, Eleanor Hallowell",The white linen nurse,[],non_genre,no_lavin_tag
+414,414,0,teamblack | random,1913,"Carson, James.",The saddle boys of the Ro,[],non_genre,no_lavin_tag
+415,415,0,teamblack | locdetmyst | stew,1913,"Rinehart, Mary Roberts,",The case of Jennie Brice,['crime'],crime,no_lavin_tag
+416,416,0,det100 | teamblack,1913,"Hope, Laura Lee.",The outdoor girls at Rain,['crime'],crime,no_lavin_tag
+417,417,0,teamred | locdetmyst | juvenile | drop,1913,"Beresford, J. D.",Goslings,['crime'],crime,no_lavin_tag
+418,404,0,teamred | pbgothic | stew | lavin_ghost,1911,"Sinclair, May.",The combined maze,['gothic'],gothic,lavin_ghost
+419,388,0,det100 | teamblack,1909,"Aldridge, Janet.",The Meadow-Brook girls un,['crime'],crime,no_lavin_tag
+407,406,0,teamred | anatscifi,1912,"Baum, L. Frank",Aunt Jane's nieces on vac,['scifi'],scifi,no_lavin_tag
+420,389,0,teamblack | random,1909,"Green, Anna Katharine,","Room number 3, and other ",[],non_genre,no_lavin_tag
+392,89,0,teamred | pbgothic | stew | lavin_magic | lavin_deranged,1821,"Eggleston, George Cary,",Westover of Wanalah;,['gothic'],gothic,lavin_multi
+390,420,0,teamred | locghost | lavin_ghost,1913,"Wharton, Edith,",Tales of men and ghosts,['gothic'],gothic,lavin_ghost
+364,424,0,teamred | det100,1913,"Pain, Barry,",The memoirs of Constantin,['crime'],crime,no_lavin_tag
+365,412,0,teamblack | locghost | lavin_ghost,1912,"Dunsany, Edward John More",The gods of Pegāna,['gothic'],gothic,lavin_ghost
+366,425,0,teamblack | locdetmyst | juvenile | drop,1913,"Ford, Douglas Morey.",A time of terror,['crime'],crime,no_lavin_tag
+367,396,0,teamred | random,1910,"Blackwood, Algernon,",The empty house,[],non_genre,no_lavin_tag
+368,394,0,det100 | teamblack,1910,"Chambers, Robert W.",The tracer of lost person,['crime'],crime,no_lavin_tag
+369,248,0,teamblack | anatscifi | locscifi,1880,"Buckingham, Emma May.",Modern ghost stories,['scifi'],scifi,no_lavin_tag
+370,369,0,teamred | det100 | stew,1906,"Cullum, Ridgwell,",The night-riders;,['crime'],crime,no_lavin_tag
+241,88,0,teamblack | pbgothic | stew | lavin_magic | lavin_deranged,1820,"Adams, Robert Chamblet,","On board the ""Rocket""",['gothic'],gothic,lavin_multi
+372,371,0,teamblack | random,1906,"Freeman, R. Austin,",The Red Thumb Mark,[],non_genre,no_lavin_tag
+373,372,0,teamred | det100 | stew,1907,"Hope, Laura Lee.",The Bobbsey twins at the ,['crime'],crime,no_lavin_tag
+374,421,0,det100 | teamblack,1913,"Murfree, Mary Noailles,",The windfall;,['crime'],crime,no_lavin_tag
+375,373,0,det100 | teamblack,1907,"Hewlett, Maurice,",The stooping lady,['crime'],crime,no_lavin_tag
+391,418,0,teamred | anatscifi,1913,"Mason, A. E. W.",At the Villa Rose,['scifi'],scifi,no_lavin_tag
+376,375,0,teamred | random,1907,"Perrin, Alice,",The stronger claim,[],non_genre,no_lavin_tag
+378,377,0,teamred | random,1908,"Harding, Ellison.",The woman who vowed,[],non_genre,no_lavin_tag
+379,378,0,det100 | teamblack | stew,1908,"Rinehart, Mary Roberts,",The circular staircase,['crime'],crime,no_lavin_tag
+380,379,0,teamblack | locscifi,1908,"Moore, Frank Frankfort,",An amateur adventuress,['scifi'],scifi,no_lavin_tag
+381,395,0,teamred | det100,1910,"Egan, Maurice Francis,",The wiles of Sexton Magin,['crime'],crime,no_lavin_tag
+382,380,0,teamred | det100 | locdetmyst,1908,"Orczy, Emmuska Orczy,",The man in the corner,['crime'],crime,no_lavin_tag
+383,382,0,teamblack | random,1909,"Hawthorne, Julian,",The lock and key library:,[],non_genre,no_lavin_tag
+384,383,0,teamred | det100 | stew,1909,"Serviss, Garrett Putman,",A Columbus of space,['crime'],crime,no_lavin_tag
+385,384,0,det100 | teamblack | stew,1909,"Post, Melville Davisson,","Randolph Mason, corrector",['crime'],crime,no_lavin_tag
+386,385,0,teamblack | anatscifi | locscifi,1909,"Ayscough, John,",A Roman tragedy and other,['scifi'],scifi,no_lavin_tag
+387,386,0,det100 | teamblack,1909,"Rinehart, Mary Roberts,",The man in lower ten,['crime'],crime,no_lavin_tag
+388,374,0,teamred | locdetmyst | juvenile | drop,1907,"Newbolt, Henry John,",The new June,['crime'],crime,no_lavin_tag
+389,387,0,teamblack | random,1909,"Palmer, Frederick,",The big fellow,[],non_genre,no_lavin_tag
+377,376,0,teamred | random,1907,"Bodkin, M. McDonnell",The quests of Paul Beck,[],non_genre,no_lavin_tag
+363,423,0,teamblack | locdetmyst | juvenile | drop,1913,"Dickens, Charles,",A Christmas carol in pros,['crime'],crime,no_lavin_tag
+421,390,0,teamblack | random,1910,"Knight, Arthur Lee.",Told in the Indian twilig,[],non_genre,no_lavin_tag
+423,485,0,chirandom | teamred,1921,"Reeve, Arthur B.","Constance Dunlap, woman d",[],non_genre,no_lavin_tag
+454,393,0,teamblack | random,1910,"French, Joseph Lewis,","Great ghost stories, sele",[],non_genre,no_lavin_tag
+455,381,0,teamred | random,1908,"Hewlett, Maurice,",Gudrid the Fair,[],non_genre,no_lavin_tag
+456,426,0,teamred | det100,1913,"Webster, F. A. M.",The hound of Cullan,['crime'],crime,no_lavin_tag
+457,427,0,teamblack | random,1913,"Hope, Laura Lee.",The Bobbsey twins on the ,[],non_genre,no_lavin_tag
+458,428,0,teamred | random,1914,"Butler, Ellis Parker,",Philo Gubb,[],non_genre,no_lavin_tag
+459,460,0,teamred | random,1918,"Hunt, Edward Eyre,",Tales from a famished lan,[],non_genre,no_lavin_tag
+460,461,0,teamred | det100,1919,"Ostrander, Isabel,",The twenty-six clues,['crime'],crime,no_lavin_tag
+461,462,0,teamred | pbgothic | lavin_ghost,1919,"James, M. R.",A thin ghost and others,['gothic'],gothic,lavin_ghost
+462,463,0,teamblack | locdetmyst | juvenile | drop,1919,"Hope, Laura Lee.",The Bobbsey twins in Wash,['crime'],crime,no_lavin_tag
+463,464,0,teamblack | locghost | stew | lavin_ghost,1919,"Pease, Howard,",Border ghost stories,['gothic'],gothic,lavin_ghost
+464,465,0,teamred | random,1919,"Atherton, Gertrude Frankl",Transplanted;,[],non_genre,no_lavin_tag
+465,466,0,teamblack | locdetmyst | juvenile | drop,1919,"Emerson, Alice B.",Ruth Fielding homeward bo,['crime'],crime,no_lavin_tag
+453,392,0,teamred | det100,1910,"Emerson, Alice B.",Ruth Fielding in the Red ,['crime'],crime,no_lavin_tag
+466,467,0,teamred | pbgothic,1919,"Cabell, James Branch,",Jurgen,['gothic'],gothic,no_lavin_tag
+468,469,0,teamblack | random,1920,"Bailey, Arthur Scott,",The tale of Grumpy Weasel,[],non_genre,no_lavin_tag
+469,470,0,teamred | random,1920,"Benson, E. F.","""Queen Lucia""",[],non_genre,no_lavin_tag
+470,471,0,teamred | chifantasy | anatscifi | stew,1920,"Lindsay, David,",Voyage To Arcturus,['scifi'],scifi,no_lavin_tag
+471,459,0,det100 | teamblack,1918,"Raine, William MacLeod,",Oh: you Tex!,['crime'],crime,no_lavin_tag
+472,472,0,chirandom | teamred,1920,"Hope, Laura Lee.",The Bobbsey twins in the ,[],non_genre,no_lavin_tag
+473,474,0,chirandom | teamred,1920,"Martin, Helen Reimensnyder,",The schoolmaster of Hessville,[],non_genre,no_lavin_tag
+474,475,0,teamred | locghost | stew | lavin_ghost,1920,"French, Joseph Lewis,",The best psychic stories,['gothic'],gothic,lavin_ghost
+475,476,0,chifantasy | teamblack,1920,"London, Jack,",Hearts of three,[],non_genre,no_lavin_tag
+476,477,0,chiutopia | teamblack,1920,"Lindsay, Vachel,",The golden book of Spring,['scifi'],scifi,no_lavin_tag
+477,478,0,chirandom | teamred,1920,"Stringer, Arthur,",The prairie omnibus,[],non_genre,no_lavin_tag
+478,479,0,det100 | teamblack,1920,"Stevenson, Burton Egbert,",The gloved hand;,['crime'],crime,no_lavin_tag
+479,87,0,teamblack | pbgothic | lavin_ghost | lavin_magic,1820,"Shanks, Edward,",The people of the ruins,['gothic'],gothic,lavin_multi
+467,468,0,teamblack | locdetmyst | juvenile | drop,1920,"Snell, Roy J.",Triple spies,['crime'],crime,no_lavin_tag
+422,484,0,teamred | random,1921,"Emerson, Alice B.",Ruth Fielding at Briarwoo,[],non_genre,no_lavin_tag
+452,391,0,teamred | pbgothic | lavin_ghost,1910,"Post, Melville Davisson,","Uncle Abner, master of my",['gothic'],gothic,lavin_ghost
+450,481,0,det100 | teamblack | cozy,1920,"Seaman, Augusta Huiell,",The girl next door,['crime'],crime,no_lavin_tag
+424,473,0,teamred | locdetmyst | juvenile | drop,1920,"Emerson, Alice B.",Ruth Fielding at Lighthou,['crime'],crime,no_lavin_tag
+425,458,0,teamblack | locdetmyst | juvenile | drop,1918,"Leblanc, Maurice,",The confessions of Arsène,['crime'],crime,no_lavin_tag
+426,457,0,teamred | random,1918,"Daviess, Maria Thompson.",The tinder-box,[],non_genre,no_lavin_tag
+427,456,0,teamred | random,1918,"Cullum, Ridgwell,",The way of the strong;,[],non_genre,no_lavin_tag
+428,429,0,teamblack | random,1914,"Bell, J. J.",The misadventures of Jose,[],non_genre,no_lavin_tag
+429,430,0,teamred | det100,1914,"Reeve, Arthur B.",The dream doctor,['crime'],crime,no_lavin_tag
+430,431,0,teamblack | random,1914,"Locke, William John,",The fortunate youth,[],non_genre,no_lavin_tag
+431,432,0,det100 | teamblack,1914,"Bramah, Ernest,",Max Carrados,['crime'],crime,no_lavin_tag
+432,433,0,teamred | locghost | lavin_ghost,1914,"Seymour, St. John D.",True Irish ghost stories,['gothic'],gothic,lavin_ghost
+433,434,0,det100 | teamblack,1914,"Vance, Louis Joseph,",The lone wolf,['crime'],crime,no_lavin_tag
+434,483,0,chirandom | teamblack,1920,"Ostrander, Isabel,",At one-thirty,[],non_genre,no_lavin_tag
+435,435,0,teamred | det100 | stew,1915,"Bianchi, Martha Dickinson",The Kiss of Apollo,['crime'],crime,no_lavin_tag
+451,480,0,teamblack | anatscifi | stew,1920,"Hope, Laura Lee.",The Bobbsey twins on Blue,['scifi'],scifi,no_lavin_tag
+436,437,0,teamred | random,1915,"Cresswell, Clarice M.",The making and breaking o,[],non_genre,no_lavin_tag
+438,439,0,teamblack | locdetmyst | juvenile | drop,1915,"Seaman, Augusta Huiell,",The boarded-up house,['crime'],crime,no_lavin_tag
+439,440,0,teamblack | locdetmyst | juvenile | drop,1915,"Emerson, Alice B.",Ruth Fielding and the gyp,['crime'],crime,no_lavin_tag
+440,441,0,teamblack | locdetmyst | juvenile | drop,1915,"Rockwood, Roy.","Dave Dashaway, air champi",['crime'],crime,no_lavin_tag
+441,442,0,teamred | locdetmyst | juvenile | drop,1916,"Hope, Laura Lee.",The Bobbsey twins at home,['crime'],crime,no_lavin_tag
+442,443,0,teamred | det100,1916,"Wells, Carolyn,",The bride of a moment,['crime'],crime,no_lavin_tag
+443,444,0,teamred | random,1916,"Winterburn, Florence Hull",Liberty hall,[],non_genre,no_lavin_tag
+444,445,0,teamblack | random,1916,"Sherwood, Margaret Polloc",The worn doorstep,[],non_genre,no_lavin_tag
+445,446,0,det100 | teamblack | stew,1916,"Biggers, Earl Derr,",The agony column,['crime'],crime,no_lavin_tag
+446,447,0,teamred | locdetmyst,1917,"Doyle, Arthur Conan,",His last bow,['crime'],crime,no_lavin_tag
+447,448,0,teamred | random,1917,"Kerr, Doris Boake,",Painted clay,[],non_genre,no_lavin_tag
+448,436,0,teamred | random,1915,"London, Jack,","Michael, brother of Jerry",[],non_genre,no_lavin_tag
+449,482,0,teamred | random,1920,"Hope, Laura Lee.",The Bobbsey twins in a gr,[],non_genre,no_lavin_tag
+437,438,0,teamred | random,1915,"Fowler, Ellen Thorneycrof",Ten degrees backward,[],non_genre,no_lavin_tag
+362,422,0,teamred | random,1913,"Gibbon, Perceval,",Salvator,[],non_genre,no_lavin_tag
+371,370,0,teamred | locghost | stew | lavin_ghost,1906,"Futrelle, Jacques,",The thinking machine,['gothic'],gothic,lavin_ghost
+360,450,0,teamblack | locdetmyst | juvenile | drop,1917,"Orcutt, William Dana,",Robert Cavelier,['crime'],crime,no_lavin_tag
+273,454,0,teamblack | locdetmyst | juvenile | drop,1918,"Gibbon, Charles,",Beyond compare,['crime'],crime,no_lavin_tag
+274,455,0,teamblack | locghost | stew | lavin_ghost,1918,"De Mille, James,",A strange manuscript foun,['gothic'],gothic,lavin_ghost
+275,367,0,teamblack | locscifi | stew,1906,AnonymousGhost,Weird tid-bits,['scifi'],scifi,no_lavin_tag
+276,365,0,det100 | teamblack | stew,1905,"Kipling, Rudyard,",The phantom rickshaw,['crime'],crime,no_lavin_tag
+277,368,0,teamblack | pbgothic | stew | lavin_ghost,1906,"Besant, Walter,",The inner house,['gothic'],gothic,lavin_ghost
+278,363,0,teamblack | random,1905,"Haggard, H. Rider",Mr. Meeson's will,[],non_genre,no_lavin_tag
+279,284,0,teamblack | pbgothic | stew,1888,AnonymousGhost,Weird tid-bits,['gothic'],gothic,no_lavin_tag
+280,285,0,teamred | locdetmyst,1888,AnonymousGhost,Weird tid-bits,['crime'],crime,no_lavin_tag
+281,286,0,teamred | anatscifi | locscifi | stew,1888,"Ward, Humphry,",Robert Elsmere,['scifi'],scifi,no_lavin_tag
+282,287,0,teamblack | random,1888,"Green, Anna Katharine,",Behind closed doors,[],non_genre,no_lavin_tag
+283,288,0,teamblack | locdetmyst | stew,1888,"Kipling, Rudyard,",Plain tales from the hill,['crime'],crime,no_lavin_tag
+284,304,0,teamred | det100,1892,"Gibbon, Charles,",Beyond compare,['crime'],crime,no_lavin_tag
+272,453,0,det100 | teamblack | stew,1918,"Clarke, Rebecca Sophia,",Drones' honey,['crime'],crime,no_lavin_tag
+285,289,0,teamred | supernatural | random,1888,"Bellamy, Edward,","Looking backward, 2000-18",[],non_genre,no_lavin_tag
+287,292,0,teamred | anatscifi,1889,"Gibbon, Charles,",Beyond compare,['scifi'],scifi,no_lavin_tag
+288,293,0,teamblack | anatscifi | stew,1889,"Goodman, E. J.",Too curious,['scifi'],scifi,no_lavin_tag
+289,294,0,teamred | pbgothic | stew | lavin_ghost,1890,AnonymousGhost,Weird tid-bits,['gothic'],gothic,lavin_ghost
+290,295,0,teamblack | locghost | lavin_ghost,1890,AnonymousGhost,Weird tid-bits,['gothic'],gothic,lavin_ghost
+361,449,0,teamred | random,1917,"Harper, Vincent.",The mortgage on the brain,[],non_genre,no_lavin_tag
+292,296,0,teamred | random,1890,"Twain, Mark,",A Connecticut Yankee in K,[],non_genre,no_lavin_tag
+293,298,0,teamred | anatscifi,1890,"Lee, Vernon,",Hauntings,['scifi'],scifi,no_lavin_tag
+294,299,0,teamblack | pbgothic | lavin_magic | lavin_deranged,1891,AnonymousGhost2,Modern ghosts;,['gothic'],gothic,lavin_multi
+295,300,0,teamblack | locscifi | stew,1891,"Franzos, Karl Emil,",Judith Trachtenberg,['scifi'],scifi,no_lavin_tag
+296,301,0,teamblack | pbgothic | stew,1891,AnonymousGhost2,Modern ghosts,['gothic'],gothic,no_lavin_tag
+297,302,0,teamblack | locdetmyst | stew,1891,"Donnelly, Ignatius,",Cæsar's column,['crime'],crime,no_lavin_tag
+298,290,0,teamblack | locghost | stew | lavin_ghost,1888,"Wilde, Oscar,",The picture of Dorian Gra,['gothic'],gothic,lavin_ghost
+286,291,0,teamblack | locghost | lavin_ghost,1888,"Farjeon, B. L.",Miser Farebrother,['gothic'],gothic,lavin_ghost
+299,452,0,teamblack | locdetmyst | juvenile | drop,1917,"Ward, Herbert Dickinson,",A republic without a pres,['crime'],crime,no_lavin_tag
+271,303,0,teamblack | random,1892,"Doyle, Arthur Conan,",A study in scarlet,[],non_genre,no_lavin_tag
+269,272,0,det100 | teamblack,1887,Anonymous3,Dreamland and ghostland,['crime'],crime,no_lavin_tag
+243,308,0,teamblack | pbgothic | stew,1892,"Pinkerton, Allan,",Bucholz and the detective,['gothic'],gothic,no_lavin_tag
+244,310,0,teamblack | anatscifi,1893,"Braddon, M. E.",The Story of Barbara,['scifi'],scifi,no_lavin_tag
+245,297,0,teamblack | locghost | stew | lavin_ghost,1890,"Scudder, Horace Elisha,",Doings of the Bodley fami,['gothic'],gothic,lavin_ghost
+246,282,0,teamblack | random,1888,"Greg, Percy,",Across the zodiac,[],non_genre,no_lavin_tag
+247,281,0,teamred | locghost | stew | lavin_ghost,1888,"Greg, Percy,",Across the zodiac,['gothic'],gothic,lavin_ghost
+248,280,0,teamblack | locghost | stew | lavin_ghost,1888,"Zhelikhovsky, Vera,",The General's Will,['gothic'],gothic,lavin_ghost
+249,250,0,teamred | anatscifi,1880,"Greg, Percy,",Across the zodiac,['scifi'],scifi,no_lavin_tag
+250,251,0,teamblack | locscifi,1880,"Cowan, Frank,",Revi-Lona,['scifi'],scifi,no_lavin_tag
+251,252,0,teamred | det100,1880,"Aldrich, Thomas Bailey,",The stillwater tragedy,['crime'],crime,no_lavin_tag
+252,253,0,teamred | locdetective | stew,1881,"Pinkerton, Allan,",The rail-road forger and ,['crime'],crime,no_lavin_tag
+253,254,0,teamblack | locdetective | drop,1881,"Pinkerton, Allan,",The gypsies and the detec,['crime'],crime,no_lavin_tag
+254,306,0,teamred | det100 | stew,1892,"Sidney, Margaret,",Five little Peppers and h,['crime'],crime,no_lavin_tag
+270,305,0,teamblack | locscifi,1892,"Hudson, W. H.",A crystal age,['scifi'],scifi,no_lavin_tag
+255,255,0,teamblack | random,1881,"Oliphant,",A little pilgrim in the u,[],non_genre,no_lavin_tag
+257,259,0,teamred | lockandkey | stew,1884,"Oliphant, Laurence,",Altiora Peto,['crime'],crime,no_lavin_tag
+258,260,0,teamred | pbgothic | lavin_magic,1885,"Chekhov, Anton,",The Safety Match,['gothic'],gothic,lavin_magic
+259,262,0,det100 | teamblack,1885,"Haggard, H. Rider",King Solomon's mines,['crime'],crime,no_lavin_tag
+260,263,0,teamred | random,1886,"Pater, Walter,",Marius the Epicurean,[],non_genre,no_lavin_tag
+261,264,0,teamred | det100,1886,"Lynch, Lawrence L.","Dangerous ground, or, The",['crime'],crime,no_lavin_tag
+262,265,0,teamblack | locdetective | drop,1886,"Lemaître, Jules,",Serenus and other stories,['crime'],crime,no_lavin_tag
+263,267,0,teamred | anatscifi | locscifi,1886,"Hume, Fergus,",The mystery of a hansom c,['scifi'],scifi,no_lavin_tag
+264,268,0,teamred | pbgothic | anatscifi | stew,1886,"Pinkerton, Allan,",Professional thieves and ,"['scifi', 'gothic']",multi,no_lavin_tag
+265,269,0,teamred | random,1887,"Corelli, Marie,",A romance of two worlds,[],non_genre,no_lavin_tag
+266,270,0,teamblack | locghost | lavin_ghost,1887,"Verne, Jules,",The clipper of the clouds,['gothic'],gothic,lavin_ghost
+267,271,0,teamred | anatscifi,1887,"Stevenson, Robert Louis,",Strange case of Dr. Jekyl,['scifi'],scifi,no_lavin_tag
+268,257,0,det100 | teamblack,1883,"Fawcett, Edgar,",Olivia Delaplaine,['crime'],crime,no_lavin_tag
+256,258,0,teamred | random,1883,"Du Boisgobey, Fortuné,",The detective's eye ;,[],non_genre,no_lavin_tag
+300,273,0,teamblack | random,1887,"Bierce, Ambrose,",Tales of soldiers and civ,[],non_genre,no_lavin_tag
+291,283,0,teamred | det100 | stew,1888,"Stockton, Frank Richard,",The great war syndicate,['crime'],crime,no_lavin_tag
+302,359,0,teamred | locdetmyst | juvenile | drop,1904,"Bierce, Ambrose,",The monk and the hangman',['crime'],crime,no_lavin_tag
+334,278,0,teamblack | anatscifi | stew,1888,"Shiel, M. P.",The yellow danger,['scifi'],scifi,no_lavin_tag
+335,279,0,teamred | det100,1888,"Kipling, Rudyard,",The day's work,['crime'],crime,no_lavin_tag
+336,311,0,teamblack | anatscifi,1893,"Thornton, Marcellus Eugen","My ""budie"" and I",['scifi'],scifi,no_lavin_tag
+337,312,0,teamblack | pbgothic | lavin_ghost,1893,"Green, Anna Katharine,",Agatha Webb,['gothic'],gothic,lavin_ghost
+338,307,0,teamred | random,1892,"Hornung, E. W.",The amateur cracksman,[],non_genre,no_lavin_tag
+339,314,0,teamblack | random,1894,"Wells, H. G.",When the sleeper wakes,[],non_genre,no_lavin_tag
+340,336,0,teamred | random,1898,"Tarkington, Booth,",Monsieur Beaucaire,[],non_genre,no_lavin_tag
+301,275,0,teamblack | anatscifi | locscifi,1888,Anonymous9,Eleven possible cases,['scifi'],scifi,no_lavin_tag
+342,338,0,det100 | teamblack,1899,"Chapman, Allen.","Boys of Spring Hill, or, ",['crime'],crime,no_lavin_tag
+343,339,0,teamred | det100,1899,"Pinkerton, Allan,",The model town and the de,['crime'],crime,no_lavin_tag
+344,356,0,teamred | locscifi,1904,"Pinkerton, Allan,",The burglar's fate and th,['scifi'],scifi,no_lavin_tag
+345,340,0,teamred | locscifi,1899,"Osborne, Duffield,",The secret of the crater,['scifi'],scifi,no_lavin_tag
+333,277,0,teamred | pbgothic | lavin_ghost,1888,"James, Henry,",The Turn of the Screw,['gothic'],gothic,lavin_ghost
+346,342,0,teamblack | locdetective | drop,1900,"Wells, H. G.",The first men in the moon,['crime'],crime,no_lavin_tag
+348,344,0,teamblack | locdetective | drop,1900,"Shiel, M. P.",The purple cloud,['crime'],crime,no_lavin_tag
+349,345,0,teamblack | locdetective | drop,1900,"Owen, Harle Oren.",Welsh rarebit tales,['crime'],crime,no_lavin_tag
+350,346,0,teamred | locscifi | stew,1900,"Doyle, Arthur Conan,",The return of Sherlock Ho,['scifi'],scifi,no_lavin_tag
+351,347,0,teamblack | anatscifi | locscifi,1901,"Isham, Frederic Stewart,",Under the rose,['scifi'],scifi,no_lavin_tag
+352,335,0,teamblack | anatscifi,1898,"Benson, Arthur Christophe",The hill of trouble and o,['scifi'],scifi,no_lavin_tag
+353,348,0,teamred | femscifi,1901,"Meyrink, Gustav,",The Man on the Bottle,['scifi'],scifi,no_lavin_tag
+354,350,0,teamred | locscifi,1902,"Lafargue, Paul,",The sale of an appetite,['scifi'],scifi,no_lavin_tag
+355,351,0,teamblack | locdetmyst,1903,"Harris-Burland, J. B.",The Princess Thora,['crime'],crime,no_lavin_tag
+356,352,0,teamred | random,1903,"Tracy, Louis,",The Albert Gate mystery,[],non_genre,no_lavin_tag
+357,353,0,teamblack | pbgothic | lavin_ghost,1903,"Wells, H. G.",The food of the gods and ,['gothic'],gothic,lavin_ghost
+358,341,0,teamblack | random,1900,"Hope, Laura Lee.",The Bobbsey twins;,[],non_genre,no_lavin_tag
+359,451,0,teamblack | locdetmyst | juvenile | drop,1917,"Baring-Gould, S.",A book of ghosts,['crime'],crime,no_lavin_tag
+347,343,0,teamblack | locdetmyst | stew,1900,"Ling, M. A. Moore Bentley",A woman of Mars,['crime'],crime,no_lavin_tag
+332,276,0,teamred | locghost | lavin_ghost,1888,"Barr, Amelia Edith Huddle",The lost silver of Briffa,['gothic'],gothic,lavin_ghost
+341,313,0,det100 | teamblack,1894,"Pinkerton, Allan,",The model town and the de,['crime'],crime,no_lavin_tag
+330,357,0,det100 | teamblack,1904,"Bangs, John Kendrick,",Ghosts I have met and som,['crime'],crime,no_lavin_tag
+303,360,0,teamred | locghost | stew | lavin_ghost,1904,"Zangwill, Israel,",The big bow mystery,['gothic'],gothic,lavin_ghost
+304,361,0,teamred | random,1904,"Bradshaw, William R.",The goddess of Atvatabar,[],non_genre,no_lavin_tag
+305,362,0,teamblack | anatscifi | stew,1905,"Doyle, Arthur Conan,",Adventures of Sherlock Ho,['scifi'],scifi,no_lavin_tag
+306,349,0,chifantasy | teamblack | chiscifi,1901,"Theuriet, André,",A young man of the period,['scifi'],scifi,no_lavin_tag
+331,354,0,teamred | lockandkey | stew,1903,"Le Braz, Anatole,",Dealings with the dead;,['crime'],crime,no_lavin_tag
+308,337,0,teamred | random,1899,"Flammarion, Camille,",Omega: the last days of t,[],non_genre,no_lavin_tag
+309,319,0,teamblack | locdetmyst,1894,"Fawcett, E. Douglas",Hartmann the anarchist,['crime'],crime,no_lavin_tag
+310,333,0,teamblack | random,1898,"Griffith, George Chetwynd",The angel of the revoluti,[],non_genre,no_lavin_tag
+311,320,0,teamred | pbgothic | lavin_magic,1895,"Bierce, Ambrose,",Can such things be?,['gothic'],gothic,lavin_magic
+312,316,0,teamblack | anatscifi | stew,1894,"Morrison, Arthur,","Martin Hewitt, investigat",['scifi'],scifi,no_lavin_tag
+313,321,0,teamred | locscifi | stew,1895,"Henty, G. A.",When London burned,['scifi'],scifi,no_lavin_tag
+314,358,0,teamblack | anatscifi | locscifi,1904,"Pemberton, Max,",Jewel mysteries I have kn,['scifi'],scifi,no_lavin_tag
+315,322,0,teamred | anatscifi | locscifi | stew,1895,"Astor, John Jacob,",A journey in other worlds,['scifi'],scifi,no_lavin_tag
+307,334,0,teamred | pbgothic | lavin_ghost | lavin_magic,1898,"Bierce, Ambrose,",In the midst of life;,['gothic'],gothic,lavin_multi
+317,325,0,teamred | lockandkey,1896,"Scott, Hugh Stowell,",With edged tools;,['crime'],crime,no_lavin_tag
+329,274,0,teamblack | locdetmyst,1888,Anonymous1,"Seth Bond, or, A lost tre",['crime'],crime,no_lavin_tag
+328,323,0,teamred | det100,1896,"Wait, Frona Eunice,",Yermah the Dorado,['crime'],crime,no_lavin_tag
+327,318,0,teamblack | random,1894,"Morrison, Arthur,",The Dorrington deed-box,[],non_genre,no_lavin_tag
+326,332,0,teamblack | locghost | lavin_ghost,1898,"Stoker, Bram,",Dracula,['gothic'],gothic,lavin_ghost
+325,331,0,teamred | locghost | stew | lavin_ghost,1898,"Hardy, Thomas,",The well-beloved;,['gothic'],gothic,lavin_ghost
+323,315,0,det100 | teamblack,1894,"Merrick, Leonard,",This stage of fools,['crime'],crime,no_lavin_tag
+324,330,0,teamred | locdetmyst,1898,"Palmarini, I. M.",Shadows,['crime'],crime,no_lavin_tag
+321,328,0,teamred | det100 | stew,1897,"Wells, H. G.",The time machine;,['crime'],crime,no_lavin_tag
+320,327,0,teamblack | pbgothic | stew | lavin_magic,1897,"Besant, Walter,",Beyond the dreams of avar,['gothic'],gothic,lavin_magic
+319,326,0,teamblack | random,1897,"Corelli, Marie,",The sorrows of Satan;,[],non_genre,no_lavin_tag
+318,317,0,teamblack | random,1894,"Doyle, Arthur Conan,",Memoirs of Sherlock Holme,[],non_genre,no_lavin_tag
+322,329,0,teamred | femscifi,1897,"Post, Melville Davisson,",The strange schemes of Ra,['scifi'],scifi,no_lavin_tag
+316,324,0,teamred | random,1896,"Theuriet, André,",The Abbé Daniel,[],non_genre,no_lavin_tag
+967,366,1,teamblack | pbgothic | stew,1905,"Hambly, Barbara",Those who hunt the night,['gothic'],gothic,no_lavin_tag
+969,309,1,teamblack | anatscifi,1893,"Hess, Joan,",Mischief in Maggody,['scifi'],scifi,no_lavin_tag
+968,256,1,teamred | pbgothic | stew,1882,"Anthony, Piers,",Heaven cent,['gothic'],gothic,no_lavin_tag
+966,41,1,teamred | lockandkey | stew,1800,"Engh, M. J,",Wheel of the winds,['crime'],crime,no_lavin_tag
+964,266,1,teamred | femscifi | locscifi,1886,"McCaffrey, Anne,",The lady,['scifi'],scifi,no_lavin_tag
+963,904,1,teamred | chiscifi | stew,1979,"Morrison, Toni",Beloved,['scifi'],scifi,no_lavin_tag
+965,192,1,teamred | anatscifi | stew,1865,"Swift, Edward,",A place with promise,['scifi'],scifi,no_lavin_tag
+970,5,2,teamblack | anatscifi,1771,"Rosenberg, Joel,",Not for glory,['scifi'],scifi,no_lavin_tag
+971,1,2,teamred | random,1760,"Grissom, Ken,",Drop-off,[],non_genre,no_lavin_tag
+972,355,2,teamblack | random,1903,"Crais, Robert,",Stalking the angel,[],non_genre,no_lavin_tag
+973,845,3,teamred | chiscifi,1971,"Goldsborough, Robert,",The last coincidence,['scifi'],scifi,no_lavin_tag
+974,802,3,teamred | chiscifi | stew,1965,"Hillerman, Tony,",Talking God,['scifi'],scifi,no_lavin_tag
+979,584,4,teamred | chiscifi,1932,"Lackey, Mercedes,",Burning water,['scifi'],scifi,no_lavin_tag
+978,777,4,teamred | chiscifi | stew,1961,"Powers, Tim,",The stress of her regard,['scifi'],scifi,no_lavin_tag
+975,612,4,teamred | chiscifi,1937,"Somtow, S. P,",Moon dance,['scifi'],scifi,no_lavin_tag
+976,523,4,teamred | chiscifi | stew,1923,"Weinstein, Howard,",Power hungry,['scifi'],scifi,no_lavin_tag
+977,261,4,teamred | random,1885,"Cook, Robin,",Mutation,[],non_genre,no_lavin_tag
+980,409,5,teamblack | random,1912,"Dunlap, Susan,",Pious deception,[],non_genre,no_lavin_tag
+981,662,6,chiutopia | teamblack,1945,"Shatner, William,",TekWar,['scifi'],scifi,no_lavin_tag
+982,928,7,teamblack | chiscifi | stew,1982,"McMurtry, Larry,",Some can whistle,['scifi'],scifi,no_lavin_tag
+983,558,7,chirandom | teamblack | chimyst | stew,1929,"Jeter, K. W,",Farewell horizontal,['crime'],crime,no_lavin_tag

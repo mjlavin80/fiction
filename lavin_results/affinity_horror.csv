@@ -1,167 +1,167 @@
 ,docid,group_label,genres,year,author,title,processed_genre,final_genre,lavin_genre
-0,28,0,teamred | pbgothic,1794,"Radcliffe, Ann Ward,",The mysteries of Udolpho,['gothic'],gothic,
+0,28,0,teamred | pbgothic,1794,"Radcliffe, Ann Ward,",The mysteries of Udolpho,['gothic'],gothic,no_lavin_tag
 1,18,0,teamred | pbgothic | stew | lavin_deranged,1790,"Radcliffe, Ann Ward,",A Sicilian romance,['gothic'],gothic,lavin_deranged
 2,20,0,teamred | pbgothic | stew | lavin_deranged,1790,"Radcliffe, Ann Ward,",A Sicilian romance,['gothic'],gothic,lavin_deranged
 3,23,0,teamblack | pbgothic | stew | lavin_deranged,1791,"Radcliffe, Ann Ward,",The romance of the forest,['gothic'],gothic,lavin_deranged
-4,27,0,teamblack | pbgothic | stew,1794,"Radcliffe, Ann Ward,",The mysteries of Udolpho,['gothic'],gothic,
-12,22,1,teamblack | stangothic,1791,"Reeve, Clara,",The school for widows,['gothic'],gothic,
-11,11,1,teamblack | pbgothic | stew | lavin_deranged,1785,"Lee, Sophia,",The recess;,['gothic'],gothic,lavin_deranged
+4,27,0,teamblack | pbgothic | stew,1794,"Radcliffe, Ann Ward,",The mysteries of Udolpho,['gothic'],gothic,no_lavin_tag
+12,11,1,teamblack | pbgothic | stew | lavin_deranged,1785,"Lee, Sophia,",The recess;,['gothic'],gothic,lavin_deranged
+11,15,1,teamblack | pbgothic | stew | lavin_deranged,1788,"Smith, Charlotte,",Emmeline,['gothic'],gothic,lavin_deranged
 9,16,1,teamred | pbgothic | stew | lavin_deranged,1788,"Smith, Charlotte,",Emmeline,['gothic'],gothic,lavin_deranged
-10,15,1,teamblack | pbgothic | stew | lavin_deranged,1788,"Smith, Charlotte,",Emmeline,['gothic'],gothic,lavin_deranged
-7,94,1,teamred | stangothic,1823,"Sullivan, Mary Ann.","Owen Castle, or, Which is the heroine?",['gothic'],gothic,
-6,32,1,teamblack | pbgothic | lavin_ghost,1796,"Roche, Regina Maria,",The children of the abbey,['gothic'],gothic,lavin_ghost
-5,71,1,teamred | stangothic,1813,"Roche, Regina Maria,",The monastery of St. Columb;,['gothic'],gothic,
-8,59,1,teamred | stangothic,1807,"Roche, Regina Maria,","The discarded son; or, Haunt of the banditti",['gothic'],gothic,
-13,53,2,teamblack | stangothic | stew,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,['gothic'],gothic,
-14,51,2,teamblack | stangothic,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,['gothic'],gothic,
-15,67,2,teamblack | stangothic,1810,"Cuthbertson, Catherine.",Forest of Montalbano,['gothic'],gothic,
-16,49,2,teamblack | stangothic,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,['gothic'],gothic,
-17,54,2,teamblack | stangothic,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,['gothic'],gothic,
-19,65,3,teamred | stangothic,1809,"Frances, Sophia L.","Angelo Guicciardini, or, The bandit of the Alps",['gothic'],gothic,
-18,57,3,teamblack | stangothic | stew,1806,"Frances, Sophia L.","Vivonio, or, The hour of retribution",['gothic'],gothic,
-20,55,3,teamred | stangothic | stew,1803,"Young, Mary Julia.","Right and wrong; or, The kinsmen of Naples",['gothic'],gothic,
+10,22,1,teamblack | stangothic,1791,"Reeve, Clara,",The school for widows,['gothic'],gothic,no_lavin_tag
+7,94,1,teamred | stangothic,1823,"Sullivan, Mary Ann.","Owen Castle, or, Which is the heroine?",['gothic'],gothic,no_lavin_tag
+6,59,1,teamred | stangothic,1807,"Roche, Regina Maria,","The discarded son; or, Haunt of the banditti",['gothic'],gothic,no_lavin_tag
+5,32,1,teamblack | pbgothic | lavin_ghost,1796,"Roche, Regina Maria,",The children of the abbey,['gothic'],gothic,lavin_ghost
+8,71,1,teamred | stangothic,1813,"Roche, Regina Maria,",The monastery of St. Columb;,['gothic'],gothic,no_lavin_tag
+13,53,2,teamblack | stangothic | stew,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,['gothic'],gothic,no_lavin_tag
+14,51,2,teamblack | stangothic,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,['gothic'],gothic,no_lavin_tag
+15,67,2,teamblack | stangothic,1810,"Cuthbertson, Catherine.",Forest of Montalbano,['gothic'],gothic,no_lavin_tag
+16,49,2,teamblack | stangothic,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,['gothic'],gothic,no_lavin_tag
+17,54,2,teamblack | stangothic,1803,"Cuthbertson, Catherine.",Romance of the Pyrenees,['gothic'],gothic,no_lavin_tag
+19,65,3,teamred | stangothic,1809,"Frances, Sophia L.","Angelo Guicciardini, or, The bandit of the Alps",['gothic'],gothic,no_lavin_tag
+18,57,3,teamblack | stangothic | stew,1806,"Frances, Sophia L.","Vivonio, or, The hour of retribution",['gothic'],gothic,no_lavin_tag
+20,55,3,teamred | stangothic | stew,1803,"Young, Mary Julia.","Right and wrong; or, The kinsmen of Naples",['gothic'],gothic,no_lavin_tag
 21,72,4,teamblack | pbgothic | lavin_deranged,1816,"Maturin, Charles Robert,","Bertram, or, The castle o",['gothic'],gothic,lavin_deranged
-22,75,5,teamblack | pbgothic,1818,"Austen, Jane,",Northanger abbey,['gothic'],gothic,
-23,76,5,teamblack | lochorror | stew,1818,"Austen, Jane,",Northanger Abbey,['goth'],goth,
-24,82,5,teamred | lochorror,1818,"Austen, Jane,",Northanger Abbey,['goth'],goth,
-25,83,5,teamblack | lochorror,1818,"Austen, Jane,",Northanger Abbey,['goth'],goth,
-26,80,5,teamred | lochorror | stew,1818,"Austen, Jane,",Northanger Abbey,['goth'],goth,
+22,75,5,teamblack | pbgothic,1818,"Austen, Jane,",Northanger abbey,['gothic'],gothic,no_lavin_tag
+23,76,5,teamblack | lochorror | stew,1818,"Austen, Jane,",Northanger Abbey,['gothic'],gothic,no_lavin_tag
+24,82,5,teamred | lochorror,1818,"Austen, Jane,",Northanger Abbey,['gothic'],gothic,no_lavin_tag
+25,83,5,teamblack | lochorror,1818,"Austen, Jane,",Northanger Abbey,['gothic'],gothic,no_lavin_tag
+26,80,5,teamred | lochorror | stew,1818,"Austen, Jane,",Northanger Abbey,['gothic'],gothic,no_lavin_tag
 46,128,6,teamblack | pbgothic | lavin_ghost,1837,"Hawthorne, Nathaniel,",Twice-told tales,['gothic'],gothic,lavin_ghost
-47,172,6,teamblack | pbgothic,1858,"MacDonald, George,",Phantastes,['gothic'],gothic,
-48,162,6,teamred | pbgothic | stew,1850,"Hawthorne, Nathaniel,",The scarlet letter,['gothic'],gothic,
+47,172,6,teamblack | pbgothic,1858,"MacDonald, George,",Phantastes,['gothic'],gothic,no_lavin_tag
+48,162,6,teamred | pbgothic | stew,1850,"Hawthorne, Nathaniel,",The scarlet letter,['gothic'],gothic,no_lavin_tag
 49,160,6,teamblack | pbgothic | lavin_magic,1849,"Ainsworth, William Harris",The Lancashire witches,['gothic'],gothic,lavin_magic
 50,98,6,teamred | locghost | stew | lavin_ghost,1826,Anonymous2,Legends of terror!,['gothic'],gothic,lavin_ghost
-51,157,6,teamred | locghost | stew | lavin_ghost,1848,"St. Clair, Henry.","Tales of terror; or, The ",['gothic'],gothic,lavin_ghost
-52,100,6,teamblack | pbgothic,1826,"Radcliffe, Ann Ward,",Gaston de Blondeville,['gothic'],gothic,
-54,150,6,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1846,"Hawthorne, Nathaniel,",Mosses from an old manse,['gothic'],gothic,lavin_multi
-45,89,6,teamred | pbgothic | stew | lavin_magic | lavin_deranged,1821,"Maturin, Charles Robert,",Melmoth the wanderer,['gothic'],gothic,lavin_multi
-55,103,6,teamblack | pbgothic | stew,1827,"Lytton, Edward Bulwer Lyt",Falkland,['gothic'],gothic,
-56,290,6,teamblack | locghost | stew | lavin_ghost,1888,AnonymousGhost,Weird tid-bits,['gothic'],gothic,lavin_ghost
-57,135,6,teamred | pbgothic | stew,1840,"Ainsworth, William Harris",The Tower of London,['gothic'],gothic,
-58,121,6,teamblack | pbgothic,1833,"Lytton, Edward Bulwer Lyt",Godolphin,['gothic'],gothic,
-59,93,6,teamblack | stangothic,1823,"Gaspey, Thomas,","Other times; or, the monks of Leadenhall",['gothic'],gothic,
-53,280,6,teamblack | locghost | stew | lavin_ghost,1888,AnonymousGhost,Weird tid-bits,['gothic'],gothic,lavin_ghost
+51,100,6,teamblack | pbgothic,1826,"Radcliffe, Ann Ward,",Gaston de Blondeville,['gothic'],gothic,no_lavin_tag
+52,157,6,teamred | locghost | stew | lavin_ghost,1848,"St. Clair, Henry.","Tales of terror; or, The ",['gothic'],gothic,lavin_ghost
+54,280,6,teamblack | locghost | stew | lavin_ghost,1888,AnonymousGhost,Weird tid-bits,['gothic'],gothic,lavin_ghost
+45,84,6,teamblack | pbgothic | lavin_magic | lavin_deranged,1820,"Maturin, Charles Robert,",Melmoth the wanderer,['gothic'],gothic,lavin_multi
+55,89,6,teamred | pbgothic | stew | lavin_magic | lavin_deranged,1821,"Maturin, Charles Robert,",Melmoth the wanderer,['gothic'],gothic,lavin_multi
+56,35,6,teamred | pbgothic,1798,"Brown, Charles Brockden,","Wieland; or, The transfor",['gothic'],gothic,no_lavin_tag
+57,68,6,teamred | stangothic | stew,1812,"Stanhope, Louisa Sidney.",The confessional of Valombre,['gothic'],gothic,no_lavin_tag
+58,79,6,stangothic | femscifi | teamred | stew,1818,"Shelley, Mary Wollstonecr",Frankenstein,"['scifi', 'gothic']",multi,no_lavin_tag
+59,121,6,teamblack | pbgothic,1833,"Lytton, Edward Bulwer Lyt",Godolphin,['gothic'],gothic,no_lavin_tag
+53,81,6,teamblack | stangothic,1818,"Porter, Anna Maria,",The fast of St. Magdalen,['gothic'],gothic,no_lavin_tag
 44,281,6,teamred | locghost | stew | lavin_ghost,1888,AnonymousGhost,Weird tid-bits,['gothic'],gothic,lavin_ghost
-40,35,6,teamred | pbgothic,1798,"Brown, Charles Brockden,","Wieland; or, The transfor",['gothic'],gothic,
+40,61,6,teamred | stangothic,1807,"Mortimer, Edward,",The friar Hildargo,['gothic'],gothic,no_lavin_tag
 42,4,6,teamred | pbgothic | stew | lavin_ghost,1764,"Walpole, Horace,",The castle of Otranto;,['gothic'],gothic,lavin_ghost
-43,116,6,teamblack | pbgothic | lavin_magic,1832,"Irving, Washington,",Tales of the Alhambra,['gothic'],gothic,lavin_magic
+43,135,6,teamred | pbgothic | stew,1840,"Ainsworth, William Harris",The Tower of London,['gothic'],gothic,no_lavin_tag
 27,34,6,teamblack | pbgothic | stew | lavin_magic,1796,"Lewis, M. G.",The monk,['gothic'],gothic,lavin_magic
 28,31,6,teamblack | pbgothic | lavin_magic,1796,"Lewis, M. G.",The monk,['gothic'],gothic,lavin_magic
-29,44,6,teamblack | stangothic,1801,"Moore, George,",Grasville Abbey,['gothic'],gothic,
-30,45,6,teamblack | stangothic,1802,"Melville, Theodore.","The white knight, or, The monastery of Morne",['gothic'],gothic,
-31,48,6,teamred | stangothic,1803,"Walker, George,",Don Raphael,['gothic'],gothic,
-33,60,6,teamblack | pbgothic,1807,"Dacre, Charlotte,",The libertine;,['gothic'],gothic,
-32,36,6,teamred | pbgothic | lavin_magic | lavin_deranged,1799,"Godwin, William,",St. Leon: a tale of the s,['gothic'],gothic,lavin_multi
-35,87,6,teamblack | pbgothic | lavin_ghost | lavin_magic,1820,"Irving, Washington,",The sketch-book of Geoffr,['gothic'],gothic,lavin_multi
-36,79,6,stangothic | femscifi | teamred | stew,1818,"Shelley, Mary Wollstonecr",Frankenstein,"['scifi', 'gothic']",multi,
-37,81,6,teamblack | stangothic,1818,"Porter, Anna Maria,",The fast of St. Magdalen,['gothic'],gothic,
-38,84,6,teamblack | pbgothic | lavin_magic | lavin_deranged,1820,"Maturin, Charles Robert,",Melmoth the wanderer,['gothic'],gothic,lavin_multi
-39,61,6,teamred | stangothic,1807,"Mortimer, Edward,",The friar Hildargo,['gothic'],gothic,
-41,13,6,teamblack | pbgothic | stew | lavin_magic,1786,"Beckford, William,",Vathek,['gothic'],gothic,lavin_magic
-34,68,6,teamred | stangothic | stew,1812,"Stanhope, Louisa Sidney.",The confessional of Valombre,['gothic'],gothic,
-60,101,7,teamred | pbgothic | stew,1826,"Radcliffe, Ann Ward,",Gaston de Blondeville,['gothic'],gothic,
-66,7,8,teamblack | pbgothic | lavin_ghost,1777,"Reeve, Clara,",The old English baron,['gothic'],gothic,lavin_ghost
-68,144,8,teamred | pbgothic | stew,1844,"Reynolds, George W. M.",The mysteries of London,['gothic'],gothic,
-67,161,8,teamblack | pbgothic,1850,"Reynolds, George W. M.",The mysteries of the cour,['gothic'],gothic,
-65,24,8,teamred | pbgothic | stew | lavin_deranged,1794,"Godwin, William,",The adventures of Caleb W,['gothic'],gothic,lavin_deranged
-62,149,8,teamred | pbgothic | stew,1846,"Reynolds, George W. M.",The mysteries of London,['gothic'],gothic,
-63,125,8,teamred | newgate | stangothic | lavin_ghost | lavin_magic,1834,"Ainsworth, William Harris",Rookwood,"['gothic', 'crime']",multi,lavin_multi
-61,130,8,teamred | pbgothic | stew,1838,"Dickens, Charles,",Oliver Twist,['gothic'],gothic,
-64,137,8,teamblack | pbgothic | stew,1841,"Dickens, Charles,",The old curiosity shop,['gothic'],gothic,
-69,188,9,sensation | pbgothic | teamblack | stew,1864,"Le Fanu, Joseph Sheridan,",Uncle Silas,"['gothic', 'sensation']",multi,
-70,190,9,teamred | sensation | pbgothic | stew,1864,"Le Fanu, Joseph Sheridan,",Uncle Silas,"['gothic', 'sensation']",multi,
-71,189,9,teamred | sensation | pbgothic | stew,1864,"Le Fanu, Joseph Sheridan,",Uncle Silas,"['gothic', 'sensation']",multi,
-79,179,10,teamred | sensation | pbgothic | stew | lavin_deranged,1860,"Collins, Wilkie,",The woman in white,"['gothic', 'sensation']",multi,lavin_deranged
-72,151,10,teamred | pbgothic | lavin_deranged,1847,"Brontë, Charlotte,",Jane Eyre,['gothic'],gothic,lavin_deranged
-73,268,10,teamred | pbgothic | anatscifi | stew,1886,"Stevenson, Robert Louis,",Strange case of Dr. Jekyl,"['scifi', 'gothic']",multi,
-74,516,10,teamblack | locdetmyst | locghost | lavin_ghost,1922,"French, Joseph Lewis,",Masterpieces of mystery,"['gothic', 'crime']",multi,lavin_ghost
-75,207,10,teamred | det100 | pbgothic | lavin_deranged,1868,"Collins, Wilkie,",The moonstone,"['gothic', 'crime']",multi,lavin_deranged
-76,197,10,teamred | sensation | pbgothic | stew,1866,"Collins, Wilkie,",Armadale,"['gothic', 'sensation']",multi,
-77,193,10,teamblack | pbgothic,1865,"Dickens, Charles,",Our mutual friend,['gothic'],gothic,
-78,240,10,teamred | pbgothic | stew | lavin_ghost,1878,"Collins, Wilkie,",The haunted hotel,['gothic'],gothic,lavin_ghost
-81,301,11,teamblack | pbgothic | stew,1891,"Bierce, Ambrose,",Tales of soldiers and civ,['gothic'],gothic,
-82,312,11,teamblack | pbgothic | lavin_ghost,1893,"Bierce, Ambrose,",Can such things be?,['gothic'],gothic,lavin_ghost
-80,308,11,teamblack | pbgothic | stew,1892,"Bierce, Ambrose,",In the midst of life;,['gothic'],gothic,
+29,44,6,teamblack | stangothic,1801,"Moore, George,",Grasville Abbey,['gothic'],gothic,no_lavin_tag
+30,45,6,teamblack | stangothic,1802,"Melville, Theodore.","The white knight, or, The monastery of Morne",['gothic'],gothic,no_lavin_tag
+31,48,6,teamred | stangothic,1803,"Walker, George,",Don Raphael,['gothic'],gothic,no_lavin_tag
+33,36,6,teamred | pbgothic | lavin_magic | lavin_deranged,1799,"Godwin, William,",St. Leon: a tale of the s,['gothic'],gothic,lavin_multi
+32,60,6,teamblack | pbgothic,1807,"Dacre, Charlotte,",The libertine;,['gothic'],gothic,no_lavin_tag
+35,290,6,teamblack | locghost | stew | lavin_ghost,1888,AnonymousGhost,Weird tid-bits,['gothic'],gothic,lavin_ghost
+36,87,6,teamblack | pbgothic | lavin_ghost | lavin_magic,1820,"Irving, Washington,",The sketch-book of Geoffr,['gothic'],gothic,lavin_multi
+37,116,6,teamblack | pbgothic | lavin_magic,1832,"Irving, Washington,",Tales of the Alhambra,['gothic'],gothic,lavin_magic
+38,93,6,teamblack | stangothic,1823,"Gaspey, Thomas,","Other times; or, the monks of Leadenhall",['gothic'],gothic,no_lavin_tag
+39,150,6,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1846,"Hawthorne, Nathaniel,",Mosses from an old manse,['gothic'],gothic,lavin_multi
+41,103,6,teamblack | pbgothic | stew,1827,"Lytton, Edward Bulwer Lyt",Falkland,['gothic'],gothic,no_lavin_tag
+34,13,6,teamblack | pbgothic | stew | lavin_magic,1786,"Beckford, William,",Vathek,['gothic'],gothic,lavin_magic
+60,101,7,teamred | pbgothic | stew,1826,"Radcliffe, Ann Ward,",Gaston de Blondeville,['gothic'],gothic,no_lavin_tag
+66,161,8,teamblack | pbgothic,1850,"Reynolds, George W. M.",The mysteries of the cour,['gothic'],gothic,no_lavin_tag
+68,24,8,teamred | pbgothic | stew | lavin_deranged,1794,"Godwin, William,",The adventures of Caleb W,['gothic'],gothic,lavin_deranged
+67,7,8,teamblack | pbgothic | lavin_ghost,1777,"Reeve, Clara,",The old English baron,['gothic'],gothic,lavin_ghost
+65,144,8,teamred | pbgothic | stew,1844,"Reynolds, George W. M.",The mysteries of London,['gothic'],gothic,no_lavin_tag
+62,137,8,teamblack | pbgothic | stew,1841,"Dickens, Charles,",The old curiosity shop,['gothic'],gothic,no_lavin_tag
+63,130,8,teamred | pbgothic | stew,1838,"Dickens, Charles,",Oliver Twist,['gothic'],gothic,no_lavin_tag
+61,125,8,teamred | newgate | stangothic | lavin_ghost | lavin_magic,1834,"Ainsworth, William Harris",Rookwood,"['gothic', 'crime']",multi,lavin_multi
+64,149,8,teamred | pbgothic | stew,1846,"Reynolds, George W. M.",The mysteries of London,['gothic'],gothic,no_lavin_tag
+69,188,9,sensation | pbgothic | teamblack | stew,1864,"Le Fanu, Joseph Sheridan,",Uncle Silas,"['sensation', 'gothic']",multi,no_lavin_tag
+70,190,9,teamred | sensation | pbgothic | stew,1864,"Le Fanu, Joseph Sheridan,",Uncle Silas,"['sensation', 'gothic']",multi,no_lavin_tag
+71,189,9,teamred | sensation | pbgothic | stew,1864,"Le Fanu, Joseph Sheridan,",Uncle Silas,"['sensation', 'gothic']",multi,no_lavin_tag
+79,193,10,teamblack | pbgothic,1865,"Dickens, Charles,",Our mutual friend,['gothic'],gothic,no_lavin_tag
+72,240,10,teamred | pbgothic | stew | lavin_ghost,1878,"Collins, Wilkie,",The haunted hotel,['gothic'],gothic,lavin_ghost
+73,179,10,teamred | sensation | pbgothic | stew | lavin_deranged,1860,"Collins, Wilkie,",The woman in white,"['sensation', 'gothic']",multi,lavin_deranged
+74,151,10,teamred | pbgothic | lavin_deranged,1847,"Brontë, Charlotte,",Jane Eyre,['gothic'],gothic,lavin_deranged
+75,268,10,teamred | pbgothic | anatscifi | stew,1886,"Stevenson, Robert Louis,",Strange case of Dr. Jekyl,"['scifi', 'gothic']",multi,no_lavin_tag
+76,516,10,teamblack | locdetmyst | locghost | lavin_ghost,1922,"French, Joseph Lewis,",Masterpieces of mystery,"['gothic', 'crime']",multi,lavin_ghost
+77,207,10,teamred | det100 | pbgothic | lavin_deranged,1868,"Collins, Wilkie,",The moonstone,"['gothic', 'crime']",multi,lavin_deranged
+78,197,10,teamred | sensation | pbgothic | stew,1866,"Collins, Wilkie,",Armadale,"['sensation', 'gothic']",multi,no_lavin_tag
+81,312,11,teamblack | pbgothic | lavin_ghost,1893,"Bierce, Ambrose,",Can such things be?,['gothic'],gothic,lavin_ghost
+82,308,11,teamblack | pbgothic | stew,1892,"Bierce, Ambrose,",In the midst of life;,['gothic'],gothic,no_lavin_tag
+80,301,11,teamblack | pbgothic | stew,1891,"Bierce, Ambrose,",Tales of soldiers and civ,['gothic'],gothic,no_lavin_tag
 83,420,12,teamred | locghost | lavin_ghost,1913,"Aldridge, Janet.",The Meadow-Brook girls un,['gothic'],gothic,lavin_ghost
-123,501,13,teamblack | locdetmyst | locghost | stew | lavin_ghost,1922,"French, Joseph Lewis,",Masterpieces of mystery,"['gothic', 'crime']",multi,lavin_ghost
-107,353,13,teamblack | pbgothic | lavin_ghost,1903,"Benson, Arthur Christophe",The hill of trouble and o,['gothic'],gothic,lavin_ghost
-108,174,13,teamblack | pbgothic | stew | lavin_magic,1858,"MacDonald, George,",Phantastes,['gothic'],gothic,lavin_magic
-109,364,13,teamred | locghost | lavin_ghost,1905,"Dickens, Charles,",A Christmas carol in pros,['gothic'],gothic,lavin_ghost
-110,368,13,teamblack | pbgothic | stew | lavin_ghost,1906,"Blackwood, Algernon,",The empty house,['gothic'],gothic,lavin_ghost
-111,370,13,teamred | locghost | stew | lavin_ghost,1906,"Buckingham, Emma May.",Modern ghost stories,['gothic'],gothic,lavin_ghost
-112,391,13,teamred | pbgothic | lavin_ghost,1910,"Wharton, Edith,",Tales of men and ghosts,['gothic'],gothic,lavin_ghost
-113,404,13,teamred | pbgothic | stew | lavin_ghost,1911,"Crawford, F. Marion",Wandering ghosts,['gothic'],gothic,lavin_ghost
-114,412,13,teamblack | locghost | lavin_ghost,1912,"Gowans, Adam L.",Famous ghost-stories by E,['gothic'],gothic,lavin_ghost
-116,455,13,teamblack | locghost | stew | lavin_ghost,1918,"French, Joseph Lewis,","Great ghost stories, sele",['gothic'],gothic,lavin_ghost
-117,462,13,teamred | pbgothic | lavin_ghost,1919,"James, M. R.",A thin ghost and others,['gothic'],gothic,lavin_ghost
-118,464,13,teamblack | locghost | stew | lavin_ghost,1919,"Pease, Howard,",Border ghost stories,['gothic'],gothic,lavin_ghost
-119,467,13,teamred | pbgothic,1919,"Cabell, James Branch,",Jurgen,['gothic'],gothic,
-120,490,13,teamred | locghost | stew | lavin_ghost,1921,AnonymousGhost3,Humorous ghost stories,['gothic'],gothic,lavin_ghost
-121,491,13,teamred | locghost | lavin_ghost,1921,"Rhys, Ernest,",The haunters & the haunte,['gothic'],gothic,lavin_ghost
-122,499,13,teamblack | locghost | stew | lavin_ghost,1922,"Munford, George Frederick",Ghosts and legends of Sou,['gothic'],gothic,lavin_ghost
+123,464,13,teamblack | locghost | stew | lavin_ghost,1919,"Pease, Howard,",Border ghost stories,['gothic'],gothic,lavin_ghost
+107,168,13,teamblack | pbgothic,1853,"Brontë, Charlotte,",Villette,['gothic'],gothic,no_lavin_tag
+108,467,13,teamred | pbgothic,1919,"Cabell, James Branch,",Jurgen,['gothic'],gothic,no_lavin_tag
+109,219,13,teamblack | pbgothic | stew | lavin_ghost | lavin_magic | lavin_deranged,1872,"Le Fanu, Joseph Sheridan,",In a glass darkly,['gothic'],gothic,lavin_multi
+110,490,13,teamred | locghost | stew | lavin_ghost,1921,AnonymousGhost3,Humorous ghost stories,['gothic'],gothic,lavin_ghost
+111,260,13,teamred | pbgothic | lavin_magic,1885,"Haggard, H. Rider",King Solomon's mines,['gothic'],gothic,lavin_magic
+112,491,13,teamred | locghost | lavin_ghost,1921,"Rhys, Ernest,",The haunters & the haunte,['gothic'],gothic,lavin_ghost
+113,270,13,teamblack | locghost | lavin_ghost,1887,Anonymous3,Dreamland and ghostland,['gothic'],gothic,lavin_ghost
+114,499,13,teamblack | locghost | stew | lavin_ghost,1922,"Munford, George Frederick",Ghosts and legends of Sou,['gothic'],gothic,lavin_ghost
+116,501,13,teamblack | locdetmyst | locghost | stew | lavin_ghost,1922,"French, Joseph Lewis,",Masterpieces of mystery,"['gothic', 'crime']",multi,lavin_ghost
+117,174,13,teamblack | pbgothic | stew | lavin_magic,1858,"MacDonald, George,",Phantastes,['gothic'],gothic,lavin_magic
+118,368,13,teamblack | pbgothic | stew | lavin_ghost,1906,"Blackwood, Algernon,",The empty house,['gothic'],gothic,lavin_ghost
+119,391,13,teamred | pbgothic | lavin_ghost,1910,"Wharton, Edith,",Tales of men and ghosts,['gothic'],gothic,lavin_ghost
+120,412,13,teamblack | locghost | lavin_ghost,1912,"Gowans, Adam L.",Famous ghost-stories by E,['gothic'],gothic,lavin_ghost
+121,455,13,teamblack | locghost | stew | lavin_ghost,1918,"French, Joseph Lewis,","Great ghost stories, sele",['gothic'],gothic,lavin_ghost
+122,462,13,teamred | pbgothic | lavin_ghost,1919,"James, M. R.",A thin ghost and others,['gothic'],gothic,lavin_ghost
 124,88,13,teamblack | pbgothic | stew | lavin_magic | lavin_deranged,1820,"Maturin, Charles Robert,",Melmoth the wanderer,['gothic'],gothic,lavin_multi
 125,517,13,teamblack | locdetmyst | locghost | lavin_ghost,1922,"French, Joseph Lewis,",Masterpieces of mystery,"['gothic', 'crime']",multi,lavin_ghost
 126,518,13,teamblack | locdetmyst | locghost | lavin_ghost,1922,"French, Joseph Lewis,",Masterpieces of mystery,"['gothic', 'crime']",multi,lavin_ghost
 106,360,13,teamred | locghost | stew | lavin_ghost,1904,"Baring-Gould, S.",A book of ghosts,['gothic'],gothic,lavin_ghost
-105,277,13,teamred | pbgothic | lavin_ghost,1888,"Kipling, Rudyard,",The phantom rickshaw,['gothic'],gothic,lavin_ghost
-115,433,13,teamred | locghost | lavin_ghost,1914,"Seymour, St. John D.",True Irish ghost stories,['gothic'],gothic,lavin_ghost
+105,475,13,teamred | locghost | stew | lavin_ghost,1920,"French, Joseph Lewis,",The best psychic stories,['gothic'],gothic,lavin_ghost
+115,277,13,teamred | pbgothic | lavin_ghost,1888,"Kipling, Rudyard,",The phantom rickshaw,['gothic'],gothic,lavin_ghost
 103,332,13,teamblack | locghost | lavin_ghost,1898,"Le Braz, Anatole,",Dealings with the dead;,['gothic'],gothic,lavin_ghost
-104,475,13,teamred | locghost | stew | lavin_ghost,1920,"French, Joseph Lewis,",The best psychic stories,['gothic'],gothic,lavin_ghost
-84,299,13,teamblack | pbgothic | lavin_magic | lavin_deranged,1891,"Wilde, Oscar,",The picture of Dorian Gra,['gothic'],gothic,lavin_multi
-85,168,13,teamblack | pbgothic,1853,"Brontë, Charlotte,",Villette,['gothic'],gothic,
-86,166,13,teamblack | pbgothic,1851,"Hawthorne, Nathaniel,",The house of the seven ga,['gothic'],gothic,
-87,219,13,teamblack | pbgothic | stew | lavin_ghost | lavin_magic | lavin_deranged,1872,"Le Fanu, Joseph Sheridan,",In a glass darkly,['gothic'],gothic,lavin_multi
-88,256,13,teamred | pbgothic | stew,1882,"Oliphant,",A little pilgrim in the u,['gothic'],gothic,
-89,260,13,teamred | pbgothic | lavin_magic,1885,"Haggard, H. Rider",King Solomon's mines,['gothic'],gothic,lavin_magic
-90,156,13,teamred | pbgothic | stew | lavin_deranged,1847,"Brontë, Charlotte,",Jane Eyre,['gothic'],gothic,lavin_deranged
-91,270,13,teamblack | locghost | lavin_ghost,1887,Anonymous3,Dreamland and ghostland,['gothic'],gothic,lavin_ghost
-92,276,13,teamred | locghost | lavin_ghost,1888,AnonymousGhost,Weird tid-bits,['gothic'],gothic,lavin_ghost
-93,334,13,teamred | pbgothic | lavin_ghost | lavin_magic,1898,"James, Henry,",The Turn of the Screw,['gothic'],gothic,lavin_multi
-94,152,13,teamred | pbgothic | stew | lavin_deranged,1847,"Brontë, Emily,",Wuthering Heights,['gothic'],gothic,lavin_deranged
-95,141,13,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1843,"Poe, Edgar Allan,",Tales by Edgar Allan Poe,['gothic'],gothic,lavin_multi
-96,291,13,teamblack | locghost | lavin_ghost,1888,AnonymousGhost,Weird tid-bits,['gothic'],gothic,lavin_ghost
-97,294,13,teamred | pbgothic | stew | lavin_ghost,1890,"Lee, Vernon,",Hauntings,['gothic'],gothic,lavin_ghost
-98,295,13,teamblack | locghost | lavin_ghost,1890,AnonymousGhost2,Modern ghosts;,['gothic'],gothic,lavin_ghost
-99,297,13,teamblack | locghost | stew | lavin_ghost,1890,AnonymousGhost2,Modern ghosts,['gothic'],gothic,lavin_ghost
+104,353,13,teamblack | pbgothic | lavin_ghost,1903,"Benson, Arthur Christophe",The hill of trouble and o,['gothic'],gothic,lavin_ghost
+84,141,13,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,1843,"Poe, Edgar Allan,",Tales by Edgar Allan Poe,['gothic'],gothic,lavin_multi
+85,364,13,teamred | locghost | lavin_ghost,1905,"Dickens, Charles,",A Christmas carol in pros,['gothic'],gothic,lavin_ghost
+86,291,13,teamblack | locghost | lavin_ghost,1888,AnonymousGhost,Weird tid-bits,['gothic'],gothic,lavin_ghost
+87,370,13,teamred | locghost | stew | lavin_ghost,1906,"Buckingham, Emma May.",Modern ghost stories,['gothic'],gothic,lavin_ghost
+88,294,13,teamred | pbgothic | stew | lavin_ghost,1890,"Lee, Vernon,",Hauntings,['gothic'],gothic,lavin_ghost
+89,404,13,teamred | pbgothic | stew | lavin_ghost,1911,"Crawford, F. Marion",Wandering ghosts,['gothic'],gothic,lavin_ghost
+90,295,13,teamblack | locghost | lavin_ghost,1890,AnonymousGhost2,Modern ghosts;,['gothic'],gothic,lavin_ghost
+91,433,13,teamred | locghost | lavin_ghost,1914,"Seymour, St. John D.",True Irish ghost stories,['gothic'],gothic,lavin_ghost
+92,297,13,teamblack | locghost | stew | lavin_ghost,1890,AnonymousGhost2,Modern ghosts,['gothic'],gothic,lavin_ghost
+93,299,13,teamblack | pbgothic | lavin_magic | lavin_deranged,1891,"Wilde, Oscar,",The picture of Dorian Gra,['gothic'],gothic,lavin_multi
+94,166,13,teamblack | pbgothic,1851,"Hawthorne, Nathaniel,",The house of the seven ga,['gothic'],gothic,no_lavin_tag
+95,256,13,teamred | pbgothic | stew,1882,"Oliphant,",A little pilgrim in the u,['gothic'],gothic,no_lavin_tag
+96,156,13,teamred | pbgothic | stew | lavin_deranged,1847,"Brontë, Charlotte,",Jane Eyre,['gothic'],gothic,lavin_deranged
+97,276,13,teamred | locghost | lavin_ghost,1888,AnonymousGhost,Weird tid-bits,['gothic'],gothic,lavin_ghost
+98,334,13,teamred | pbgothic | lavin_ghost | lavin_magic,1898,"James, Henry,",The Turn of the Screw,['gothic'],gothic,lavin_multi
+99,152,13,teamred | pbgothic | stew | lavin_deranged,1847,"Brontë, Emily,",Wuthering Heights,['gothic'],gothic,lavin_deranged
 100,320,13,teamred | pbgothic | lavin_magic,1895,"Corelli, Marie,",The sorrows of Satan;,['gothic'],gothic,lavin_magic
 101,331,13,teamred | locghost | stew | lavin_ghost,1898,"Bangs, John Kendrick,",Ghosts I have met and som,['gothic'],gothic,lavin_ghost
-102,284,13,teamblack | pbgothic | stew,1888,"Kipling, Rudyard,",Plain tales from the hill,['gothic'],gothic,
-133,676,14,teamblack | pbgothic | stew,1946,"Peake, Mervyn,",Titus Groan,['gothic'],gothic,
-132,938,14,teamred | pbgothic | chiscifi | stew,1984,"Gibson, William",Neuromancer,"['scifi', 'gothic']",multi,
-131,947,14,teamred | chihorror | chiscifi | stew | lavin_magic,1986,"Foster, Alan Dean,",Into the out of,['scifi'],scifi,lavin_magic
-127,366,14,teamblack | pbgothic | stew,1905,"Dunsany, Edward John More",The gods of Pegāna,['gothic'],gothic,
-129,688,14,chifantasy | teamblack | chihorror | chiscifi,1948,"Williamson, Jack,",Darker than you think,['scifi'],scifi,
-128,596,14,chifantasy | teamblack | chihorror | stew,1933,"Endore, S. Guy,",The werewolf of Paris,[],non_genre,
-130,869,14,teamblack | pbgothic | lavin_magic,1976,"Rice, Anne",Interview with the vampir,['gothic'],gothic,lavin_magic
-151,976,15,teamblack | chihorror | stew,1989,"Somtow, S. P,",Moon dance,[],non_genre,
-152,968,15,chifantasy | teamblack | pbgothic | stew | lavin_magic,1988,"Hambly, Barbara",Those who hunt the night,['gothic'],gothic,lavin_magic
-153,964,15,teamblack | pbgothic | lavin_ghost,1987,"Morrison, Toni",Beloved,['gothic'],gothic,lavin_ghost
-154,960,15,teamred | pbgothic | chihorror | lavin_slasher | lavin_deranged,1987,"King, Stephen,",Misery,['gothic'],gothic,lavin_multi
-155,327,15,teamblack | pbgothic | stew | lavin_magic,1897,"Stoker, Bram,",Dracula,['gothic'],gothic,lavin_magic
-156,926,15,teamblack | chihorror | stew | lavin_slasher | lavin_deranged,1982,"Andrews, V. C.  (Virginia",My sweet Audrina,[],non_genre,lavin_multi
-158,914,15,chimyst | pbgothic | teamred | lavin_slasher,1981,"Harris, Thomas",Red dragon,"['gothic', 'crime']",multi,lavin_slasher
-159,912,15,teamred | chihorror,1980,"Andrews, V. C.  (Virginia",Petals on the wind,[],non_genre,
-160,907,15,teamblack | chihorror | chiscifi | stew | lavin_ghost,1979,"King, Stephen,",The dead zone,['scifi'],scifi,lavin_ghost
-161,900,15,teamred | chimyst | chihorror | lavin_magic,1978,"Estleman, Loren D,",Sherlock Holmes vs. Dracu,['crime'],crime,lavin_magic
-162,898,15,teamred | chihorror | stew | lavin_magic,1978,"King, Stephen,",The stand,[],non_genre,lavin_magic
-163,896,15,teamred | chihorror | stew,1978,"Daniels, Les,",The black castle,[],non_genre,
-150,893,15,teamred | pbgothic,1978,"Strieber, Whitley",The wolfen,['gothic'],gothic,
-157,601,15,teamblack | pbgothic | stew,1934,"Dinesen, Isak,",Seven Gothic Tales,['gothic'],gothic,
-149,978,15,teamred | chihorror | chiscifi | stew,1989,"Cook, Robin,",Mutation,['scifi'],scifi,
-164,920,15,teamblack | pbgothic | stew | lavin_magic,1981,"Strieber, Whitley",The hunger,['gothic'],gothic,lavin_magic
-147,767,15,teamblack | pbgothic | stew | lavin_ghost,1959,"Jackson, Shirley,",The Haunting of Hill House,['gothic'],gothic,lavin_ghost
-146,868,15,teamblack | chihorror | stew | lavin_magic,1976,"Farris, John,",The fury,[],non_genre,lavin_magic
-145,621,15,teamred | pbgothic | stew,1938,"Du Maurier, Daphne,",Rebecca,['gothic'],gothic,
-144,591,15,teamblack | pbgothic,1932,"Faulkner, William",Light in August,['gothic'],gothic,
-143,542,15,teamblack | pbgothic | lavin_magic,1927,"Lovecraft, H. P.",The Case of Charles Dexter Ward,['gothic'],gothic,lavin_magic
-142,690,15,teamred | pbgothic | chiscifi | lavin_ghost | lavin_magic,1948,"Derleth, August,",Two stories by Derleth,"['scifi', 'gothic']",multi,lavin_multi
-141,744,15,teamred | pbgothic | chihorror | chiscifi | lavin_magic,1954,"Matheson, Richard,",I am legend,"['scifi', 'gothic']",multi,lavin_magic
-140,766,15,teamblack | pbgothic | lavin_slasher,1959,"Bloch, Robert,",Psycho,['gothic'],gothic,lavin_slasher
-139,780,15,teamblack | chihorror | chiscifi | lavin_magic,1962,"Bradbury, Ray,",Something wicked this way,['scifi'],scifi,lavin_magic
-138,821,15,teamblack | pbgothic | chihorror | stew | lavin_magic,1967,"Levin, Ira,",Rosemary's baby,['gothic'],gothic,lavin_magic
-137,823,15,teamred | pbgothic | chihorror | lavin_magic,1968,"Oates, Joyce Carol,",Expensive people,['gothic'],gothic,lavin_magic
-136,824,15,teamred | chihorror | lavin_magic,1968,"Chappell, Fred,",Dagon,[],non_genre,lavin_magic
-135,844,15,teamblack | pbgothic | lavin_magic,1971,"Blatty, William Peter",The exorcist,['gothic'],gothic,lavin_magic
-134,849,15,teamblack | chihorror | chiscifi,1972,"Levin, Ira,",The Stepford wives,['scifi'],scifi,
-148,881,15,teamred | chihorror | lavin_slasher,1977,"Saul, John,",Suffer the children,[],non_genre,lavin_slasher
-165,980,15,chifantasy | teamblack | chimyst | chihorror | lavin_slasher | lavin_magic,1989,"Lackey, Mercedes,",Burning water,['crime'],crime,lavin_multi
+102,284,13,teamblack | pbgothic | stew,1888,"Kipling, Rudyard,",Plain tales from the hill,['gothic'],gothic,no_lavin_tag
+133,869,14,teamblack | pbgothic | lavin_magic,1976,"Rice, Anne",Interview with the vampir,['gothic'],gothic,lavin_magic
+132,938,14,teamred | pbgothic | chiscifi | stew,1984,"Gibson, William",Neuromancer,"['scifi', 'gothic']",multi,no_lavin_tag
+131,947,14,teamred | chihorror | chiscifi | stew | lavin_magic,1986,"Foster, Alan Dean,",Into the out of,"['scifi', 'gothic']",multi,lavin_magic
+127,676,14,teamblack | pbgothic | stew,1946,"Peake, Mervyn,",Titus Groan,['gothic'],gothic,no_lavin_tag
+129,688,14,chifantasy | teamblack | chihorror | chiscifi,1948,"Williamson, Jack,",Darker than you think,"['scifi', 'gothic']",multi,no_lavin_tag
+128,596,14,chifantasy | teamblack | chihorror | stew,1933,"Endore, S. Guy,",The werewolf of Paris,['gothic'],gothic,no_lavin_tag
+130,366,14,teamblack | pbgothic | stew,1905,"Dunsany, Edward John More",The gods of Pegāna,['gothic'],gothic,no_lavin_tag
+151,912,15,teamred | chihorror,1980,"Andrews, V. C.  (Virginia",Petals on the wind,['gothic'],gothic,no_lavin_tag
+152,914,15,chimyst | pbgothic | teamred | lavin_slasher,1981,"Harris, Thomas",Red dragon,"['gothic', 'crime']",multi,lavin_slasher
+153,893,15,teamred | pbgothic,1978,"Strieber, Whitley",The wolfen,['gothic'],gothic,no_lavin_tag
+154,896,15,teamred | chihorror | stew,1978,"Daniels, Les,",The black castle,['gothic'],gothic,no_lavin_tag
+155,898,15,teamred | chihorror | stew | lavin_magic,1978,"King, Stephen,",The stand,['gothic'],gothic,lavin_magic
+156,900,15,teamred | chimyst | chihorror | lavin_magic,1978,"Estleman, Loren D,",Sherlock Holmes vs. Dracu,"['gothic', 'crime']",multi,lavin_magic
+158,960,15,teamred | pbgothic | chihorror | lavin_slasher | lavin_deranged,1987,"King, Stephen,",Misery,['gothic'],gothic,lavin_multi
+159,964,15,teamblack | pbgothic | lavin_ghost,1987,"Morrison, Toni",Beloved,['gothic'],gothic,lavin_ghost
+160,968,15,chifantasy | teamblack | pbgothic | stew | lavin_magic,1988,"Hambly, Barbara",Those who hunt the night,['gothic'],gothic,lavin_magic
+161,976,15,teamblack | chihorror | stew,1989,"Somtow, S. P,",Moon dance,['gothic'],gothic,no_lavin_tag
+162,601,15,teamblack | pbgothic | stew,1934,"Dinesen, Isak,",Seven Gothic Tales,['gothic'],gothic,no_lavin_tag
+163,926,15,teamblack | chihorror | stew | lavin_slasher | lavin_deranged,1982,"Andrews, V. C.  (Virginia",My sweet Audrina,['gothic'],gothic,lavin_multi
+150,327,15,teamblack | pbgothic | stew | lavin_magic,1897,"Stoker, Bram,",Dracula,['gothic'],gothic,lavin_magic
+157,907,15,teamblack | chihorror | chiscifi | stew | lavin_ghost,1979,"King, Stephen,",The dead zone,"['scifi', 'gothic']",multi,lavin_ghost
+149,920,15,teamblack | pbgothic | stew | lavin_magic,1981,"Strieber, Whitley",The hunger,['gothic'],gothic,lavin_magic
+164,881,15,teamred | chihorror | lavin_slasher,1977,"Saul, John,",Suffer the children,['gothic'],gothic,lavin_slasher
+147,690,15,teamred | pbgothic | chiscifi | lavin_ghost | lavin_magic,1948,"Derleth, August,",Two stories by Derleth,"['scifi', 'gothic']",multi,lavin_multi
+146,821,15,teamblack | pbgothic | chihorror | stew | lavin_magic,1967,"Levin, Ira,",Rosemary's baby,['gothic'],gothic,lavin_magic
+145,780,15,teamblack | chihorror | chiscifi | lavin_magic,1962,"Bradbury, Ray,",Something wicked this way,"['scifi', 'gothic']",multi,lavin_magic
+144,767,15,teamblack | pbgothic | stew | lavin_ghost,1959,"Jackson, Shirley,",The Haunting of Hill House,['gothic'],gothic,lavin_ghost
+143,849,15,teamblack | chihorror | chiscifi,1972,"Levin, Ira,",The Stepford wives,"['scifi', 'gothic']",multi,no_lavin_tag
+142,844,15,teamblack | pbgothic | lavin_magic,1971,"Blatty, William Peter",The exorcist,['gothic'],gothic,lavin_magic
+141,824,15,teamred | chihorror | lavin_magic,1968,"Chappell, Fred,",Dagon,['gothic'],gothic,lavin_magic
+140,823,15,teamred | pbgothic | chihorror | lavin_magic,1968,"Oates, Joyce Carol,",Expensive people,['gothic'],gothic,lavin_magic
+139,542,15,teamblack | pbgothic | lavin_magic,1927,"Lovecraft, H. P.",The Case of Charles Dexter Ward,['gothic'],gothic,lavin_magic
+138,591,15,teamblack | pbgothic,1932,"Faulkner, William",Light in August,['gothic'],gothic,no_lavin_tag
+137,621,15,teamred | pbgothic | stew,1938,"Du Maurier, Daphne,",Rebecca,['gothic'],gothic,no_lavin_tag
+136,868,15,teamblack | chihorror | stew | lavin_magic,1976,"Farris, John,",The fury,['gothic'],gothic,lavin_magic
+135,766,15,teamblack | pbgothic | lavin_slasher,1959,"Bloch, Robert,",Psycho,['gothic'],gothic,lavin_slasher
+134,744,15,teamred | pbgothic | chihorror | chiscifi | lavin_magic,1954,"Matheson, Richard,",I am legend,"['scifi', 'gothic']",multi,lavin_magic
+148,978,15,teamred | chihorror | chiscifi | stew,1989,"Cook, Robin,",Mutation,"['scifi', 'gothic']",multi,no_lavin_tag
+165,980,15,chifantasy | teamblack | chimyst | chihorror | lavin_slasher | lavin_magic,1989,"Lackey, Mercedes,",Burning water,"['gothic', 'crime']",multi,lavin_multi

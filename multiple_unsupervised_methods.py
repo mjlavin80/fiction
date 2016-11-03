@@ -41,31 +41,31 @@ data = adjusted.toarray()
 bandwidth= .89
 ms = MeanShift(bandwidth=bandwidth, bin_seeding=False)
 ms.fit(data)
-save_labels(ms, "meanshift_all_no_bin_seeding.csv", _ids, genres, years)
+save_labels(ms, "meanshift_all_no_bin_seeding.csv", _ids, genres, dates)
 
 bandwidth2 = estimate_bandwidth(data, quantile=0.2, n_samples=400)
 ms2 = MeanShift(bandwidth=bandwidth2, bin_seeding=True)
 ms2.fit(data)
-save_labels(ms2, "meanshift_all_w_bin_seeding.csv", _ids, genres, years)
+save_labels(ms2, "meanshift_all_w_bin_seeding.csv", _ids, genres, dates)
 
 
 # affinity all
 af = AffinityPropagation().fit(data)
-save_labels(af, "affinity_all.csv", _ids, genres, years)
+save_labels(af, "affinity_all.csv", _ids, genres, dates)
 
 # mini batch k-means all
 mbkm = MiniBatchKMeans().fit(data)
-save_labels(mbkm, "mini_batch_km_all.csv", _ids, genres, years)
+save_labels(mbkm, "mini_batch_km_all.csv", _ids, genres, dates)
 
 # hierarchical all
 wc = AgglomerativeClustering(linkage="ward", n_clusters=10).fit(data)
-save_labels(wc, "ward_hierarchical_all.csv", _ids, genres, years)
+save_labels(wc, "ward_hierarchical_all.csv", _ids, genres, dates)
 
 wc2 = AgglomerativeClustering(linkage="average", n_clusters=10).fit(data)
-save_labels(wc2, "avg_hierarchical_all.csv", _ids, genres, years)
+save_labels(wc2, "avg_hierarchical_all.csv", _ids, genres, dates)
 
 wc3 = AgglomerativeClustering(linkage="complete", n_clusters=10).fit(data)
-save_labels(wc3, "complete_hierarchical_all.csv", _ids, genres, years)
+save_labels(wc3, "complete_hierarchical_all.csv", _ids, genres, dates)
 
 #convert genre list to big genres, same order
 from application.selective_features import make_genres_big
