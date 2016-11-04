@@ -1,6 +1,6 @@
 lavin edits (in progress)
 ======
-- added structure for flask-sqlalchemy ORM, including application/models.py 
+- added structure for flask-sqlalchemy ORM, including application/models.py
 - added and am periodically updating requirements.txt for python dependencies
 - added db ingestion scripts to transfer metadata, counts, and genres to a mysql database as quickly as possible
 
@@ -13,13 +13,25 @@ lavin edits (in progress)
 6. Run "underwood_counts.py"
 7. Run "genres_to_db.py"
 
+# To use scripts in lavin_tests directory
+
+At a project's root level, you would typically run a file like this:
+
+`python some_script.py`
+
+Scripts in the lavin_tests folder, however, depend upon packages in sibling folders, e.g. application.models. As a result, to run these scripts, you should remain in . directory and execute script without the .py extension so they are interpreted as packages. Here is an example of the command line text used to run lavin_tests/test_feat_list.py:
+
+`python lavin_tests.test_feat_list`
+
+This method will keep the application context visible and keep the relative paths to .csv files intact at the same time. I'm working on a cleaner way to tuck scripts away in sibling folders, but so far I haven't found one that does both of these things, partly because importing from inside sibling folders is not an encourage Python approach. 
+
 - added a folder for "additional_texts" and a script to read that folder and add text to the database (will eventually add texts)
 - to add texts of your own, place txt files in the "additional_texts" folder and run "other_txt_to_db.py"
 
 fiction
 =======
 
-Code and data supporting the article ["The Life Cycles of Genres" in _Cultural Analytics._](http://culturalanalytics.org/2016/05/the-life-cycles-of-genres/) 
+Code and data supporting the article ["The Life Cycles of Genres" in _Cultural Analytics._](http://culturalanalytics.org/2016/05/the-life-cycles-of-genres/)
 
 [![DOI](https://zenodo.org/badge/19804/tedunderwood/fiction.svg)](https://zenodo.org/badge/latestdoi/19804/tedunderwood/fiction)
 
@@ -41,7 +53,7 @@ meta
 ----
 Metadata for the project.
 
-Right now the most complete set of metadata is in finalmeta.csv. 
+Right now the most complete set of metadata is in finalmeta.csv.
 
 newdata
 ----

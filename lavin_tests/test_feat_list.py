@@ -1,6 +1,3 @@
-import sys, os
-sys.path.insert(0, os.path.abspath('..'))
-
 #get feature dicts from .p file
 from application.pickles import pickledData
 
@@ -13,9 +10,9 @@ feature_dicts = pData.feature_dicts
 
 from application.selective_features import make_feature_list, dictionaries_without_features, dictionaries_of_features
 
-top_genre_terms = make_feature_list("../lavin_lexicon/features_correlation_with_genre_all.csv", "spearman", 500)
+top_genre_terms = make_feature_list("lavin_lexicon/features_correlation_with_genre_all.csv", "spearman", 500)
 #print(top_genre_terms)
-top_year_terms = make_feature_list("../lavin_lexicon/features_correlation_with_pubdate_all.csv", "pearson", 5500)
+top_year_terms = make_feature_list("lavin_lexicon/features_correlation_with_pubdate_all.csv", "pearson", 5500)
 #print(top_year_terms)
 
 #run dictionaries of features
