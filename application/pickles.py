@@ -4,6 +4,8 @@ import pymysql
 from collections import Counter
 from config import USER, PWD
 import pickle
+import sys, os
+
 
 #define pickle object
 class pickledData():
