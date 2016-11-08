@@ -13,29 +13,36 @@ class pickledData():
         self.set_data_variables()
     def set_data_variables(self):
         try:
-            self._ids_dates_genres = pickle.load( open( "pickled_data/ids_dates_genres.p", "rb" ) )
-            self._ids = [p[0] for p in self._ids_dates_genres]
-            self.dates = [q[1] for q in self._ids_dates_genres]
-            self.genres = [r[2] for r in self._ids_dates_genres]
-            import pandas as pd
-            # NoteToSelf FOR LATER, add authors to pickle
-            df_meta = pd.read_csv("meta/finalmeta.csv")
-            self.authors = list(df_meta["author"])
+            self.metadata = pickle.load( open( "pickled_data/metadata.p", "rb" ) )
+            self._ids = [p[0] for p in self.metadata]
+            self.dates = [q[1] for q in self.metadata]
+            self.genres = [r[2] for r in self.metadata]
+            self.authors = [s[3] for s in self.metadata)
+            self.titles = [t[4] for t in self.metadata]
+            self.big_genres = [u[5] for u in self.metadata]
+            self.lavin_genres = [v[6] for v in self.metadata]
+            self.processed_genres = [w[7] for w in self.metadata]
         except:
             # get ids, store order here
-            self._ids_dates  = [[i.id, i.firstpub] for i in db.session.query(Metadata).all()]
+            self._ids_dates_authors_titles  = [[i.id, i.firstpub, i.author, .title] for i in db.session.query(Metadata).all()]
             self.genres = []
             self._ids = [p[0] for p in self._ids_dates]
             self.dates = [q[1] for q in self._ids_dates]
+            self.authors = [r[2] for r in self._ids_dates]
+            self.titles = [s[3] for s in self._ids_dates]
             for _id in self._ids:
                 #get genres
                 genre_rows  = [i.genre for i in db.session.query(Genres).filter(Genres.work_id==_id).all()]
                 #mush genres to string
                 g = " | ".join(genre_rows)
                 #append
-                genre_list.append(g)
-            _ids_dates_genres = list(zip(self._ids, self.dates, self.genres))
-            pickle.dump( _ids_dates_genres, open( "pickled_data/ids_dates_genres.p", "wb" ) )
+                self.genres.append(g)
+            #define big and lavin here
+            from application.selective_features import make_genres_big
+            self.processed_genres, self.final_genres, self.lavin_genres = make_genres_big(self.genres)
+
+            metadata = list(zip(self._ids, self.dates, self.genres, self.authors, self.titles, self.big_genres, self.lavin_genres, self.processed_genres))
+            pickle.dump(metadata, open( "pickled_data/metadata.p", "wb" ) )
         #load feature dict from pickle
         try:
             self.feature_dicts = pickle.load( open( "pickled_data/feature_dicts.p", "rb" ) )

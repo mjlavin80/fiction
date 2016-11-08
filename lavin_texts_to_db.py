@@ -6,9 +6,7 @@ from application.models import *
 from collections import Counter
 import glob
 
-
-text = glob.glob('./additional_texts/*.txt')
-
+text = glob.glob('additional_texts/*.txt')
 
 for filename in text:
     #open and read()
@@ -27,8 +25,8 @@ for filename in text:
     ins = Metadata()
     ins.id = None
     #add title
-    print(filename)
-    t = filename.replace("./additional_texts/", "").replace(".txt", "")
+    #print(filename)
+    t = filename.replace("additional_texts/", "").replace(".txt", "")
     ins.title = t
     #add dates separately?
     db.session.add(ins)

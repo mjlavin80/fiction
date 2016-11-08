@@ -82,7 +82,7 @@ class TsvHandler(object):
                  myfile = f.read()
                  rows = myfile.split("\n")
                  columns = [c.split("\t") for c in rows]
-                 for row in columns:                 
+                 for row in columns:
                      try:
                          t = row[0]
                          tc = row[1]

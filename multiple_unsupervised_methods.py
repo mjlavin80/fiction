@@ -11,16 +11,7 @@ import pymysql
 from collections import Counter
 from config import USER, PWD
 from sqlalchemy import or_
-
-def save_labels(sklearn_instance, filename, _ids, genres, years):
-    labels = sklearn_instance.labels_
-    #At end of loop, order by count, stop at 10k
-    groupings = zip(_ids, labels, genres, years)
-    #convert to pandas df (terms and counts)
-    df = pd.DataFrame(groupings, columns=["docid", "group_label", "genres", "year"])
-    #Save as csv in lavin_results folder
-    df.to_csv("lavin_results/" + filename)
-
+from application.output import save_labels
 from application.pickles import pickledData
 
 pData = pickledData()
@@ -29,7 +20,7 @@ _ids = pData._ids
 dates = pData.dates
 genres = pData.genres
 feature_dicts = pData.feature_dicts
-
+#add authors and titles to pickedData, change name of variable as well 
 
 # create vectors using N top features not in stops
 tfidf = TfidfTransformer()
@@ -37,6 +28,9 @@ vec = DictVectorizer()
 vect = vec.fit_transform(feature_dicts)
 adjusted = tfidf.fit_transform(vect)
 data = adjusted.toarray()
+
+#define a dictionary with ids, genres, dates, authors, etc. Pass to each function
+#redefine when doing horror only
 
 bandwidth= .89
 ms = MeanShift(bandwidth=bandwidth, bin_seeding=False)
@@ -71,6 +65,8 @@ save_labels(wc3, "complete_hierarchical_all.csv", _ids, genres, dates)
 from application.selective_features import make_genres_big
 big_genres = make_genres_big(genres)
 
+
+#modularize and use pandas here. The p data should store big genres. Should be able to say, pData.horror_ids etc.
 horror_ids = []
 horror_years = []
 horror_genres = []

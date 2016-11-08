@@ -38,7 +38,7 @@ def dictionaries_without_features(list_of_dictionaries, feature_list):
         reduced_dictionaries.append(processing_dictionary)
     return reduced_dictionaries
 
-def make_genres_big(piped_genres):
+def make_genres_big_and_lavin(piped_genres):
     import pandas as pd
     big_genres = pd.read_csv("meta/datadictionary.csv")
     gen_dict = {}
@@ -47,32 +47,44 @@ def make_genres_big(piped_genres):
     gen_dict["chimyst"] = "crime"
     gen_dict["locghost"] = "gothic"
     gen_dict["lockandkey"] = "crime"
-    big_genres = []
-
-    for i in piped_genres:
+    gen_dict["lochorror"] = "gothic"
+    gen_dict["chihorror"] = "gothic"
+    genres_main = []
+    genres_lavin = []
+    for i in genres_piped:
         gen = i.split(" | ")
         g = []
+        lavin_gens = []
+
         for z in gen:
+            if "lavin" in z:
+                lavin_gens.append(z)
+
             if z != "teamred" and z!= "teamblack" and z!= "stew" and z != "juvenile" and z != "drop" and "random" not in z:
                 #look up and append big genre
                 try:
                     g.append(gen_dict[z])
                 except:
                     pass
-
+                    #g.append(z)
+        if len(lavin_gens) == 0:
+            genres_lavin.append("no_lavin_tag")
+        if len(lavin_gens) == 1:
+            genres_lavin.append(lavin_gens[0])
+        if len(lavin_gens) > 1:
+            genres_lavin.append("lavin_multi")
         #merge duplicates
         g = list(set(g))
-        #assign as multi if still mutiple genres
         if len(g) > 1:
             final_genre = "multi"
-        #assign as non_genre if no genres left
         if len(g) == 0:
             final_genre = "non_genre"
-        #keep biggenre if length of list is 1
         if len(g) == 1:
             final_genre = g[0]
-        big_genres.append(final_genre)
-    return big_genres
+        genres_main.append((g, final_genre))
+    processed_genre = [i[0] for i in genres_main]
+    final_genre = [i[1] for i in genres_main]
+    return processed_genre, final_genre, lavin_genre
 
 def make_feature_list(csv, col, N):
     import pandas as pd
