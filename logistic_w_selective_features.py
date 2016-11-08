@@ -43,12 +43,11 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction import DictVectorizer
 
-
 pData = pickledData()
 
 # define as a function, supply a big_genre
 def partition_features_test_train(big_genre, pData):
-    # Local variables. All are ordered by mysql _id field, which is also the original order of finalmeta.csv
+    # Local variables.
     _ids = pData._ids
     dates = pData.dates
     genres = pData.genres
@@ -90,13 +89,7 @@ combined_partitions_ids, combined_partitions_binary_genres = partition_features_
 
 #convert lists of ids into dictionaries of features in order of ids
 
-print(pData.feature_dicts[983])
-print(max(combined_partitions_ids[0]))
-print(max(combined_partitions_ids[1]))
-print(max(combined_partitions_ids[2]))
-
-
-
+#the goal here is to end up with one list for feature_selection, one for testing, and one for training
 feature_select_dicts = [pData.feature_dicts[d-1] for d in combined_partitions_ids[0]]
 test_dicts = pData.feature_dicts = [pData.feature_dicts[d-1] for d in combined_partitions_ids[1]]
 train_dicts = pData.feature_dicts = [pData.feature_dicts[d-1] for d in combined_partitions_ids[2]]
