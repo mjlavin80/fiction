@@ -51,7 +51,7 @@ def make_genres_big_and_lavin(piped_genres):
     gen_dict["chihorror"] = "gothic"
     genres_main = []
     genres_lavin = []
-    for i in genres_piped:
+    for i in piped_genres:
         gen = i.split(" | ")
         g = []
         lavin_gens = []
@@ -84,7 +84,7 @@ def make_genres_big_and_lavin(piped_genres):
         genres_main.append((g, final_genre))
     processed_genre = [i[0] for i in genres_main]
     final_genre = [i[1] for i in genres_main]
-    return processed_genre, final_genre, lavin_genre
+    return processed_genre, final_genre, genres_lavin
 
 def make_feature_list(csv, col, N):
     import pandas as pd
