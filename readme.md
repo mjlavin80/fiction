@@ -19,9 +19,9 @@ At a project's root level, you would typically run a file like this:
 
 `python some_script.py`
 
-Scripts in the lavin_tests folder, however, depend upon packages in sibling folders, e.g. application.models. As a result, to run these scripts, you should remain in . directory and execute script without the .py extension so they are interpreted as packages. Here is an example of the command line text used to run lavin_tests/test_feat_list.py:
+Scripts in the lavin_scripts folder, however, depend upon packages in sibling folders, e.g. application.models. As a result, to run these scripts, you should remain in . directory and execute script without the .py extension so they are interpreted as packages. Here is an example of the command line text used to run lavin_tests/test_feat_list.py:
 
-`python lavin_tests.test_feat_list`
+`python -m lavin_scripts.test_feat_list`
 
 This method will keep the application context visible and keep the relative paths to .csv files intact at the same time. I'm working on a cleaner way to tuck scripts away in sibling folders, but so far I haven't found one that does both of these things, partly because importing from inside sibling folders is not an encourage Python approach. 
 
