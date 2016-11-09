@@ -1,9 +1,10 @@
-lavin edits (in progress)
+Lavin Edits (in progress)
 ======
 - added structure for flask-sqlalchemy ORM, including application/models.py
 - added and am periodically updating requirements.txt for python dependencies
 - added db ingestion scripts to transfer metadata, counts, and genres to a mysql database as quickly as possible
 - added pickedData object that will cache various processed database data for fast access (any script will query db to create a dependent .p file if not found)
+- converting various from list- or list-of-tuples logic to pandas dataframes
 
 # To replicate ingestion:
 1. Set up an empty mysql target database (utf8) and a usr will priveleges
@@ -29,8 +30,8 @@ This method will keep the application context visible and keep the relative path
 - added a folder for "additional_texts" and a script to read that folder and add text to the database (will eventually add texts)
 - to add texts of your own, place txt files in the "additional_texts" folder and run "other_txt_to_db.py"
 
-<em>Hereafter is Ted Underwood's readme.md from his original repo for the article ["The Life Cycles of Genres" in _Cultural Analytics._](http://culturalanalytics.org/2016/05/the-life-cycles-of-genres/), unedited</em>
-
+<em>Hereafter is Ted Underwood's readme.md from his original repo for the article ["The Life Cycles of Genres" in _Cultural Analytics._](http://culturalanalytics.org/2016/05/the-life-cycles-of-genres/)</em>
+<hr/>
 
 fiction
 =======
