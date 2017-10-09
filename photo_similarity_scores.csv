@@ -1,0 +1,985 @@
+position,authors,genres,lavin_genres,ids,big_genres,titles,dates,cosine_similarities
+247,Greg%2C+Percy%2C,teamblack | anatscifi | locscifi,no_lavin_tag,248,scifi,Across+the+zodiac,1880,0.229722269
+484,Traprock%2C+Walter+E.,chirandom | teamred,no_lavin_tag,485,non_genre,The+cruise+of+the+Kawa+%3A+,1921,0.22906677
+140,Poe%2C+Edgar+Allan%2C,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,lavin_multi,141,gothic,Tales+by+Edgar+Allan+Poe,1843,0.220968576
+34,Brown%2C+Charles+Brockden%2C,teamred | pbgothic,no_lavin_tag,35,gothic,Wieland%3B+or%2C+The+transfor,1798,0.213819426
+114,Disraeli%2C+Benjamin%2C,teamred | random,no_lavin_tag,115,non_genre,Contarini+Fleming%3B,1832,0.212269799
+429,Reeve%2C+Arthur+B.,teamred | det100,no_lavin_tag,430,crime,The+dream+doctor,1914,0.212240808
+398,Reeve%2C+Arthur+B.,det100 | teamblack,no_lavin_tag,399,crime,The+poisoned+pen,1911,0.211003821
+514,Traprock%2C+Walter+E.,chirandom | teamblack,no_lavin_tag,515,non_genre,My+northern+exposure,1922,0.208159331
+586,Bramah%2C+Ernest%2C,chifantasy | teamblack,no_lavin_tag,587,non_genre,The+moon+of+much+gladness,1932,0.208026391
+146,Poe%2C+Edgar+Allan%2C,det100 | teamblack | drop,no_lavin_tag,147,crime,Selected+tales+of+mystery,1845,0.207029082
+99,Radcliffe%2C+Ann+Ward%2C,teamblack | pbgothic,no_lavin_tag,100,gothic,Gaston+de+Blondeville,1826,0.204085298
+541,Lovecraft%2C+H.+P.,teamblack | pbgothic | lavin_magic,lavin_magic,542,gothic,The+Case+of+Charles+Dexter+Ward,1927,0.20321738
+217,Lytton%2C+Edward+Bulwer+Lyt,teamblack | anatscifi,no_lavin_tag,218,scifi,The+coming+race,1871,0.202844114
+614,Pseudoman%2C+Akkad%2C,chirandom | teamblack | chiscifi,no_lavin_tag,615,scifi,Zero+to+eighty,1937,0.202692218
+191,Verne%2C+Jules%2C,teamred | anatscifi | stew,no_lavin_tag,192,scifi,From+the+Earth+to+the+Moo,1865,0.20146529
+78,Shelley%2C+Mary+Wollstonecr,stangothic | femscifi | teamred | stew,no_lavin_tag,79,multi,Frankenstein,1818,0.200725452
+35,Godwin%2C+William%2C,teamred | pbgothic | lavin_magic | lavin_deranged,lavin_multi,36,gothic,St.+Leon%3A+a+tale+of+the+s,1799,0.197735106
+139,Poe%2C+Edgar+Allan%2C,teamred | det100 | stew,no_lavin_tag,140,crime,The+Mystery+of+Marie+Roget+%28short+story%29,1842,0.197601152
+19,Radcliffe%2C+Ann+Ward%2C,teamred | pbgothic | stew | lavin_deranged,lavin_deranged,20,gothic,A+Sicilian+romance,1790,0.19757119
+131,Poe%2C+Edgar+Allan%2C,teamblack | anatscifi | drop,no_lavin_tag,132,scifi,The+narrative+of+Arthur+G,1838,0.197323348
+328,Wait%2C+Frona+Eunice%2C,teamred | femscifi,no_lavin_tag,329,scifi,Yermah+the+Dorado,1897,0.194973256
+542,Esteven%2C+John%2C,teamblack | chimyst,no_lavin_tag,543,crime,The+door+of+death,1928,0.194952753
+298,Wilde%2C+Oscar%2C,teamblack | pbgothic | lavin_magic | lavin_deranged,lavin_multi,299,gothic,The+picture+of+Dorian+Gra,1891,0.192761877
+113,Disraeli%2C+Benjamin%2C,teamblack | random,no_lavin_tag,114,non_genre,Contarini+Fleming%3B,1832,0.192731093
+4,Mercier%2C+Louis-Sbastien%2C,teamblack | anatscifi,no_lavin_tag,5,scifi,Memoirs+of+the+year+two+t,1771,0.19210649
+500,French%2C+Joseph+Lewis%2C,teamblack | locdetmyst | locghost | stew | lavin_ghost,lavin_ghost,501,multi,Masterpieces+of+mystery,1922,0.192033028
+43,Moore%2C+George%2C,teamblack | stangothic,no_lavin_tag,44,gothic,Grasville+Abbey,1801,0.191758998
+149,Hawthorne%2C+Nathaniel%2C,teamred | pbgothic | lavin_ghost | lavin_magic | lavin_deranged,lavin_multi,150,gothic,Mosses+from+an+old+manse,1846,0.19155173
+84,Galt%2C+John%2C,teamblack | random,no_lavin_tag,85,non_genre,The+earthquake%3B,1820,0.190466406
+17,Radcliffe%2C+Ann+Ward%2C,teamred | pbgothic | stew | lavin_deranged,lavin_deranged,18,gothic,A+Sicilian+romance,1790,0.189838966
+246,Greg%2C+Percy%2C,teamblack | anatscifi | locscifi,no_lavin_tag,247,scifi,Across+the+zodiac,1880,0.189739632
+308,Flammarion%2C+Camille%2C,teamblack | anatscifi,no_lavin_tag,309,scifi,Omega%3A+the+last+days+of+t,1893,0.189721223
+290,AnonymousGhost,teamblack | locghost | lavin_ghost,lavin_ghost,291,gothic,Weird+tid-bits,1888,0.189313539
+309,Fawcett%2C+E.+Douglas,teamblack | anatscifi,no_lavin_tag,310,scifi,Hartmann+the+anarchist,1893,0.188795807
+293,Lee%2C+Vernon%2C,teamred | pbgothic | stew | lavin_ghost,lavin_ghost,294,gothic,Hauntings,1890,0.188767315
+165,Hawthorne%2C+Nathaniel%2C,teamblack | pbgothic,no_lavin_tag,166,gothic,The+house+of+the+seven+ga,1851,0.188658178
+474,French%2C+Joseph+Lewis%2C,teamred | locghost | stew | lavin_ghost,lavin_ghost,475,gothic,The+best+psychic+stories,1920,0.188491886
+130,Trollope%2C+Frances+Milton%2C,teamblack | random,no_lavin_tag,131,non_genre,A+romance+of+Vienna,1838,0.187674086
+121,Hall%2C+James%2C,teamred | random,no_lavin_tag,122,non_genre,The+soldier%27s+bride+and+o,1833,0.186922909
+33,Lewis%2C+M.+G.,teamblack | pbgothic | stew | lavin_magic,lavin_magic,34,gothic,The+monk,1796,0.186567208
+83,Maturin%2C+Charles+Robert%2C,teamblack | pbgothic | lavin_magic | lavin_deranged,lavin_multi,84,gothic,Melmoth+the+wanderer,1820,0.186125557
+304,Bradshaw%2C+William+R.,teamblack | locscifi,no_lavin_tag,305,scifi,The+goddess+of+Atvatabar,1892,0.186110283
+516,French%2C+Joseph+Lewis%2C,teamblack | locdetmyst | locghost | lavin_ghost,lavin_ghost,517,multi,Masterpieces+of+mystery,1922,0.185508372
+49,Anonymous7,teamblack | random,no_lavin_tag,50,non_genre,Barbara+Markham%3B+or%2C+The+profligate+requited%3B,1803,0.184300457
+118,James%2C+G.+P.+R.,teamred | random,no_lavin_tag,119,non_genre,Henry+Masterton%3B,1832,0.184123346
+677,Heinlein%2C+Robert+A.,chirandom | teamred | chiscifi,no_lavin_tag,678,scifi,Rocket+ship+Galileo,1947,0.183517808
+265,Corelli%2C+Marie%2C,teamred | femscifi | locscifi,no_lavin_tag,266,scifi,A+romance+of+two+worlds,1886,0.183124085
+280,AnonymousGhost,teamred | locghost | stew | lavin_ghost,lavin_ghost,281,gothic,Weird+tid-bits,1888,0.182939281
+100,Radcliffe%2C+Ann+Ward%2C,teamred | pbgothic | stew,no_lavin_tag,101,gothic,Gaston+de+Blondeville,1826,0.181518443
+59,Dacre%2C+Charlotte%2C,teamblack | pbgothic,no_lavin_tag,60,gothic,The+libertine%3B,1807,0.181430927
+625,Freeman%2C+R.+Austin%2C,teamred | chimyst,no_lavin_tag,626,crime,The+stoneware+monkey,1939,0.181407022
+697,Zagat%2C+Arthur+Leo%2C,teamblack | chiscifi,no_lavin_tag,698,scifi,Seven+out+of+time,1949,0.181165759
+291,Stockton%2C+Frank+Richard%2C,teamred | anatscifi,no_lavin_tag,292,scifi,The+great+war+syndicate,1889,0.180843719
+266,Verne%2C+Jules%2C,teamred | anatscifi | locscifi,no_lavin_tag,267,scifi,The+clipper+of+the+clouds,1886,0.180826571
+88,Maturin%2C+Charles+Robert%2C,teamred | pbgothic | stew | lavin_magic | lavin_deranged,lavin_multi,89,gothic,Melmoth+the+wanderer,1821,0.18061941
+56,Frances%2C+Sophia+L.,teamblack | stangothic | stew,no_lavin_tag,57,gothic,Vivonio%2C+or%2C+The+hour+of+retribution,1806,0.180583199
+97,Anonymous2,teamred | locghost | stew | lavin_ghost,lavin_ghost,98,gothic,Legends+of+terror%21,1826,0.179684276
+778,Burroughs%2C+William+S.,chirandom | teamblack,no_lavin_tag,779,non_genre,The+ticket+that+exploded,1962,0.179063679
+58,Roche%2C+Regina+Maria%2C,teamred | stangothic,no_lavin_tag,59,gothic,The+discarded+son%3B+or%2C+Haunt+of+the+banditti,1807,0.178455386
+51,Lee%2C+Harriet%2C,teamred | random,no_lavin_tag,52,non_genre,Canterbury+tales,1803,0.178231136
+383,Hawthorne%2C+Julian%2C,det100 | teamblack | stew,no_lavin_tag,384,crime,The+lock+and+key+library%3A,1909,0.178192019
+12,Beckford%2C+William%2C,teamblack | pbgothic | stew | lavin_magic,lavin_magic,13,gothic,Vathek,1786,0.177894587
+96,Shelley%2C+Mary+Wollstonecr,teamblack | femscifi | stew,no_lavin_tag,97,scifi,The+last+man,1826,0.177866751
+690,Smith%2C+E.+E.,teamred | chiscifi,no_lavin_tag,691,scifi,Skylark+three,1948,0.17763592
+543,Cox%2C+Erle%2C,teamblack | chiscifi,no_lavin_tag,544,scifi,Out+of+the+silence,1928,0.177518971
+52,Cuthbertson%2C+Catherine.,teamblack | stangothic | stew,no_lavin_tag,53,gothic,Romance+of+the+Pyrenees,1803,0.177500281
+115,Irving%2C+Washington%2C,teamblack | pbgothic | lavin_magic,lavin_magic,116,gothic,Tales+of+the+Alhambra,1832,0.177110629
+64,Frances%2C+Sophia+L.,teamred | stangothic,no_lavin_tag,65,gothic,Angelo+Guicciardini%2C+or%2C+The+bandit+of+the+Alps,1809,0.177039772
+107,Vidocq%2C+Eugne+Franois%2C,teamred | det100,no_lavin_tag,108,crime,Memoirs+of+Vidocq,1829,0.175996794
+98,Shelley%2C+Mary+Wollstonecr,teamred | femscifi,no_lavin_tag,99,scifi,The+last+man,1826,0.175705709
+156,St.+Clair%2C+Henry.,teamred | locghost | stew | lavin_ghost,lavin_ghost,157,gothic,Tales+of+terror%3B+or%2C+The+,1848,0.175556423
+179,Lawrence%2C+George+A.,teamred | random,no_lavin_tag,180,non_genre,Sword+and+gown,1860,0.175394791
+87,Maturin%2C+Charles+Robert%2C,teamblack | pbgothic | stew | lavin_magic | lavin_deranged,lavin_multi,88,gothic,Melmoth+the+wanderer,1820,0.175329513
+80,Porter%2C+Anna+Maria%2C,teamblack | stangothic,no_lavin_tag,81,gothic,The+fast+of+St.+Magdalen,1818,0.174901087
+20,Combe%2C+William%2C,teamblack | random,no_lavin_tag,21,non_genre,The+devil+upon+two+sticks,1791,0.174870167
+840,White%2C+Patrick%2C,chirandom | teamred,no_lavin_tag,841,non_genre,The+vivisector,1970,0.174195651
+218,Le+Fanu%2C+Joseph+Sheridan%2C,teamblack | pbgothic | stew | lavin_ghost | lavin_magic | lavin_deranged,lavin_multi,219,gothic,In+a+glass+darkly,1872,0.174067575
+134,Ainsworth%2C+William+Harris,teamred | pbgothic | stew,no_lavin_tag,135,gothic,The+Tower+of+London,1840,0.174036895
+306,Theuriet%2C+Andr%2C,teamred | random,no_lavin_tag,307,non_genre,A+young+man+of+the+period,1892,0.173563269
+95,Wilkins%2C+George%2C,teamblack | random,no_lavin_tag,96,non_genre,The+convert,1826,0.173519875
+61,Grant%2C+Anne+MacVicar%2C,teamblack | random,no_lavin_tag,62,non_genre,Letters+from+the+mountain,1807,0.172962834
+490,Rhys%2C+Ernest%2C,teamred | locghost | lavin_ghost,lavin_ghost,491,gothic,The+haunters+%26+the+haunte,1921,0.172926446
+791,Burroughs%2C+William+S.,teamblack | chiscifi,no_lavin_tag,792,scifi,Nova+Express,1964,0.172823138
+285,Bellamy%2C+Edward%2C,teamred | anatscifi | locscifi | stew,no_lavin_tag,286,scifi,Looking+backward%2C+2000-18,1888,0.172236911
+104,Loudon%2C+Jane,teamred | femscifi | stew,no_lavin_tag,105,scifi,The+mummy%21,1827,0.172063531
+405,Burroughs%2C+Edgar+Rice%2C,teamred | anatscifi,no_lavin_tag,406,scifi,A+princess+of+Mars,1912,0.171877324
+544,Burroughs%2C+Edgar+Rice%2C,teamblack | chiscifi,no_lavin_tag,545,scifi,The+master+mind+of+Mars,1928,0.171656036
+438,Seaman%2C+Augusta+Huiell%2C,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,439,crime,The+boarded-up+house,1915,0.171580453
+16,White%2C+James%2C,teamblack | random,no_lavin_tag,17,non_genre,The+adventures+of+John+of,1790,0.171460493
+137,Poe%2C+Edgar+Allan%2C,det100 | teamblack,no_lavin_tag,138,crime,The+Murder+in+the+Rue+Morgue+%28short+story%29,1841,0.171212973
+433,Vance%2C+Louis+Joseph%2C,det100 | teamblack,no_lavin_tag,434,crime,The+lone+wolf,1914,0.171112254
+753,Hoyle%2C+Fred%2C,teamblack | chiscifi,no_lavin_tag,754,scifi,The+black+cloud,1957,0.171105412
+70,Roche%2C+Regina+Maria%2C,teamred | stangothic,no_lavin_tag,71,gothic,The+monastery+of+St.+Columb%3B,1813,0.171064667
+384,Serviss%2C+Garrett+Putman%2C,teamblack | anatscifi | locscifi,no_lavin_tag,385,scifi,A+Columbus+of+space,1909,0.170843168
+239,Collins%2C+Wilkie%2C,teamred | pbgothic | stew | lavin_ghost,lavin_ghost,240,gothic,The+haunted+hotel,1878,0.170543958
+269,Anonymous3,teamblack | locghost | lavin_ghost,lavin_ghost,270,gothic,Dreamland+and+ghostland,1887,0.170531518
+666,Taine%2C+John%2C,teamred | chiscifi | stew,no_lavin_tag,667,scifi,The+time+stream,1946,0.170496322
+10,Lee%2C+Sophia%2C,teamblack | pbgothic | stew | lavin_deranged,lavin_deranged,11,gothic,The+recess%3B,1785,0.170348777
+163,Myers%2C+P.+Hamilton,teamblack | random,no_lavin_tag,164,non_genre,The+King+of+the+Hurons,1850,0.169910827
+372,Freeman%2C+R.+Austin%2C,det100 | teamblack,no_lavin_tag,373,crime,The+Red+Thumb+Mark,1907,0.169843922
+44,Melville%2C+Theodore.,teamblack | stangothic,no_lavin_tag,45,gothic,The+white+knight%2C+or%2C+The+monastery+of+Morne,1802,0.169305519
+565,Stapledon%2C+Olaf%2C,teamred | chiscifi | stew,no_lavin_tag,566,scifi,Last+and+first+men,1930,0.168935166
+160,Reynolds%2C+George+W.+M.,teamblack | pbgothic,no_lavin_tag,161,gothic,The+mysteries+of+the+cour,1850,0.168580219
+361,Harper%2C+Vincent.,teamblack | anatscifi | stew,no_lavin_tag,362,scifi,The+mortgage+on+the+brain,1905,0.168524436
+1,Rousseau%2C+Jean-Jacques%2C,teamred | random,no_lavin_tag,2,non_genre,Eloisa%3A+or+A+series+of+or,1761,0.168515512
+9,Genlis%2C+Stphanie+Flicit,teamred | random,no_lavin_tag,10,non_genre,Tales+of+the+castle%3B,1785,0.168064275
+38,Karamzin%2C+Nikola+Mikhalovich%2C,teamred | random,no_lavin_tag,39,non_genre,Russian+tales,1800,0.168029131
+827,Nabokov%2C+Vladimir+Vladimi,chirandom | teamblack,no_lavin_tag,828,non_genre,Ada,1969,0.167998806
+127,Hawthorne%2C+Nathaniel%2C,teamblack | pbgothic | lavin_ghost,lavin_ghost,128,gothic,Twice-told+tales,1837,0.167951602
+547,Wright%2C+S.+Fowler%2C,teamred | chifantasy | chiscifi,no_lavin_tag,548,scifi,The+island+of+Captain+Spa,1928,0.167867352
+184,Felix%2C+Charles%2C+pseud.,teamred | blcrime,no_lavin_tag,185,non_genre,Notting+Hill+Mystery,1863,0.167540077
+694,Orwell%2C+George%2C,teamblack | chiscifi,no_lavin_tag,695,scifi,Nineteen+eighty-four,1949,0.167464624
+289,AnonymousGhost,teamblack | locghost | stew | lavin_ghost,lavin_ghost,290,gothic,Weird+tid-bits,1888,0.167457345
+844,Hjortsberg%2C+William%2C,teamred | chiscifi,no_lavin_tag,845,scifi,Gray+matters,1971,0.167415778
+325,Hardy%2C+Thomas%2C,teamblack | random,no_lavin_tag,326,non_genre,The+well-beloved%3B,1897,0.167374809
+311,Bierce%2C+Ambrose%2C,teamblack | pbgothic | lavin_ghost,lavin_ghost,312,gothic,Can+such+things+be%3F,1893,0.167337168
+250,Cowan%2C+Frank%2C,teamblack | locscifi,no_lavin_tag,251,scifi,Revi-Lona,1880,0.167281774
+26,Radcliffe%2C+Ann+Ward%2C,teamblack | pbgothic | stew,no_lavin_tag,27,gothic,The+mysteries+of+Udolpho,1794,0.167070093
+24,Moser%2C+Joseph%2C,teamred | random,no_lavin_tag,25,non_genre,Turkish+tales,1794,0.166873769
+167,Bront%2C+Charlotte%2C,teamblack | pbgothic,no_lavin_tag,168,gothic,Villette,1853,0.166833867
+524,Freeman%2C+R.+Austin%2C,teamblack | chimyst,no_lavin_tag,525,crime,The+red+thumb+mark,1924,0.166517213
+647,Stapledon%2C+Olaf%2C,teamred | chiscifi,no_lavin_tag,648,scifi,Darkness+and+the+light,1942,0.166313318
+120,Lytton%2C+Edward+Bulwer+Lyt,teamblack | pbgothic,no_lavin_tag,121,gothic,Godolphin,1833,0.166064763
+476,Lindsay%2C+Vachel%2C,chiutopia | teamblack,no_lavin_tag,477,scifi,The+golden+book+of+Spring,1920,0.165759849
+531,Fraser%2C+Ronald%2C,teamred | chifantasy,no_lavin_tag,532,non_genre,Flower+phantoms,1926,0.165454779
+699,Wright%2C+S.+Fowler%2C,teamred | chiscifi,no_lavin_tag,700,scifi,The+Amphibians,1949,0.165199974
+454,French%2C+Joseph+Lewis%2C,teamblack | locghost | stew | lavin_ghost,lavin_ghost,455,gothic,Great+ghost+stories%2C+sele,1918,0.164852049
+22,Radcliffe%2C+Ann+Ward%2C,teamblack | pbgothic | stew | lavin_deranged,lavin_deranged,23,gothic,The+romance+of+the+forest,1791,0.164802731
+390,Wharton%2C+Edith%2C,teamred | pbgothic | lavin_ghost,lavin_ghost,391,gothic,Tales+of+men+and+ghosts,1910,0.164781108
+638,Lewis%2C+C.+S.,chirandom | chifantasy | teamblack,no_lavin_tag,639,non_genre,The+Screwtape+letters,1942,0.164665153
+173,MacDonald%2C+George%2C,teamblack | pbgothic | stew | lavin_magic,lavin_magic,174,gothic,Phantastes,1858,0.164444912
+37,Hamilton%2C+Elizabeth%2C,teamred | random,no_lavin_tag,38,non_genre,Memoirs+of+modern+philosophers,1800,0.164301747
+420,Green%2C+Anna+Katharine%2C,det100 | teamblack,no_lavin_tag,421,crime,Room+number+3%2C+and+other+,1913,0.164250292
+310,Griffith%2C+George+Chetwynd,teamblack | anatscifi,no_lavin_tag,311,scifi,The+angel+of+the+revoluti,1893,0.164034584
+109,Lytton%2C+Edward+Bulwer+Lyt,teamred | newgate | stew,no_lavin_tag,110,crime,Paul+Clifford,1830,0.16391625
+2,Anonymous4,teamblack | random,no_lavin_tag,3,non_genre,The+memoirs+of+Miss+D%27Arv,1764,0.163882422
+369,Buckingham%2C+Emma+May.,teamred | locghost | stew | lavin_ghost,lavin_ghost,370,gothic,Modern+ghost+stories,1906,0.163640583
+924,Bishop%2C+Michael%2C,teamblack | chiscifi,no_lavin_tag,925,scifi,No+enemy+but+time,1982,0.163548788
+30,Lewis%2C+M.+G.,teamblack | pbgothic | lavin_magic,lavin_magic,31,gothic,The+monk,1796,0.163394342
+47,Walker%2C+George%2C,teamred | stangothic,no_lavin_tag,48,gothic,Don+Raphael,1803,0.16338431
+270,Hudson%2C+W.+H.,teamred | anatscifi,no_lavin_tag,271,scifi,A+crystal+age,1887,0.162946098
+7,Leprince+de+Beaumont%2C,teamblack | random,no_lavin_tag,8,non_genre,Letters+of+Madame+Du+Montier,1780,0.162890253
+367,Blackwood%2C+Algernon%2C,teamblack | pbgothic | stew | lavin_ghost,lavin_ghost,368,gothic,The+empty+house,1906,0.162773679
+66,Cuthbertson%2C+Catherine.,teamblack | stangothic,no_lavin_tag,67,gothic,Forest+of+Montalbano,1810,0.162220728
+301,Anonymous9,teamblack | locdetmyst | stew,no_lavin_tag,302,crime,Eleven+possible+cases,1891,0.161999013
+432,Seymour%2C+St.+John+D.,teamred | locghost | lavin_ghost,lavin_ghost,433,gothic,True+Irish+ghost+stories,1914,0.161958895
+790,Clement%2C+Hal%2C,teamblack | chiscifi,no_lavin_tag,791,scifi,Close+to+critical,1964,0.161770303
+884,Foster%2C+Alan+Dean%2C,chirandom | teamred | chiscifi,no_lavin_tag,885,scifi,The+end+of+the+matter,1977,0.161611757
+232,Pinkerton%2C+Allan%2C,locdetective | teamblack,no_lavin_tag,233,crime,The+spiritualists+and+the,1876,0.161353081
+717,Wylie%2C+Philip%2C,teamred | chiscifi | stew,no_lavin_tag,718,scifi,The+disappearance,1951,0.161194277
+92,Gaspey%2C+Thomas%2C,teamblack | stangothic,no_lavin_tag,93,gothic,Other+times%3B+or%2C+the+monks+of+Leadenhall,1823,0.161069525
+300,Bierce%2C+Ambrose%2C,teamblack | pbgothic | stew,no_lavin_tag,301,gothic,Tales+of+soldiers+and+civ,1891,0.160765645
+319,Corelli%2C+Marie%2C,teamred | pbgothic | lavin_magic,lavin_magic,320,gothic,The+sorrows+of+Satan%3B,1895,0.160115382
+282,Green%2C+Anna+Katharine%2C,teamred | det100 | stew,no_lavin_tag,283,crime,Behind+closed+doors,1888,0.160058911
+583,Stapledon%2C+Olaf%2C,teamred | chiscifi,no_lavin_tag,584,scifi,Last+men+in+London,1932,0.159783532
+296,AnonymousGhost2,teamblack | locghost | stew | lavin_ghost,lavin_ghost,297,gothic,Modern+ghosts,1890,0.159453241
+28,Gunning%2C,teamblack | random,no_lavin_tag,29,non_genre,Memoirs+of+Mary,1794,0.159216948
+31,Roche%2C+Regina+Maria%2C,teamblack | pbgothic | lavin_ghost,lavin_ghost,32,gothic,The+children+of+the+abbey,1796,0.159203823
+152,Cobbold%2C+Richard%2C,teamred | random,no_lavin_tag,153,non_genre,Zenon,1847,0.159171052
+374,Murfree%2C+Mary+Noailles%2C,teamred | random,no_lavin_tag,375,non_genre,The+windfall%3B,1907,0.159163446
+5,Henrietta.,teamblack | random,no_lavin_tag,6,non_genre,Letters+from+Henrietta+to,1777,0.159107348
+294,AnonymousGhost2,teamblack | locghost | lavin_ghost,lavin_ghost,295,gothic,Modern+ghosts%3B,1890,0.158835958
+148,Reynolds%2C+George+W.+M.,teamred | pbgothic | stew,no_lavin_tag,149,gothic,The+mysteries+of+London,1846,0.158749363
+29,Cumberland%2C+Richard%2C,teamred | random,no_lavin_tag,30,non_genre,Henry,1795,0.158690303
+209,Speight%2C+T.+W.,det100 | teamblack | stew,no_lavin_tag,210,crime,Under+lock+and+key%3B+a+sto,1868,0.158670107
+13,Berkeley%2C+George+Monck%2C,teamred | random,no_lavin_tag,14,non_genre,Heloise%3A+or+The+siege+of+,1788,0.158659358
+102,Lytton%2C+Edward+Bulwer+Lyt,teamblack | pbgothic | stew,no_lavin_tag,103,gothic,Falkland,1827,0.158555815
+406,Pidgin%2C+Charles+Felton%2C,det100 | teamblack,no_lavin_tag,407,crime,The+chronicles+of+Quincy+,1912,0.158541537
+275,AnonymousGhost,teamred | locghost | lavin_ghost,lavin_ghost,276,gothic,Weird+tid-bits,1888,0.158453012
+154,Froude%2C+James+Anthony%2C,teamblack | random,no_lavin_tag,155,non_genre,Shadows+of+the+clouds,1847,0.158350293
+81,Austen%2C+Jane%2C,teamred | lochorror,no_lavin_tag,82,gothic,Northanger+Abbey,1818,0.158292426
+423,Reeve%2C+Arthur+B.,teamred | det100,no_lavin_tag,424,crime,Constance+Dunlap%2C+woman+d,1913,0.158277082
+153,Arthur%2C+T.+S.,teamred | random,no_lavin_tag,154,non_genre,Lovers+and+husbands,1847,0.158226992
+86,Irving%2C+Washington%2C,teamblack | pbgothic | lavin_ghost | lavin_magic,lavin_multi,87,gothic,The+sketch-book+of+Geoffr,1820,0.158211567
+850,Millhauser%2C+Steven%2C,chirandom | teamred,no_lavin_tag,851,non_genre,Edwin+Mullhouse,1972,0.157609212
+355,Harris-Burland%2C+J.+B.,teamred | locscifi,no_lavin_tag,356,scifi,The+Princess+Thora,1904,0.157472393
+315,Astor%2C+John+Jacob%2C,teamblack | anatscifi | stew,no_lavin_tag,316,scifi,A+journey+in+other+worlds,1894,0.157359854
+703,Pragnell%2C+Festus%2C,teamred | chifantasy,no_lavin_tag,704,non_genre,The+green+man+of+Graypec,1950,0.157278412
+210,Verne%2C+Jules%2C,teamred | anatscifi,no_lavin_tag,211,scifi,Twenty+thousand+leagues+u,1870,0.157216586
+323,Merrick%2C+Leonard%2C,teamred | random,no_lavin_tag,324,non_genre,This+stage+of+fools,1896,0.157054627
+546,Knox%2C+Ronald+Arbuthnott%2C,chirandom | teamred | det100,no_lavin_tag,547,crime,The+footsteps+at+the+lock,1928,0.157054253
+249,Greg%2C+Percy%2C,teamred | anatscifi,no_lavin_tag,250,scifi,Across+the+zodiac,1880,0.15704395
+579,Cummings%2C+Ray%2C,teamblack | chiscifi,no_lavin_tag,580,scifi,Brigands+of+the+moon,1931,0.156959429
+656,Joyce%2C+James%2C,chirandom | teamred,no_lavin_tag,657,non_genre,Stephen+hero,1944,0.156834038
+307,Bierce%2C+Ambrose%2C,teamblack | pbgothic | stew,no_lavin_tag,308,gothic,In+the+midst+of+life%3B,1892,0.156739802
+333,James%2C+Henry%2C,teamred | pbgothic | lavin_ghost | lavin_magic,lavin_multi,334,gothic,The+Turn+of+the+Screw,1898,0.156699367
+260,Pater%2C+Walter%2C,teamred | random,no_lavin_tag,261,non_genre,Marius+the+Epicurean,1885,0.156603923
+463,Pease%2C+Howard%2C,teamblack | locghost | stew | lavin_ghost,lavin_ghost,464,gothic,Border+ghost+stories,1919,0.156311551
+378,Harding%2C+Ellison.,teamblack | locscifi,no_lavin_tag,379,scifi,The+woman+who+vowed,1908,0.156288952
+899,Estleman%2C+Loren+D%2C,teamred | chimyst | chihorror | lavin_magic,lavin_magic,900,multi,Sherlock+Holmes+vs.+Dracu,1978,0.156266888
+386,Ayscough%2C+John%2C,teamblack | random,no_lavin_tag,387,non_genre,A+Roman+tragedy+and+other,1909,0.156097267
+942,MacLeod%2C+Charlotte%2C,teamred | chimyst,no_lavin_tag,943,crime,The+plain+old+man,1985,0.155925638
+211,Marryat%2C+Florence%2C,teamblack | random,no_lavin_tag,212,non_genre,Her+lord+and+master,1871,0.155911583
+48,Cuthbertson%2C+Catherine.,teamblack | stangothic,no_lavin_tag,49,gothic,Romance+of+the+Pyrenees,1803,0.155894123
+359,Baring-Gould%2C+S.,teamred | locghost | stew | lavin_ghost,lavin_ghost,360,gothic,A+book+of+ghosts,1904,0.155626887
+161,Hawthorne%2C+Nathaniel%2C,teamred | pbgothic | stew,no_lavin_tag,162,gothic,The+scarlet+letter,1850,0.155559592
+257,Oliphant%2C+Laurence%2C,teamred | random,no_lavin_tag,258,non_genre,Altiora+Peto,1883,0.155519362
+686,Wilder%2C+Thornton%2C,chirandom | teamred,no_lavin_tag,687,non_genre,The+ides+of+March,1948,0.155296567
+919,Strieber%2C+Whitley,teamblack | pbgothic | stew | lavin_magic,lavin_magic,920,gothic,The+hunger,1981,0.155227608
+159,Ainsworth%2C+William+Harris,teamblack | pbgothic | lavin_magic,lavin_magic,160,gothic,The+Lancashire+witches,1849,0.155195992
+334,Shiel%2C+M.+P.,teamblack | anatscifi,no_lavin_tag,335,scifi,The+yellow+danger,1898,0.154921776
+607,Innes%2C+Michael%2C,chirandom | teamred | chimyst | stew,no_lavin_tag,608,crime,Death+at+the+president%27s+,1936,0.154800957
+50,Cuthbertson%2C+Catherine.,teamblack | stangothic,no_lavin_tag,51,gothic,Romance+of+the+Pyrenees,1803,0.154687215
+65,Anonymous6,teamblack | random,no_lavin_tag,66,non_genre,The+adulteress+%3B+or%2C+anecdotes+of+two+noble+families,1810,0.154644381
+533,Van+Dine%2C+S.+S,teamred | det100,no_lavin_tag,534,crime,The+Benson+murder+case,1926,0.154627592
+503,Dougherty%2C+Harry+V.,teamred | locdetmyst,no_lavin_tag,504,crime,Well--+who+killed+him%3F,1922,0.154590473
+27,Radcliffe%2C+Ann+Ward%2C,teamred | pbgothic,no_lavin_tag,28,gothic,The+mysteries+of+Udolpho,1794,0.154539143
+545,Keeler%2C+Harry+Stephen%2C,teamred | chimyst,no_lavin_tag,546,crime,Sing+Sing+nights,1928,0.15448773
+321,Wells%2C+H.+G.,teamred | anatscifi | locscifi | stew,no_lavin_tag,322,scifi,The+time+machine%3B,1895,0.154431307
+132,James%2C+G.+P.+R.,teamred | random,no_lavin_tag,133,non_genre,The+robber,1838,0.154372956
+141,James%2C+G.+P.+R.,teamblack | random,no_lavin_tag,142,non_genre,Forest+days%3B,1843,0.154131986
+348,Shiel%2C+M.+P.,chifantasy | teamblack | chiscifi,no_lavin_tag,349,scifi,The+purple+cloud,1901,0.153996324
+11,Bennett%2C+Anna+Maria%2C,teamred | random,no_lavin_tag,12,non_genre,Anna%3B+or%2C+Memoirs+of+a+Welch+Heiress,1786,0.153830462
+193,Ouida%2C,teamred | sensation | stew,no_lavin_tag,194,sensation,Strathmore,1865,0.15376256
+521,Burroughs%2C+Edgar+Rice%2C,teamred | chiscifi | stew,no_lavin_tag,522,scifi,Pellucidar,1923,0.15369695
+79,Austen%2C+Jane%2C,teamred | lochorror | stew,no_lavin_tag,80,gothic,Northanger+Abbey,1818,0.153533685
+117,Hall%2C+Anna+Maria,teamred | locdetmyst | stew,no_lavin_tag,118,crime,The+buccaneer,1832,0.153382845
+171,MacDonald%2C+George%2C,teamblack | pbgothic,no_lavin_tag,172,gothic,Phantastes,1858,0.153368468
+123,White%2C+James%2C,teamblack | random,no_lavin_tag,124,non_genre,Some+passages+in+the+life+of+Sir+Frizzle+Pumpkin,1834,0.153307819
+832,Davidson%2C+Avram%2C,teamblack | chiscifi,no_lavin_tag,833,scifi,The+phoenix+and+the+mirro,1969,0.15328956
+74,Austen%2C+Jane%2C,teamblack | pbgothic,no_lavin_tag,75,gothic,Northanger+abbey,1818,0.153078931
+440,Rockwood%2C+Roy.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,441,crime,Dave+Dashaway%2C+air+champi,1915,0.152966989
+76,Opie%2C+Amelia+Alderson%2C,teamblack | random,no_lavin_tag,77,non_genre,New+tales,1818,0.152708476
+776,Galouye%2C+Daniel+F%2C,teamred | chiscifi | stew,no_lavin_tag,777,scifi,Dark+universe,1961,0.152026495
+324,Palmarini%2C+I.+M.,teamred | lockandkey,no_lavin_tag,325,crime,Shadows,1896,0.152023726
+25,Bennett%2C+Anna+Maria%2C,teamred | random,no_lavin_tag,26,non_genre,Ellen%2C+Countess+of+Castle+Howel,1794,0.15195533
+517,French%2C+Joseph+Lewis%2C,teamblack | locdetmyst | locghost | lavin_ghost,lavin_ghost,518,multi,Masterpieces+of+mystery,1922,0.151882253
+903,Zebrowski%2C+George%2C,teamred | chiscifi | stew,no_lavin_tag,904,scifi,Macrolife,1979,0.151879724
+271,Doyle%2C+Arthur+Conan%2C,det100 | teamblack,no_lavin_tag,272,crime,A+study+in+scarlet,1887,0.151777336
+539,Keeler%2C+Harry+Stephen%2C,teamred | chimyst,no_lavin_tag,540,crime,Find+the+clock,1927,0.151655947
+360,Orcutt%2C+William+Dana%2C,teamred | random,no_lavin_tag,361,non_genre,Robert+Cavelier,1904,0.151588359
+124,Ainsworth%2C+William+Harris,teamred | newgate | stangothic | lavin_ghost | lavin_magic,lavin_multi,125,multi,Rookwood,1834,0.151527921
+351,Isham%2C+Frederic+Stewart%2C,teamred | random,no_lavin_tag,352,non_genre,Under+the+rose,1903,0.151484133
+519,Phillpotts%2C+Eden%2C,det100 | teamblack,no_lavin_tag,520,crime,The+red+Redmaynes,1923,0.151479595
+135,Ainsworth%2C+William+Harris,newgate | teamblack,no_lavin_tag,136,crime,Jack+Sheppard+%3B,1840,0.151379504
+936,Muller%2C+Marcia%2C,teamred | chimyst | stew,no_lavin_tag,937,crime,Games+to+keep+the+dark+aw,1984,0.151093507
+14,Smith%2C+Charlotte%2C,teamblack | pbgothic | stew | lavin_deranged,lavin_deranged,15,gothic,Emmeline,1788,0.151091574
+799,Nabokov%2C+Vladimir+Vladimi,chirandom | teamred,no_lavin_tag,800,non_genre,The+eye,1965,0.150867877
+320,Besant%2C+Walter%2C,teamred | locscifi | stew,no_lavin_tag,321,scifi,Beyond+the+dreams+of+avar,1895,0.1508565
+77,Opie%2C+Amelia+Alderson%2C,teamred | random,no_lavin_tag,78,non_genre,New+tales,1818,0.150491859
+436,Cresswell%2C+Clarice+M.,teamred | random,no_lavin_tag,437,non_genre,The+making+and+breaking+o,1915,0.150069327
+801,Raphael%2C+Rick%2C,teamred | chiscifi | stew,no_lavin_tag,802,scifi,Code+three,1965,0.149952801
+489,AnonymousGhost3,teamred | locghost | stew | lavin_ghost,lavin_ghost,490,gothic,Humorous+ghost+stories,1921,0.14987307
+983,Jeter%2C+K.+W%2C,teamred | chiscifi,no_lavin_tag,984,scifi,Farewell+horizontal,1989,0.149644442
+592,Hilton%2C+James%2C,chiutopia | chifantasy | teamblack,no_lavin_tag,593,scifi,Lost+horizon,1933,0.149512367
+864,Harrison%2C+Harry%2C,teamblack | chimyst,no_lavin_tag,865,crime,Queen+Victoria%27s+revenge,1974,0.149487526
+119,Hall%2C+Anna+Maria,teamred | locdetmyst | stew,no_lavin_tag,120,crime,The+buccaneer,1832,0.149450709
+108,Lytton%2C+Edward+Bulwer+Lyt,teamred | random,no_lavin_tag,109,non_genre,Devereux,1829,0.149333395
+409,Doyle%2C+Arthur+Conan%2C,teamred | anatscifi | stew,no_lavin_tag,410,scifi,The+lost+world,1912,0.149259502
+138,Sinclair%2C+Catherine%2C,teamblack | random,no_lavin_tag,139,non_genre,Modern+flirtations,1841,0.149194712
+618,Wright%2C+S.+Fowler%2C,chirandom | chiutopia | teamblack | chiscifi | stew,no_lavin_tag,619,scifi,The+adventure+of+Wyndham+,1938,0.149149165
+45,Cullen%2C+Margaret.,teamred | random,no_lavin_tag,46,non_genre,Home,1802,0.149069953
+236,Cobbe%2C+Frances+Power%2C,teamred | femscifi | stew,no_lavin_tag,237,scifi,The+age+of+science,1877,0.148945443
+190,Williams%2C+John+Babbington,teamred | locdetective | stew,no_lavin_tag,191,crime,Leaves+from+the+note-book,1865,0.148923444
+345,Osborne%2C+Duffield%2C,teamred | locscifi | stew,no_lavin_tag,346,scifi,The+secret+of+the+crater,1900,0.148852091
+302,Bierce%2C+Ambrose%2C,teamblack | random,no_lavin_tag,303,non_genre,The+monk+and+the+hangman%27,1892,0.148843115
+299,Ward%2C+Herbert+Dickinson%2C,teamblack | locscifi | stew,no_lavin_tag,300,scifi,A+republic+without+a+pres,1891,0.148792205
+591,White%2C+Ethel+Lina%2C,chirandom | teamred | chimyst,no_lavin_tag,592,crime,Put+out+the+light,1933,0.1487577
+314,Pemberton%2C+Max%2C,det100 | teamblack,no_lavin_tag,315,crime,Jewel+mysteries+I+have+kn,1894,0.148603166
+157,Kavanagh%2C+Julia%2C,teamblack | random,no_lavin_tag,158,non_genre,Madeleine,1848,0.148593831
+288,Goodman%2C+E.+J.,teamred | supernatural | random,no_lavin_tag,289,non_genre,Too+curious,1888,0.148449234
+284,Gibbon%2C+Charles%2C,teamred | locdetmyst,no_lavin_tag,285,crime,Beyond+compare,1888,0.148440269
+529,Knox%2C+Ronald+Arbuthnott%2C,teamred | chimyst,no_lavin_tag,530,crime,The+viaduct+murder,1925,0.148430486
+268,Fawcett%2C+Edgar%2C,teamred | random,no_lavin_tag,269,non_genre,Olivia+Delaplaine,1887,0.148426328
+470,Lindsay%2C+David%2C,teamred | chifantasy | anatscifi | stew,no_lavin_tag,471,scifi,Voyage+To+Arcturus,1920,0.148333403
+523,Bromfield%2C+Louis%2C,chirandom | teamblack,no_lavin_tag,524,non_genre,The+green+bay+tree,1924,0.148281835
+482,James%2C+Henry%2C,chirandom | teamblack,no_lavin_tag,483,non_genre,Master+Eustace,1920,0.148180117
+499,Masters%2C+Edgar+Lee%2C,chirandom | teamred,no_lavin_tag,500,non_genre,Children+of+the+market+pl,1922,0.148163944
+170,Austin%2C+Alfred%2C,teamred | random,no_lavin_tag,171,non_genre,Five+years+of+it,1858,0.14806295
+287,Gibbon%2C+Charles%2C,teamblack | locdetmyst | stew,no_lavin_tag,288,crime,Beyond+compare,1888,0.148014195
+595,Endore%2C+S.+Guy%2C,chifantasy | teamblack | chihorror | stew,no_lavin_tag,596,gothic,The+werewolf+of+Paris,1933,0.147840855
+479,Shanks%2C+Edward%2C,teamblack | anatscifi | stew,no_lavin_tag,480,scifi,The+people+of+the+ruins,1920,0.147835868
+879,Leiber%2C+Fritz%2C,teamred | chifantasy | chiscifi,no_lavin_tag,880,scifi,Our+lady+of+darkness,1977,0.14756751
+507,Burroughs%2C+Edgar+Rice%2C,teamblack | chiscifi | stew,no_lavin_tag,508,scifi,The+chessmen+of+Mars,1922,0.147398043
+67,Stanhope%2C+Louisa+Sidney.,teamred | stangothic | stew,no_lavin_tag,68,gothic,The+confessional+of+Valombre,1812,0.147358
+150,Bront%2C+Charlotte%2C,teamred | pbgothic | lavin_deranged,lavin_deranged,151,gothic,Jane+Eyre,1847,0.147221127
+195,Gaboriau%2C+Emile%2C,teamred | det100,no_lavin_tag,196,crime,The+widow+Lerouge,1866,0.146882752
+277,Besant%2C+Walter%2C,teamblack | anatscifi | stew,no_lavin_tag,278,scifi,The+inner+house,1888,0.146835629
+178,Collins%2C+Wilkie%2C,teamred | sensation | pbgothic | stew | lavin_deranged,lavin_deranged,179,multi,The+woman+in+white,1860,0.146720387
+838,Kurtz%2C+Katherine%2C,chifantasy | teamblack | chiscifi,no_lavin_tag,839,scifi,Deryni+rising,1970,0.146666959
+53,Cuthbertson%2C+Catherine.,teamblack | stangothic,no_lavin_tag,54,gothic,Romance+of+the+Pyrenees,1803,0.14666625
+782,Huxley%2C+Aldous%2C,chiutopia | chiscifi | teamred,no_lavin_tag,783,scifi,Island,1962,0.14662855
+704,Stapledon%2C+Olaf%2C,teamred | chiscifi,no_lavin_tag,705,scifi,A+man+divided,1950,0.146585994
+143,Reynolds%2C+George+W.+M.,teamred | pbgothic | stew,no_lavin_tag,144,gothic,The+mysteries+of+London,1844,0.1465821
+564,Kline%2C+Otis+Adelbert%2C,teamred | chiscifi | stew,no_lavin_tag,565,scifi,Maza+of+the+moon,1930,0.146529793
+425,Leblanc%2C+Maurice%2C,teamred | det100,no_lavin_tag,426,crime,The+confessions+of+Arsne,1913,0.146483861
+683,Taine%2C+John%2C,teamred | chiscifi,no_lavin_tag,684,scifi,The+forbidden+garden,1947,0.146455232
+767,Nin%2C+Anais%2C,chirandom | teamred,no_lavin_tag,768,non_genre,Children+of+the+albatross,1959,0.146256616
+330,Bangs%2C+John+Kendrick%2C,teamred | locghost | stew | lavin_ghost,lavin_ghost,331,gothic,Ghosts+I+have+met+and+som,1898,0.146228475
+933,May%2C+Julian%2C,teamblack | chiscifi,no_lavin_tag,934,scifi,The+nonborn+king,1983,0.146214527
+256,Du+Boisgobey%2C+Fortun%2C,det100 | teamblack,no_lavin_tag,257,crime,The+detective%27s+eye+%3B,1883,0.146191631
+279,AnonymousGhost,teamblack | locghost | stew | lavin_ghost,lavin_ghost,280,gothic,Weird+tid-bits,1888,0.146138687
+356,Tracy%2C+Louis%2C,det100 | teamblack,no_lavin_tag,357,crime,The+Albert+Gate+mystery,1904,0.145925189
+142,Eastlake%2C+Elizabeth%2C,teamblack | random,no_lavin_tag,143,non_genre,Livonian+tales,1843,0.145592349
+682,Van+Vogt%2C+A.+E.+1912-2000,teamred | chifantasy,no_lavin_tag,683,non_genre,The+book+of+Ptath,1947,0.145509523
+421,Knight%2C+Arthur+Lee.,teamred | random,no_lavin_tag,422,non_genre,Told+in+the+Indian+twilig,1913,0.145472824
+498,Munford%2C+George+Frederick,teamblack | locghost | stew | lavin_ghost,lavin_ghost,499,gothic,Ghosts+and+legends+of+Sou,1922,0.1452733
+722,MacDonald%2C+John+D.,teamblack | chiscifi | stew,no_lavin_tag,723,scifi,Wine+of+the+dreamers,1951,0.145267899
+94,Cooper%2C+James+Fenimore%2C,teamblack | random,no_lavin_tag,95,non_genre,The+pilot%3B,1824,0.145235237
+273,Gibbon%2C+Charles%2C,teamblack | locdetmyst,no_lavin_tag,274,crime,Beyond+compare,1888,0.145029787
+605,Lewis%2C+Sinclair%2C,teamred | chiscifi,no_lavin_tag,606,scifi,It+can%27t+happen+here,1935,0.144965542
+332,Barr%2C+Amelia+Edith+Huddle,teamblack | random,no_lavin_tag,333,non_genre,The+lost+silver+of+Briffa,1898,0.144836591
+467,Snell%2C+Roy+J.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,468,crime,Triple+spies,1920,0.144836183
+394,Leroux%2C+Gaston%2C,teamred | det100,no_lavin_tag,395,crime,The+mystery+of+the+yellow,1910,0.144663016
+446,Doyle%2C+Arthur+Conan%2C,teamred | locdetmyst,no_lavin_tag,447,crime,His+last+bow,1917,0.144485627
+312,Morrison%2C+Arthur%2C,det100 | teamblack,no_lavin_tag,313,crime,Martin+Hewitt%2C+investigat,1894,0.144363319
+967,Hambly%2C+Barbara,chifantasy | teamblack | pbgothic | stew | lavin_magic,lavin_magic,968,gothic,Those+who+hunt+the+night,1988,0.144314529
+681,Myers%2C+John+Myers%2C,chirandom | teamred,no_lavin_tag,682,non_genre,The+wild+Yazoo,1947,0.144309028
+225,Du+Boisgobey%2C+Fortun%2C,teamred | det100,no_lavin_tag,226,crime,The+golden+tress,1875,0.144263964
+105,Gaspey%2C+Thomas%2C,newgate | teamblack,no_lavin_tag,106,crime,History+of+George+Godfrey,1828,0.144238439
+89,Varty-Smith%2C+Augusta+A.,teamred | random,no_lavin_tag,90,non_genre,Matthew+Tindale,1821,0.144212368
+754,Malvern%2C+Gladys%2C,chirandom | teamblack,no_lavin_tag,755,non_genre,My+lady%3A+my+love,1957,0.144141277
+672,Van+Vogt%2C+A.+E.+1912-++%28A,teamblack | chiscifi | stew,no_lavin_tag,673,scifi,Slan,1946,0.144115443
+116,Lytton%2C+Edward+Bulwer+Lyt,teamred | newgate,no_lavin_tag,117,crime,Eugene+Aram,1832,0.144074913
+281,Ward%2C+Humphry%2C,teamblack | random,no_lavin_tag,282,non_genre,Robert+Elsmere,1888,0.143993292
+346,Wells%2C+H.+G.,teamblack | anatscifi | locscifi,no_lavin_tag,347,scifi,The+first+men+in+the+moon,1901,0.143984878
+400,Lummis%2C+Charles+Fletcher%2C,teamred | random,no_lavin_tag,401,non_genre,The+gold+fish+of+Gran+Chi,1911,0.14377714
+568,Kline%2C+Otis+Adelbert%2C,teamblack | chiscifi,no_lavin_tag,569,scifi,The+prince+of+peril,1930,0.143772693
+46,Anonymous0,teamblack | random,no_lavin_tag,47,non_genre,Letters+of+Miss+Riversdale,1803,0.143769591
+713,Asimov%2C+Isaac%2C,teamblack | chiscifi | stew,no_lavin_tag,714,scifi,I%3A+robot,1950,0.143605073
+411,Gowans%2C+Adam+L.,teamblack | locghost | lavin_ghost,lavin_ghost,412,gothic,Famous+ghost-stories+by+E,1912,0.143366916
+780,Clifton%2C+Mark%2C,teamblack | chiscifi,no_lavin_tag,781,scifi,When+they+come+from+space,1962,0.143125104
+496,Hamilton%2C+Cicely%2C,teamred | femscifi | anatscifi,no_lavin_tag,497,scifi,Theodore+savage,1922,0.143084981
+303,Zangwill%2C+Israel%2C,teamred | det100,no_lavin_tag,304,crime,The+big+bow+mystery,1892,0.142940563
+15,Smith%2C+Charlotte%2C,teamred | pbgothic | stew | lavin_deranged,lavin_deranged,16,gothic,Emmeline,1788,0.14282161
+208,Ellis%2C+Edward+S.,teamblack | anatscifi | stew,no_lavin_tag,209,scifi,The+Steam+Man+of+the+Prairies,1868,0.142701058
+73,Burney%2C+Sarah+Harriet%2C,teamred | random,no_lavin_tag,74,non_genre,Tales+of+fancy,1816,0.142592817
+216,Hardy%2C+Thomas%2C,sensation | teamblack | stew,no_lavin_tag,217,sensation,Desperate+Remedies,1871,0.142426499
+909,Jakes%2C+John%2C,chirandom | teamblack,no_lavin_tag,910,non_genre,The+Americans,1980,0.142394069
+435,Bianchi%2C+Martha+Dickinson,teamred | random,no_lavin_tag,436,non_genre,The+Kiss+of+Apollo,1915,0.142263817
+274,De+Mille%2C+James%2C,teamblack | anatscifi | locscifi,no_lavin_tag,275,scifi,A+strange+manuscript+foun,1888,0.142035548
+749,Del+Rey%2C+Lester%2C,teamblack | chiscifi,no_lavin_tag,750,scifi,Mission+to+the+moon,1956,0.141728462
+898,Lustbader%2C+Eric%2C,teamred | chiscifi,no_lavin_tag,899,scifi,Shallows+of+night,1978,0.141680405
+103,Ward%2C+R.+Plumer,teamblack | random,no_lavin_tag,104,non_genre,De+Vere,1827,0.141629029
+292,Twain%2C+Mark%2C,teamblack | anatscifi | stew,no_lavin_tag,293,scifi,A+Connecticut+Yankee+in+K,1889,0.141517116
+486,Seaman%2C+Augusta+Huiell%2C,teamred | locdetmyst | juvenile | drop,no_lavin_tag,487,crime,The+dragon%27s+secret,1921,0.141513837
+198,Dostoevsky%2C+Fyodor%2C,teamred | lockandkey,no_lavin_tag,199,crime,Crime+and+Punishment,1866,0.141496416
+929,Coldsmith%2C+Don%2C,chirandom | teamblack,no_lavin_tag,930,non_genre,Follow+the+wind,1983,0.14149045
+82,Austen%2C+Jane%2C,teamblack | lochorror,no_lavin_tag,83,gothic,Northanger+Abbey,1818,0.141473154
+931,Foster%2C+Alan+Dean%2C,chirandom | teamred | chiscifi | stew,no_lavin_tag,932,scifi,For+love+of+mother-not,1983,0.141386277
+661,Orwell%2C+George%2C,chiutopia | teamblack,no_lavin_tag,662,scifi,Animal+farm,1945,0.141340701
+913,Harris%2C+Thomas,chimyst | pbgothic | teamred | lavin_slasher,lavin_slasher,914,multi,Red+dragon,1981,0.141293623
+194,Murdoch%2C+David.,teamred | random,no_lavin_tag,195,non_genre,The+Royalist%27s+daughter+a,1865,0.14122641
+674,Cummings%2C+Ray%2C,teamblack | chiscifi,no_lavin_tag,675,scifi,The+shadow+girl,1946,0.141053546
+892,Strieber%2C+Whitley,teamred | pbgothic,no_lavin_tag,893,gothic,The+wolfen,1978,0.140758055
+623,Carr%2C+John+Dickson,det100 | teamblack,no_lavin_tag,624,crime,To+wake+the+dead,1938,0.140607632
+366,Ford%2C+Douglas+Morey.,teamblack | locscifi | stew,no_lavin_tag,367,scifi,A+time+of+terror,1906,0.1405927
+242,Pinkerton%2C+Allan%2C,teamred | locdetective,no_lavin_tag,243,crime,Mississippi+outlaws+and+t,1879,0.140537987
+464,Atherton%2C+Gertrude+Frankl,teamred | random,no_lavin_tag,465,non_genre,Transplanted%3B,1919,0.140417683
+0,Lesuire%2C+Robert+Martin%2C,teamred | random,no_lavin_tag,1,non_genre,The+savages+of+Europe,1760,0.140300416
+393,Orczy%2C+Emmuska+Orczy%2C,det100 | teamblack,no_lavin_tag,394,crime,Lady+Molly+of+Scotland+Ya,1910,0.140278901
+54,Young%2C+Mary+Julia.,teamred | stangothic | stew,no_lavin_tag,55,gothic,Right+and+wrong%3B+or%2C+The+kinsmen+of+Naples,1803,0.140231634
+869,Niven%2C+Larry%2C,teamblack | chiscifi,no_lavin_tag,870,scifi,A+world+out+of+time,1976,0.140193548
+580,Rohmer%2C+Sax%2C,teamblack | chimyst | stew,no_lavin_tag,581,crime,Daughter+of+Fu+Manchu,1931,0.139955583
+162,Arthur%2C+T.+S.,teamblack | random,no_lavin_tag,163,non_genre,Tales+of+domestic+life,1850,0.139817862
+177,De+Forest%2C+John+William%2C,teamred | random,no_lavin_tag,178,non_genre,Seacliff%3B,1859,0.139773282
+316,Theuriet%2C+Andr%2C,teamblack | random,no_lavin_tag,317,non_genre,The+Abb+Daniel,1894,0.139680681
+528,Phillpotts%2C+Eden%2C,chirandom | det100 | teamblack | stew,no_lavin_tag,529,crime,A+voice+from+the+dark,1925,0.139559529
+858,Berryman%2C+John%2C,chirandom | teamred,no_lavin_tag,859,non_genre,Recovery,1973,0.139484876
+824,Peters%2C+Elizabeth%2C,chirandom | teamblack,no_lavin_tag,825,non_genre,The+jackal%27s+head,1968,0.139466212
+596,Franklin%2C+Miles%2C,chirandom | teamred | chimyst,no_lavin_tag,597,crime,Bring+the+monkey,1933,0.139018644
+758,Updike%2C+John%2C,chirandom | teamblack,no_lavin_tag,759,non_genre,The+poorhouse+fair,1958,0.138979705
+174,Russell%2C+William%2C,det100 | teamblack,no_lavin_tag,175,crime,Recollections+of+a+Detect,1859,0.138916581
+518,Oppenheim%2C+E.+Phillips%2C,teamred | chimyst,no_lavin_tag,519,crime,Michael%27s+evil+deeds,1923,0.138879945
+69,Parker%2C+Emma.,teamblack | random,no_lavin_tag,70,non_genre,Aretas,1813,0.138792537
+318,Doyle%2C+Arthur+Conan%2C,teamblack | locdetmyst,no_lavin_tag,319,crime,Memoirs+of+Sherlock+Holme,1894,0.13877459
+340,Tarkington%2C+Booth%2C,teamblack | random,no_lavin_tag,341,non_genre,Monsieur+Beaucaire,1900,0.138626852
+599,Teilhet%2C+Darwin+L.,teamblack | chimyst,no_lavin_tag,600,crime,The+talking+sparrow+murde,1934,0.138591664
+297,Donnelly%2C+Ignatius%2C,teamred | anatscifi,no_lavin_tag,298,scifi,Csar%27s+column,1890,0.138288858
+419,Aldridge%2C+Janet.,teamred | locghost | lavin_ghost,lavin_ghost,420,gothic,The+Meadow-Brook+girls+un,1913,0.138245147
+494,Sawyer%2C+Ruth%2C,chirandom | teamred,no_lavin_tag,495,non_genre,The+silver+sixpence,1921,0.137996784
+426,Daviess%2C+Maria+Thompson.,teamblack | random,no_lavin_tag,427,non_genre,The+tinder-box,1913,0.137944292
+200,Gaboriau%2C+Emile%2C,det100 | teamblack,no_lavin_tag,201,crime,File+no.+113,1867,0.137637935
+42,Du+Bois%2C+Edward%2C,teamred | random,no_lavin_tag,43,non_genre,Old+Nick%3B,1801,0.13756653
+18,Lavalle%2C+Joseph%2C,teamblack | random,no_lavin_tag,19,non_genre,The+negro+equalled+by+few,1790,0.13754224
+112,Galt%2C+John%2C,teamred | random,no_lavin_tag,113,non_genre,Stanley+Buxton%3B,1832,0.137390859
+949,Guild%2C+Nicholas%2C,chirandom | teamblack,no_lavin_tag,950,non_genre,The+Assyrian,1987,0.137332917
+551,Kline%2C+Otis+Adelbert%2C,teamblack | chiscifi | stew,no_lavin_tag,552,scifi,The+planet+of+peril,1929,0.137220349
+110,Hall%2C+Anna+Maria,teamred | locdetmyst | stew,no_lavin_tag,111,crime,The+buccaneer,1832,0.137045131
+980,Dunlap%2C+Susan%2C,chirandom | teamred | chimyst | stew,no_lavin_tag,981,crime,Pious+deception,1989,0.136872138
+530,Christie%2C+Agatha%2C,chirandom | det100 | teamblack,no_lavin_tag,531,crime,Poirot+investigates,1925,0.136798608
+456,Webster%2C+F.+A.+M.,teamred | random,no_lavin_tag,457,non_genre,The+hound+of+Cullan,1918,0.136524341
+305,Doyle%2C+Arthur+Conan%2C,teamred | det100 | stew,no_lavin_tag,306,crime,Adventures+of+Sherlock+Ho,1892,0.136427653
+349,Owen%2C+Harle+Oren.,teamred | locscifi,no_lavin_tag,350,scifi,Welsh+rarebit+tales,1902,0.136249114
+202,Mhlbach%2C+L.,teamblack | random,no_lavin_tag,203,non_genre,Marie+Antoinette+and+her+,1867,0.13613708
+350,Doyle%2C+Arthur+Conan%2C,teamblack | locdetmyst,no_lavin_tag,351,crime,The+return+of+Sherlock+Ho,1903,0.136112257
+834,Anderson%2C+Poul%2C,chirandom | teamblack | chiscifi,no_lavin_tag,835,scifi,Tau+zero,1970,0.136041028
+196,Collins%2C+Wilkie%2C,teamred | sensation | pbgothic | stew,no_lavin_tag,197,multi,Armadale,1866,0.135934071
+85,Opie%2C+Amelia+Alderson%2C,teamblack | random,no_lavin_tag,86,non_genre,Tales+of+the+heart,1820,0.135863805
+853,Spencer%2C+Scott%2C,chirandom | teamblack,no_lavin_tag,854,non_genre,Last+night+at+the+brain+t,1973,0.135842904
+187,Le+Fanu%2C+Joseph+Sheridan%2C,sensation | pbgothic | teamblack | stew,no_lavin_tag,188,multi,Uncle+Silas,1864,0.135636241
+920,May%2C+Julian%2C,teamred | chiscifi | stew,no_lavin_tag,921,scifi,The+many-colored+land,1981,0.135483905
+403,Crawford%2C+F.+Marion,teamred | pbgothic | stew | lavin_ghost,lavin_ghost,404,gothic,Wandering+ghosts,1911,0.135410531
+338,Hornung%2C+E.+W.,teamred | det100,no_lavin_tag,339,crime,The+amateur+cracksman,1899,0.135273104
+723,Allingham%2C+Margery%2C,teamred | chimyst | cozy,no_lavin_tag,724,crime,The+tiger+in+the+smoke,1952,0.135266311
+696,Myers%2C+John+Myers%2C,teamred | chifantasy,no_lavin_tag,697,non_genre,Silverlock,1949,0.134944666
+176,Chorley%2C+Henry+Fothergill,teamred | random,no_lavin_tag,177,non_genre,Roccabella,1859,0.134912039
+203,Gaboriau%2C+Emile%2C,det100 | teamblack,no_lavin_tag,204,crime,The+mystery+of+Orcival,1867,0.134861638
+725,Brown%2C+Fredric%2C,teamred | chimyst | stew,no_lavin_tag,726,crime,Deep+end,1952,0.134715073
+935,MacLeod%2C+Charlotte%2C,teamred | chimyst,no_lavin_tag,936,crime,The+Convivial+Codfish,1984,0.134639164
+495,Lewis%2C+Sinclair%2C,teamred | random,no_lavin_tag,496,non_genre,Babbitt,1922,0.134635059
+407,Baum%2C+L.+Frank,teamred | locdetective | stew,no_lavin_tag,408,crime,Aunt+Jane%27s+nieces+on+vac,1912,0.13461015
+877,Michaels%2C+Fern%2C,chirandom | teamblack,no_lavin_tag,878,non_genre,Captive+passions,1977,0.134465494
+740,Reilly%2C+Helen%2C,teamblack | chimyst,no_lavin_tag,741,crime,Tell+her+it%27s+murder,1954,0.134437029
+814,Schmitz%2C+James+H.,teamred | chiscifi,no_lavin_tag,815,scifi,The+witches+of+Karres,1966,0.134419918
+155,Bront%2C+Charlotte%2C,teamred | pbgothic | stew | lavin_deranged,lavin_deranged,156,gothic,Jane+Eyre,1847,0.134352494
+823,Chappell%2C+Fred%2C,teamred | chihorror | lavin_magic,lavin_magic,824,gothic,Dagon,1968,0.134326242
+512,Emerson%2C+Alice+B.,teamred | locdetmyst | juvenile | drop,no_lavin_tag,513,crime,Ruth+Fielding+on+the+St.+,1922,0.134206301
+951,Spencer%2C+LaVyrle%2C,chirandom | teamred,no_lavin_tag,952,non_genre,The+gamble,1987,0.134205817
+917,Niven%2C+Larry%2C,teamblack | chiscifi,no_lavin_tag,918,scifi,Dream+Park,1981,0.13410957
+602,McKinney%2C+J.+P%2C,chirandom | teamred,no_lavin_tag,603,non_genre,Crucible,1935,0.13406143
+392,Eggleston%2C+George+Cary%2C,teamblack | random,no_lavin_tag,393,non_genre,Westover+of+Wanalah%3B,1910,0.133785389
+867,Farris%2C+John%2C,teamblack | chihorror | stew | lavin_magic,lavin_magic,868,gothic,The+fury,1976,0.133724354
+417,Beresford%2C+J.+D.,teamred | anatscifi,no_lavin_tag,418,scifi,Goslings,1913,0.133720999
+501,Squier%2C+Emma-Lindsay%2C,teamred | random,no_lavin_tag,502,non_genre,The+wild+heart,1922,0.133692187
+166,Lytton%2C+Edward+Bulwer+Lyt,teamred | random,no_lavin_tag,167,non_genre,%22My+novel%2C%22,1853,0.133672889
+326,Stoker%2C+Bram%2C,teamblack | pbgothic | stew | lavin_magic,lavin_magic,327,gothic,Dracula,1897,0.133628906
+594,Oppenheim%2C+E.+Phillips%2C,teamred | chimyst,no_lavin_tag,595,crime,Murder+at+Monte+Carlo,1933,0.133512418
+460,Ostrander%2C+Isabel%2C,teamred | det100,no_lavin_tag,461,crime,The+twenty-six+clues,1919,0.133424728
+231,Russell%2C+William+Clark%2C,det100 | teamblack | stew,no_lavin_tag,232,crime,Is+he+the+man%3F,1876,0.133288379
+475,London%2C+Jack%2C,chifantasy | teamblack,no_lavin_tag,476,non_genre,Hearts+of+three,1920,0.133088611
+575,Merritt%2C+Abraham%2C,chifantasy | teamblack | chiscifi,no_lavin_tag,576,scifi,The+face+in+the+abyss,1931,0.1330764
+577,Merritt%2C+Abraham%2C,teamred | chiscifi,no_lavin_tag,578,scifi,Face+in+the+abyss,1931,0.13305141
+573,Queen%2C+Ellery%2C,teamred | det100 | chimyst,no_lavin_tag,574,crime,The+Dutch+shoe+mystery,1931,0.132701063
+760,Kirkland%2C+Elithe+Hamilton,chirandom | teamblack,no_lavin_tag,761,non_genre,Love+is+a+wild+assault,1959,0.132591369
+188,Le+Fanu%2C+Joseph+Sheridan%2C,teamred | sensation | pbgothic | stew,no_lavin_tag,189,multi,Uncle+Silas,1864,0.132378284
+730,Malamud%2C+Bernard,chirandom | teamblack,no_lavin_tag,731,non_genre,The+natural,1952,0.132356008
+593,Herrick%2C+Robert%2C,chiutopia | teamblack,no_lavin_tag,594,scifi,Sometime,1933,0.132282593
+959,King%2C+Stephen%2C,teamred | pbgothic | chihorror | lavin_slasher | lavin_deranged,lavin_multi,960,gothic,Misery,1987,0.132275163
+75,Austen%2C+Jane%2C,teamblack | lochorror | stew,no_lavin_tag,76,gothic,Northanger+Abbey,1818,0.132273093
+399,Pearson%2C+Edmund+Lester%2C,teamblack | random,no_lavin_tag,400,non_genre,The+librarian+at+play,1911,0.132239141
+888,Peters%2C+Elizabeth%2C,teamred | chimyst,no_lavin_tag,889,crime,Street+of+the+five+moons,1978,0.132087142
+763,Heinlein%2C+Robert+A.,teamblack | chiscifi | stew,no_lavin_tag,764,scifi,Starship+troopers,1959,0.13207112
+36,Robinson%2C+Mary+Darby%2C,teamred | random,no_lavin_tag,37,non_genre,The+false+friend,1799,0.132066273
+201,Broughton%2C+Rhoda%2C,teamred | sensation | stew,no_lavin_tag,202,sensation,Not+Wisely+But+Too+Well,1867,0.131979814
+339,Wells%2C+H.+G.,teamred | locscifi,no_lavin_tag,340,scifi,When+the+sleeper+wakes,1899,0.131840404
+687,Williamson%2C+Jack%2C,chifantasy | teamblack | chihorror | chiscifi,no_lavin_tag,688,multi,Darker+than+you+think,1948,0.131769232
+891,Bayer%2C+William%2C,chirandom | teamblack,no_lavin_tag,892,non_genre,Tangier,1978,0.131760056
+946,Foster%2C+Alan+Dean%2C,teamred | chihorror | chiscifi | stew | lavin_magic,lavin_magic,947,multi,Into+the+out+of,1986,0.131750971
+720,Asimov%2C+Isaac%2C,teamred | chiscifi,no_lavin_tag,721,scifi,Foundation,1951,0.131750212
+204,Alcott%2C+Louisa+May%2C,teamblack | random,no_lavin_tag,205,non_genre,Kitty%27s+class+day+%3B,1868,0.131745815
+829,Nielsen%2C+Helen%2C,teamred | chimyst | stew,no_lavin_tag,830,crime,Darkest+hour,1969,0.131596192
+106,Gaspey%2C+Thomas%2C,newgate | teamblack,no_lavin_tag,107,crime,History+of+George+Godfrey,1828,0.131526937
+93,Sullivan%2C+Mary+Ann.,teamred | stangothic,no_lavin_tag,94,gothic,Owen+Castle%2C+or%2C+Which+is+the+heroine%3F,1823,0.131466033
+376,Perrin%2C+Alice%2C,teamred | random,no_lavin_tag,377,non_genre,The+stronger+claim,1908,0.131402411
+807,MacDonald%2C+John+D.,teamred | chimyst,no_lavin_tag,808,crime,Darker+than+amber,1966,0.131269459
+505,Sampson%2C+Emma+Speed%2C,chirandom | teamblack,no_lavin_tag,506,non_genre,The+shorn+lamb,1922,0.131128474
+286,Farjeon%2C+B.+L.,teamblack | random,no_lavin_tag,287,non_genre,Miser+Farebrother,1888,0.131097532
+636,Merritt%2C+Abraham%2C,teamred | chiscifi | stew,no_lavin_tag,637,scifi,The+metal+monster,1941,0.131059049
+706,Phillips%2C+Rog%2C,teamred | chifantasy | chiscifi | stew,no_lavin_tag,707,scifi,Worlds+within,1950,0.131029802
+901,Schulman%2C+J.+Neil+1953-++,teamblack | chiscifi,no_lavin_tag,902,scifi,Alongside+night,1979,0.130975913
+230,Pinkerton%2C+Allan%2C,teamblack | locdetmyst | stew,no_lavin_tag,231,crime,Claude+Melnotte+as+a+dete,1875,0.130897201
+571,Schuyler%2C+George+S.,teamblack | chiscifi,no_lavin_tag,572,scifi,Black+no+more,1931,0.130815385
+502,Forrest%2C+Michael+D,teamred | random,no_lavin_tag,503,non_genre,Father+Justin,1922,0.130807183
+181,Braddon%2C+M.+E.,teamred | sensation | stew,no_lavin_tag,182,sensation,Lady+Audley%27s+Secret,1862,0.130764895
+354,Lafargue%2C+Paul%2C,teamblack | random,no_lavin_tag,355,non_genre,The+sale+of+an+appetite,1903,0.130611323
+380,Moore%2C+Frank+Frankfort%2C,teamred | random,no_lavin_tag,381,non_genre,An+amateur+adventuress,1908,0.130515174
+979,Lackey%2C+Mercedes%2C,chifantasy | teamblack | chimyst | chihorror | lavin_slasher | lavin_magic,lavin_multi,980,multi,Burning+water,1989,0.130409245
+122,Pushkin%2C+Alexander+Sergeievich%2C,lockandkey | teamblack,no_lavin_tag,123,crime,The+Queen+of+Spades,1834,0.130395
+295,Franzos%2C+Karl+Emil%2C,teamred | random,no_lavin_tag,296,non_genre,Judith+Trachtenberg,1890,0.13036269
+950,Ray%2C+Robert+J.+1935-++%28Ro,teamblack | chimyst | stew,no_lavin_tag,951,crime,Murdock+for+hire,1987,0.13032969
+448,London%2C+Jack%2C,teamred | random,no_lavin_tag,449,non_genre,Michael%2C+brother+of+Jerry,1917,0.130313092
+221,Pinkerton%2C+Allan%2C,teamred | locdetective,no_lavin_tag,222,crime,The+expressman+and+the+de,1874,0.130219425
+186,Braddon%2C+M.+E.,sensation | teamblack | stew,no_lavin_tag,187,sensation,Aurora+Floyd,1863,0.130145787
+535,Mirrlees%2C+Hope%2C,chifantasy | teamblack,no_lavin_tag,536,non_genre,Lud-in-the-Mist,1927,0.12999559
+587,Huxley%2C+Aldous%2C,chiutopia | teamblack | chiscifi,no_lavin_tag,588,scifi,Brave+new+world,1932,0.129945366
+871,Piercy%2C+Marge%2C,chiutopia | chiscifi | teamred,no_lavin_tag,872,scifi,Woman+on+the+edge+of+time,1976,0.129872917
+938,Benford%2C+Gregory%2C,teamblack | chiscifi,no_lavin_tag,939,scifi,Artifact,1985,0.129759296
+865,Stasheff%2C+Christopher%2C,chirandom | chifantasy | teamblack,no_lavin_tag,866,non_genre,The+warlock+in+spite+of+h,1975,0.129735492
+259,Haggard%2C+H.+Rider,teamred | pbgothic | lavin_magic,lavin_magic,260,gothic,King+Solomon%27s+mines,1885,0.129585489
+222,Pinkerton%2C+Allan%2C,teamred | locdetective,no_lavin_tag,223,crime,The+expressman+and+the+de,1874,0.12955924
+671,Wellman%2C+Manly+Wade%2C,teamred | chiscifi,no_lavin_tag,672,scifi,The+solar+invasion,1946,0.129540051
+622,Priestley%2C+J.+B.,teamred | chiscifi,no_lavin_tag,623,scifi,The+doomsday+men,1938,0.129500761
+731,Lowndes%2C+Robert+W%2C,teamred | chiscifi,no_lavin_tag,732,scifi,Mystery+of+the+third+mine,1953,0.129457388
+189,Le+Fanu%2C+Joseph+Sheridan%2C,teamred | sensation | pbgothic | stew,no_lavin_tag,190,multi,Uncle+Silas,1864,0.129366775
+550,Lewis%2C+Sinclair%2C,chirandom | teamblack,no_lavin_tag,551,non_genre,Dodsworth,1929,0.129329285
+526,Burroughs%2C+Edgar+Rice%2C,teamblack | chiscifi | stew,no_lavin_tag,527,scifi,The+moon+men,1925,0.129287272
+427,Cullum%2C+Ridgwell%2C,teamred | random,no_lavin_tag,428,non_genre,The+way+of+the+strong%3B,1914,0.129274129
+389,Palmer%2C+Frederick%2C,teamblack | random,no_lavin_tag,390,non_genre,The+big+fellow,1910,0.129212187
+675,Peake%2C+Mervyn%2C,teamblack | pbgothic | stew,no_lavin_tag,676,gothic,Titus+Groan,1946,0.128885282
+708,Lessing%2C+Doris%2C,chirandom | teamred | chimyst | stew,no_lavin_tag,709,crime,The+grass+is+singing,1950,0.128881184
+228,Pinkerton%2C+Allan%2C,teamblack | locdetmyst,no_lavin_tag,229,crime,Claude+Melnotte+as+a+dete,1875,0.128825878
+207,Capes%2C+J.+M.,teamblack | random,no_lavin_tag,208,non_genre,The+mosaic-worker%27s+daugh,1868,0.128808859
+450,Seaman%2C+Augusta+Huiell%2C,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,451,crime,The+girl+next+door,1917,0.128663558
+453,Emerson%2C+Alice+B.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,454,crime,Ruth+Fielding+in+the+Red+,1918,0.128591398
+724,Asimov%2C+Isaac%2C,chirandom | teamblack | chiscifi | stew,no_lavin_tag,725,scifi,Foundation+and+empire,1952,0.12843698
+60,Mortimer%2C+Edward%2C,teamred | stangothic,no_lavin_tag,61,gothic,The+friar+Hildargo,1807,0.128351194
+388,Newbolt%2C+Henry+John%2C,teamblack | random,no_lavin_tag,389,non_genre,The+new+June,1909,0.128342836
+215,Farjeon%2C+B.+L.,teamblack | random,no_lavin_tag,216,non_genre,Joshua+Marvel,1871,0.128319077
+750,Heinlein%2C+Robert+A.,chirandom | teamred | chiscifi,no_lavin_tag,751,scifi,Double+star,1956,0.128135798
+175,Hamel%2C+Felix+John.,teamblack | locdetmyst,no_lavin_tag,176,crime,Harry+Roughton%2C+or%2C+Remin,1859,0.128129402
+370,Cullum%2C+Ridgwell%2C,teamblack | random,no_lavin_tag,371,non_genre,The+night-riders%3B,1906,0.128106926
+617,Sarton%2C+May%2C,chiutopia | teamblack,no_lavin_tag,618,scifi,The+single+hound,1938,0.12810406
+886,Donaldson%2C+Stephen+R%2C,chifantasy | teamblack,no_lavin_tag,887,non_genre,The+Illearth+war,1977,0.127892294
+480,Christie%2C+Agatha%2C,det100 | teamblack | cozy,no_lavin_tag,481,crime,The+mysterious+affair+at+,1920,0.127852348
+738,Foote%2C+Shelby%2C,chirandom | teamred,no_lavin_tag,739,non_genre,Jordan+County,1954,0.127834349
+63,More%2C+Hannah%2C,teamred | random,no_lavin_tag,64,non_genre,Clebs+in+search+of+a+wife,1809,0.127774804
+798,Moore%2C+Robin%2C,chirandom | teamblack,no_lavin_tag,799,non_genre,The+green+berets,1965,0.127763247
+733,Asimov%2C+Isaac%2C,chirandom | teamred | chiscifi | stew,no_lavin_tag,734,scifi,Second+foundation,1953,0.127208225
+313,Henty%2C+G.+A.,teamblack | random,no_lavin_tag,314,non_genre,When+London+burned,1894,0.127115116
+956,Williams%2C+Walter+Jon%2C,chirandom | teamblack | chiscifi,no_lavin_tag,957,scifi,Voice+of+the+whirlwind,1987,0.127075626
+32,Burney%2C+Fanny%2C,teamblack | random,no_lavin_tag,33,non_genre,Camilla%3A+or%2C+A+picture+of,1796,0.127045704
+133,Hook%2C+Theodore+Edward%2C,teamred | random,no_lavin_tag,134,non_genre,Cousin+Geoffrey%2C+the+old+,1840,0.126981653
+896,Wilcox%2C+Collin%2C,teamred | chimyst | stew,no_lavin_tag,897,crime,The+watcher,1978,0.126971711
+966,Engh%2C+M.+J%2C,teamred | chiscifi,no_lavin_tag,967,scifi,Wheel+of+the+winds,1988,0.126835484
+631,Reilly%2C+Helen%2C,teamred | chimyst | stew,no_lavin_tag,632,crime,The+dead+can+tell,1940,0.126794228
+762,Gantz%2C+Kenneth+Franklin%2C,teamred | chiscifi,no_lavin_tag,763,scifi,Not+in+solitude,1959,0.126764208
+883,Donaldson%2C+Stephen+R%2C,chirandom | chifantasy | teamblack | chiscifi | stew,no_lavin_tag,884,scifi,The+power+that+preserves,1977,0.126710865
+414,Carson%2C+James.,teamblack | locdetmyst | stew,no_lavin_tag,415,crime,The+saddle+boys+of+the+Ro,1913,0.126698068
+327,Morrison%2C+Arthur%2C,teamred | det100 | stew,no_lavin_tag,328,crime,The+Dorrington+deed-box,1897,0.126451012
+511,Jewell%2C+Edward+Alden%2C,teamblack | random,no_lavin_tag,512,non_genre,The+moth+decides,1922,0.12644205
+862,Le+Guin%2C+Ursula+K.,chiutopia | chiscifi | teamred,no_lavin_tag,863,scifi,The+Dispossessed,1974,0.126405477
+841,Geissler%2C+Ludwig+A%2C,chiutopia | chiscifi | teamred | stew,no_lavin_tag,842,scifi,Looking+beyond,1971,0.126229483
+860,Piercy%2C+Marge%2C,chirandom | teamred,no_lavin_tag,861,non_genre,Small+changes,1973,0.126185193
+506,Paine%2C+Ralph+Delahaye%2C,chirandom | teamred | juvenile | drop,no_lavin_tag,507,non_genre,Blackbeard%3A+buccaneer,1922,0.126180653
+151,Bront%2C+Emily%2C,teamred | pbgothic | stew | lavin_deranged,lavin_deranged,152,gothic,Wuthering+Heights,1847,0.126113626
+145,Poe%2C+Edgar+Allan%2C,teamred | det100,no_lavin_tag,146,crime,The+Purloined+Letter+%28short+story%29,1845,0.125846449
+329,Anonymous1,teamred | locdetmyst,no_lavin_tag,330,crime,Seth+Bond%2C+or%2C+A+lost+tre,1898,0.125818404
+244,Braddon%2C+M.+E.,sensation | teamblack | stew,no_lavin_tag,245,sensation,The+Story+of+Barbara,1880,0.125771948
+459,Hunt%2C+Edward+Eyre%2C,teamred | random,no_lavin_tag,460,non_genre,Tales+from+a+famished+lan,1918,0.125755199
+252,Pinkerton%2C+Allan%2C,teamred | locdetective | stew,no_lavin_tag,253,crime,The+rail-road+forger+and+,1881,0.12571499
+842,Corman%2C+Avery%2C,chifantasy | teamblack,no_lavin_tag,843,non_genre,Oh%3A+God%21,1971,0.125647024
+532,Gask%2C+Arthur%2C,chirandom | teamblack | chimyst,no_lavin_tag,533,crime,Cloud%3A+the+smiter,1926,0.125632743
+41,Du+Bois%2C+Edward%2C,teamred | random,no_lavin_tag,42,non_genre,Old+Nick%3B,1801,0.125343161
+477,Stringer%2C+Arthur%2C,chirandom | teamred,no_lavin_tag,478,non_genre,The+prairie+omnibus,1920,0.12513221
+371,Futrelle%2C+Jacques%2C,teamred | det100 | stew,no_lavin_tag,372,crime,The+thinking+machine,1907,0.125091016
+600,Dinesen%2C+Isak%2C,teamblack | pbgothic | stew,no_lavin_tag,601,gothic,Seven+Gothic+Tales,1934,0.124986316
+649,Wentworth%2C+Patricia%2C,chirandom | teamred | chimyst,no_lavin_tag,650,crime,Miss+Silver+deals+with+de,1943,0.124951064
+444,Sherwood%2C+Margaret+Polloc,teamblack | random,no_lavin_tag,445,non_genre,The+worn+doorstep,1916,0.124858377
+695,Palmer%2C+Stuart%2C,chirandom | teamblack | chimyst,no_lavin_tag,696,crime,Four+lost+ladies,1949,0.124825758
+23,Godwin%2C+William%2C,teamred | pbgothic | stew | lavin_deranged,lavin_deranged,24,gothic,The+adventures+of+Caleb+W,1794,0.124803449
+742,Del+Rey%2C+Lester%2C,teamblack | chiscifi,no_lavin_tag,743,scifi,Step+to+the+stars,1954,0.124730525
+515,French%2C+Joseph+Lewis%2C,teamblack | locdetmyst | locghost | lavin_ghost,lavin_ghost,516,multi,Masterpieces+of+mystery,1922,0.124697949
+337,Green%2C+Anna+Katharine%2C,det100 | teamblack,no_lavin_tag,338,crime,Agatha+Webb,1899,0.124351151
+732,Pangborn%2C+Edgar%2C,chirandom | teamblack | chiscifi | stew,no_lavin_tag,733,scifi,West+of+the+sun,1953,0.124332161
+385,Post%2C+Melville+Davisson%2C,det100 | teamblack,no_lavin_tag,386,crime,Randolph+Mason%2C+corrector,1909,0.124024983
+101,Banim%2C+John%2C,teamred | random,no_lavin_tag,102,non_genre,Tales,1826,0.124000856
+562,Stratemeyer%2C+Edward%2C,chirandom | teamblack,no_lavin_tag,563,non_genre,With+Taylor+on+the+Rio+Gr,1930,0.12396909
+111,Spindler%2C+Carl%2C,teamblack | random,no_lavin_tag,112,non_genre,The+Jew,1832,0.123933057
+887,Sanchez%2C+Thomas%2C,teamblack | chimyst,no_lavin_tag,888,crime,Zoot-suit+murders,1978,0.123893728
+734,Brown%2C+Fredric%2C,chirandom | teamred | chiscifi | stew,no_lavin_tag,735,scifi,The+lights+in+the+sky+are,1953,0.12388947
+90,Scott%2C+Walter%2C,teamred | random,no_lavin_tag,91,non_genre,Kenilworth,1821,0.123886378
+673,Busch%2C+Niven%2C,chirandom | teamblack,no_lavin_tag,674,non_genre,Day+of+the+conquerors,1946,0.123836486
+276,Kipling%2C+Rudyard%2C,teamred | pbgothic | lavin_ghost,lavin_ghost,277,gothic,The+phantom+rickshaw,1888,0.123836143
+955,Bonanno%2C+Margaret+Wander%2C,teamblack | chiscifi | stew,no_lavin_tag,956,scifi,Strangers+from+the+sky,1987,0.12327267
+664,Koestler%2C+Arthur%2C,chirandom | teamblack,no_lavin_tag,665,non_genre,Thieves+in+the+night,1946,0.123055626
+866,Silverberg%2C+Robert%2C,teamblack | chiscifi | stew,no_lavin_tag,867,scifi,The+stochastic+man,1975,0.123001847
+611,Wells%2C+H.+G.,teamred | chiscifi,no_lavin_tag,612,scifi,Star-begotten,1937,0.122805843
+261,Lynch%2C+Lawrence+L.,det100 | teamblack,no_lavin_tag,262,crime,Dangerous+ground%2C+or%2C+The,1885,0.122783889
+796,Allingham%2C+Margery%2C,teamblack | chimyst | stew,no_lavin_tag,797,crime,The+mind+readers,1965,0.122698083
+945,Dunlap%2C+Susan%2C,teamblack | chimyst | stew,no_lavin_tag,946,crime,The+last+annual+slugfest,1986,0.122584613
+914,Jones%2C+Robert+F.,chirandom | teamred,no_lavin_tag,915,non_genre,Slade%27s+glacier,1981,0.12256833
+445,Biggers%2C+Earl+Derr%2C,det100 | teamblack | stew,no_lavin_tag,446,crime,The+agony+column,1916,0.121261947
+183,Reade%2C+Charles%2C,teamred | sensation | stew,no_lavin_tag,184,sensation,Hard+Cash,1863,0.121236727
+811,Capps%2C+Benjamin%2C,chirandom | teamred,no_lavin_tag,812,non_genre,A+woman+of+the+people,1966,0.121151202
+640,Merritt%2C+Abraham%2C,teamred | chimyst | chiscifi | stew,no_lavin_tag,641,multi,Burn%3A+witch%3A+burn%21,1942,0.121021866
+212,Spielhagen%2C+Friedrich%2C,teamred | lockandkey | stew,no_lavin_tag,213,crime,The+Skeleton+in+the+House,1871,0.120984549
+641,Rinehart%2C+Mary+Roberts%2C,chirandom | teamred | chimyst,no_lavin_tag,642,crime,The+door,1942,0.120867171
+912,Herzog%2C+Arthur%2C,chirandom | teamred,no_lavin_tag,913,non_genre,Aries+rising,1980,0.120824936
+788,Fast%2C+Howard%2C,chirandom | teamblack,no_lavin_tag,789,non_genre,Agrippa%27s+daughter,1964,0.120623226
+875,Lutz%2C+John%2C,teamred | chimyst,no_lavin_tag,876,crime,Buyer+beware,1976,0.120620973
+947,Kerr%2C+Katharine%2C,teamred | chifantasy,no_lavin_tag,948,non_genre,Daggerspell,1986,0.120553973
+907,Stasheff%2C+Christopher%2C,teamred | chifantasy | chiscifi,no_lavin_tag,908,scifi,A+wizard+in+Bedlam,1979,0.120415151
+700,Wentworth%2C+Patricia%2C,chirandom | teamred,no_lavin_tag,701,non_genre,The+Catherine-wheel,1949,0.120363349
+220,Benedict%2C+Frank+Lee%2C,teamred | random,no_lavin_tag,221,non_genre,John+Worthington%27s+name,1874,0.120358797
+705,Wentworth%2C+Patricia%2C,chirandom | teamblack | chimyst,no_lavin_tag,706,crime,Through+the+wall,1950,0.120294367
+948,Logue%2C+John%2C,chirandom | teamblack,no_lavin_tag,949,non_genre,Boats+against+the+current,1987,0.120288211
+868,Rice%2C+Anne,teamblack | pbgothic | lavin_magic,lavin_magic,869,gothic,Interview+with+the+vampir,1976,0.120211518
+702,Symons%2C+Julian%2C,teamred | chimyst,no_lavin_tag,703,crime,The+31st+of+February,1950,0.120109732
+322,Post%2C+Melville+Davisson%2C,teamred | det100,no_lavin_tag,323,crime,The+strange+schemes+of+Ra,1896,0.120030461
+978,Powers%2C+Tim%2C,teamred | chifantasy | chiscifi,no_lavin_tag,979,scifi,The+stress+of+her+regard,1989,0.119850923
+808,Delany%2C+Samuel+R%2C,teamred | chiscifi,no_lavin_tag,809,scifi,Babel-17,1966,0.11984189
+375,Hewlett%2C+Maurice%2C,teamred | random,no_lavin_tag,376,non_genre,The+stooping+lady,1907,0.119781121
+164,MacCabe%2C+William+Bernard%2C,teamred | random,no_lavin_tag,165,non_genre,Bertha,1851,0.119726201
+964,McCaffrey%2C+Anne%2C,chirandom | teamred,no_lavin_tag,965,non_genre,The+lady,1987,0.119579573
+447,Kerr%2C+Doris+Boake%2C,teamred | random,no_lavin_tag,448,non_genre,Painted+clay,1917,0.119567258
+240,Green%2C+Anna+Katharine%2C,teamred | det100,no_lavin_tag,241,crime,The+Leavenworth+case,1878,0.119255729
+317,Scott%2C+Hugh+Stowell%2C,teamblack | random,no_lavin_tag,318,non_genre,With+edged+tools%3B,1894,0.119248134
+748,MacDonald%2C+John+D.,chirandom | teamblack,no_lavin_tag,749,non_genre,You+live+once,1956,0.119166596
+981,Shatner%2C+William%2C,teamred | chimyst | chiscifi,no_lavin_tag,982,multi,TekWar,1989,0.119149579
+925,Andrews%2C+V.+C.++%28Virginia,teamblack | chihorror | stew | lavin_slasher | lavin_deranged,lavin_multi,926,gothic,My+sweet+Audrina,1982,0.119094519
+91,Lockhart%2C+J.+G.,teamblack | random,no_lavin_tag,92,non_genre,Reginald+Dalton,1823,0.119065937
+855,Vonnegut%2C+Kurt%2C,teamred | chiscifi,no_lavin_tag,856,scifi,Breakfast+of+Champions,1973,0.118791825
+461,James%2C+M.+R.,teamred | pbgothic | lavin_ghost,lavin_ghost,462,gothic,A+thin+ghost+and+others,1919,0.118720632
+922,Hubbard%2C+L.+Ron%2C,chirandom | teamred | chiscifi,no_lavin_tag,923,scifi,Battlefield+earth,1982,0.118586008
+443,Winterburn%2C+Florence+Hull,teamred | random,no_lavin_tag,444,non_genre,Liberty+hall,1916,0.118543225
+278,Haggard%2C+H.+Rider,teamred | det100,no_lavin_tag,279,crime,Mr.+Meeson%27s+will,1888,0.118402064
+746,McCarthy%2C+Mary,chirandom | teamred,no_lavin_tag,747,non_genre,A+charmed+life,1955,0.118266708
+563,Burroughs%2C+Edgar+Rice%2C,teamred | chifantasy | chiscifi,no_lavin_tag,564,scifi,Tarzan+at+the+earth%27s+cor,1930,0.118141378
+483,Rice%2C+Alice+Caldwell+Hega,teamred | random,no_lavin_tag,484,non_genre,Quin,1921,0.118123873
+125,Griffith%2C+Mary%2C,teamblack | locscifi,no_lavin_tag,126,scifi,Camperdown%2C+or%2C+News+from,1836,0.11808246
+235,Verga%2C+Giovanni%2C,lockandkey | teamblack,no_lavin_tag,236,crime,The+Castle+of+Trezza,1877,0.118056101
+538,Hill%2C+Grace+Livingston%2C,chirandom | teamblack,no_lavin_tag,539,non_genre,Job%27s+niece,1927,0.118016026
+588,Morgan%2C+Charles%2C,chirandom | teamred,no_lavin_tag,589,non_genre,The+fountain,1932,0.117880187
+566,Oppenheim%2C+E.+Phillips%2C,teamred | chimyst | stew,no_lavin_tag,567,crime,The+million+pound+deposit,1930,0.117849323
+331,Le+Braz%2C+Anatole%2C,teamblack | locghost | lavin_ghost,lavin_ghost,332,gothic,Dealings+with+the+dead%3B,1898,0.11780704
+902,Gordon%2C+Noah%2C,chirandom | teamred,no_lavin_tag,903,non_genre,The+Jerusalem+diamond,1979,0.11760691
+597,Dickson%2C+Carter%2C,chirandom | teamred | chimyst,no_lavin_tag,598,crime,The+Plague+court+murders,1934,0.117499648
+930,MacLeod%2C+Charlotte%2C,chirandom | teamred | chimyst | stew,no_lavin_tag,931,crime,Something+the+cat+dragged,1983,0.117457806
+803,Friedman%2C+Sanford%2C,chirandom | teamblack,no_lavin_tag,804,non_genre,Totempole,1965,0.117399131
+234,Grville%2C+Henry%2C,teamred | random,no_lavin_tag,235,non_genre,Marrying+off+a+daughter,1876,0.117379728
+612,Rhode%2C+John,teamred | det100 | stew,no_lavin_tag,613,crime,The+harvest+murder,1937,0.117213457
+601,Montgomery%2C+L.+M.,chirandom | teamblack,no_lavin_tag,602,non_genre,Mistress+Pat,1935,0.11718501
+621,Connington%2C+J.+J.,teamblack | chimyst | stew,no_lavin_tag,622,crime,Murder+will+speak,1938,0.117134441
+908,Braverman%2C+Kate%2C,chirandom | teamblack,no_lavin_tag,909,non_genre,Lithium+for+Medea,1979,0.117066829
+928,Spellman%2C+Cathy+Cash%2C,chirandom | teamred,no_lavin_tag,929,non_genre,So+many+partings,1983,0.1170439
+793,Traver%2C+Robert%2C,chirandom | teamblack,no_lavin_tag,794,non_genre,Laughing+whitefish,1965,0.116730198
+624,Burroughs%2C+Edgar+Rice%2C,teamred | chiscifi,no_lavin_tag,625,scifi,The+lad+and+the+lion,1938,0.116728733
+396,Johnston%2C+Mary%2C,teamblack | random,no_lavin_tag,397,non_genre,The+long+roll,1911,0.116702169
+21,Reeve%2C+Clara%2C,teamblack | stangothic,no_lavin_tag,22,gothic,The+school+for+widows,1791,0.116577776
+283,Kipling%2C+Rudyard%2C,teamblack | pbgothic | stew,no_lavin_tag,284,gothic,Plain+tales+from+the+hill,1888,0.116564499
+685,Skinner%2C+B.+F.,chirandom | chiutopia | teamblack,no_lavin_tag,686,scifi,Walden+Two,1948,0.116413718
+357,Wells%2C+H.+G.,teamblack | anatscifi | locscifi,no_lavin_tag,358,scifi,The+food+of+the+gods+and+,1904,0.11640376
+267,Stevenson%2C+Robert+Louis%2C,teamred | pbgothic | anatscifi | stew,no_lavin_tag,268,multi,Strange+case+of+Dr.+Jekyl,1886,0.116334092
+537,Woolf%2C+Virginia%2C,chirandom | teamblack,no_lavin_tag,538,non_genre,To+the+lighthouse,1927,0.116296315
+710,Crispin%2C+Edmund%2C,teamblack | chimyst,no_lavin_tag,711,crime,Frequent+hearses,1950,0.116231358
+205,Knight%2C+Legh.,teamred | random,no_lavin_tag,206,non_genre,Tonic+bitters,1868,0.116114455
+804,Pynchon%2C+Thomas%2C,chirandom | teamblack,no_lavin_tag,805,non_genre,The+crying+of+lot+49,1966,0.116086474
+885,Anthony%2C+Piers%2C,chifantasy | teamblack,no_lavin_tag,886,non_genre,A+spell+for+Chameleon,1977,0.116016584
+520,Le+Queux%2C+William%2C,teamred | chimyst,no_lavin_tag,521,crime,The+voice+from+the+void,1923,0.116011646
+857,MacDonald%2C+John+D.,chirandom | teamred | chimyst,no_lavin_tag,858,crime,The+scarlet+ruse,1973,0.116007888
+466,Cabell%2C+James+Branch%2C,teamred | pbgothic,no_lavin_tag,467,gothic,Jurgen,1919,0.115972107
+743,Matheson%2C+Richard%2C,teamred | pbgothic | chihorror | chiscifi | lavin_magic,lavin_magic,744,multi,I+am+legend,1954,0.115711469
+491,Sackville-West%2C+V.,teamred | random,no_lavin_tag,492,non_genre,The+dragon+in+shallow+wat,1921,0.115522033
+430,Locke%2C+William+John%2C,teamblack | random,no_lavin_tag,431,non_genre,The+fortunate+youth,1914,0.115414082
+262,Lematre%2C+Jules%2C,teamred | random,no_lavin_tag,263,non_genre,Serenus+and+other+stories,1886,0.115390881
+837,Brown%2C+James+Cooke%2C,chiutopia | teamblack,no_lavin_tag,838,scifi,The+Troika+incident,1970,0.1153783
+904,Dickson%2C+Gordon+R%2C,teamblack | chiscifi | stew,no_lavin_tag,905,scifi,Masters+of+Everon,1979,0.115105027
+684,Queen%2C+Ellery%2C,chirandom | det100 | teamblack | chimyst | cozy | stew,no_lavin_tag,685,crime,Ten+days%27+wonder,1948,0.114870603
+391,Mason%2C+A.+E.+W.,teamred | det100,no_lavin_tag,392,crime,At+the+Villa+Rose,1910,0.114819908
+735,Bradbury%2C+Ray%2C,teamblack | chiscifi | stew,no_lavin_tag,736,scifi,Fahrenheit+451,1953,0.114791558
+401,Chesterton%2C+G.+K.,teamred | det100 | locdetmyst,no_lavin_tag,402,crime,The+innocence+of+Father+B,1911,0.114690546
+822,Oates%2C+Joyce+Carol%2C,teamred | pbgothic | chihorror | lavin_magic,lavin_magic,823,gothic,Expensive+people,1968,0.114481617
+911,Andrews%2C+V.+C.++%28Virginia,teamred | chihorror,no_lavin_tag,912,gothic,Petals+on+the+wind,1980,0.114464068
+473,Martin%2C+Helen+Reimensnyder%2C,chirandom | teamred,no_lavin_tag,474,non_genre,The+schoolmaster+of+Hessville,1920,0.114356071
+136,Dickens%2C+Charles%2C,teamblack | pbgothic | stew,no_lavin_tag,137,gothic,The+old+curiosity+shop,1841,0.114355313
+469,Benson%2C+E.+F.,teamred | random,no_lavin_tag,470,non_genre,%22Queen+Lucia%22,1920,0.114231315
+765,Bloch%2C+Robert%2C,teamblack | pbgothic | lavin_slasher,lavin_slasher,766,gothic,Psycho,1959,0.114089592
+797,MacDonald%2C+John+D.,chirandom | teamred | chimyst,no_lavin_tag,798,crime,A+deadly+shade+of+gold,1965,0.113927373
+836,Silverberg%2C+Robert%2C,teamblack | chiscifi,no_lavin_tag,837,scifi,Downward+to+the+earth,1970,0.113701433
+437,Fowler%2C+Ellen+Thorneycrof,teamred | random,no_lavin_tag,438,non_genre,Ten+degrees+backward,1915,0.113288446
+668,Stout%2C+Rex%2C,teamred | det100 | chimyst,no_lavin_tag,669,crime,The+silent+speaker,1946,0.113266129
+650,Green%2C+Henry%2C,chirandom | teamblack,no_lavin_tag,651,non_genre,Caught,1943,0.113210079
+628,Stout%2C+Rex%2C,teamred | det100 | chimyst,no_lavin_tag,629,crime,Mountain+cat+Murders,1939,0.113176623
+487,Burroughs%2C+Edgar+Rice%2C,teamblack | chiscifi,no_lavin_tag,488,scifi,The+mucker,1921,0.113056017
+510,Hough%2C+Emerson%2C,chirandom | teamred,no_lavin_tag,511,non_genre,The+young+Alaskans+on+the,1922,0.11288812
+185,Reade%2C+Charles%2C,sensation | teamblack | stew,no_lavin_tag,186,sensation,Hard+Cash,1863,0.112736462
+525,Fletcher%2C+J.+S.,teamblack | chimyst,no_lavin_tag,526,crime,The+safety+pin,1924,0.112650187
+368,Chambers%2C+Robert+W.,teamred | det100 | stew,no_lavin_tag,369,crime,The+tracer+of+lost+person,1906,0.112592336
+918,Vardeman%2C+Robert+E%2C,chirandom | teamred | chiscifi | stew,no_lavin_tag,919,scifi,The+Klingon+gambit,1981,0.112433787
+716,Van+Vogt%2C+A.+E.+1912-2000,chirandom | teamblack | chiscifi,no_lavin_tag,717,scifi,The+house+that+stood+stil,1950,0.112224348
+241,Adams%2C+Robert+Chamblet%2C,teamblack | random,no_lavin_tag,242,non_genre,On+board+the+%22Rocket%22,1879,0.112218531
+969,Hess%2C+Joan%2C,teamblack | chimyst | stew,no_lavin_tag,970,crime,Mischief+in+Maggody,1988,0.112199824
+395,Roe%2C+Clifford+Griffith%2C,teamred | random,no_lavin_tag,396,non_genre,Panders+and+their+white+s,1910,0.112197304
+363,Dickens%2C+Charles%2C,teamred | locghost | lavin_ghost,lavin_ghost,364,gothic,A+Christmas+carol+in+pros,1905,0.112144199
+632,Rawson%2C+Clayton%2C,teamred | chimyst | stew,no_lavin_tag,633,crime,The+headless+lady,1940,0.112142413
+711,Bentley%2C+E.+C.,chifantasy | teamblack,no_lavin_tag,712,non_genre,Elephant%27s+work,1950,0.112082758
+895,Daniels%2C+Les%2C,teamred | chihorror | stew,no_lavin_tag,896,gothic,The+black+castle,1978,0.11204037
+8,Campe%2C+Joachim+Heinrich%2C,teamblack | random,no_lavin_tag,9,non_genre,The+new+Robinson+Crusoe%3B,1780,0.112040049
+719,Davis%2C+Dorothy+Salisbury%2C,teamblack | chimyst,no_lavin_tag,720,crime,A+gentle+murderer,1951,0.112015254
+342,Chapman%2C+Allen.,teamblack | locdetmyst | stew,no_lavin_tag,343,crime,Boys+of+Spring+Hill%2C+or%2C+,1900,0.111956328
+815,Vance%2C+Jack%2C,teamblack | chimyst,no_lavin_tag,816,crime,The+Pleasant+Grove+murder,1967,0.111936795
+707,Seton%2C+Anya%2C,chirandom | teamblack,no_lavin_tag,708,non_genre,Foxfire,1950,0.111878259
+701,Howard%2C+Robert+E.,chifantasy | teamblack,no_lavin_tag,702,non_genre,Conan+the+conqueror,1950,0.111602135
+698,Stout%2C+Rex%2C,teamred | det100 | chimyst,no_lavin_tag,699,crime,The+second+confession,1949,0.111495149
+68,Byron%2C+Medora+Gordon.,teamblack | random,no_lavin_tag,69,non_genre,The+Englishman,1812,0.111488421
+626,Berkeley%2C+Anthony%2C,teamblack | chimyst,no_lavin_tag,627,crime,Death+in+the+house,1939,0.111311148
+659,Hughes%2C+Dorothy+B.+1904-+,hardboiled | teamblack | chimyst,no_lavin_tag,660,crime,Dread+journey,1945,0.111307464
+615,Allingham%2C+Margery%2C,chirandom | teamred | chimyst | cozy,no_lavin_tag,616,crime,Dancers+in+mourning,1937,0.111227742
+835,Spillane%2C+Mickey%2C,hardboiled | teamblack | chimyst | stew,no_lavin_tag,836,crime,Survival+Zero,1970,0.111227422
+905,Cline%2C+C.+Terry%2C,chirandom | teamblack,no_lavin_tag,906,non_genre,Cross+current,1979,0.111216894
+431,Bramah%2C+Ernest%2C,det100 | teamblack,no_lavin_tag,432,crime,Max+Carrados,1914,0.11120297
+810,Zelazny%2C+Roger%2C,chifantasy | teamblack | chiscifi,no_lavin_tag,811,scifi,This+immortal,1966,0.111127865
+382,Orczy%2C+Emmuska+Orczy%2C,teamred | det100 | stew,no_lavin_tag,383,crime,The+man+in+the+corner,1909,0.111093657
+669,Rand%2C+Ayn%2C,teamred | chiscifi,no_lavin_tag,670,scifi,Anthem,1946,0.110981725
+665,Forester%2C+C.+S.,chirandom | teamblack,no_lavin_tag,666,non_genre,Lord+Hornblower,1946,0.11092049
+689,Derleth%2C+August%2C,teamred | pbgothic | chiscifi | lavin_ghost | lavin_magic,lavin_multi,690,multi,Two+stories+by+Derleth,1948,0.11083997
+213,McWatters%2C+George+S,teamred | locdetective,no_lavin_tag,214,crime,Knots+untied,1871,0.110824533
+813,Alexander%2C+Lloyd%2C,teamred | chifantasy,no_lavin_tag,814,non_genre,The+castle+of+Llyr,1966,0.110736627
+736,Goudge%2C+Elizabeth%2C,chirandom | teamred,no_lavin_tag,737,non_genre,The+heart+of+the+family,1953,0.110726503
+422,Emerson%2C+Alice+B.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,423,crime,Ruth+Fielding+at+Briarwoo,1913,0.110704194
+536,Buchan%2C+John%2C,chirandom | chifantasy | teamblack,no_lavin_tag,537,non_genre,Witch+wood,1927,0.110590479
+976,Weinstein%2C+Howard%2C,chirandom | teamblack | chiscifi | stew,no_lavin_tag,977,scifi,Power+hungry,1989,0.110554671
+874,Butler%2C+Octavia+E%2C,teamred | chifantasy | chiscifi,no_lavin_tag,875,scifi,Patternmaster,1976,0.110435788
+589,Dos+Passos%2C+John%2C,chirandom | teamred,no_lavin_tag,590,non_genre,1919,1932,0.11026874
+843,Blatty%2C+William+Peter,teamblack | pbgothic | lavin_magic,lavin_magic,844,gothic,The+exorcist,1971,0.110116322
+557,Wallace%2C+Edgar%2C,chirandom | teamblack | chimyst | stew,no_lavin_tag,558,crime,The+lone+house+mystery,1929,0.11011173
+718,Spillane%2C+Mickey%2C,hardboiled | chimyst | teamred,no_lavin_tag,719,crime,The+big+kill,1951,0.109901592
+387,Rinehart%2C+Mary+Roberts%2C,det100 | teamblack,no_lavin_tag,388,crime,The+man+in+lower+ten,1909,0.109867371
+418,Sinclair%2C+May.,teamred | random,no_lavin_tag,419,non_genre,The+combined+maze,1913,0.109836428
+598,Linklater%2C+Eric%2C,chirandom | teamred,no_lavin_tag,599,non_genre,Magnus+Merriman,1934,0.109821082
+3,Walpole%2C+Horace%2C,teamred | pbgothic | stew | lavin_ghost,lavin_ghost,4,gothic,The+castle+of+Otranto%3B,1764,0.109744645
+963,Morrison%2C+Toni,teamblack | pbgothic | lavin_ghost,lavin_ghost,964,gothic,Beloved,1987,0.109698435
+970,Rosenberg%2C+Joel%2C,teamred | chifantasy | chiscifi,no_lavin_tag,971,scifi,Not+for+glory,1988,0.109677182
+786,Vonnegut%2C+Kurt%2C,teamblack | chiscifi,no_lavin_tag,787,scifi,Cat%27s+Cradle,1963,0.109562337
+40,Anonymous8,teamred | lockandkey | stew,no_lavin_tag,41,crime,The+Three+Sharpers,1800,0.109529881
+897,King%2C+Stephen%2C,teamred | chihorror | stew | lavin_magic,lavin_magic,898,gothic,The+stand,1978,0.109429417
+916,Niven%2C+Larry%2C,teamred | chiscifi | stew,no_lavin_tag,917,scifi,Oath+of+fealty,1981,0.109383793
+214,Le+Fanu%2C+Joseph+Sheridan%2C,teamred | det100,no_lavin_tag,215,crime,Checkmate,1871,0.109250938
+168,Irving%2C+John+Treat%2C,teamblack | random,no_lavin_tag,169,non_genre,The+attorney,1853,0.108896872
+555,Burroughs%2C+Edgar+Rice%2C,teamred | chiscifi | stew,no_lavin_tag,556,scifi,Tanar+of+Pellucidar,1929,0.1085724
+856,Gardner%2C+John%2C,chirandom | teamred | chifantasy,no_lavin_tag,857,non_genre,Jason+and+Medeia,1973,0.108461041
+197,Kingsley%2C+Charles%2C,teamblack | random,no_lavin_tag,198,non_genre,Hereward,1866,0.108332992
+721,Merwin%2C+Sam%2C,chirandom | teamred | chiscifi,no_lavin_tag,722,scifi,The+house+of+many+worlds,1951,0.108283305
+238,Auerbach%2C+Berthold%2C,teamred | random,no_lavin_tag,239,non_genre,Landolin,1878,0.107941163
+381,Egan%2C+Maurice+Francis%2C,teamblack | random,no_lavin_tag,382,non_genre,The+wiles+of+Sexton+Magin,1909,0.107885745
+206,Collins%2C+Wilkie%2C,teamred | det100 | pbgothic | lavin_deranged,lavin_deranged,207,multi,The+moonstone,1868,0.107650931
+651,Cain%2C+James+M.,hardboiled | chimyst | teamred,no_lavin_tag,652,crime,Double+indemnity,1943,0.107650725
+57,Bayfield%2C+E.+G.%2C,teamred | random,no_lavin_tag,58,non_genre,A+winter+in+Bath,1807,0.107633776
+768,Stout%2C+Rex%2C,teamred | chimyst,no_lavin_tag,769,crime,Plot+it+yourself,1959,0.10762727
+847,Pronzini%2C+Bill%2C,teamred | chimyst,no_lavin_tag,848,crime,The+stalker,1971,0.107556748
+830,Du+Maurier%2C+Daphne%2C,chifantasy | teamblack,no_lavin_tag,831,non_genre,The+house+on+the+strand,1969,0.107520065
+900,Adler%2C+Warren%2C,chirandom | teamblack,no_lavin_tag,901,non_genre,The+Casanova+embrace,1978,0.107455507
+199,Kirkus%2C+William%2C,teamblack | random,no_lavin_tag,200,non_genre,Only+to+be+married,1867,0.107408531
+680,Robins%2C+Denise%2C,chirandom | teamred,no_lavin_tag,681,non_genre,More+than+love,1947,0.107317527
+616,Linklater%2C+Eric%2C,chirandom | teamred,no_lavin_tag,617,non_genre,Juan+in+China,1937,0.107317516
+471,Raine%2C+William+MacLeod%2C,chirandom | teamred,no_lavin_tag,472,non_genre,Oh%3A+you+Tex%21,1920,0.107243622
+771,MacInnes%2C+Helen%2C,chirandom | teamblack,no_lavin_tag,772,non_genre,Decision+at+Delphi,1960,0.107092626
+691,Mitchell%2C+Gladys%2C,teamblack | chimyst,no_lavin_tag,692,crime,The+Dancing+Druids,1948,0.10706495
+894,Brown%2C+Wesley%2C,chirandom | teamred,no_lavin_tag,895,non_genre,Tragic+magic,1978,0.107044386
+727,Spillane%2C+Mickey%2C,chirandom | hardboiled | teamblack | chimyst | stew,no_lavin_tag,728,crime,Kiss+me%3A+deadly,1952,0.107012822
+335,Kipling%2C+Rudyard%2C,teamred | random,no_lavin_tag,336,non_genre,The+day%27s+work,1898,0.106840566
+890,Bova%2C+Ben%2C,teamred | chiscifi | stew,no_lavin_tag,891,scifi,Colony,1978,0.106839465
+263,Hume%2C+Fergus%2C,teamred | det100,no_lavin_tag,264,crime,The+mystery+of+a+hansom+c,1886,0.106727434
+726,Jones%2C+Raymond+F.,teamblack | chiscifi,no_lavin_tag,727,scifi,Son+of+the+stars,1952,0.10653778
+826,Macdonald%2C+Ross%2C,teamred | chimyst,no_lavin_tag,827,crime,The+goodbye+look,1969,0.106437589
+509,Kyne%2C+Peter+B.,chirandom | teamred,no_lavin_tag,510,non_genre,Cappy+Ricks+retires,1922,0.106306169
+773,Vance%2C+Jack%2C,teamred | chimyst,no_lavin_tag,774,crime,The+man+in+the+cage,1960,0.106050173
+757,Taylor%2C+Robert+Lewis%2C,chirandom | teamred,no_lavin_tag,758,non_genre,The+travels+of+Jaimie+McP,1958,0.106001195
+870,Platt%2C+Kin%2C,teamblack | chimyst,no_lavin_tag,871,crime,The+body+beautiful+murder,1976,0.10583568
+147,Sewell%2C+Elizabeth+Missing,teamred | random,no_lavin_tag,148,non_genre,Gertrude,1846,0.105637659
+559,Manning%2C+Frederic%2C,chirandom | teamblack,no_lavin_tag,560,non_genre,Her+privates%3A+we,1930,0.105393787
+504,Wells%2C+Carolyn%2C,teamred | det100,no_lavin_tag,505,crime,The+vanishing+of+Betty+Va,1922,0.1051988
+958,Flynn%2C+Robert%2C,chirandom | teamred,no_lavin_tag,959,non_genre,Wanderer+Springs,1987,0.105122536
+619,Hyde%2C+Robin%2C,chirandom | teamred,no_lavin_tag,620,non_genre,The+godwits+fly,1938,0.104886301
+755,Moore%2C+C.+L.,teamred | chiscifi,no_lavin_tag,756,scifi,Doomsday+morning,1957,0.104850273
+759,MacInnes%2C+Helen%2C,chirandom | teamblack,no_lavin_tag,760,non_genre,North+from+Rome,1958,0.104496913
+789,Snow%2C+C.+P.,chirandom | teamblack,no_lavin_tag,790,non_genre,Corridors+of+power,1964,0.104318012
+821,Ellin%2C+Stanley%2C,teamblack | chimyst,no_lavin_tag,822,crime,House+of+cards,1967,0.104296396
+560,Sayers%2C+Dorothy+L.,teamblack | chimyst | cozy,no_lavin_tag,561,crime,Strong+poison,1930,0.104253778
+226,Walraven%2C+E.+G.,teamred | random,no_lavin_tag,227,non_genre,The+two+orphans%2C+or%2C+The+,1875,0.104226914
+158,Harris%2C+Alexander%2C,teamblack | random,no_lavin_tag,159,non_genre,The+emigrant+family+%3B,1849,0.104156803
+906,King%2C+Stephen%2C,teamblack | chihorror | chiscifi | stew | lavin_ghost,lavin_ghost,907,multi,The+dead+zone,1979,0.104042097
+872,L%27Amour%2C+Louis%2C,chirandom | teamblack,no_lavin_tag,873,non_genre,To+the+Far+Blue+Mountains,1976,0.103939622
+478,Stevenson%2C+Burton+Egbert%2C,det100 | teamblack,no_lavin_tag,479,crime,The+gloved+hand%3B,1920,0.103664718
+971,Grissom%2C+Ken%2C,chirandom | teamblack | chimyst | stew,no_lavin_tag,972,crime,Drop-off,1988,0.103516339
+574,Hill%2C+Grace+Livingston%2C,chirandom | teamred,no_lavin_tag,575,non_genre,The+chance+of+a+lifetime,1931,0.103402604
+954,Braun%2C+Lilian+Jackson%2C,teamred | chimyst,no_lavin_tag,955,crime,The+cat+who+played+Brahms,1987,0.103327464
+794,Ball%2C+John+Dudley%2C,teamred | chimyst,no_lavin_tag,795,crime,In+the+heat+of+the+night,1965,0.10312902
+410,London%2C+Jack%2C,teamblack | anatscifi | stew,no_lavin_tag,411,scifi,The+scarlet+plague,1912,0.102815404
+352,Benson%2C+Arthur+Christophe,teamblack | pbgothic | lavin_ghost,lavin_ghost,353,gothic,The+hill+of+trouble+and+o,1903,0.102791907
+785,Kerouac%2C+Jack%2C,chirandom | teamblack,no_lavin_tag,786,non_genre,Visions+of+Gerard,1963,0.102391088
+126,Dickens%2C+Charles%2C,newgate | teamblack | stew,no_lavin_tag,127,crime,Oliver+Twist,1837,0.102374015
+485,Byrne%2C+Donn%2C,chirandom | chifantasy | teamblack,no_lavin_tag,486,non_genre,Messer+Marco+Polo,1921,0.102020493
+229,Mason%2C+Charles+Welsh.,teamblack | random,no_lavin_tag,230,non_genre,The+rape+of+the+gamp%3B+or%2C,1875,0.101938312
+859,Platt%2C+Kin%2C,teamblack | chimyst,no_lavin_tag,860,crime,The+Princess+Stakes+murde,1973,0.101922629
+819,McNichols%2C+Charles+Longstreth%2C,chirandom | teamred,no_lavin_tag,820,non_genre,Crazy+weather,1967,0.101715252
+572,Taylor%2C+Phoebe+Atwood,det100 | teamblack,no_lavin_tag,573,crime,The+Cape+Cod+mystery,1931,0.101502315
+923,Montalbano%2C+William+D%2C,teamblack | chimyst | stew,no_lavin_tag,924,crime,Trap+line,1982,0.101402375
+818,Reed%2C+Ishmael%2C,chifantasy | teamblack,no_lavin_tag,819,non_genre,The+free-lance+pallbearer,1967,0.101257166
+658,Lewis%2C+C.+S.,chifantasy | teamblack | chiscifi,no_lavin_tag,659,scifi,That+hideous+strength,1945,0.10121607
+769,Sheckley%2C+Robert%2C,teamblack | chiscifi,no_lavin_tag,770,scifi,Store+of+infinity,1960,0.101045739
+129,Dickens%2C+Charles%2C,teamred | pbgothic | stew,no_lavin_tag,130,gothic,Oliver+Twist,1838,0.1010184
+493,Bennett%2C+John%2C,teamred | chifantasy,no_lavin_tag,494,non_genre,Madame+Margot,1921,0.100997342
+653,Burroughs%2C+Edgar+Rice%2C,teamred | chifantasy | chiscifi,no_lavin_tag,654,scifi,Land+of+terror,1944,0.100980184
+712,Castor%2C+Henry%2C,chirandom | teamred,no_lavin_tag,713,non_genre,The+year+of+the+Spaniard,1950,0.100945615
+739,Heinlein%2C+Robert+A.,teamblack | chiscifi | stew,no_lavin_tag,740,scifi,The+star+beast,1954,0.100845536
+679,Blunden%2C+Godfrey,chirandom | teamblack,no_lavin_tag,680,non_genre,A+Room+on+the+Route,1947,0.100747573
+606,Burroughs%2C+Edgar+Rice%2C,chifantasy | teamblack,no_lavin_tag,607,non_genre,Tarzan+and+the+leopard+me,1935,0.100175852
+629,Chandler%2C+Raymond%2C,hardboiled | det100 | teamblack | chimyst,no_lavin_tag,630,crime,The+big+sleep,1939,0.100001323
+934,Cherryh%2C+C.+J%2C,teamred | chifantasy | chiscifi,no_lavin_tag,935,scifi,Chanur%27s+venture,1984,0.099714359
+839,L%27Amour%2C+Louis%2C,chirandom | teamred,no_lavin_tag,840,non_genre,Galloway,1970,0.09966323
+777,Garrett%2C+Randall%2C,teamred | chiscifi | stew,no_lavin_tag,778,scifi,Unwise+child,1962,0.099480851
+784,Shannon%2C+Dell%2C,teamblack | chimyst,no_lavin_tag,785,crime,Extra+kill,1962,0.099408885
+779,Bradbury%2C+Ray%2C,teamblack | chihorror | chiscifi | lavin_magic,lavin_magic,780,multi,Something+wicked+this+way,1962,0.099207976
+379,Rinehart%2C+Mary+Roberts%2C,teamred | det100 | locdetmyst,no_lavin_tag,380,crime,The+circular+staircase,1908,0.099107149
+714,Fast%2C+Howard%2C,chirandom | teamblack,no_lavin_tag,715,non_genre,The+proud+and+the+free,1950,0.098845148
+548,Wells%2C+Carolyn%2C,teamblack | chimyst | stew,no_lavin_tag,549,crime,Deep-Lake+mystery,1928,0.098737527
+975,Somtow%2C+S.+P%2C,teamblack | chihorror | stew,no_lavin_tag,976,gothic,Moon+dance,1989,0.098717248
+492,Putnam%2C+Nina+Wilcox%2C,chirandom | teamred,no_lavin_tag,493,non_genre,West+Broadway,1921,0.098685728
+258,Chekhov%2C+Anton%2C,teamred | lockandkey | stew,no_lavin_tag,259,crime,The+Safety+Match,1884,0.098649376
+646,Christie%2C+Agatha%2C,chirandom | teamblack | chimyst | stew,no_lavin_tag,647,crime,Five+little+pigs,1942,0.098331966
+402,Cowan%2C+James%2C,teamred | random,no_lavin_tag,403,non_genre,The+adventures+of+Kimble+,1911,0.098292987
+968,Anthony%2C+Piers%2C,chifantasy | teamblack,no_lavin_tag,969,non_genre,Heaven+cent,1988,0.097965493
+744,Manfred%2C+Frederick+Feikem,chirandom | teamred,no_lavin_tag,745,non_genre,Lord+Grizzly,1954,0.097733344
+781,L%27Engle%2C+Madeleine%2C,chifantasy | teamblack | chiscifi,no_lavin_tag,782,scifi,A+wrinkle+in+time,1962,0.09753074
+578,Connington%2C+J.+J.,chirandom | teamblack | chimyst,no_lavin_tag,579,crime,The+boathouse+riddle,1931,0.097412888
+851,Malzberg%2C+Barry+N%2C,chirandom | teamblack | chiscifi,no_lavin_tag,852,scifi,Herovit%27s+world,1973,0.09730984
+812,Asimov%2C+Isaac%2C,teamred | chiscifi | stew,no_lavin_tag,813,scifi,Fantastic+voyage,1966,0.097300648
+549,Burroughs%2C+Edgar+Rice%2C,teamred | chiscifi | stew,no_lavin_tag,550,scifi,The+monster+men,1929,0.097230551
+255,Oliphant%2C,teamred | pbgothic | stew,no_lavin_tag,256,gothic,A+little+pilgrim+in+the+u,1882,0.09704086
+926,Wilcox%2C+Collin%2C,teamblack | chimyst | stew,no_lavin_tag,927,crime,Stalking+horse,1982,0.096822546
+800,Prather%2C+Richard+S%2C,teamred | chimyst,no_lavin_tag,801,crime,The+meandering+corpse,1965,0.096717546
+973,Goldsborough%2C+Robert%2C,chirandom | teamblack | chimyst,no_lavin_tag,974,crime,The+last+coincidence,1989,0.096670241
+364,Pain%2C+Barry%2C,det100 | teamblack | stew,no_lavin_tag,365,crime,The+memoirs+of+Constantin,1905,0.09641296
+863,Platt%2C+Kin%2C,teamred | chimyst | stew,no_lavin_tag,864,crime,The+giant+kill,1974,0.096246485
+590,Faulkner%2C+William,teamblack | pbgothic,no_lavin_tag,591,gothic,Light+in+August,1932,0.096241589
+655,Hughes%2C+Dorothy+B.,chifantasy | teamblack | chimyst,no_lavin_tag,656,crime,The+delicate+ape,1944,0.09578517
+657,Walker%2C+Mildred,chirandom | teamred,no_lavin_tag,658,non_genre,Winter+wheat,1944,0.095675338
+962,Anthony%2C+Piers%2C,chifantasy | teamblack,no_lavin_tag,963,non_genre,Being+a+green+mother,1987,0.095563371
+585,Evans%2C+Margiad%2C,chirandom | teamred,no_lavin_tag,586,non_genre,Country+dance,1932,0.095280846
+576,Leinster%2C+Murray%2C,teamblack | chiscifi,no_lavin_tag,577,scifi,Murder+madness,1931,0.094963322
+652,Queen%2C+Ellery%2C,teamred | det100 | chimyst | cozy | stew,no_lavin_tag,653,crime,There+was+an+old+woman,1943,0.094738918
+745,Crane%2C+Frances%2C,teamred | chimyst,no_lavin_tag,746,crime,Death+in+lilac+time,1955,0.094495429
+770,Sigal%2C+Clancy%2C,chirandom | teamblack,no_lavin_tag,771,non_genre,Weekend+in+Dinlock,1960,0.094385942
+272,Clarke%2C+Rebecca+Sophia%2C,teamblack | random,no_lavin_tag,273,non_genre,Drones%27+honey,1887,0.094379912
+678,Hartley%2C+L.+P.,chirandom | teamblack,no_lavin_tag,679,non_genre,Eustace+and+Hilda,1947,0.094079878
+880,Saul%2C+John%2C,teamred | chihorror | lavin_slasher,lavin_slasher,881,gothic,Suffer+the+children,1977,0.094005203
+610,Bristow%2C+Gwen%2C,chirandom | teamblack,no_lavin_tag,611,non_genre,Deep+summer,1937,0.09396488
+62,Bayfield%2C+E.+G.%2C,teamred | random,no_lavin_tag,63,non_genre,A+winter+in+Bath,1807,0.093304318
+937,Gibson%2C+William,teamred | pbgothic | chiscifi | stew,no_lavin_tag,938,multi,Neuromancer,1984,0.093257569
+534,Biggers%2C+Earl+Derr%2C,teamred | det100 | chimyst,no_lavin_tag,535,crime,Fifty+candles,1926,0.092861195
+747,Stout%2C+Rex%2C,teamred | chimyst,no_lavin_tag,748,crime,Before+midnight,1955,0.092647096
+893,Swift%2C+Edward%2C,chirandom | teamred,no_lavin_tag,894,non_genre,Splendora,1978,0.092576136
+72,Lewis%2C+Alethea%2C,teamblack | random,no_lavin_tag,73,non_genre,Rhoda,1816,0.092416102
+921,McIntyre%2C+Vonda+N%2C,teamred | chiscifi,no_lavin_tag,922,scifi,The+entropy+effect,1981,0.09234183
+660,Halliday%2C+Brett%2C,teamred | chimyst,no_lavin_tag,661,crime,Murder+is+my+business,1945,0.092220738
+508,Marquand%2C+John+P.,teamred | random,no_lavin_tag,509,non_genre,The+unspeakable+gentleman,1922,0.092033176
+854,Davis%2C+Dorothy+Salisbury%2C,chirandom | teamblack | chimyst,no_lavin_tag,855,crime,The+little+brothers,1973,0.091953328
+604,Heyer%2C+Georgette%2C,chirandom | teamblack,no_lavin_tag,605,non_genre,Regency+buck,1935,0.091871227
+752,Crane%2C+Frances%2C,teamblack | chimyst,no_lavin_tag,753,crime,Horror+on+the+Ruby+X,1956,0.091631906
+128,Lover%2C+Samuel%2C,teamblack | random,no_lavin_tag,129,non_genre,Rory+O%27More,1837,0.091526903
+169,Dickens%2C+Charles%2C,teamred | det100,no_lavin_tag,170,crime,Bleak+house,1853,0.091488961
+408,Rose%2C+William+Ganson%2C,teamblack | random,no_lavin_tag,409,non_genre,Putting+Marshville+on+the,1912,0.091377028
+787,Caldwell%2C+Taylor%2C,chirandom | teamblack,no_lavin_tag,788,non_genre,Grandmother+and+the+pries,1963,0.091313099
+932,Meade%2C+Marion%2C,chirandom | teamblack,no_lavin_tag,933,non_genre,Sybille,1983,0.091288233
+353,Meyrink%2C+Gustav%2C,teamred | lockandkey | stew,no_lavin_tag,354,crime,The+Man+on+the+Bottle,1903,0.091217199
+527,Ford%2C+Ford+Madox%2C,chirandom | teamred,no_lavin_tag,528,non_genre,No+more+parades,1925,0.091107933
+434,Ostrander%2C+Isabel%2C,teamred | det100 | stew,no_lavin_tag,435,crime,At+one-thirty,1915,0.091042469
+817,Braun%2C+Lilian+Jackson%2C,chirandom | teamblack | chimyst,no_lavin_tag,818,crime,The+cat+who+ate+Danish+mo,1967,0.091015537
+373,Hope%2C+Laura+Lee.,teamred | locdetmyst | juvenile | drop,no_lavin_tag,374,crime,The+Bobbsey+twins+at+the+,1907,0.091012879
+144,Dickens%2C+Charles%2C,teamblack | random,no_lavin_tag,145,non_genre,Martin+Chuzzlewit,1844,0.09092748
+873,Vonnegut%2C+Kurt%2C,chifantasy | teamblack,no_lavin_tag,874,non_genre,Slapstick,1976,0.090796378
+497,Marquand%2C+John+P.,chirandom | teamred,no_lavin_tag,498,non_genre,The+unspeakable+gentleman,1922,0.090715621
+554,Berkeley%2C+Anthony%2C,teamblack | chimyst,no_lavin_tag,555,crime,The+poisoned+chocolates+c,1929,0.090539629
+192,Dickens%2C+Charles%2C,teamblack | pbgothic,no_lavin_tag,193,gothic,Our+mutual+friend,1865,0.090502897
+603,Marsh%2C+Ngaio%2C,chirandom | teamblack | chimyst | cozy,no_lavin_tag,604,crime,The+nursing+home+murder,1935,0.090317094
+442,Wells%2C+Carolyn%2C,teamred | det100,no_lavin_tag,443,crime,The+bride+of+a+moment,1916,0.09028628
+569,Williams%2C+Charles%2C,chirandom | teamblack,no_lavin_tag,570,non_genre,Many+dimensions,1931,0.090230002
+362,Gibbon%2C+Perceval%2C,teamblack | random,no_lavin_tag,363,non_genre,Salvator,1905,0.090144123
+582,Snow%2C+C.+P.,teamblack | chimyst | stew,no_lavin_tag,583,crime,Death+under+sail,1932,0.09008167
+670,Welty%2C+Eudora%2C,chirandom | teamblack,no_lavin_tag,671,non_genre,Delta+Wedding,1946,0.08975072
+960,Gregory%2C+Philippa%2C,chirandom | teamred,no_lavin_tag,961,non_genre,Wideacre,1987,0.089620882
+795,Spencer%2C+Elizabeth%2C,chirandom | teamblack,no_lavin_tag,796,non_genre,The+voice+at+the+back+doo,1965,0.089593901
+227,Optic%2C+Oliver%2C,teamblack | random,no_lavin_tag,228,non_genre,Getting+an+indorser%2C+and+,1875,0.089468321
+774,Robbins%2C+Harold%2C,chirandom | teamred,no_lavin_tag,775,non_genre,The+carpetbaggers,1961,0.089382499
+943,Dickson%2C+Gordon+R%2C,teamred | chiscifi,no_lavin_tag,944,scifi,The+forever+man,1986,0.089073436
+630,Chandler%2C+Raymond%2C,det100 | teamblack | hardboiled | stew,no_lavin_tag,631,crime,Farewell+My+Lovely,1940,0.088905904
+849,Highsmith%2C+Patricia%2C,chirandom | teamred | crime,no_lavin_tag,850,crime,A+dog%27s+ransom,1972,0.08859889
+570,Smith%2C+Thorne%2C,chifantasy | teamblack | chiscifi,no_lavin_tag,571,scifi,The+night+life+of+the+god,1931,0.088420169
+715,Coxe%2C+George+Harmon%2C,teamred | chimyst,no_lavin_tag,716,crime,The+frightened+fiance,1950,0.088170996
+961,Collins%2C+Max+Allan%2C,teamblack | chimyst,no_lavin_tag,962,crime,Spree,1987,0.087969547
+816,Fox%2C+Paula%2C,chirandom | teamblack,no_lavin_tag,817,non_genre,Poor+George,1967,0.087849053
+428,Bell%2C+J.+J.,teamblack | random,no_lavin_tag,429,non_genre,The+misadventures+of+Jose,1914,0.087360227
+783,Stout%2C+Rex%2C,chirandom | teamblack | chimyst,no_lavin_tag,784,crime,Gambit,1962,0.087309578
+627,Allan%2C+Ted%2C,chirandom | teamred,no_lavin_tag,628,non_genre,This+time+a+better+earth,1939,0.087074924
+805,Dick%2C+Philip+K%2C,chirandom | teamblack | chiscifi,no_lavin_tag,806,scifi,Now+wait+for+last+year,1966,0.087012514
+233,Robinson%2C+Frederick+Willi,teamred | random,no_lavin_tag,234,non_genre,As+long+as+she+lived,1876,0.086863087
+833,Stout%2C+Rex%2C,teamred | chimyst,no_lavin_tag,834,crime,Death+of+a+dude,1969,0.086830678
+561,Williams%2C+Charles%2C,chifantasy | teamblack,no_lavin_tag,562,non_genre,War+in+heaven,1930,0.086823508
+223,Stockton%2C+Frank+Richard%2C,teamblack | random,no_lavin_tag,224,non_genre,What+might+have+been+expe,1874,0.086205466
+413,Abbott%2C+Eleanor+Hallowell,teamblack | random,no_lavin_tag,414,non_genre,The+white+linen+nurse,1913,0.086184509
+584,Shute%2C+Nevil%2C,chirandom | teamred,no_lavin_tag,585,non_genre,Lonely+road,1932,0.085905156
+882,Sanders%2C+Lawrence%2C,teamred | chimyst,no_lavin_tag,883,crime,The+second+deadly+sin,1977,0.085767797
+775,Stout%2C+Rex%2C,chirandom | teamblack | chimyst,no_lavin_tag,776,crime,The+final+deduction,1961,0.085763893
+180,Wood%2C+Ellen%2C,sensation | teamblack | stew,no_lavin_tag,181,sensation,East+Lynne,1861,0.085699821
+944,Friedman%2C+Kinky%2C,teamblack | chimyst,no_lavin_tag,945,crime,Greenwich+killing+time,1986,0.08563965
+251,Aldrich%2C+Thomas+Bailey%2C,teamred | det100,no_lavin_tag,252,crime,The+stillwater+tragedy,1880,0.085543675
+662,Stein%2C+Gertrude%2C,chirandom | teamred,no_lavin_tag,663,non_genre,Wars+I+have+seen,1945,0.085467795
+645,Marsh%2C+Ngaio%2C,chirandom | teamblack | chimyst | cozy,no_lavin_tag,646,crime,A+man+lay+dead,1942,0.085191484
+552,Hammett%2C+Dashiell%2C,hardboiled | det100 | teamblack | chimyst,no_lavin_tag,553,crime,Red+Harvest,1929,0.085165891
+635,Christie%2C+Agatha%2C,chirandom | teamblack | chimyst,no_lavin_tag,636,crime,N+or+M%3F,1941,0.085127507
+452,Post%2C+Melville+Davisson%2C,det100 | teamblack | stew,no_lavin_tag,453,crime,Uncle+Abner%2C+master+of+my,1918,0.08476149
+248,Zhelikhovsky%2C+Vera%2C,lockandkey | teamblack,no_lavin_tag,249,crime,The+General%27s+Will,1880,0.084483239
+940,Collins%2C+Max+Allan%2C,chirandom | teamred | chimyst,no_lavin_tag,941,crime,A+shroud+for+Aquarius,1985,0.083928843
+927,Lorrah%2C+Jean%2C,teamblack | chiscifi | stew,no_lavin_tag,928,scifi,Channel%27s+destiny,1982,0.083892906
+729,Powell%2C+Richard%2C,chirandom | teamblack | chimyst,no_lavin_tag,730,crime,A+shot+in+the+dark,1952,0.083437826
+654,Brackett%2C+Leigh%2C,chirandom | teamred | chimyst,no_lavin_tag,655,crime,No+good+from+a+corpse,1944,0.083271843
+404,Appleton%2C+Victor.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,405,crime,Tom+Swift+and+his+sky+rac,1911,0.083261544
+939,Effinger%2C+George+Alec%2C,chirandom | teamblack | chiscifi | stew,no_lavin_tag,940,scifi,The+nick+of+time,1985,0.082891248
+182,Trollope%2C+Anthony%2C,teamred | random,no_lavin_tag,183,non_genre,Rachel+Ray,1863,0.082770905
+852,Stout%2C+Rex%2C,teamred | chimyst,no_lavin_tag,853,crime,Please+pass+the+guilt,1973,0.082562648
+634,Atkinson%2C+Eleanor%2C,chirandom | teamred,no_lavin_tag,635,non_genre,Greyfriars+Bobby,1940,0.082419984
+965,Swift%2C+Edward%2C,chirandom | teamred,no_lavin_tag,966,non_genre,A+place+with+promise,1987,0.082392365
+455,Hewlett%2C+Maurice%2C,teamred | random,no_lavin_tag,456,non_genre,Gudrid+the+Fair,1918,0.082365616
+802,Braithwaite%2C+E.+R.++%28Edwa,chirandom | teamblack,no_lavin_tag,803,non_genre,Choice+of+straws,1965,0.082183512
+522,Wells%2C+H.+G.,teamred | chiscifi | stew,no_lavin_tag,523,scifi,Men+like+gods,1923,0.082099976
+915,Valin%2C+Jonathan%2C,teamblack | chimyst | stew,no_lavin_tag,916,crime,Dead+Letter,1981,0.081840246
+728,Vonnegut%2C+Kurt%2C,chirandom | teamblack | chiscifi | stew,no_lavin_tag,729,scifi,Player+piano,1952,0.081632902
+633,Shute%2C+Nevil%2C,chirandom | teamblack,no_lavin_tag,634,non_genre,Landfall,1940,0.081626995
+481,Hewlett%2C+Maurice%2C,teamred | random,no_lavin_tag,482,non_genre,The+light+heart,1920,0.08113637
+365,Dunsany%2C+Edward+John+More,teamblack | pbgothic | stew,no_lavin_tag,366,gothic,The+gods+of+Pegna,1905,0.080841984
+567,Hammett%2C+Dashiell%2C,hardboiled | det100 | teamblack | chimyst,no_lavin_tag,568,crime,The+Maltese+falcon,1930,0.080805034
+608,Gellhorn%2C+Martha%2C,chirandom | teamred,no_lavin_tag,609,non_genre,The+trouble+I%27ve+seen,1936,0.080670054
+358,Hope%2C+Laura+Lee.,teamred | locdetmyst | juvenile | drop,no_lavin_tag,359,crime,The+Bobbsey+twins%3B,1904,0.080575585
+39,Anonymous5,lockandkey | teamblack,no_lavin_tag,40,crime,Devasmita,1800,0.08052505
+910,Kurland%2C+Michael%2C,teamred | chiscifi,no_lavin_tag,911,scifi,The+last+President,1980,0.079796587
+756,Dick%2C+Philip+K%2C,chirandom | teamblack | chiscifi,no_lavin_tag,757,scifi,Eye+in+the+sky,1957,0.079518154
+692,Christie%2C+Agatha%2C,chirandom | teamred | chimyst,no_lavin_tag,693,crime,Crooked+house,1949,0.079468441
+881,Dick%2C+Philip+K%2C,teamblack | chiscifi,no_lavin_tag,882,scifi,A+scanner+darkly,1977,0.079437455
+643,Gardner%2C+Erle+Stanley%2C,teamred | det100 | chimyst,no_lavin_tag,644,crime,The+case+of+the+empty+tin,1942,0.079253182
+772,McBain%2C+Ed%2C,teamblack | chimyst | stew,no_lavin_tag,773,crime,Give+the+boys+a+great+big,1960,0.079060554
+6,Reeve%2C+Clara%2C,teamblack | pbgothic | lavin_ghost,lavin_ghost,7,gothic,The+old+English+baron,1777,0.078972866
+639,Knight%2C+Eric%2C,chirandom | teamblack,no_lavin_tag,640,non_genre,Sam+Small+flies+again+%28Th,1942,0.078972319
+972,Crais%2C+Robert%2C,teamred | chimyst,no_lavin_tag,973,crime,Stalking+the+angel,1989,0.078946296
+974,Hillerman%2C+Tony%2C,teamred | chimyst,no_lavin_tag,975,crime,Talking+God,1989,0.07871838
+751,Coxe%2C+George+Harmon%2C,teamblack | chimyst,no_lavin_tag,752,crime,Man+on+a+rope,1956,0.078311444
+977,Cook%2C+Robin%2C,teamred | chihorror | chiscifi | stew,no_lavin_tag,978,multi,Mutation,1989,0.078259755
+825,Davis%2C+Gwen%2C,chirandom | teamred,no_lavin_tag,826,non_genre,The+pretenders,1969,0.076851184
+620,Du+Maurier%2C+Daphne%2C,teamred | pbgothic | stew,no_lavin_tag,621,gothic,Rebecca,1938,0.076373013
+688,Brown%2C+Fredric%2C,teamred | chimyst,no_lavin_tag,689,crime,The+dead+ringer,1948,0.07576236
+982,McMurtry%2C+Larry%2C,chirandom | teamblack,no_lavin_tag,983,non_genre,Some+can+whistle,1989,0.075665254
+861,Stark%2C+Richard%2C,chirandom | teamblack | crime,no_lavin_tag,862,crime,Butcher%27s+moon,1974,0.075423546
+648,Marsh%2C+Ngaio%2C,chirandom | teamred | chimyst,no_lavin_tag,649,crime,Colour+scheme,1943,0.075368245
+676,Fair%2C+A.+A.,teamred | det100 | chimyst,no_lavin_tag,677,crime,Crows+can%27t+count,1946,0.0753327
+809,Westlake%2C+Donald+E%2C,teamred | chimyst | stew,no_lavin_tag,810,crime,The+busy+body,1966,0.075026968
+397,Wells%2C+Carolyn%2C,teamred | det100 | stew,no_lavin_tag,398,crime,The+gold+bag,1911,0.075005933
+637,Heyer%2C+Georgette%2C,chirandom | teamred,no_lavin_tag,638,non_genre,Faro%27s+daughter,1941,0.074707074
+642,Eberhart%2C+Mignon+Good,det100 | teamblack | cozy,no_lavin_tag,643,crime,Wolf+in+man%27s+clothing,1942,0.074245265
+245,Scudder%2C+Horace+Elisha%2C,teamblack | random,no_lavin_tag,246,non_genre,Doings+of+the+Bodley+fami,1880,0.074117462
+415,Rinehart%2C+Mary+Roberts%2C,det100 | teamblack,no_lavin_tag,416,crime,The+case+of+Jennie+Brice,1913,0.073983022
+741,Robbins%2C+Harold%2C,chirandom | teamblack,no_lavin_tag,742,non_genre,Never+leave+me,1954,0.073575402
+172,Manning%2C+Anne%2C,teamblack | random,no_lavin_tag,173,non_genre,The+ladies+of+Bever+Hollo,1858,0.073518682
+761,Gardner%2C+Erle+Stanley%2C,teamred | det100 | chimyst,no_lavin_tag,762,crime,The+case+of+the+deadly+to,1959,0.073056917
+336,Thornton%2C+Marcellus+Eugen,teamred | random,no_lavin_tag,337,non_genre,My+%22budie%22+and+I,1899,0.073009178
+957,Friedman%2C+Kinky%2C,chirandom | teamred | chimyst,no_lavin_tag,958,crime,A+case+of+Lone+Star,1987,0.072803537
+553,Christie%2C+Agatha%2C,teamred | chimyst | cozy,no_lavin_tag,554,crime,The+Seven+dials+mystery,1929,0.072495
+693,Ferrars%2C+E.+X%2C,chirandom | teamred | chimyst,no_lavin_tag,694,crime,The+March+Hare+murders,1949,0.071456929
+878,Segal%2C+Erich%2C,chirandom | teamred,no_lavin_tag,879,non_genre,Oliver%27s+story,1977,0.071174761
+709,Lewis%2C+C.+S.,chifantasy | teamblack,no_lavin_tag,710,non_genre,The+lion%3A+the+witch+and+t,1950,0.070486365
+581,Armstrong%2C+Martin%2C,chirandom | teamblack,no_lavin_tag,582,non_genre,The+romantic+adventures+o,1931,0.069974477
+831,Pentecost%2C+Hugh%2C,chirandom | teamblack | chimyst | stew,no_lavin_tag,832,crime,Girl+watcher%27s+funeral,1969,0.069917381
+609,Latimer%2C+Jonathan%2C,teamblack | chimyst,no_lavin_tag,610,crime,Murder+in+the+madhouse,1936,0.06970276
+952,Hiaasen%2C+Carl%2C,chirandom | teamred | chimyst,no_lavin_tag,953,crime,Double+whammy,1987,0.06939549
+613,Steinbeck%2C+John%2C,chirandom | teamred,no_lavin_tag,614,non_genre,Of+mice+and+men,1937,0.068700368
+667,Sherman%2C+Harold+M.,teamblack | chiscifi | stew,no_lavin_tag,668,scifi,The+green+man,1946,0.067207721
+806,Herbert%2C+Frank%2C,teamred | chiscifi,no_lavin_tag,807,scifi,The+eyes+of+Heisenberg,1966,0.066766656
+792,Kim%2C+Richard+E.,chirandom | teamred,no_lavin_tag,793,non_genre,The+martyred,1964,0.066588795
+889,Mcdonald%2C+Gregory%2C,teamred | chimyst,no_lavin_tag,890,crime,Fletch%27s+fortune,1978,0.066241164
+663,Armstrong%2C+Charlotte%2C,teamred | chimyst,no_lavin_tag,664,crime,The+innocent+flower,1945,0.066101326
+845,Pentecost%2C+Hugh%2C,teamblack | chimyst | stew,no_lavin_tag,846,crime,The+deadly+joke,1971,0.065285838
+764,Himes%2C+Chester+B.,chirandom | hardboiled | chimyst | teamred,no_lavin_tag,765,crime,The+crazy+kill,1959,0.064743788
+828,Dick%2C+Philip+K%2C,teamred | chiscifi,no_lavin_tag,829,scifi,Galactic+pot-healer,1969,0.063846212
+766,Jackson%2C+Shirley%2C,teamblack | pbgothic | stew | lavin_ghost,lavin_ghost,767,gothic,The+Haunting+of+Hill+House,1959,0.063211313
+846,Thomas%2C+Ross%2C,teamblack | chimyst,no_lavin_tag,847,crime,The+fools+in+town+are+on+,1971,0.062308547
+377,Bodkin%2C+M.+McDonnell,det100 | teamblack | stew,no_lavin_tag,378,crime,The+quests+of+Paul+Beck,1908,0.062130832
+540,Glaspell%2C+Susan%2C,chirandom | teamred | chimyst,no_lavin_tag,541,crime,A+jury+of+her+peers,1927,0.062011342
+55,Genlis%2C+Stphanie+Flicit%2C,teamred | random,no_lavin_tag,56,non_genre,Madame+de+Maintenon,1806,0.061824231
+644,Rice%2C+Craig%2C,det100 | teamblack | chimyst,no_lavin_tag,645,crime,The+big+midget+murders,1942,0.06140861
+558,Berkeley%2C+Anthony%2C,teamblack | chimyst,no_lavin_tag,559,crime,The+Piccadilly+murder,1930,0.061286731
+468,Bailey%2C+Arthur+Scott%2C,teamblack | random,no_lavin_tag,469,non_genre,The+tale+of+Grumpy+Weasel,1920,0.058104341
+254,Sidney%2C+Margaret%2C,teamblack | random,no_lavin_tag,255,non_genre,Five+little+Peppers+and+h,1881,0.057696901
+737,Lasswell%2C+Mary%2C,chirandom | teamred,no_lavin_tag,738,non_genre,Tooner+Schooner,1953,0.057549709
+876,Jenkins%2C+Dan%2C,chirandom | teamred,no_lavin_tag,877,non_genre,Limo,1976,0.056510585
+848,Levin%2C+Ira%2C,teamblack | chihorror | chiscifi,no_lavin_tag,849,multi,The+Stepford+wives,1972,0.0545489
+458,Butler%2C+Ellis+Parker%2C,det100 | teamblack,no_lavin_tag,459,crime,Philo+Gubb,1918,0.054502613
+412,Ford%2C+Ford+Madox%2C,teamblack | random,no_lavin_tag,413,non_genre,Mr.+Fleight,1913,0.050729968
+820,Levin%2C+Ira%2C,teamblack | pbgothic | chihorror | stew | lavin_magic,lavin_magic,821,gothic,Rosemary%27s+baby,1967,0.050218092
+941,Dick%2C+Philip+K%2C,chirandom | teamblack,no_lavin_tag,942,non_genre,Puttering+about+in+a+smal,1985,0.047918329
+556,Burnett%2C+W.+R.,teamred | chimyst,no_lavin_tag,557,crime,Little+Caesar,1929,0.047370935
+488,Nathan%2C+Robert%2C,chirandom | teamred,no_lavin_tag,489,non_genre,Autumn,1921,0.047241123
+953,Parker%2C+Robert+B.,teamblack | chimyst,no_lavin_tag,954,crime,Pale+kings+and+princes,1987,0.03851095
+71,Maturin%2C+Charles+Robert%2C,teamblack | pbgothic | lavin_deranged,lavin_deranged,72,gothic,Bertram%2C+or%2C+The+castle+o,1816,0
+219,Flammarion%2C+Camille%2C,teamblack | anatscifi | stew,no_lavin_tag,220,scifi,Lumen,1872,0
+224,Pinkerton%2C+Allan%2C,teamred | locdetective | drop,no_lavin_tag,225,crime,The+somnambulist+and+the+,1875,0
+237,Pinkerton%2C+Allan%2C,teamblack | locdetective | drop,no_lavin_tag,238,crime,Criminal+reminiscences+an,1878,0
+243,Pinkerton%2C+Allan%2C,teamred | locdetective | drop,no_lavin_tag,244,crime,Bucholz+and+the+detective,1880,0
+253,Pinkerton%2C+Allan%2C,teamblack | locdetective | drop,no_lavin_tag,254,crime,The+gypsies+and+the+detec,1881,0
+264,Pinkerton%2C+Allan%2C,teamblack | locdetective | drop,no_lavin_tag,265,crime,Professional+thieves+and+,1886,0
+341,Pinkerton%2C+Allan%2C,teamblack | locdetective | drop,no_lavin_tag,342,crime,The+model+town+and+the+de,1900,0
+343,Pinkerton%2C+Allan%2C,teamblack | locdetective | drop,no_lavin_tag,344,crime,The+model+town+and+the+de,1900,0
+344,Pinkerton%2C+Allan%2C,teamblack | locdetective | drop,no_lavin_tag,345,crime,The+burglar%27s+fate+and+th,1900,0
+347,Ling%2C+M.+A.+Moore+Bentley,teamred | femscifi,no_lavin_tag,348,scifi,A+woman+of+Mars,1901,0
+416,Hope%2C+Laura+Lee.,teamred | locdetmyst | juvenile | drop,no_lavin_tag,417,crime,The+outdoor+girls+at+Rain,1913,0
+424,Emerson%2C+Alice+B.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,425,crime,Ruth+Fielding+at+Lighthou,1913,0
+439,Emerson%2C+Alice+B.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,440,crime,Ruth+Fielding+and+the+gyp,1915,0
+441,Hope%2C+Laura+Lee.,teamred | locdetmyst | juvenile | drop,no_lavin_tag,442,crime,The+Bobbsey+twins+at+home,1916,0
+449,Hope%2C+Laura+Lee.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,450,crime,The+Bobbsey+twins+in+a+gr,1917,0
+451,Hope%2C+Laura+Lee.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,452,crime,The+Bobbsey+twins+on+Blue,1917,0
+457,Hope%2C+Laura+Lee.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,458,crime,The+Bobbsey+twins+on+the+,1918,0
+462,Hope%2C+Laura+Lee.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,463,crime,The+Bobbsey+twins+in+Wash,1919,0
+465,Emerson%2C+Alice+B.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,466,crime,Ruth+Fielding+homeward+bo,1919,0
+472,Hope%2C+Laura+Lee.,teamred | locdetmyst | juvenile | drop,no_lavin_tag,473,crime,The+Bobbsey+twins+in+the+,1920,0
+513,Hope%2C+Laura+Lee.,teamblack | locdetmyst | juvenile | drop,no_lavin_tag,514,crime,The+Bobbsey+Twins+at+the+,1922,0

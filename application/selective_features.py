@@ -1,7 +1,7 @@
 def dictionaries_of_features(list_of_dictionaries, feature_list):
     import pandas as pd
     """Loops through the list of dictionaries supplied, gathers counts for each term in the feature list,
-    and returns a new list of smaller dictionaries. We then pass the reesults to sklearn CountVectorizer for zerofill
+    and returns a new list of smaller dictionaries. We then pass the results to sklearn CountVectorizer for zerofill
     and other model processing"""
     reduced_dictionaries = []
     for d in list_of_dictionaries:
@@ -88,7 +88,7 @@ def make_genres_big_and_lavin(piped_genres):
 
 def make_feature_list(csv, col, N):
     import pandas as pd
-    df = pd.read_csv(csv)
+    df = pd.read_csv(csv, encoding='utf-8')
     #sort by col
     ## make sure it's descending
     df[col] = [abs(i) for i in list(df[col])]

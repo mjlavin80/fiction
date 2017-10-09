@@ -1,9 +1,24 @@
-def divide_by_three(list_of_pairs):
-    for_features = {}
-    test = {}
-    train = {}
-    destinations = [for_features, test, train]
-    while len(list_of_pairs) > 2 or len(list_of_pairs) % 3 == 0:
+from random import shuffle
+from application.selective_features import dictionaries_of_features, make_genres_big_and_lavin
+from application.pickles import pickledData
+import pandas as pd
+from scipy.stats.stats import spearmanr
+from sklearn.pipeline import Pipeline
+from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.feature_extraction import DictVectorizer
+from sklearn.linear_model import LogisticRegression
+import numpy as np
+from sklearn.metrics import recall_score
+
+# all this has to do is split a list of ids into three groups
+def chunks(l, n):
+    """Yield successive n-sized chunks from l."""
+    for i in range(0, len(l), n):
+        yield l[i:i + n]
+
+def divide_by_three(list_of_ids):
+    destinations = []
+    while len(list_of_ids) > 2 or len(list_of_pairs) % 3 == 0:
         #grab a random id from big_genre and remove
         for m, l in enumerate(destinations):
 
@@ -34,102 +49,117 @@ def divide_by_three(list_of_pairs):
         destinations_trimmed.append(dict(aTuple[:83]))
     return destinations_trimmed
 
-from random import shuffle
-from application.selective_features import dictionaries_of_features, make_genres_big
-from application.pickles import pickledData
-import pandas as pd
-from scipy.stats.stats import spearmanr
-from sklearn.pipeline import Pipeline
-from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.feature_extraction import DictVectorizer
+def divide_list(mylist, number_of_splits):
+    def chunks(l, n):
+        """Yield successive n-sized chunks from l."""
+        for i in range(0, len(l), n):
+            yield l[i:i + n]
+
+    l = (len(mylist) % number_of_splits)
+    a = len(mylist) - l
+    b = int(a/number_of_splits)
+    newlists = list(chunks(mylist, b))
+    newlists = [i for i in newlists if len(i) == b]
+    return newlists
+
+#this will be moved to application folder
+def partition_test_train(genre, df, number_of_partitions):
+    # supply a genre
+    df_genre = df.loc[df['big_genres'] == genre]
+    df_non_genre = df.loc[df['big_genres'] != genre ]
+    df_non_genre = df_non_genre.loc[df_non_genre['big_genres'] != "multi" ]
+    # create a dataset of random ids 50% in genre, 50% out of genre
+    genre_ids = list(df_genre['ids'])
+    # split into three separate sets of ids
+    genre_split = divide_list(genre_ids, number_of_partitions)
+
+    non_genre_ids = list(df_non_genre['ids'])
+    #shuffle non_genre before splitting
+    shuffle(non_genre_ids)
+    non_genre_ids = non_genre_ids[0:len(genre_ids)]
+    # split into three separate sets of ids
+    non_genre_split = divide_list(non_genre_ids, number_of_partitions)
+
+    rejoined = []
+    #rejoin genre and nongenre
+
+    for i, j in enumerate(non_genre_split):
+        joined = j + genre_split[i]
+        rejoined.append(joined)
+    #sort by id and convert rejoined back to full df
+    for r in rejoined:
+        r.sort()
+    rejoined_dfs = []
+    for i in rejoined:
+        new_df = df.loc[df['ids'].isin(i)]
+        rejoined_dfs.append(new_df)
+    return rejoined_dfs, rejoined
 
 pData = pickledData()
 
-# define as a function, supply a big_genre
-def partition_features_test_train(big_genre, pData):
-    # Local variables.
-    _ids = pData._ids
-    dates = pData.dates
-    genres = pData.genres
-    #needs conversion
-    big_genres = make_genres_big(genres)
-    authors = pData.authors
-    feature_dicts = pData.feature_dicts
+# import feature dictionaries
+feature_dicts_full = pData.feature_dicts
 
-    # get all ids for big_genre
-    big_genre_ids_and_author = {}
-    other_ids_and_author = {}
-    for i, j in enumerate(big_genres):
-         #print(i, _ids[i], j)
-         if j == big_genre:
-             big_genre_ids_and_author[_ids[i]] = authors[i]
-         else:
-             other_ids_and_author[_ids[i]] = authors[i]
+#import feature list here
 
-    # shuffle big_genre_tuples and "deal out" randomly like deck of cards into three, starting with author repeats
-    in_genre = divide_by_three(big_genre_ids_and_author)
-    # do same for other_ids
-    non_genre = divide_by_three(other_ids_and_author)
-    combined_partitions_ids = []
-    combined_partitions_binary_genres = []
-    for f,g in enumerate(in_genre):
-        combined = list(g.keys())+list(non_genre[f].keys())
-        shuffle(combined)
-        genre_processor = []
-        for i in combined:
-            if i in list(g.keys()):
-                genre_processor.append(1)
-            else:
-                genre_processor.append(1)
-        combined_partitions_binary_genres.append(genre_processor)
-        combined_partitions_ids.append(combined)
-    return combined_partitions_ids, combined_partitions_binary_genres
+#perform feature selection on dictionaries of term frequencies
+feature_dicts = dictionaries_of_features()
 
-combined_partitions_ids, combined_partitions_binary_genres = partition_features_test_train("crime", pData)
+
+#define a dictionary with ids, genres, dates, authors, etc. Pass to each function
+metadata = {"ids": pData._ids, "dates": pData.dates, "genres":pData.genres, "authors":pData.authors,
+                "titles":pData.titles,"big_genres":pData.big_genres, "lavin_genres":pData.lavin_genres}
+
+#convert all metadata to dataframe
+data = [metadata[i] for i in metadata.keys()]
+df = pd.DataFrame(data)
+df = df.transpose()
+df.index.name = 'position'
+df.columns=metadata.keys()
+
+partitioned_dfs, partitioned_ids = partition_test_train("gothic", df, 2)
 
 #convert lists of ids into dictionaries of features in order of ids
+partitioned_dicts = []
 
-#the goal here is to end up with one list for feature_selection, one for testing, and one for training
-feature_select_dicts = [pData.feature_dicts[d-1] for d in combined_partitions_ids[0]]
-test_dicts = pData.feature_dicts = [pData.feature_dicts[d-1] for d in combined_partitions_ids[1]]
-train_dicts = pData.feature_dicts = [pData.feature_dicts[d-1] for d in combined_partitions_ids[2]]
+#loop enumerate(pData.ids)
+for id_list in partitioned_ids:
+    processing_list =[]
+    for index, _id in enumerate(pData.ids):
+        if _id in id_list:
+            processing_list.append(feature_dicts[index])
+    partitioned_dicts.append(processing_list)
 
-binary_genres = combined_partitions_binary_genres[0]
-## Begin function block
+#generalize for gothic, scifi, and mystery (genre soup also?)
+train_genres = list(partitioned_dfs[0]['big_genres'])
+train_genres = ["gothic" if g == "gothic" else "not gothic" for g in train_genres]
+target_genres = list(partitioned_dfs[1]['big_genres'])
+target_genres = ["gothic" if g == "gothic" else "not gothic" for g in target_genres]
 
-#convert to tf-idf model
-tfidf = TfidfTransformer()
-vec = DictVectorizer()
-vect = vec.fit_transform(feature_select_dicts)
-adjusted = tfidf.fit_transform(vect)
-
-term_indices = list(vec.vocabulary_.items())
-#alphabetical order
-term_indices.sort(key=operator.itemgetter(1))
-
-term_list = [i[0] for i in term_indices]
-data = adjusted.toarray()
-
-p_tuples = []
-
-for column in data.T:
-   p, c = spearmanr(column, binary_genres)
-   f_tuple = (p,c)
-   p_tuples.append(f_tuple)
-
-# zip back together with term_list
-#print(len(term_list), len(p_tuples))
-final_tuples = list(zip(term_list, [i[0] for i in p_tuples], [i[1] for i in p_tuples]))
-
-print(final_tuples)
-## end function block
-##
-##
-
-# build feature list using sorted p_tuples
-selected_feature_list = []
-
-# process test and train dicts to include only chosen features
-# result = dictionaries_of_features(feature_dicts, genre_features)
-
+#use scikit learn Pipeline functionality to vectorize from dictionaries, run tfidf, and perform logistic regression
 text_clf = Pipeline([('vect', DictVectorizer()), ('tfidf', TfidfTransformer()),('clf', LogisticRegression()),])
+text_clf = text_clf.fit(partitioned_dicts[0], train_genres)
+predicted = text_clf.predict(partitioned_dicts[1])
+mean_accuracy = np.mean(predicted == target_genres)
+proba = text_clf.predict_proba(partitioned_dicts[1])
+
+result = partitioned_dfs[1]
+p = [max(i) for i in proba]
+correct = []
+for y,z in enumerate(predicted):
+    if z == target_genres[y]:
+        correct.append(1)
+    else:
+        correct.append(0)
+result["correct"] = correct
+result["predicted"] = predicted
+result["probability"] = p
+
+t = [0 if s == "gothic" else 1 for s in target_genres]
+pr = [0 if s == "gothic" else 1 for s in predicted]
+pr_false = [1 if s == "gothic" else 0 for s in predicted]
+
+#recall_score(t, pr)
+result["target_binary"] = t
+result["predicted_binary"] = pr
+result["predicted_binary_false"] = pr_false
