@@ -2,3 +2,4 @@
 feature_dicts.p
 .DS_Store
 config.py
+.ipynb_checkpoints
