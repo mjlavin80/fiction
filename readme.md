@@ -1,34 +1,64 @@
-Lavin Edits (in progress)
-======
-- added structure for flask-sqlalchemy ORM, including application/models.py
-- added and am periodically updating requirements.txt for python dependencies
-- added db ingestion scripts to transfer metadata, counts, and genres to a mysql database as quickly as possible
-- added pickedData object that will cache various processed database data for fast access (any script will query db to create a dependent .p file if not found)
-- converting various from list- or list-of-tuples logic to pandas dataframes
+# Notes
 
-# To replicate ingestion:
-1. Set up an empty mysql target database (utf8) and a usr will priveleges
-2. In root folder of local version of this repo, make a file called config.py (see sample_config.py for what needs to be in it)
-3. Assuming you have python and pip all set up, run "pip install -r requirements.txt" (works best inside a virtualenv)
-4. Run "db_create.py"
-5. Run "underwood_metadata.py"
-6. Run "underwood_counts.py"
-7. Run "genres_to_db.py"
+- Numerous ids don't have corresponding data folders in newdata because they were purged (as children's lit?) at some point
+- As a result, the length of finalmeta.csv and feature_dicts.p will only line up if you purge those ids, as csv_meta_to_pickle.py does
 
-# To use scripts in lavin_scripts directory
+# Protocol to add files
+  - metadata should be loaded from a master csv, "lavin_meta/lavin_meta.csv"
+  - metadata format mimics finalmeta
+  - id in lavin_meta should match filename.txt in lavin_additional_texts
+  - genre is snhorror to denote mentioned in Lovecraft's *Supernatural Horror in Literature*  
+  - duplicates marked in readme.md (see below)
+  - need to do something other than lovecraft_horror in one big text file
+    - make other combinations of stories by date?
 
-At a project's root level, you would typically run a file like this:
+# Best Order of pickle scripts
 
-`python some_script.py`
+#### Run from root directory as ...
 
-Scripts in the lavin_scripts folder, however, depend upon packages in sibling folders, e.g. application.models. As a result, to run these scripts, you should remain in . directory and execute script without the .py extension so they are interpreted as packages. Here is an example of the command line text used to run lavin_tests/test_feat_list.py:
+python pickle_generator_scripts/csv_to_pickle.py
+python pickle_generator_scripts/csv_meta_to_pickle.py
+python pickle_generator_scripts/lavin_to_pickle.py
+python -m pickle_generator_scripts.big_genres_to_pickle
+python pickle_generator_scripts/dictom_to_p.py
+python pickle_generator_scripts/oed_to_p.py
 
-`python -m lavin_scripts.test_feat_list`
+# Run dictionary-based Tests
+run_all_ratios.py
 
-This method will keep the application context visible and keep the relative paths to .csv files intact at the same time. I'm working on a cleaner way to tuck scripts away in sibling folders, but so far I haven't found one that does both of these things, partly because importing from inside sibling folders is not an encourage Python approach. 
+# Files missing or removed from original Underwood repo
+hvd.hwpn81
+dul1.ark+=13960=t95723c7j
+uc2.ark+=13960=t43r0q389
+njp.32101068784931
+mdp.39015031447595
+uc1.$b813837
+njp.32101068784923
+njp.32101065766410
+uc2.ark+=13960=t1qf8mn3h
+uc1.$b813839
+inu.30000042750632
+nyp.33433082344916
+nc01.ark+=13960=t2d80cp48
+nyp.33433082529995
+nyp.33433082332051
+nyp.33433082305636
+nyp.33433082332077
+nyp.33433082305644
+nyp.33433082344874
+nyp.33433082530050
+nyp.33433082305628
+nyp.33433082332069
 
-- added a folder for "additional_texts" and a script to read that folder and add text to the database (will eventually add texts)
-- to add texts of your own, place txt files in the "additional_texts" folder and run "other_txt_to_db.py"
+# SQL queries to save results to csv
+
+#### From all_measures_fiction.db ...
+SELECT doc_id, oed_ratio_no_set, oed_ratio_set FROM  results WHERE is_resample=0;
+SELECT doc_id, gl_ratio_no_set, gl_ratio_set FROM  results WHERE is_resample=0;
+SELECT doc_id, walker_ratio_no_set, walker_ratio_set FROM  results WHERE is_resample=0;
+
+#### From regression_scores.db ...
+SELECT doc_id, AVG(predicted) as average_predicted, actual, AVG(margin) as average_margin FROM results GROUP BY  doc_id ORDER BY average_margin;
 
 <em>Hereafter is Ted Underwood's readme.md from his original repo for the article ["The Life Cycles of Genres" in _Cultural Analytics._](http://culturalanalytics.org/2016/05/the-life-cycles-of-genres/)</em>
 <hr/>
